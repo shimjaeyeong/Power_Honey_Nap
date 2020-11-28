@@ -1,0 +1,44 @@
+[project]
+projecttype=1
+[folder0]
+filen=34
+file0=..\Program Files (x86)\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_AND2.v
+file1=..\Program Files (x86)\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_AND3.v
+file2=..\Program Files (x86)\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_AND4.v
+file3=..\Program Files (x86)\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_AND8.v
+file4=..\Program Files (x86)\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_BUF.v
+file5=..\Program Files (x86)\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_DFF.v
+file6=..\Program Files (x86)\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_DFF_Ce.v
+file7=..\Program Files (x86)\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_JKFF.v
+file8=..\Program Files (x86)\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_MUX2.v
+file9=..\Program Files (x86)\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_MUX4.v
+file10=..\Program Files (x86)\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_MUX8.v
+file11=..\Program Files (x86)\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_NAND2.v
+file12=..\Program Files (x86)\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_NAND3.v
+file13=..\Program Files (x86)\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_NAND4.v
+file14=..\Program Files (x86)\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_NAND8.v
+file15=..\Program Files (x86)\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_NOR2.v
+file16=..\Program Files (x86)\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_NOR3.v
+file17=..\Program Files (x86)\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_NOR4.v
+file18=..\Program Files (x86)\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_NOR8.v
+file19=..\Program Files (x86)\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_NOT.v
+file20=..\Program Files (x86)\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_ONE.v
+file21=..\Program Files (x86)\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_OR2.v
+file22=..\Program Files (x86)\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_OR3.v
+file23=..\Program Files (x86)\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_OR4.v
+file24=..\Program Files (x86)\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_OR8.v
+file25=..\Program Files (x86)\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_SRAM.v
+file26=..\Program Files (x86)\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_TBUF.v
+file27=..\Program Files (x86)\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_XNOR2.v
+file28=..\Program Files (x86)\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_XNOR3.v
+file29=..\Program Files (x86)\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_XNOR4.v
+file30=..\Program Files (x86)\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_XOR2.v
+file31=..\Program Files (x86)\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_XOR3.v
+file32=..\Program Files (x86)\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_XOR4.v
+file33=..\Program Files (x86)\System Centroid\Flowrian R7\Library\PNULib\sources\PNU_ZERO.v
+[folder1]
+filen=0
+[folder2]
+filen=0
+[usedlibrary]
+n=0
