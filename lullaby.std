@@ -23,7 +23,7 @@ IfEntering false
 IfLeaving false
 HorzScrollPos 0
 VertScrollPos 0
-Scale 1.5
+Scale 1
 GridInterval 8
 LogicalLeft 6
 LogicalTop 4
@@ -31,7 +31,7 @@ LogicalWidth 2
 LogicalHeight 2
 LogicalWidthSetting 2
 LogicalHeightSetting 2
-grd 12
+grd 8
 ColorIndex 11
 Kind TFSBVOReset
 
@@ -54,7 +54,7 @@ ColorIndex 11
 Kind FSBVOState
 
 ChildrenCount 123
-Caption S0
+Caption wait
 IfEntering false
 IfLeaving false
 HorzScrollPos 0
@@ -5385,7 +5385,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 11
 LogicalTop 24
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -5394,7 +5394,7 @@ LogicalOffsetTop -4
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S1
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T0
 LeavingCaption OUT_T0
 Kind FSBVOTrans
@@ -5409,7 +5409,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 18
 LogicalTop 24
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -5418,7 +5418,7 @@ LogicalOffsetTop -4
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S2
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T1
 LeavingCaption OUT_T1
 Kind FSBVOTrans
@@ -5433,7 +5433,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 25
 LogicalTop 24
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -5442,7 +5442,7 @@ LogicalOffsetTop -4
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S3
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T2
 LeavingCaption OUT_T2
 Kind FSBVOTrans
@@ -5457,7 +5457,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 32
 LogicalTop 24
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -5466,7 +5466,7 @@ LogicalOffsetTop -4
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S4
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T3
 LeavingCaption OUT_T3
 Kind FSBVOTrans
@@ -5481,7 +5481,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 39
 LogicalTop 24
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -5490,7 +5490,7 @@ LogicalOffsetTop -4
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S5
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T4
 LeavingCaption OUT_T4
 Kind FSBVOTrans
@@ -5505,7 +5505,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 46
 LogicalTop 24
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -5514,7 +5514,7 @@ LogicalOffsetTop -4
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S6
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T5
 LeavingCaption OUT_T5
 Kind FSBVOTrans
@@ -5529,7 +5529,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 11
 LogicalTop 27
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -5538,7 +5538,7 @@ LogicalOffsetTop -7
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S7
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T6
 LeavingCaption OUT_T6
 Kind FSBVOTrans
@@ -5553,7 +5553,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 18
 LogicalTop 27
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -5562,7 +5562,7 @@ LogicalOffsetTop -7
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S8
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T7
 LeavingCaption OUT_T7
 Kind FSBVOTrans
@@ -5577,7 +5577,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 25
 LogicalTop 27
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -5586,7 +5586,7 @@ LogicalOffsetTop -7
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S9
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T8
 LeavingCaption OUT_T8
 Kind FSBVOTrans
@@ -5601,7 +5601,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 32
 LogicalTop 27
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -5610,7 +5610,7 @@ LogicalOffsetTop -7
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S10
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T9
 LeavingCaption OUT_T9
 Kind FSBVOTrans
@@ -5625,7 +5625,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 39
 LogicalTop 27
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -5634,7 +5634,7 @@ LogicalOffsetTop -7
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S11
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T10
 LeavingCaption OUT_T10
 Kind FSBVOTrans
@@ -5649,7 +5649,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 46
 LogicalTop 27
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -5658,7 +5658,7 @@ LogicalOffsetTop -7
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S12
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T11
 LeavingCaption OUT_T11
 Kind FSBVOTrans
@@ -5673,7 +5673,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 11
 LogicalTop 38
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -5682,7 +5682,7 @@ LogicalOffsetTop -4
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S13
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T12
 LeavingCaption OUT_T12
 Kind FSBVOTrans
@@ -5697,7 +5697,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 18
 LogicalTop 38
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -5706,7 +5706,7 @@ LogicalOffsetTop -4
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S14
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T13
 LeavingCaption OUT_T13
 Kind FSBVOTrans
@@ -5721,7 +5721,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 25
 LogicalTop 38
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -5730,7 +5730,7 @@ LogicalOffsetTop -4
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S15
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T14
 LeavingCaption OUT_T14
 Kind FSBVOTrans
@@ -5745,7 +5745,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 32
 LogicalTop 38
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -5754,7 +5754,7 @@ LogicalOffsetTop -4
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S16
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T15
 LeavingCaption OUT_T15
 Kind FSBVOTrans
@@ -5769,7 +5769,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 39
 LogicalTop 38
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -5778,7 +5778,7 @@ LogicalOffsetTop -4
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S17
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T16
 LeavingCaption OUT_T16
 Kind FSBVOTrans
@@ -5793,7 +5793,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 46
 LogicalTop 38
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -5802,7 +5802,7 @@ LogicalOffsetTop -4
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S18
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T17
 LeavingCaption OUT_T17
 Kind FSBVOTrans
@@ -5817,7 +5817,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 11
 LogicalTop 41
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -5826,7 +5826,7 @@ LogicalOffsetTop -8
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S19
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T18
 LeavingCaption OUT_T18
 Kind FSBVOTrans
@@ -5841,7 +5841,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 18
 LogicalTop 41
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -5850,7 +5850,7 @@ LogicalOffsetTop -8
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S20
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T19
 LeavingCaption OUT_T19
 Kind FSBVOTrans
@@ -5865,7 +5865,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 25
 LogicalTop 41
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -5874,7 +5874,7 @@ LogicalOffsetTop -8
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S21
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T20
 LeavingCaption OUT_T20
 Kind FSBVOTrans
@@ -5889,7 +5889,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 32
 LogicalTop 41
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -5898,7 +5898,7 @@ LogicalOffsetTop -8
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S22
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T21
 LeavingCaption OUT_T21
 Kind FSBVOTrans
@@ -5913,7 +5913,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 39
 LogicalTop 41
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -5922,7 +5922,7 @@ LogicalOffsetTop -8
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S23
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T22
 LeavingCaption OUT_T22
 Kind FSBVOTrans
@@ -5937,7 +5937,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 46
 LogicalTop 41
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -5946,7 +5946,7 @@ LogicalOffsetTop -8
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S24
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T23
 LeavingCaption OUT_T23
 Kind FSBVOTrans
@@ -5961,7 +5961,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 11
 LogicalTop 52
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -5970,7 +5970,7 @@ LogicalOffsetTop -4
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S25
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T24
 LeavingCaption OUT_T24
 Kind FSBVOTrans
@@ -5985,7 +5985,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 18
 LogicalTop 52
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -5994,7 +5994,7 @@ LogicalOffsetTop -4
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S26
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T25
 LeavingCaption OUT_T25
 Kind FSBVOTrans
@@ -6009,7 +6009,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 25
 LogicalTop 52
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -6018,7 +6018,7 @@ LogicalOffsetTop -4
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S27
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T26
 LeavingCaption OUT_T26
 Kind FSBVOTrans
@@ -6033,7 +6033,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 32
 LogicalTop 52
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -6042,7 +6042,7 @@ LogicalOffsetTop -4
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S28
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T27
 LeavingCaption OUT_T27
 Kind FSBVOTrans
@@ -6057,7 +6057,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 39
 LogicalTop 52
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -6066,7 +6066,7 @@ LogicalOffsetTop -4
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S29
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T28
 LeavingCaption OUT_T28
 Kind FSBVOTrans
@@ -6081,7 +6081,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 46
 LogicalTop 52
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -6090,7 +6090,7 @@ LogicalOffsetTop -4
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S30
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T29
 LeavingCaption OUT_T29
 Kind FSBVOTrans
@@ -6105,7 +6105,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 11
 LogicalTop 55
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -6114,7 +6114,7 @@ LogicalOffsetTop -7
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S31
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T30
 LeavingCaption OUT_T30
 Kind FSBVOTrans
@@ -6129,7 +6129,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 18
 LogicalTop 55
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -6138,7 +6138,7 @@ LogicalOffsetTop -7
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S32
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T31
 LeavingCaption OUT_T31
 Kind FSBVOTrans
@@ -6153,7 +6153,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 25
 LogicalTop 55
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -6162,7 +6162,7 @@ LogicalOffsetTop -7
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S33
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T32
 LeavingCaption OUT_T32
 Kind FSBVOTrans
@@ -6177,7 +6177,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 32
 LogicalTop 55
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -6186,7 +6186,7 @@ LogicalOffsetTop -7
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S34
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T33
 LeavingCaption OUT_T33
 Kind FSBVOTrans
@@ -6201,7 +6201,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 39
 LogicalTop 55
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -6210,7 +6210,7 @@ LogicalOffsetTop -7
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S35
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T34
 LeavingCaption OUT_T34
 Kind FSBVOTrans
@@ -6225,7 +6225,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 46
 LogicalTop 55
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -6234,7 +6234,7 @@ LogicalOffsetTop -7
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S36
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T35
 LeavingCaption OUT_T35
 Kind FSBVOTrans
@@ -6280,7 +6280,7 @@ LogicalOffsetLeft -13
 LogicalOffsetTop -5
 grd 8
 ConditionProperties start == 1
-LinkedObj0 S0
+LinkedObj0 wait
 LinkedObj1 S1
 EnteringCaption IN_T37
 LeavingCaption OUT_T37
@@ -6296,7 +6296,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 27
 LogicalTop 6
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -6320,7 +6320,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 41
 LogicalTop 6
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -6344,7 +6344,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 56
 LogicalTop 6
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -6368,7 +6368,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 71
 LogicalTop 6
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -6392,7 +6392,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 85
 LogicalTop 6
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -6416,7 +6416,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 83
 LogicalTop 12
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -6440,7 +6440,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 25
 LogicalTop 19
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -6464,7 +6464,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 40
 LogicalTop 19
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -6488,7 +6488,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 55
 LogicalTop 19
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -6512,7 +6512,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 69
 LogicalTop 19
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -6536,7 +6536,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 83
 LogicalTop 19
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -6560,7 +6560,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 83
 LogicalTop 24
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -6584,7 +6584,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 25
 LogicalTop 34
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -6608,7 +6608,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 40
 LogicalTop 34
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -6632,7 +6632,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 55
 LogicalTop 34
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -6656,7 +6656,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 69
 LogicalTop 34
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -6680,7 +6680,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 83
 LogicalTop 34
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -6704,7 +6704,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 83
 LogicalTop 38
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -6728,7 +6728,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 25
 LogicalTop 49
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -6752,7 +6752,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 40
 LogicalTop 49
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -6776,7 +6776,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 54
 LogicalTop 50
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -6800,7 +6800,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 69
 LogicalTop 49
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -6824,7 +6824,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 83
 LogicalTop 49
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -6848,7 +6848,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 54
 LogicalTop 55
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -6872,7 +6872,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 25
 LogicalTop 62
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -6896,7 +6896,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 40
 LogicalTop 62
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -6920,7 +6920,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 55
 LogicalTop 62
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -6944,7 +6944,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 71
 LogicalTop 62
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -6968,7 +6968,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 83
 LogicalTop 62
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -6992,7 +6992,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 83
 LogicalTop 66
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -7016,7 +7016,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 25
 LogicalTop 76
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -7040,7 +7040,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 40
 LogicalTop 76
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -7064,7 +7064,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 55
 LogicalTop 76
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -7088,7 +7088,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 69
 LogicalTop 76
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -7112,7 +7112,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 83
 LogicalTop 76
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -7136,7 +7136,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 11
 LogicalTop 66
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -7145,7 +7145,7 @@ LogicalOffsetTop -4
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S37
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T73
 LeavingCaption OUT_T73
 Kind FSBVOTrans
@@ -7160,7 +7160,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 18
 LogicalTop 66
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -7169,7 +7169,7 @@ LogicalOffsetTop -4
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S38
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T74
 LeavingCaption OUT_T74
 Kind FSBVOTrans
@@ -7184,7 +7184,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 25
 LogicalTop 69
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -7193,7 +7193,7 @@ LogicalOffsetTop -1
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S39
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T75
 LeavingCaption OUT_T75
 Kind FSBVOTrans
@@ -7208,7 +7208,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 32
 LogicalTop 66
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -7217,7 +7217,7 @@ LogicalOffsetTop -4
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S40
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T76
 LeavingCaption OUT_T76
 Kind FSBVOTrans
@@ -7232,7 +7232,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 39
 LogicalTop 66
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -7241,7 +7241,7 @@ LogicalOffsetTop -4
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S41
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T77
 LeavingCaption OUT_T77
 Kind FSBVOTrans
@@ -7256,7 +7256,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 46
 LogicalTop 66
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -7265,7 +7265,7 @@ LogicalOffsetTop -4
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S42
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T78
 LeavingCaption OUT_T78
 Kind FSBVOTrans
@@ -7285,7 +7285,7 @@ LogicalHeight 5
 LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
-Properties beat <=64;
+Properties beat <= 64;
 ColorIndex 11
 Kind FSBVOState
 
@@ -7358,7 +7358,7 @@ LogicalHeight 5
 LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
-Properties beat <=64;
+Properties beat <= 64;
 ColorIndex 11
 Kind FSBVOState
 
@@ -7714,7 +7714,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 11
 LogicalTop 69
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -7723,7 +7723,7 @@ LogicalOffsetTop -9
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S43
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T79
 LeavingCaption OUT_T79
 Kind FSBVOTrans
@@ -7738,7 +7738,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 18
 LogicalTop 69
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -7747,7 +7747,7 @@ LogicalOffsetTop -9
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S44
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T80
 LeavingCaption OUT_T80
 Kind FSBVOTrans
@@ -7762,7 +7762,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 25
 LogicalTop 66
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -7771,7 +7771,7 @@ LogicalOffsetTop -12
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S45
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T81
 LeavingCaption OUT_T81
 Kind FSBVOTrans
@@ -7786,7 +7786,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 32
 LogicalTop 69
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -7795,7 +7795,7 @@ LogicalOffsetTop -9
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S46
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T82
 LeavingCaption OUT_T82
 Kind FSBVOTrans
@@ -7810,7 +7810,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 39
 LogicalTop 69
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -7819,7 +7819,7 @@ LogicalOffsetTop -9
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S47
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T83
 LeavingCaption OUT_T83
 Kind FSBVOTrans
@@ -7834,7 +7834,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 46
 LogicalTop 69
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -7843,7 +7843,7 @@ LogicalOffsetTop -9
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S48
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T84
 LeavingCaption OUT_T84
 Kind FSBVOTrans
@@ -7858,7 +7858,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 83
 LogicalTop 81
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -7882,7 +7882,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 25
 LogicalTop 91
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -7906,7 +7906,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 40
 LogicalTop 91
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -7930,7 +7930,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 55
 LogicalTop 91
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -7954,7 +7954,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 69
 LogicalTop 91
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -7978,7 +7978,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 83
 LogicalTop 91
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -8002,7 +8002,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 83
 LogicalTop 95
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -8026,7 +8026,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 25
 LogicalTop 106
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -8050,7 +8050,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 40
 LogicalTop 106
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -8074,7 +8074,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 55
 LogicalTop 106
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -8098,7 +8098,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 69
 LogicalTop 106
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -8122,7 +8122,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 83
 LogicalTop 106
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -8151,7 +8151,7 @@ LogicalHeight 5
 LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
-Properties beat <=256;
+Properties beat <= 256;
 ColorIndex 11
 Kind FSBVOState
 
@@ -8224,7 +8224,7 @@ LogicalHeight 5
 LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
-Properties beat <=256;
+Properties beat <= 256;
 ColorIndex 11
 Kind FSBVOState
 
@@ -8297,7 +8297,7 @@ LogicalHeight 5
 LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
-Properties beat <=256;
+Properties beat <= 256;
 ColorIndex 11
 Kind FSBVOState
 
@@ -8370,7 +8370,7 @@ LogicalHeight 5
 LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
-Properties beat <=256;
+Properties beat <= 256;
 ColorIndex 11
 Kind FSBVOState
 
@@ -8443,7 +8443,7 @@ LogicalHeight 5
 LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
-Properties beat <=128;
+Properties beat <= 128;
 ColorIndex 11
 Kind FSBVOState
 
@@ -8516,7 +8516,7 @@ LogicalHeight 5
 LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
-Properties beat <=256;
+Properties beat <= 256;
 ColorIndex 11
 Kind FSBVOState
 
@@ -8584,7 +8584,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 11
 LogicalTop 79
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -8593,7 +8593,7 @@ LogicalOffsetTop -5
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S49
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T97
 LeavingCaption OUT_T97
 Kind FSBVOTrans
@@ -8608,7 +8608,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 18
 LogicalTop 79
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -8617,7 +8617,7 @@ LogicalOffsetTop -5
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S50
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T98
 LeavingCaption OUT_T98
 Kind FSBVOTrans
@@ -8632,7 +8632,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 25
 LogicalTop 79
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -8641,7 +8641,7 @@ LogicalOffsetTop -5
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S51
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T99
 LeavingCaption OUT_T99
 Kind FSBVOTrans
@@ -8656,7 +8656,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 83
 LogicalTop 110
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -8680,7 +8680,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 25
 LogicalTop 118
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -8704,7 +8704,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 40
 LogicalTop 118
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -8728,7 +8728,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 55
 LogicalTop 118
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -8752,7 +8752,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 69
 LogicalTop 118
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -8776,7 +8776,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 83
 LogicalTop 118
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -8800,7 +8800,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 32
 LogicalTop 79
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -8809,7 +8809,7 @@ LogicalOffsetTop -5
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S52
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T106
 LeavingCaption OUT_T106
 Kind FSBVOTrans
@@ -8824,7 +8824,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 39
 LogicalTop 79
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -8833,7 +8833,7 @@ LogicalOffsetTop -5
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S53
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T107
 LeavingCaption OUT_T107
 Kind FSBVOTrans
@@ -8848,7 +8848,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 46
 LogicalTop 79
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -8857,7 +8857,7 @@ LogicalOffsetTop -5
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S54
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T108
 LeavingCaption OUT_T108
 Kind FSBVOTrans
@@ -8877,7 +8877,7 @@ LogicalHeight 5
 LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
-Properties beat <=1024;
+Properties beat <= 1024;
 ColorIndex 11
 Kind FSBVOState
 
@@ -8950,7 +8950,7 @@ LogicalHeight 5
 LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
-Properties beat <=1024;
+Properties beat <= 1024;
 ColorIndex 11
 Kind FSBVOState
 
@@ -9306,7 +9306,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 25
 LogicalTop 134
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -9330,7 +9330,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 40
 LogicalTop 134
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -9354,7 +9354,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 55
 LogicalTop 134
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -9378,7 +9378,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 69
 LogicalTop 134
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -9402,7 +9402,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 83
 LogicalTop 134
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -9431,7 +9431,7 @@ LogicalHeight 5
 LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
-Properties beat <=64;
+Properties beat <= 64;
 ColorIndex 11
 Kind FSBVOState
 
@@ -9504,7 +9504,7 @@ LogicalHeight 5
 LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
-Properties beat <=64;
+Properties beat <= 64;
 ColorIndex 11
 Kind FSBVOState
 
@@ -9577,7 +9577,7 @@ LogicalHeight 5
 LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
-Properties beat <=64;
+Properties beat <= 64;
 ColorIndex 11
 Kind FSBVOState
 
@@ -9650,7 +9650,7 @@ LogicalHeight 5
 LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
-Properties beat <=64;
+Properties beat <= 64;
 ColorIndex 11
 Kind FSBVOState
 
@@ -9723,7 +9723,7 @@ LogicalHeight 5
 LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
-Properties beat <=32;
+Properties beat <= 32;
 ColorIndex 11
 Kind FSBVOState
 
@@ -9796,7 +9796,7 @@ LogicalHeight 5
 LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
-Properties beat <=64;
+Properties beat <= 64;
 ColorIndex 11
 Kind FSBVOState
 
@@ -9864,7 +9864,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 25
 LogicalTop 149
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -9888,7 +9888,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 40
 LogicalTop 149
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -9912,7 +9912,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 55
 LogicalTop 149
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -9936,7 +9936,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 69
 LogicalTop 149
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -9960,7 +9960,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 83
 LogicalTop 149
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -9984,7 +9984,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 83
 LogicalTop 123
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -10008,7 +10008,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 83
 LogicalTop 138
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -10032,7 +10032,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 10
 LogicalTop 82
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -10041,7 +10041,7 @@ LogicalOffsetTop -10
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S55
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T121
 LeavingCaption OUT_T121
 Kind FSBVOTrans
@@ -10056,7 +10056,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 18
 LogicalTop 82
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -10065,7 +10065,7 @@ LogicalOffsetTop -10
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S56
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T122
 LeavingCaption OUT_T122
 Kind FSBVOTrans
@@ -10080,7 +10080,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 26
 LogicalTop 82
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -10089,7 +10089,7 @@ LogicalOffsetTop -10
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S57
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T123
 LeavingCaption OUT_T123
 Kind FSBVOTrans
@@ -10104,7 +10104,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 34
 LogicalTop 82
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -10113,7 +10113,7 @@ LogicalOffsetTop -10
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S58
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T124
 LeavingCaption OUT_T124
 Kind FSBVOTrans
@@ -10128,7 +10128,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 42
 LogicalTop 82
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -10137,7 +10137,7 @@ LogicalOffsetTop -10
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S59
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T125
 LeavingCaption OUT_T125
 Kind FSBVOTrans
@@ -10152,7 +10152,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 50
 LogicalTop 82
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -10161,7 +10161,7 @@ LogicalOffsetTop -10
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S60
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T126
 LeavingCaption OUT_T126
 Kind FSBVOTrans
@@ -10185,7 +10185,7 @@ LogicalOffsetTop -14
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S61
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T127
 LeavingCaption OUT_T127
 Kind FSBVOTrans
@@ -10200,7 +10200,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 18
 LogicalTop 85
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -10209,7 +10209,7 @@ LogicalOffsetTop 0
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S62
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T128
 LeavingCaption OUT_T128
 Kind FSBVOTrans
@@ -10224,7 +10224,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 26
 LogicalTop 85
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -10233,7 +10233,7 @@ LogicalOffsetTop 0
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S63
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T129
 LeavingCaption OUT_T129
 Kind FSBVOTrans
@@ -10248,7 +10248,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 33
 LogicalTop 85
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -10257,7 +10257,7 @@ LogicalOffsetTop 0
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S64
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T130
 LeavingCaption OUT_T130
 Kind FSBVOTrans
@@ -10272,7 +10272,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 40
 LogicalTop 85
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -10281,7 +10281,7 @@ LogicalOffsetTop 0
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S65
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T131
 LeavingCaption OUT_T131
 Kind FSBVOTrans
@@ -10296,7 +10296,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 47
 LogicalTop 85
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -10305,7 +10305,7 @@ LogicalOffsetTop 0
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S66
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T132
 LeavingCaption OUT_T132
 Kind FSBVOTrans
@@ -10325,7 +10325,7 @@ LogicalHeight 5
 LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
-Properties beat <=1024;
+Properties beat <= 1024;
 ColorIndex 11
 Kind FSBVOState
 
@@ -10398,7 +10398,7 @@ LogicalHeight 5
 LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
-Properties beat <=1024;
+Properties beat <= 1024;
 ColorIndex 11
 Kind FSBVOState
 
@@ -10754,7 +10754,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 28
 LogicalTop 163
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -10778,7 +10778,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 43
 LogicalTop 163
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -10802,7 +10802,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 55
 LogicalTop 163
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -10826,7 +10826,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 69
 LogicalTop 163
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -10850,7 +10850,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 83
 LogicalTop 163
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -10874,7 +10874,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 83
 LogicalTop 154
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -10903,7 +10903,7 @@ LogicalHeight 5
 LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
-Properties beat <=16;
+Properties beat <= 16;
 ColorIndex 11
 Kind FSBVOState
 
@@ -10976,7 +10976,7 @@ LogicalHeight 5
 LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
-Properties beat <=64;
+Properties beat <= 64;
 ColorIndex 11
 Kind FSBVOState
 
@@ -11049,7 +11049,7 @@ LogicalHeight 5
 LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
-Properties beat <=16;
+Properties beat <= 16;
 ColorIndex 11
 Kind FSBVOState
 
@@ -11195,7 +11195,7 @@ LogicalHeight 5
 LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
-Properties beat <=16;
+Properties beat <= 16;
 ColorIndex 11
 Kind FSBVOState
 
@@ -11268,7 +11268,7 @@ LogicalHeight 5
 LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
-Properties beat <=64;
+Properties beat <= 64;
 ColorIndex 11
 Kind FSBVOState
 
@@ -11336,7 +11336,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 28
 LogicalTop 176
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -11360,7 +11360,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 43
 LogicalTop 176
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -11384,7 +11384,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 55
 LogicalTop 176
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -11408,7 +11408,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 71
 LogicalTop 176
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -11432,7 +11432,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 83
 LogicalTop 176
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -11890,7 +11890,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 28
 LogicalTop 191
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -11914,7 +11914,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 43
 LogicalTop 191
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -11938,7 +11938,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 55
 LogicalTop 191
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -11962,7 +11962,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 69
 LogicalTop 191
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -11986,7 +11986,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 83
 LogicalTop 191
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -12448,7 +12448,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 26
 LogicalTop 207
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -12472,7 +12472,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 41
 LogicalTop 207
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -12496,7 +12496,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 56
 LogicalTop 207
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -12520,7 +12520,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 71
 LogicalTop 207
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -12544,7 +12544,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 84
 LogicalTop 207
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -12568,7 +12568,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 83
 LogicalTop 169
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -12592,7 +12592,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 83
 LogicalTop 180
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -12616,7 +12616,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 83
 LogicalTop 195
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -13075,7 +13075,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 26
 LogicalTop 221
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -13099,7 +13099,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 41
 LogicalTop 221
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -13123,7 +13123,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 55
 LogicalTop 221
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -13147,7 +13147,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 69
 LogicalTop 221
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -13171,7 +13171,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 83
 LogicalTop 221
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -13195,7 +13195,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 84
 LogicalTop 212
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -13657,7 +13657,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 26
 LogicalTop 235
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -13681,7 +13681,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 41
 LogicalTop 235
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -13705,7 +13705,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 55
 LogicalTop 235
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -13729,7 +13729,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 69
 LogicalTop 235
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -13753,7 +13753,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 83
 LogicalTop 235
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -13777,7 +13777,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 83
 LogicalTop 226
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -13856,7 +13856,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 98
 LogicalTop 235
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -14318,7 +14318,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 26
 LogicalTop 274
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -14342,7 +14342,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 41
 LogicalTop 274
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -14366,7 +14366,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 55
 LogicalTop 274
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -14390,7 +14390,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 69
 LogicalTop 274
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -14414,7 +14414,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 83
 LogicalTop 274
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -14447,7 +14447,7 @@ LogicalOffsetTop -11
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S67
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T189
 LeavingCaption OUT_T189
 Kind FSBVOTrans
@@ -14471,7 +14471,7 @@ LogicalOffsetTop -11
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S68
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T190
 LeavingCaption OUT_T190
 Kind FSBVOTrans
@@ -14495,7 +14495,7 @@ LogicalOffsetTop -11
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S69
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T191
 LeavingCaption OUT_T191
 Kind FSBVOTrans
@@ -14519,7 +14519,7 @@ LogicalOffsetTop -11
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S70
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T192
 LeavingCaption OUT_T192
 Kind FSBVOTrans
@@ -14543,7 +14543,7 @@ LogicalOffsetTop -11
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S71
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T193
 LeavingCaption OUT_T193
 Kind FSBVOTrans
@@ -14567,7 +14567,7 @@ LogicalOffsetTop -11
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S72
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T194
 LeavingCaption OUT_T194
 Kind FSBVOTrans
@@ -14591,7 +14591,7 @@ LogicalOffsetTop 0
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S73
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T195
 LeavingCaption OUT_T195
 Kind FSBVOTrans
@@ -14615,7 +14615,7 @@ LogicalOffsetTop 0
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S74
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T196
 LeavingCaption OUT_T196
 Kind FSBVOTrans
@@ -14639,7 +14639,7 @@ LogicalOffsetTop 0
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S75
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T197
 LeavingCaption OUT_T197
 Kind FSBVOTrans
@@ -14663,7 +14663,7 @@ LogicalOffsetTop 0
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S76
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T198
 LeavingCaption OUT_T198
 Kind FSBVOTrans
@@ -14687,7 +14687,7 @@ LogicalOffsetTop 0
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S77
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T199
 LeavingCaption OUT_T199
 Kind FSBVOTrans
@@ -14711,7 +14711,7 @@ LogicalOffsetTop 0
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S78
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T200
 LeavingCaption OUT_T200
 Kind FSBVOTrans
@@ -14735,7 +14735,7 @@ LogicalOffsetTop 2
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S79
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T201
 LeavingCaption OUT_T201
 Kind FSBVOTrans
@@ -14759,7 +14759,7 @@ LogicalOffsetTop 0
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S80
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T202
 LeavingCaption OUT_T202
 Kind FSBVOTrans
@@ -14783,7 +14783,7 @@ LogicalOffsetTop 0
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S81
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T203
 LeavingCaption OUT_T203
 Kind FSBVOTrans
@@ -14807,7 +14807,7 @@ LogicalOffsetTop 0
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S82
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T204
 LeavingCaption OUT_T204
 Kind FSBVOTrans
@@ -14831,7 +14831,7 @@ LogicalOffsetTop 0
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S83
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T205
 LeavingCaption OUT_T205
 Kind FSBVOTrans
@@ -14855,7 +14855,7 @@ LogicalOffsetTop 0
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S84
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T206
 LeavingCaption OUT_T206
 Kind FSBVOTrans
@@ -14879,7 +14879,7 @@ LogicalOffsetTop -3
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S85
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T207
 LeavingCaption OUT_T207
 Kind FSBVOTrans
@@ -14903,7 +14903,7 @@ LogicalOffsetTop 0
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S86
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T208
 LeavingCaption OUT_T208
 Kind FSBVOTrans
@@ -14927,7 +14927,7 @@ LogicalOffsetTop 0
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S87
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T209
 LeavingCaption OUT_T209
 Kind FSBVOTrans
@@ -14951,7 +14951,7 @@ LogicalOffsetTop 0
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S88
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T210
 LeavingCaption OUT_T210
 Kind FSBVOTrans
@@ -14975,7 +14975,7 @@ LogicalOffsetTop 0
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S89
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T211
 LeavingCaption OUT_T211
 Kind FSBVOTrans
@@ -14999,7 +14999,7 @@ LogicalOffsetTop 0
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S90
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T212
 LeavingCaption OUT_T212
 Kind FSBVOTrans
@@ -15023,7 +15023,7 @@ LogicalOffsetTop 2
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S91
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T213
 LeavingCaption OUT_T213
 Kind FSBVOTrans
@@ -15047,7 +15047,7 @@ LogicalOffsetTop 0
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S92
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T214
 LeavingCaption OUT_T214
 Kind FSBVOTrans
@@ -15071,7 +15071,7 @@ LogicalOffsetTop 0
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S93
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T215
 LeavingCaption OUT_T215
 Kind FSBVOTrans
@@ -15095,7 +15095,7 @@ LogicalOffsetTop 0
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S94
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T216
 LeavingCaption OUT_T216
 Kind FSBVOTrans
@@ -15119,7 +15119,7 @@ LogicalOffsetTop 0
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S95
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T217
 LeavingCaption OUT_T217
 Kind FSBVOTrans
@@ -15143,7 +15143,7 @@ LogicalOffsetTop 0
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S96
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T218
 LeavingCaption OUT_T218
 Kind FSBVOTrans
@@ -15167,7 +15167,7 @@ LogicalOffsetTop -2
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S97
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T219
 LeavingCaption OUT_T219
 Kind FSBVOTrans
@@ -15191,7 +15191,7 @@ LogicalOffsetTop 0
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S98
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T220
 LeavingCaption OUT_T220
 Kind FSBVOTrans
@@ -15215,7 +15215,7 @@ LogicalOffsetTop 0
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S99
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T221
 LeavingCaption OUT_T221
 Kind FSBVOTrans
@@ -15239,7 +15239,7 @@ LogicalOffsetTop 0
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S100
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T222
 LeavingCaption OUT_T222
 Kind FSBVOTrans
@@ -15263,7 +15263,7 @@ LogicalOffsetTop 0
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S101
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T223
 LeavingCaption OUT_T223
 Kind FSBVOTrans
@@ -15287,7 +15287,7 @@ LogicalOffsetTop 0
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S102
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T224
 LeavingCaption OUT_T224
 Kind FSBVOTrans
@@ -15311,7 +15311,7 @@ LogicalOffsetTop 0
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S103
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T225
 LeavingCaption OUT_T225
 Kind FSBVOTrans
@@ -15743,7 +15743,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 26
 LogicalTop 252
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -15767,7 +15767,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 41
 LogicalTop 252
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -15791,7 +15791,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 55
 LogicalTop 252
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -15815,7 +15815,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 69
 LogicalTop 252
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -15839,7 +15839,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 83
 LogicalTop 252
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -16301,7 +16301,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 27
 LogicalTop 266
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -16325,7 +16325,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 42
 LogicalTop 266
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -16349,7 +16349,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 56
 LogicalTop 266
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -16373,7 +16373,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 71
 LogicalTop 266
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -16397,7 +16397,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 84
 LogicalTop 266
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -16421,7 +16421,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 83
 LogicalTop 257
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -16518,7 +16518,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 98
 LogicalTop 266
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -16542,7 +16542,7 @@ Scale 1
 GridInterval 8
 LogicalLeft 91
 LogicalTop 268
-LogicalWidth 8
+LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
@@ -16575,7 +16575,7 @@ LogicalOffsetTop -7
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S104
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T226
 LeavingCaption OUT_T226
 Kind FSBVOTrans
@@ -16599,7 +16599,7 @@ LogicalOffsetTop 0
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S105
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T227
 LeavingCaption OUT_T227
 Kind FSBVOTrans
@@ -16623,7 +16623,7 @@ LogicalOffsetTop 0
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S106
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T228
 LeavingCaption OUT_T228
 Kind FSBVOTrans
@@ -16647,7 +16647,7 @@ LogicalOffsetTop 0
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S107
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T229
 LeavingCaption OUT_T229
 Kind FSBVOTrans
@@ -16671,7 +16671,7 @@ LogicalOffsetTop 0
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S108
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T230
 LeavingCaption OUT_T230
 Kind FSBVOTrans
@@ -16695,7 +16695,7 @@ LogicalOffsetTop 0
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S109
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T231
 LeavingCaption OUT_T231
 Kind FSBVOTrans
@@ -16719,7 +16719,7 @@ LogicalOffsetTop -6
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S110
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T182
 LeavingCaption OUT_T182
 Kind FSBVOTrans
@@ -16743,7 +16743,7 @@ LogicalOffsetTop -1
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S111
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T232
 LeavingCaption OUT_T232
 Kind FSBVOTrans
@@ -16767,7 +16767,7 @@ LogicalOffsetTop -1
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S112
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T233
 LeavingCaption OUT_T233
 Kind FSBVOTrans
@@ -16791,7 +16791,7 @@ LogicalOffsetTop -1
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S113
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T234
 LeavingCaption OUT_T234
 Kind FSBVOTrans
@@ -16815,7 +16815,7 @@ LogicalOffsetTop -1
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S114
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T235
 LeavingCaption OUT_T235
 Kind FSBVOTrans
@@ -16839,7 +16839,7 @@ LogicalOffsetTop -1
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S115
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T236
 LeavingCaption OUT_T236
 Kind FSBVOTrans
@@ -16863,7 +16863,7 @@ LogicalOffsetTop -1
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S116
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T237
 LeavingCaption OUT_T237
 Kind FSBVOTrans
@@ -16887,7 +16887,7 @@ LogicalOffsetTop -6
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S117
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T238
 LeavingCaption OUT_T238
 Kind FSBVOTrans
@@ -16911,7 +16911,7 @@ LogicalOffsetTop -6
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S118
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T239
 LeavingCaption OUT_T239
 Kind FSBVOTrans
@@ -16935,7 +16935,7 @@ LogicalOffsetTop -6
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S119
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T240
 LeavingCaption OUT_T240
 Kind FSBVOTrans
@@ -16959,7 +16959,7 @@ LogicalOffsetTop -6
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S120
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T241
 LeavingCaption OUT_T241
 Kind FSBVOTrans
@@ -16983,7 +16983,7 @@ LogicalOffsetTop -6
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S121
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T242
 LeavingCaption OUT_T242
 Kind FSBVOTrans
@@ -17007,7 +17007,7 @@ LogicalOffsetTop -6
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S122
-LinkedObj1 S0
+LinkedObj1 wait
 EnteringCaption IN_T243
 LeavingCaption OUT_T243
 Kind FSBVOTrans

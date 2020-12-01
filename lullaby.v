@@ -7,7 +7,7 @@ module lullaby(reset, clock, start, stop, beat);
 
   reg [3:0] beat;
 
-  parameter [6:0] S0 = 0, S1 = 1, S2 = 2, S3 = 3, S4 = 4, S5 = 5, S6 = 6, S7 = 7, S8 = 8, S9 = 9, S10 = 10, S11 = 11, S12 = 12, S13 = 13, S14 = 14, S15 = 15, S16 = 16, S17 = 17, S18 = 18, S19 = 19, S20 = 20, S21 = 21, S22 = 22, S23 = 23, S24 = 24, S25 = 25, S26 = 26, S27 = 27, S28 = 28, S29 = 29, S30 = 30, S31 = 31, S32 = 32, S33 = 33, S34 = 34, S35 = 35, S36 = 36, S37 = 37, S38 = 38, S39 = 39, S40 = 40, S41 = 41, S42 = 42, S43 = 43, S44 = 44, S45 = 45, S46 = 46, S47 = 47, S48 = 48, S49 = 49, S50 = 50, S51 = 51, S52 = 52, S53 = 53, S54 = 54, S55 = 55, S56 = 56, S57 = 57, S58 = 58, S59 = 59, S60 = 60, S61 = 61, S62 = 62, S63 = 63, S64 = 64, S65 = 65, S66 = 66, S67 = 67, S68 = 68, S69 = 69, S70 = 70, S71 = 71, S72 = 72, S73 = 73, S74 = 74, S75 = 75, S76 = 76, S77 = 77, S78 = 78, S79 = 79, S80 = 80, S81 = 81, S82 = 82, S83 = 83, S84 = 84, S85 = 85, S86 = 86, S87 = 87, S88 = 88, S89 = 89, S90 = 90, S91 = 91, S92 = 92, S93 = 93, S94 = 94, S95 = 95, S96 = 96, S97 = 97, S98 = 98, S99 = 99, S100 = 100, S101 = 101, S102 = 102, S103 = 103, S117 = 104, S118 = 105, S119 = 106, S120 = 107, S121 = 108, S122 = 109, S104 = 110, S105 = 111, S106 = 112, S107 = 113, S108 = 114, S109 = 115, S110 = 116, S111 = 117, S112 = 118, S113 = 119, S114 = 120, S115 = 121, S116 = 122;
+  parameter [6:0] wait = 0, S1 = 1, S2 = 2, S3 = 3, S4 = 4, S5 = 5, S6 = 6, S7 = 7, S8 = 8, S9 = 9, S10 = 10, S11 = 11, S12 = 12, S13 = 13, S14 = 14, S15 = 15, S16 = 16, S17 = 17, S18 = 18, S19 = 19, S20 = 20, S21 = 21, S22 = 22, S23 = 23, S24 = 24, S25 = 25, S26 = 26, S27 = 27, S28 = 28, S29 = 29, S30 = 30, S31 = 31, S32 = 32, S33 = 33, S34 = 34, S35 = 35, S36 = 36, S37 = 37, S38 = 38, S39 = 39, S40 = 40, S41 = 41, S42 = 42, S43 = 43, S44 = 44, S45 = 45, S46 = 46, S47 = 47, S48 = 48, S49 = 49, S50 = 50, S51 = 51, S52 = 52, S53 = 53, S54 = 54, S55 = 55, S56 = 56, S57 = 57, S58 = 58, S59 = 59, S60 = 60, S61 = 61, S62 = 62, S63 = 63, S64 = 64, S65 = 65, S66 = 66, S67 = 67, S68 = 68, S69 = 69, S70 = 70, S71 = 71, S72 = 72, S73 = 73, S74 = 74, S75 = 75, S76 = 76, S77 = 77, S78 = 78, S79 = 79, S80 = 80, S81 = 81, S82 = 82, S83 = 83, S84 = 84, S85 = 85, S86 = 86, S87 = 87, S88 = 88, S89 = 89, S90 = 90, S91 = 91, S92 = 92, S93 = 93, S94 = 94, S95 = 95, S96 = 96, S97 = 97, S98 = 98, S99 = 99, S100 = 100, S101 = 101, S102 = 102, S103 = 103, S117 = 104, S118 = 105, S119 = 106, S120 = 107, S121 = 108, S122 = 109, S104 = 110, S105 = 111, S106 = 112, S107 = 113, S108 = 114, S109 = 115, S110 = 116, S111 = 117, S112 = 118, S113 = 119, S114 = 120, S115 = 121, S116 = 122;
   reg [6:0] current_state, next_state;
 
   always @(posedge clock or negedge reset)
@@ -21,7 +21,7 @@ module lullaby(reset, clock, start, stop, beat);
   always @(current_state or start or stop)
   begin: COMBIN
      case (current_state)
-        S0:
+        wait:
         begin
           if (start == 1'b1)
              begin
@@ -33,7 +33,7 @@ module lullaby(reset, clock, start, stop, beat);
         begin
           if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           else if (stop == 1'b0)
              begin
@@ -47,7 +47,7 @@ module lullaby(reset, clock, start, stop, beat);
         begin
           if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           else if (stop == 1'b0)
              begin
@@ -61,7 +61,7 @@ module lullaby(reset, clock, start, stop, beat);
         begin
           if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           else if (stop == 1'b0)
              begin
@@ -75,7 +75,7 @@ module lullaby(reset, clock, start, stop, beat);
         begin
           if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           else if (stop == 1'b0)
              begin
@@ -89,7 +89,7 @@ module lullaby(reset, clock, start, stop, beat);
         begin
           if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           else if (stop == 1'b0)
              begin
@@ -103,7 +103,7 @@ module lullaby(reset, clock, start, stop, beat);
         begin
           if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           else if (stop == 1'b0)
              begin
@@ -117,7 +117,7 @@ module lullaby(reset, clock, start, stop, beat);
         begin
           if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           else if (stop == 1'b0)
              begin
@@ -131,7 +131,7 @@ module lullaby(reset, clock, start, stop, beat);
         begin
           if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           else if (stop == 1'b0)
              begin
@@ -145,7 +145,7 @@ module lullaby(reset, clock, start, stop, beat);
         begin
           if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           else if (stop == 1'b0)
              begin
@@ -157,7 +157,7 @@ module lullaby(reset, clock, start, stop, beat);
         begin
           if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           else if (stop == 1'b0)
              begin
@@ -169,7 +169,7 @@ module lullaby(reset, clock, start, stop, beat);
         begin
           if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           else if (stop == 1'b0)
              begin
@@ -181,7 +181,7 @@ module lullaby(reset, clock, start, stop, beat);
         begin
           if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           else if (stop == 1'b0)
              begin
@@ -193,7 +193,7 @@ module lullaby(reset, clock, start, stop, beat);
         begin
           if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           else if (stop == 1'b0)
              begin
@@ -207,7 +207,7 @@ module lullaby(reset, clock, start, stop, beat);
         begin
           if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           else if (stop == 1'b0)
              begin
@@ -221,7 +221,7 @@ module lullaby(reset, clock, start, stop, beat);
         begin
           if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           else if (stop == 1'b0)
              begin
@@ -235,7 +235,7 @@ module lullaby(reset, clock, start, stop, beat);
         begin
           if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           else if (stop == 1'b0)
              begin
@@ -249,7 +249,7 @@ module lullaby(reset, clock, start, stop, beat);
         begin
           if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           else if (stop == 1'b0)
              begin
@@ -263,7 +263,7 @@ module lullaby(reset, clock, start, stop, beat);
         begin
           if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           else if (stop == 1'b0)
              begin
@@ -277,7 +277,7 @@ module lullaby(reset, clock, start, stop, beat);
         begin
           if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           else if (stop == 1'b0)
              begin
@@ -291,7 +291,7 @@ module lullaby(reset, clock, start, stop, beat);
         begin
           if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           else if (stop == 1'b0)
              begin
@@ -305,7 +305,7 @@ module lullaby(reset, clock, start, stop, beat);
         begin
           if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           else if (stop == 1'b0)
              begin
@@ -317,7 +317,7 @@ module lullaby(reset, clock, start, stop, beat);
         begin
           if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           else if (stop == 1'b0)
              begin
@@ -329,7 +329,7 @@ module lullaby(reset, clock, start, stop, beat);
         begin
           if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           else if (stop == 1'b0)
              begin
@@ -341,7 +341,7 @@ module lullaby(reset, clock, start, stop, beat);
         begin
           if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           else if (stop == 1'b0)
              begin
@@ -353,7 +353,7 @@ module lullaby(reset, clock, start, stop, beat);
         begin
           if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           else if (stop == 1'b0)
              begin
@@ -367,7 +367,7 @@ module lullaby(reset, clock, start, stop, beat);
         begin
           if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           else if (stop == 1'b0)
              begin
@@ -381,7 +381,7 @@ module lullaby(reset, clock, start, stop, beat);
         begin
           if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           else if (stop == 1'b0)
              begin
@@ -395,7 +395,7 @@ module lullaby(reset, clock, start, stop, beat);
         begin
           if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           else if (stop == 1'b0)
              begin
@@ -409,7 +409,7 @@ module lullaby(reset, clock, start, stop, beat);
         begin
           if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           else if (stop == 1'b0)
              begin
@@ -423,7 +423,7 @@ module lullaby(reset, clock, start, stop, beat);
         begin
           if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           else if (stop == 1'b0)
              begin
@@ -437,7 +437,7 @@ module lullaby(reset, clock, start, stop, beat);
         begin
           if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           else if (stop == 1'b0)
              begin
@@ -451,7 +451,7 @@ module lullaby(reset, clock, start, stop, beat);
         begin
           if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           else if (stop == 1'b0)
              begin
@@ -465,7 +465,7 @@ module lullaby(reset, clock, start, stop, beat);
         begin
           if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           else if (stop == 1'b0)
              begin
@@ -477,7 +477,7 @@ module lullaby(reset, clock, start, stop, beat);
         begin
           if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           else if (stop == 1'b0)
              begin
@@ -489,7 +489,7 @@ module lullaby(reset, clock, start, stop, beat);
         begin
           if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           else if (stop == 1'b0)
              begin
@@ -501,7 +501,7 @@ module lullaby(reset, clock, start, stop, beat);
         begin
           if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           else if (stop == 1'b0)
              begin
@@ -513,7 +513,7 @@ module lullaby(reset, clock, start, stop, beat);
         begin
           if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           else if (stop == 1'b0)
              begin
@@ -527,7 +527,7 @@ module lullaby(reset, clock, start, stop, beat);
         begin
           if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           else if (stop == 1'b0)
              begin
@@ -541,7 +541,7 @@ module lullaby(reset, clock, start, stop, beat);
         begin
           if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           else if (stop == 1'b0)
              begin
@@ -555,7 +555,7 @@ module lullaby(reset, clock, start, stop, beat);
         begin
           if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           else if (stop == 1'b0)
              begin
@@ -569,7 +569,7 @@ module lullaby(reset, clock, start, stop, beat);
         begin
           if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           else if (stop == 1'b0)
              begin
@@ -583,7 +583,7 @@ module lullaby(reset, clock, start, stop, beat);
         begin
           if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           else if (stop == 1'b0)
              begin
@@ -597,7 +597,7 @@ module lullaby(reset, clock, start, stop, beat);
         begin
           if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           else if (stop == 1'b0)
              begin
@@ -611,7 +611,7 @@ module lullaby(reset, clock, start, stop, beat);
         begin
           if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           else if (stop == 1'b0)
              begin
@@ -625,7 +625,7 @@ module lullaby(reset, clock, start, stop, beat);
         begin
           if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           else if (stop == 1'b0)
              begin
@@ -637,7 +637,7 @@ module lullaby(reset, clock, start, stop, beat);
         begin
           if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           else if (stop == 1'b0)
              begin
@@ -649,7 +649,7 @@ module lullaby(reset, clock, start, stop, beat);
         begin
           if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           else if (stop == 1'b0)
              begin
@@ -661,7 +661,7 @@ module lullaby(reset, clock, start, stop, beat);
         begin
           if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           else if (stop == 1'b0)
              begin
@@ -673,7 +673,7 @@ module lullaby(reset, clock, start, stop, beat);
         begin
           if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           else if (stop == 1'b0)
              begin
@@ -687,7 +687,7 @@ module lullaby(reset, clock, start, stop, beat);
         begin
           if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           else if (stop == 1'b0)
              begin
@@ -701,7 +701,7 @@ module lullaby(reset, clock, start, stop, beat);
         begin
           if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           else if (stop == 1'b0)
              begin
@@ -719,7 +719,7 @@ module lullaby(reset, clock, start, stop, beat);
              end
           else if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           beat <= 4'b1111;
 
@@ -733,7 +733,7 @@ module lullaby(reset, clock, start, stop, beat);
              end
           else if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           beat <= 4'b1111;
 
@@ -743,7 +743,7 @@ module lullaby(reset, clock, start, stop, beat);
         begin
           if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           else if (stop == 1'b0)
              begin
@@ -761,7 +761,7 @@ module lullaby(reset, clock, start, stop, beat);
              end
           else if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           beat <= 4'b1111;
 
@@ -775,7 +775,7 @@ module lullaby(reset, clock, start, stop, beat);
              end
           else if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           beat <= 4'b1111;
 
@@ -789,7 +789,7 @@ module lullaby(reset, clock, start, stop, beat);
              end
           else if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
         end
 
@@ -801,7 +801,7 @@ module lullaby(reset, clock, start, stop, beat);
              end
           else if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
         end
 
@@ -813,7 +813,7 @@ module lullaby(reset, clock, start, stop, beat);
              end
           else if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
         end
 
@@ -825,7 +825,7 @@ module lullaby(reset, clock, start, stop, beat);
              end
           else if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
         end
 
@@ -837,7 +837,7 @@ module lullaby(reset, clock, start, stop, beat);
              end
           else if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           beat <= 4'b1111;
 
@@ -851,7 +851,7 @@ module lullaby(reset, clock, start, stop, beat);
              end
           else if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           beat <= 4'b1111;
 
@@ -865,7 +865,7 @@ module lullaby(reset, clock, start, stop, beat);
              end
           else if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           beat <= 4'b1111;
 
@@ -879,7 +879,7 @@ module lullaby(reset, clock, start, stop, beat);
              end
           else if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           beat <= 4'b1111;
 
@@ -893,7 +893,7 @@ module lullaby(reset, clock, start, stop, beat);
              end
           else if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           beat <= 4'b1111;
 
@@ -903,7 +903,7 @@ module lullaby(reset, clock, start, stop, beat);
         begin
           if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           else if (stop == 1'b0)
              begin
@@ -921,7 +921,7 @@ module lullaby(reset, clock, start, stop, beat);
              end
           else if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           beat <= 4'b1111;
 
@@ -935,7 +935,7 @@ module lullaby(reset, clock, start, stop, beat);
              end
           else if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           beat <= 4'b1111;
 
@@ -949,7 +949,7 @@ module lullaby(reset, clock, start, stop, beat);
              end
           else if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
         end
 
@@ -961,7 +961,7 @@ module lullaby(reset, clock, start, stop, beat);
              end
           else if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
         end
 
@@ -973,7 +973,7 @@ module lullaby(reset, clock, start, stop, beat);
              end
           else if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
         end
 
@@ -985,7 +985,7 @@ module lullaby(reset, clock, start, stop, beat);
              end
           else if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
         end
 
@@ -997,7 +997,7 @@ module lullaby(reset, clock, start, stop, beat);
              end
           else if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           beat <= 4'b1111;
 
@@ -1011,7 +1011,7 @@ module lullaby(reset, clock, start, stop, beat);
              end
           else if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           beat <= 4'b1111;
 
@@ -1025,7 +1025,7 @@ module lullaby(reset, clock, start, stop, beat);
              end
           else if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           beat <= 4'b1111;
 
@@ -1039,7 +1039,7 @@ module lullaby(reset, clock, start, stop, beat);
              end
           else if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           beat <= 4'b1000;
 
@@ -1053,7 +1053,7 @@ module lullaby(reset, clock, start, stop, beat);
              end
           else if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           beat <= 4'b1111;
 
@@ -1067,7 +1067,7 @@ module lullaby(reset, clock, start, stop, beat);
              end
           else if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           beat <= 4'b1111;
 
@@ -1081,7 +1081,7 @@ module lullaby(reset, clock, start, stop, beat);
              end
           else if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           beat <= 4'b0100;
 
@@ -1095,7 +1095,7 @@ module lullaby(reset, clock, start, stop, beat);
              end
           else if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           beat <= 4'b0100;
 
@@ -1109,7 +1109,7 @@ module lullaby(reset, clock, start, stop, beat);
              end
           else if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
         end
 
@@ -1121,7 +1121,7 @@ module lullaby(reset, clock, start, stop, beat);
              end
           else if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
         end
 
@@ -1133,7 +1133,7 @@ module lullaby(reset, clock, start, stop, beat);
              end
           else if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
         end
 
@@ -1145,7 +1145,7 @@ module lullaby(reset, clock, start, stop, beat);
              end
           else if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
         end
 
@@ -1157,7 +1157,7 @@ module lullaby(reset, clock, start, stop, beat);
              end
           else if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           beat <= 4'b1000;
 
@@ -1171,7 +1171,7 @@ module lullaby(reset, clock, start, stop, beat);
              end
           else if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           beat <= 4'b1111;
 
@@ -1185,7 +1185,7 @@ module lullaby(reset, clock, start, stop, beat);
              end
           else if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           beat <= 4'b1000;
 
@@ -1199,7 +1199,7 @@ module lullaby(reset, clock, start, stop, beat);
              end
           else if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           beat <= 4'b0100;
 
@@ -1213,7 +1213,7 @@ module lullaby(reset, clock, start, stop, beat);
              end
           else if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           beat <= 4'b0001;
 
@@ -1227,7 +1227,7 @@ module lullaby(reset, clock, start, stop, beat);
              end
           else if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           beat <= 4'b0100;
 
@@ -1241,7 +1241,7 @@ module lullaby(reset, clock, start, stop, beat);
              end
           else if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           beat <= 4'b0001;
 
@@ -1255,7 +1255,7 @@ module lullaby(reset, clock, start, stop, beat);
              end
           else if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           beat <= 4'b0001;
 
@@ -1269,7 +1269,7 @@ module lullaby(reset, clock, start, stop, beat);
              end
           else if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
         end
 
@@ -1281,7 +1281,7 @@ module lullaby(reset, clock, start, stop, beat);
              end
           else if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
         end
 
@@ -1293,7 +1293,7 @@ module lullaby(reset, clock, start, stop, beat);
              end
           else if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
         end
 
@@ -1305,7 +1305,7 @@ module lullaby(reset, clock, start, stop, beat);
              end
           else if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           beat <= 4'b0010;
 
@@ -1319,7 +1319,7 @@ module lullaby(reset, clock, start, stop, beat);
              end
           else if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           beat <= 4'b1111;
 
@@ -1333,7 +1333,7 @@ module lullaby(reset, clock, start, stop, beat);
              end
           else if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           beat <= 4'b1111;
 
@@ -1347,7 +1347,7 @@ module lullaby(reset, clock, start, stop, beat);
              end
           else if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           beat <= 4'b1111;
 
@@ -1361,7 +1361,7 @@ module lullaby(reset, clock, start, stop, beat);
              end
           else if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           beat <= 4'b1111;
 
@@ -1375,7 +1375,7 @@ module lullaby(reset, clock, start, stop, beat);
              end
           else if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           beat <= 4'b1000;
 
@@ -1389,7 +1389,7 @@ module lullaby(reset, clock, start, stop, beat);
              end
           else if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           beat <= 4'b1111;
 
@@ -1399,7 +1399,7 @@ module lullaby(reset, clock, start, stop, beat);
         begin
           if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           beat <= 4'b1111;
 
@@ -1413,7 +1413,7 @@ module lullaby(reset, clock, start, stop, beat);
              end
           else if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           beat <= 4'b0001;
 
@@ -1427,7 +1427,7 @@ module lullaby(reset, clock, start, stop, beat);
              end
           else if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           beat <= 4'b0001;
 
@@ -1441,7 +1441,7 @@ module lullaby(reset, clock, start, stop, beat);
              end
           else if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           beat <= 4'b0001;
 
@@ -1455,7 +1455,7 @@ module lullaby(reset, clock, start, stop, beat);
              end
           else if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           beat <= 4'b0001;
 
@@ -1469,7 +1469,7 @@ module lullaby(reset, clock, start, stop, beat);
              end
           else if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           beat <= 4'b0001;
 
@@ -1479,7 +1479,7 @@ module lullaby(reset, clock, start, stop, beat);
         begin
           if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           else if (stop == 1'b0)
              begin
@@ -1497,7 +1497,7 @@ module lullaby(reset, clock, start, stop, beat);
              end
           else if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           beat <= 4'b0001;
 
@@ -1511,7 +1511,7 @@ module lullaby(reset, clock, start, stop, beat);
              end
           else if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           beat <= 4'b0001;
 
@@ -1525,7 +1525,7 @@ module lullaby(reset, clock, start, stop, beat);
              end
           else if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
         end
 
@@ -1537,7 +1537,7 @@ module lullaby(reset, clock, start, stop, beat);
              end
           else if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
         end
 
@@ -1549,7 +1549,7 @@ module lullaby(reset, clock, start, stop, beat);
              end
           else if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
         end
 
@@ -1561,7 +1561,7 @@ module lullaby(reset, clock, start, stop, beat);
              end
           else if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           beat <= 4'b0010;
 
@@ -1575,7 +1575,7 @@ module lullaby(reset, clock, start, stop, beat);
              end
           else if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           beat <= 4'b1111;
 
@@ -1589,7 +1589,7 @@ module lullaby(reset, clock, start, stop, beat);
              end
           else if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           beat <= 4'b1111;
 
@@ -1603,7 +1603,7 @@ module lullaby(reset, clock, start, stop, beat);
              end
           else if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           beat <= 4'b1111;
 
@@ -1617,7 +1617,7 @@ module lullaby(reset, clock, start, stop, beat);
              end
           else if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           beat <= 4'b1111;
 
@@ -1631,7 +1631,7 @@ module lullaby(reset, clock, start, stop, beat);
              end
           else if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           beat <= 4'b1000;
 
@@ -1645,7 +1645,7 @@ module lullaby(reset, clock, start, stop, beat);
              end
           else if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           beat <= 4'b1111;
 
@@ -1659,7 +1659,7 @@ module lullaby(reset, clock, start, stop, beat);
              end
           else if (stop == 1'b1)
              begin
-             next_state <= S0;
+             next_state <= wait;
              end
           beat <= 4'b1111;
 
