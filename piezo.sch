@@ -2,7 +2,7 @@ ModuleName piezo
 LanguageType Veirlog
 GridInterval 8
 MillimetersIn100RealScaledUnit 25
-ZoomOutScale 64
+ZoomOutScale 70
 NumberOfHorzPapaers 8
 NumberOfVertPapaers 4
 Parameters
@@ -204,80 +204,6 @@ Edge X1: 200 ,Y1: 152 ,X2: 232 ,Y2: 152
 End
 Branches
 End
-Wire Name: b29
-LV: 12
-RV: 0
-Width: 13
-Edges
-Edge X1: 64 ,Y1: 72 ,X2: 96 ,Y2: 72
-End
-Branches
-Branch Left: 80 ,Top: 72
-BranchStrList
-[12:0]
-End
-End
-Wire Name: b30
-LV: 12
-RV: 0
-Width: 13
-Edges
-Edge X1: 80 ,Y1: 72 ,X2: 80 ,Y2: 728
-End
-Branches
-Branch Left: 80 ,Top: 120
-BranchStrList
-1
-End
-Branch Left: 80 ,Top: 168
-BranchStrList
-2
-End
-Branch Left: 80 ,Top: 216
-BranchStrList
-3
-End
-Branch Left: 80 ,Top: 264
-BranchStrList
-4
-End
-Branch Left: 80 ,Top: 312
-BranchStrList
-5
-End
-Branch Left: 80 ,Top: 360
-BranchStrList
-6
-End
-Branch Left: 80 ,Top: 408
-BranchStrList
-7
-End
-Branch Left: 80 ,Top: 456
-BranchStrList
-8
-End
-Branch Left: 80 ,Top: 504
-BranchStrList
-9
-End
-Branch Left: 80 ,Top: 552
-BranchStrList
-10
-End
-Branch Left: 80 ,Top: 600
-BranchStrList
-11
-End
-Branch Left: 80 ,Top: 648
-BranchStrList
-12
-End
-Branch Left: 80 ,Top: 96
-BranchStrList
-0
-End
-End
 Wire Name: w38
 LV: 0
 RV: 0
@@ -402,30 +328,74 @@ LV: 0
 RV: 0
 Width: 1
 Edges
-Edge X1: 688 ,Y1: 576 ,X2: 720 ,Y2: 576
-Edge X1: 720 ,Y1: 392 ,X2: 720 ,Y2: 576
-Edge X1: 720 ,Y1: 392 ,X2: 752 ,Y2: 392
+Edge X1: 704 ,Y1: 392 ,X2: 752 ,Y2: 392
+Edge X1: 704 ,Y1: 392 ,X2: 704 ,Y2: 576
 End
 Branches
+End
+Wire Name: b29
+LV: 12
+RV: 0
+Width: 13
+Edges
+Edge X1: 80 ,Y1: 72 ,X2: 80 ,Y2: 688
+End
+Branches
+Branch Left: 80 ,Top: 120
+BranchStrList
+1
+End
+Branch Left: 80 ,Top: 168
+BranchStrList
+2
+End
+Branch Left: 80 ,Top: 216
+BranchStrList
+3
+End
+Branch Left: 80 ,Top: 264
+BranchStrList
+4
+End
+Branch Left: 80 ,Top: 312
+BranchStrList
+5
+End
+Branch Left: 80 ,Top: 360
+BranchStrList
+6
+End
+Branch Left: 80 ,Top: 408
+BranchStrList
+7
+End
+Branch Left: 80 ,Top: 456
+BranchStrList
+8
+End
+Branch Left: 80 ,Top: 504
+BranchStrList
+9
+End
+Branch Left: 80 ,Top: 552
+BranchStrList
+10
+End
+Branch Left: 80 ,Top: 600
+BranchStrList
+11
+End
+Branch Left: 80 ,Top: 648
+BranchStrList
+12
+End
 End
 Wire Name: w35
 LV: 0
 RV: 0
 Width: 1
 Edges
-Edge X1: 816 ,Y1: 376 ,X2: 824 ,Y2: 376
-End
-Branches
-End
-Wire Name: w50
-LV: 0
-RV: 0
-Width: 1
-Edges
-Edge X1: 752 ,Y1: 96 ,X2: 752 ,Y2: 360
-Edge X1: 720 ,Y1: 96 ,X2: 752 ,Y2: 96
-Edge X1: 80 ,Y1: 96 ,X2: 720 ,Y2: 96
-Edge X1: 720 ,Y1: 96 ,X2: 720 ,Y2: 128
+Edge X1: 816 ,Y1: 384 ,X2: 840 ,Y2: 384
 End
 Branches
 End
@@ -445,18 +415,18 @@ Portname: rst ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV
 1
 ,RV:
 0
-Port Left: 824 Top: 376 ,Orientation: 0
-Portname: piezo ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
-0
-,Width:
-1
-,RV:
-0
-Port Left: 64 Top: 72 ,Orientation: 0
+Port Left: 80 Top: 72 ,Orientation: 3
 Portname: playSound ,PortType: multibit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
 12
 ,Width:
 13
+,RV:
+0
+Port Left: 840 Top: 384 ,Orientation: 0
+Portname: piezo ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
+0
+,Width:
+1
 ,RV:
 0
 End
@@ -569,16 +539,10 @@ LibraryName: PNULib
 IpName: PNU_OR4
 SymbolParameters
 End
-Symbol Left: 712 Top: 128
-Name: s17
-LibraryName: PNULib
-IpName: PNU_ZERO
-SymbolParameters
-End
-Symbol Left: 752 Top: 360
+Symbol Left: 752 Top: 368
 Name: s16
 LibraryName: PNULib
-IpName: PNU_OR3
+IpName: PNU_OR2
 SymbolParameters
 End
 End
