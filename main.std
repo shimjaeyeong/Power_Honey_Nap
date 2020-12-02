@@ -4,7 +4,7 @@ ChildrenCount 16
 Caption root
 IfEntering false
 IfLeaving false
-HorzScrollPos 0
+HorzScrollPos 48
 VertScrollPos 0
 Scale 1
 GridInterval 8
@@ -792,9 +792,33 @@ PortRV 0
 PortDirectionIndex 0
 PortLanguageType Veriilog
 
+PortName enCancel
+PortType singlebit
+PortDirection out
+PortLV 0
+PortRV 0
+PortDirectionIndex 0
+PortLanguageType Veriilog
+
 PortName stop
 PortType singlebit
 PortDirection out
+PortLV 0
+PortRV 0
+PortDirectionIndex 0
+PortLanguageType Veriilog
+
+PortName completeSetting
+PortType singlebit
+PortDirection in
+PortLV 0
+PortRV 0
+PortDirectionIndex 0
+PortLanguageType Veriilog
+
+PortName completeSleep
+PortType singlebit
+PortDirection in
 PortLV 0
 PortRV 0
 PortDirectionIndex 0
