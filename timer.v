@@ -1,9 +1,7 @@
-module timer(reset, clock, en, start, write, setHour10, setHour1, setMinute10, setMinute1, setSecond10, setSecond1, getHour10, getHour1, getMinute10, getMinute1, getSecond10, getSecond1, isZero, complete);
+module timer(reset, clock, start, setHour10, setHour1, setMinute10, setMinute1, setSecond10, setSecond1, getHour10, getHour1, getMinute10, getMinute1, getSecond10, getSecond1, isZero, complete);
   input reset;
   input clock;
-  input en;
   input start;
-  input write;
   input [3:0] setHour10;
   input [3:0] setHour1;
   input [3:0] setMinute10;
@@ -39,7 +37,7 @@ module timer(reset, clock, en, start, write, setHour10, setHour1, setMinute10, s
        current_state <= next_state;
   end
 
-  always @(current_state or en or start or write or setHour10 or setHour1 or setMinute10 or setMinute1 or setSecond10 or setSecond1)
+  always @(current_state or start or setHour10 or setHour1 or setMinute10 or setMinute1 or setSecond10 or setSecond1)
   begin: COMBIN
      case (current_state)
         check:
@@ -52,7 +50,7 @@ module timer(reset, clock, en, start, write, setHour10, setHour1, setMinute10, s
              begin
              next_state <= cpl1;
              end
-          else if (en != 1'b1)
+          else if (start == 1'b0)
              begin
              next_state <= check;
              end

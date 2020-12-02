@@ -1,0 +1,124 @@
+SymbolianIcn ver1.00(2006.04.27)
+ModuleName timer
+LanguageType Veirlog
+GridInterval 8
+MillimetersIn100RealScaledUnit 25
+ZoomOutScale 32
+NumberOfHorzPapaers 1
+NumberOfVertPapaers 1
+IfDrawModuleName True
+IfDrawPortnameText True
+ModuleNameDrawPosition middle
+Boxes
+Box Left: 336 Top: 560 ,Right: 504 ,Bottom: 704
+End
+Parameters
+Parameter Name: S3 ,Type: integer ,Value: 12
+Parameter Name: check ,Type: integer ,Value: 0
+Parameter Name: cpl1 ,Type: integer ,Value: 2
+Parameter Name: cpl2 ,Type: integer ,Value: 4
+Parameter Name: cpl3 ,Type: integer ,Value: 5
+Parameter Name: cpl4 ,Type: integer ,Value: 7
+Parameter Name: cpl5 ,Type: integer ,Value: 8
+Parameter Name: cpl6 ,Type: integer ,Value: 11
+Parameter Name: hour1 ,Type: integer ,Value: 9
+Parameter Name: hour2 ,Type: integer ,Value: 10
+Parameter Name: minute1 ,Type: integer ,Value: 3
+Parameter Name: minute2 ,Type: integer ,Value: 6
+Parameter Name: second ,Type: integer ,Value: 1
+End
+Ports
+Port Left: 312 Top: 568 ,SymbolSideLeft: 336 ,SymbolSideTop: 568
+Portname: clock ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
+0
+,RV:
+0
+Port Left: 528 Top: 568 ,SymbolSideLeft: 504 ,SymbolSideTop: 568
+Portname: complete ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
+0
+,RV:
+0
+Port Left: 528 Top: 600 ,SymbolSideLeft: 504 ,SymbolSideTop: 600
+Portname: getHour1 ,PortType: multibit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
+3
+,RV:
+0
+Port Left: 528 Top: 584 ,SymbolSideLeft: 504 ,SymbolSideTop: 584
+Portname: getHour10 ,PortType: multibit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
+3
+,RV:
+0
+Port Left: 528 Top: 632 ,SymbolSideLeft: 504 ,SymbolSideTop: 632
+Portname: getMinute1 ,PortType: multibit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
+3
+,RV:
+0
+Port Left: 528 Top: 616 ,SymbolSideLeft: 504 ,SymbolSideTop: 616
+Portname: getMinute10 ,PortType: multibit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
+3
+,RV:
+0
+Port Left: 528 Top: 664 ,SymbolSideLeft: 504 ,SymbolSideTop: 664
+Portname: getSecond1 ,PortType: multibit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
+3
+,RV:
+0
+Port Left: 528 Top: 648 ,SymbolSideLeft: 504 ,SymbolSideTop: 648
+Portname: getSecond10 ,PortType: multibit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
+3
+,RV:
+0
+Port Left: 528 Top: 680 ,SymbolSideLeft: 504 ,SymbolSideTop: 680
+Portname: isZero ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
+0
+,RV:
+0
+Port Left: 312 Top: 584 ,SymbolSideLeft: 336 ,SymbolSideTop: 584
+Portname: reset ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
+0
+,RV:
+0
+Port Left: 312 Top: 616 ,SymbolSideLeft: 336 ,SymbolSideTop: 616
+Portname: setHour1 ,PortType: multibit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
+3
+,RV:
+0
+Port Left: 312 Top: 600 ,SymbolSideLeft: 336 ,SymbolSideTop: 600
+Portname: setHour10 ,PortType: multibit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
+3
+,RV:
+0
+Port Left: 312 Top: 648 ,SymbolSideLeft: 336 ,SymbolSideTop: 648
+Portname: setMinute1 ,PortType: multibit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
+3
+,RV:
+0
+Port Left: 312 Top: 632 ,SymbolSideLeft: 336 ,SymbolSideTop: 632
+Portname: setMinute10 ,PortType: multibit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
+3
+,RV:
+0
+Port Left: 312 Top: 680 ,SymbolSideLeft: 336 ,SymbolSideTop: 680
+Portname: setSecond1 ,PortType: multibit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
+3
+,RV:
+0
+Port Left: 312 Top: 664 ,SymbolSideLeft: 336 ,SymbolSideTop: 664
+Portname: setSecond10 ,PortType: multibit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
+3
+,RV:
+0
+Port Left: 312 Top: 696 ,SymbolSideLeft: 336 ,SymbolSideTop: 696
+Portname: start ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
+0
+,RV:
+0
+End
+Ellipses
+End
+Lines
+End
+Arcs
+End
+Texts
+End

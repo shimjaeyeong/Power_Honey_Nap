@@ -10,3 +10,7 @@ D:\Develop\nap\main_state.v= main_state
 D:\Develop\nap\multi_mux4.v= multi_mux4
 D:\Develop\nap\ripple_carry_adder_5bit.v= ripple_carry_adder_5bit
 D:\Develop\nap\minus_one.v= minus_one
+D:\Develop\nap\enable_time.v= enable_time
+D:\Develop\nap\manual_setting.v= manual_setting
+D:\Develop\nap\select_keypad.v= select_keypad
+D:\Develop\nap\timer.v= timer

@@ -591,14 +591,14 @@ Scale 1
 GridInterval 8
 LogicalLeft 16
 LogicalTop 2
-LogicalWidth 5
+LogicalWidth 8
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
 LogicalOffsetLeft -3
 LogicalOffsetTop -9
 grd 8
-ConditionProperties en != 1
+ConditionProperties start == 0
 LinkedObj0 check
 LinkedObj1 check
 EnteringCaption IN_T4
@@ -1551,23 +1551,7 @@ LeavingCaption OUT_T20
 Kind FSBVOTrans
 
 
-PortName en
-PortType singlebit
-PortDirection in
-PortLV 0
-PortRV 0
-PortDirectionIndex 0
-PortLanguageType Veriilog
-
 PortName start
-PortType singlebit
-PortDirection in
-PortLV 0
-PortRV 0
-PortDirectionIndex 0
-PortLanguageType Veriilog
-
-PortName write
 PortType singlebit
 PortDirection in
 PortLV 0
