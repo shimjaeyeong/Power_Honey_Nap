@@ -26,7 +26,7 @@ VertScrollPos 0
 Scale 1
 GridInterval 8
 LogicalLeft 11
-LogicalTop 21
+LogicalTop 13
 LogicalWidth 2
 LogicalHeight 2
 LogicalWidthSetting 2
@@ -54,7 +54,7 @@ ColorIndex 11
 Kind FSBVOState
 
 ChildrenCount 2
-Caption 5sec
+Caption fiveSecond
 IfEntering false
 IfLeaving false
 HorzScrollPos 0
@@ -109,7 +109,7 @@ ColorIndex 11
 Kind FSBVOState
 
 ChildrenCount 2
-Caption 30sec
+Caption halfMinute
 IfEntering false
 IfLeaving false
 HorzScrollPos 0
@@ -164,7 +164,7 @@ ColorIndex 11
 Kind FSBVOState
 
 ChildrenCount 2
-Caption 1min
+Caption oneMinute
 IfEntering false
 IfLeaving false
 HorzScrollPos 0
@@ -219,22 +219,20 @@ ColorIndex 11
 Kind FSBVOState
 
 ChildrenCount 11
-Caption wait
+Caption input_wait
 IfEntering false
 IfLeaving false
 HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 37
-LogicalTop 27
-LogicalWidth 16
-LogicalHeight 9
+LogicalLeft 42
+LogicalTop 28
+LogicalWidth 8
+LogicalHeight 4
 LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
-Properties waiting<= 1;
-Properties timer_en <= 0;
 ColorIndex 13
 Kind FSBVOState
 
@@ -444,18 +442,18 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 59
-LogicalTop 16
+LogicalLeft 58
+LogicalTop 15
 LogicalWidth 10
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
-LogicalOffsetLeft -10
+LogicalOffsetLeft -9
 LogicalOffsetTop -8
 grd 8
-ConditionProperties keypad == 2 
-LinkedObj0 wait
-LinkedObj1 5sec
+ConditionProperties keypad == 2
+LinkedObj0 input_wait
+LinkedObj1 fiveSecond
 EnteringCaption IN_T1
 LeavingCaption OUT_T1
 Kind FSBVOTrans
@@ -469,7 +467,7 @@ VertScrollPos 0
 Scale 1
 GridInterval 8
 LogicalLeft 65
-LogicalTop 27
+LogicalTop 25
 LogicalWidth 10
 LogicalHeight 3
 LogicalWidthSetting 0
@@ -478,8 +476,8 @@ LogicalOffsetLeft -4
 LogicalOffsetTop -5
 grd 8
 ConditionProperties keypad == 4
-LinkedObj0 wait
-LinkedObj1 30sec
+LinkedObj0 input_wait
+LinkedObj1 halfMinute
 EnteringCaption IN_T2
 LeavingCaption OUT_T2
 Kind FSBVOTrans
@@ -492,18 +490,18 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 69
-LogicalTop 37
+LogicalLeft 68
+LogicalTop 38
 LogicalWidth 10
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
-LogicalOffsetLeft 0
-LogicalOffsetTop -4
+LogicalOffsetLeft -1
+LogicalOffsetTop -2
 grd 8
 ConditionProperties keypad == 8
-LinkedObj0 wait
-LinkedObj1 1min
+LinkedObj0 input_wait
+LinkedObj1 oneMinute
 EnteringCaption IN_T3
 LeavingCaption OUT_T3
 Kind FSBVOTrans
@@ -516,17 +514,17 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 64
-LogicalTop 21
+LogicalLeft 67
+LogicalTop 22
 LogicalWidth 1
 LogicalHeight 1
 LogicalWidthSetting 0
 LogicalHeightSetting 0
-LogicalOffsetLeft -5
+LogicalOffsetLeft -2
 LogicalOffsetTop -1
 grd 8
-LinkedObj0 5sec
-LinkedObj1 wait
+LinkedObj0 fiveSecond
+LinkedObj1 input_wait
 EnteringCaption IN_T4
 LeavingCaption OUT_T4
 Kind FSBVOTrans
@@ -539,17 +537,17 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 66
-LogicalTop 31
+LogicalLeft 69
+LogicalTop 33
 LogicalWidth 1
 LogicalHeight 1
 LogicalWidthSetting 0
 LogicalHeightSetting 0
-LogicalOffsetLeft -3
-LogicalOffsetTop 0
+LogicalOffsetLeft 0
+LogicalOffsetTop 3
 grd 8
-LinkedObj0 30sec
-LinkedObj1 wait
+LinkedObj0 halfMinute
+LinkedObj1 input_wait
 EnteringCaption IN_T5
 LeavingCaption OUT_T5
 Kind FSBVOTrans
@@ -562,17 +560,17 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 63
-LogicalTop 41
+LogicalLeft 59
+LogicalTop 40
 LogicalWidth 1
 LogicalHeight 1
 LogicalWidthSetting 0
 LogicalHeightSetting 0
-LogicalOffsetLeft -6
+LogicalOffsetLeft -10
 LogicalOffsetTop 0
 grd 8
-LinkedObj0 1min
-LinkedObj1 wait
+LinkedObj0 oneMinute
+LinkedObj1 input_wait
 EnteringCaption IN_T6
 LeavingCaption OUT_T6
 Kind FSBVOTrans
@@ -585,14 +583,14 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 38
-LogicalTop 50
-LogicalWidth 16
+LogicalLeft 35
+LogicalTop 49
+LogicalWidth 22
 LogicalHeight 9
 LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
-Properties timer_en <= 1;
+Properties completeSetting <= 1;
 Properties sharp <= 0;
 ColorIndex 11
 Kind FSBVOState
@@ -642,7 +640,7 @@ VertScrollPos 0
 Scale 1
 GridInterval 8
 LogicalLeft 46
-LogicalTop 42
+LogicalTop 40
 LogicalWidth 8
 LogicalHeight 3
 LogicalWidthSetting 0
@@ -651,7 +649,7 @@ LogicalOffsetLeft 0
 LogicalOffsetTop -1
 grd 8
 ConditionProperties sharp == 1
-LinkedObj0 wait
+LinkedObj0 input_wait
 LinkedObj1 set_complete
 EnteringCaption IN_T7
 LeavingCaption OUT_T7
@@ -666,7 +664,7 @@ VertScrollPos 0
 Scale 1
 GridInterval 8
 LogicalLeft 36
-LogicalTop 42
+LogicalTop 40
 LogicalWidth 8
 LogicalHeight 3
 LogicalWidthSetting 0
@@ -676,7 +674,7 @@ LogicalOffsetTop -1
 grd 8
 ConditionProperties sharp == 0
 LinkedObj0 set_complete
-LinkedObj1 wait
+LinkedObj1 input_wait
 EnteringCaption IN_T8
 LeavingCaption OUT_T8
 Kind FSBVOTrans
@@ -689,18 +687,18 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 39
+LogicalLeft 42
 LogicalTop 19
 LogicalWidth 8
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
-LogicalOffsetLeft -6
-LogicalOffsetTop -12
+LogicalOffsetLeft -4
+LogicalOffsetTop -11
 grd 8
 ConditionProperties sharp != 1
-LinkedObj0 wait
-LinkedObj1 wait
+LinkedObj0 input_wait
+LinkedObj1 input_wait
 EnteringCaption IN_T9
 LeavingCaption OUT_T9
 Kind FSBVOTrans
@@ -713,17 +711,17 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 25
-LogicalTop 25
+LogicalLeft 28
+LogicalTop 21
 LogicalWidth 1
 LogicalHeight 1
 LogicalWidthSetting 0
 LogicalHeightSetting 0
 LogicalOffsetLeft 0
-LogicalOffsetTop 0
+LogicalOffsetTop -1
 grd 8
 LinkedObj0 reset0
-LinkedObj1 wait
+LinkedObj1 input_wait
 EnteringCaption IN_T0
 LeavingCaption OUT_T0
 Kind FSBVOTrans
@@ -745,7 +743,7 @@ PortRV 0
 PortDirectionIndex 0
 PortLanguageType Veriilog
 
-PortName timer_en
+PortName completeSetting
 PortType singlebit
 PortDirection out
 PortLV 0
@@ -773,14 +771,6 @@ PortName one_min
 PortType multibit
 PortDirection out
 PortLV 3
-PortRV 0
-PortDirectionIndex 0
-PortLanguageType Veriilog
-
-PortName waiting
-PortType singlebit
-PortDirection in
-PortLV 0
 PortRV 0
 PortDirectionIndex 0
 PortLanguageType Veriilog

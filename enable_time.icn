@@ -10,40 +10,46 @@ IfDrawModuleName True
 IfDrawPortnameText True
 ModuleNameDrawPosition middle
 Boxes
-Box Left: 344 Top: 560 ,Right: 496 ,Bottom: 608
+Box Left: 304 Top: 560 ,Right: 536 ,Bottom: 624
 End
 Parameters
-Parameter Name: S0 ,Type: integer ,Value: 0
-Parameter Name: S1 ,Type: integer ,Value: 1
-Parameter Name: S2 ,Type: integer ,Value: 2
+Parameter Name: hour ,Type: integer ,Value: 0
+Parameter Name: minute ,Type: integer ,Value: 1
+Parameter Name: second ,Type: integer ,Value: 2
+Parameter Name: set_complete ,Type: integer ,Value: 3
 End
 Ports
-Port Left: 320 Top: 568 ,SymbolSideLeft: 344 ,SymbolSideTop: 568
+Port Left: 280 Top: 576 ,SymbolSideLeft: 304 ,SymbolSideTop: 576
 Portname: clock ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
 0
 ,RV:
 0
-Port Left: 520 Top: 568 ,SymbolSideLeft: 496 ,SymbolSideTop: 568
+Port Left: 560 Top: 616 ,SymbolSideLeft: 536 ,SymbolSideTop: 616
+Portname: completeSetting ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
+0
+,RV:
+0
+Port Left: 560 Top: 568 ,SymbolSideLeft: 536 ,SymbolSideTop: 568
 Portname: hour_en ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
 0
 ,RV:
 0
-Port Left: 520 Top: 584 ,SymbolSideLeft: 496 ,SymbolSideTop: 584
+Port Left: 560 Top: 584 ,SymbolSideLeft: 536 ,SymbolSideTop: 584
 Portname: min_en ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
 0
 ,RV:
 0
-Port Left: 320 Top: 584 ,SymbolSideLeft: 344 ,SymbolSideTop: 584
+Port Left: 280 Top: 592 ,SymbolSideLeft: 304 ,SymbolSideTop: 592
 Portname: reset ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
 0
 ,RV:
 0
-Port Left: 520 Top: 600 ,SymbolSideLeft: 496 ,SymbolSideTop: 600
+Port Left: 560 Top: 600 ,SymbolSideLeft: 536 ,SymbolSideTop: 600
 Portname: sec_en ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
 0
 ,RV:
 0
-Port Left: 320 Top: 600 ,SymbolSideLeft: 344 ,SymbolSideTop: 600
+Port Left: 280 Top: 608 ,SymbolSideLeft: 304 ,SymbolSideTop: 608
 Portname: sharp ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
 0
 ,RV:
