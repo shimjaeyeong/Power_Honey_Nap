@@ -1,0 +1,92 @@
+SymbolianIcn ver1.00(2006.04.27)
+ModuleName main_state
+LanguageType Veirlog
+GridInterval 8
+MillimetersIn100RealScaledUnit 25
+ZoomOutScale 32
+NumberOfHorzPapaers 1
+NumberOfVertPapaers 1
+IfDrawModuleName True
+IfDrawPortnameText True
+ModuleNameDrawPosition middle
+Boxes
+Box Left: 304 Top: 560 ,Right: 536 ,Bottom: 656
+End
+Parameters
+Parameter Name: alarm ,Type: integer ,Value: 2
+Parameter Name: cancel ,Type: integer ,Value: 3
+Parameter Name: manualSetting ,Type: integer ,Value: 5
+Parameter Name: sleep ,Type: integer ,Value: 1
+Parameter Name: start ,Type: integer ,Value: 4
+Parameter Name: sutoSetting ,Type: integer ,Value: 0
+End
+Ports
+Port Left: 280 Top: 568 ,SymbolSideLeft: 304 ,SymbolSideTop: 568
+Portname: clock ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
+0
+,RV:
+0
+Port Left: 280 Top: 584 ,SymbolSideLeft: 304 ,SymbolSideTop: 584
+Portname: completeSetting ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
+0
+,RV:
+0
+Port Left: 280 Top: 600 ,SymbolSideLeft: 304 ,SymbolSideTop: 600
+Portname: completeSleep ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
+0
+,RV:
+0
+Port Left: 560 Top: 616 ,SymbolSideLeft: 536 ,SymbolSideTop: 616
+Portname: enAlarm ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
+0
+,RV:
+0
+Port Left: 560 Top: 568 ,SymbolSideLeft: 536 ,SymbolSideTop: 568
+Portname: enAutoSetting ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
+0
+,RV:
+0
+Port Left: 560 Top: 632 ,SymbolSideLeft: 536 ,SymbolSideTop: 632
+Portname: enCancel ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
+0
+,RV:
+0
+Port Left: 560 Top: 584 ,SymbolSideLeft: 536 ,SymbolSideTop: 584
+Portname: enManualSetting ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
+0
+,RV:
+0
+Port Left: 560 Top: 600 ,SymbolSideLeft: 536 ,SymbolSideTop: 600
+Portname: enSleep ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
+0
+,RV:
+0
+Port Left: 560 Top: 648 ,SymbolSideLeft: 536 ,SymbolSideTop: 648
+Portname: init ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
+0
+,RV:
+0
+Port Left: 280 Top: 616 ,SymbolSideLeft: 304 ,SymbolSideTop: 616
+Portname: reset ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
+0
+,RV:
+0
+Port Left: 280 Top: 632 ,SymbolSideLeft: 304 ,SymbolSideTop: 632
+Portname: sharp ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
+0
+,RV:
+0
+Port Left: 280 Top: 648 ,SymbolSideLeft: 304 ,SymbolSideTop: 648
+Portname: switch ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
+0
+,RV:
+0
+End
+Ellipses
+End
+Lines
+End
+Arcs
+End
+Texts
+End
