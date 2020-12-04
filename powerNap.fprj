@@ -1,9 +1,11 @@
 [project]
-projecttype=0
+projecttype=1
 [folder0]
 filen=0
 [folder1]
-filen=0
+filen=2
+file0=select_keypad.v
+file1=manual_setting.v
 [folder2]
 filen=0
 [usedlibrary]

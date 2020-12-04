@@ -1,7 +1,11 @@
 [project]
 projecttype=1
 [folder0]
+<<<<<<< HEAD
 filen=18
+=======
+filen=5
+>>>>>>> 97c73505ee81e3abf5e44e3ac77dcf1595670cb7
 file0=Binary_to_Decimal_Convert.v
 file1=multiAND.v
 file2=multiAND3.v
