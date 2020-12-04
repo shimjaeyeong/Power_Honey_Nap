@@ -10,7 +10,7 @@ IfDrawModuleName True
 IfDrawPortnameText True
 ModuleNameDrawPosition middle
 Boxes
-Box Left: 304 Top: 568 ,Right: 544 ,Bottom: 632
+Box Left: 304 Top: 560 ,Right: 544 ,Bottom: 640
 End
 Parameters
 Parameter Name: fiveSecond ,Type: integer ,Value: 0
@@ -20,42 +20,47 @@ Parameter Name: oneMinute ,Type: integer ,Value: 2
 Parameter Name: set_complete ,Type: integer ,Value: 4
 End
 Ports
-Port Left: 280 Top: 592 ,SymbolSideLeft: 304 ,SymbolSideTop: 592
+Port Left: 280 Top: 568 ,SymbolSideLeft: 304 ,SymbolSideTop: 568
 Portname: clock ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
 0
 ,RV:
 0
-Port Left: 568 Top: 624 ,SymbolSideLeft: 544 ,SymbolSideTop: 624
+Port Left: 568 Top: 568 ,SymbolSideLeft: 544 ,SymbolSideTop: 568
 Portname: completeSetting ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
 0
 ,RV:
 0
-Port Left: 280 Top: 576 ,SymbolSideLeft: 304 ,SymbolSideTop: 576
+Port Left: 280 Top: 584 ,SymbolSideLeft: 304 ,SymbolSideTop: 584
+Portname: en ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
+0
+,RV:
+0
+Port Left: 280 Top: 600 ,SymbolSideLeft: 304 ,SymbolSideTop: 600
 Portname: keypad ,PortType: multibit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
 9
 ,RV:
 0
-Port Left: 568 Top: 608 ,SymbolSideLeft: 544 ,SymbolSideTop: 608
+Port Left: 568 Top: 584 ,SymbolSideLeft: 544 ,SymbolSideTop: 584
 Portname: one_min ,PortType: multibit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
 3
 ,RV:
 0
-Port Left: 568 Top: 576 ,SymbolSideLeft: 544 ,SymbolSideTop: 576
+Port Left: 568 Top: 616 ,SymbolSideLeft: 544 ,SymbolSideTop: 616
 Portname: one_sec ,PortType: multibit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
 3
 ,RV:
 0
-Port Left: 280 Top: 608 ,SymbolSideLeft: 304 ,SymbolSideTop: 608
+Port Left: 280 Top: 616 ,SymbolSideLeft: 304 ,SymbolSideTop: 616
 Portname: reset ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
 0
 ,RV:
 0
-Port Left: 280 Top: 624 ,SymbolSideLeft: 304 ,SymbolSideTop: 624
+Port Left: 280 Top: 632 ,SymbolSideLeft: 304 ,SymbolSideTop: 632
 Portname: sharp ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
 0
 ,RV:
 0
-Port Left: 568 Top: 592 ,SymbolSideLeft: 544 ,SymbolSideTop: 592
+Port Left: 568 Top: 600 ,SymbolSideLeft: 544 ,SymbolSideTop: 600
 Portname: ten_sec ,PortType: multibit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
 3
 ,RV:

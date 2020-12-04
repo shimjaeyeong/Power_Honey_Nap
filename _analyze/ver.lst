@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-C:\Power_Honey_Nap\select_keypad.v
-C:\Power_Honey_Nap\manual_setting.v
-C:\Power_Honey_Nap\lullaby.v
-C:\Power_Honey_Nap\enable_time.v
-=======
 D:\Develop\nap\Binary_to_Decimal_Convert.v
 D:\Develop\nap\multiAND.v
 D:\Develop\nap\multiAND3.v
@@ -17,9 +11,9 @@ D:\Develop\nap\multi_mux4.v
 D:\Develop\nap\ripple_carry_adder_5bit.v
 D:\Develop\nap\minus_one.v
 D:\Develop\nap\enable_time.v
-D:\Develop\nap\manual_setting.v
 D:\Develop\nap\select_keypad.v
 D:\Develop\nap\timer.v
 D:\Develop\nap\time_register.v
 D:\Develop\nap\alarm.v
->>>>>>> dd39fb105bbddeb568bff323aafef41335e70aac
+D:\Develop\nap\lullaby.v
+D:\Develop\nap\manual_setting.v

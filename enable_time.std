@@ -310,7 +310,7 @@ LogicalHeightSetting 0
 LogicalOffsetLeft -5
 LogicalOffsetTop -13
 grd 8
-ConditionProperties sharp != 1
+ConditionProperties sharp == 0
 LinkedObj0 hour
 LinkedObj1 hour
 EnteringCaption IN_T0
@@ -382,7 +382,7 @@ LogicalHeightSetting 0
 LogicalOffsetLeft -6
 LogicalOffsetTop -13
 grd 8
-ConditionProperties sharp != 1
+ConditionProperties sharp == 0
 LinkedObj0 min
 LinkedObj1 min
 EnteringCaption IN_T3
@@ -406,7 +406,7 @@ LogicalHeightSetting 0
 LogicalOffsetLeft -5
 LogicalOffsetTop -13
 grd 8
-ConditionProperties sharp != 1
+ConditionProperties sharp == 0
 LinkedObj0 sec
 LinkedObj1 sec
 EnteringCaption IN_T4

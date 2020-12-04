@@ -2,7 +2,7 @@ ModuleName manual_setting
 LanguageType Veirlog
 GridInterval 8
 MillimetersIn100RealScaledUnit 25
-ZoomOutScale 51
+ZoomOutScale 40
 NumberOfHorzPapaers 8
 NumberOfVertPapaers 4
 Parameters
