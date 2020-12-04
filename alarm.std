@@ -1,10 +1,10 @@
 SaveFile
 LanguageType Veriilog
-ChildrenCount 40
+ChildrenCount 47
 Caption root
 IfEntering false
 IfLeaving false
-HorzScrollPos 0
+HorzScrollPos 48
 VertScrollPos 0
 Scale 1
 GridInterval 8
@@ -27,12 +27,13 @@ Scale 1
 GridInterval 8
 LogicalLeft 22
 LogicalTop 18
-LogicalWidth 9
-LogicalHeight 5
+LogicalWidth 12
+LogicalHeight 8
 LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
 Properties light = 1;
+Properties beat = 256;
 ColorIndex 11
 Kind FSBVOState
 
@@ -45,24 +46,6 @@ VertScrollPos 0
 Scale 1
 GridInterval 8
 LogicalLeft 50
-LogicalTop 8
-LogicalWidth 8
-LogicalHeight 4
-LogicalWidthSetting 8
-LogicalHeightSetting 4
-grd 8
-ColorIndex 11
-Kind FSBVOState
-
-ChildrenCount 0
-Caption IN_T12
-IfEntering true
-IfLeaving false
-HorzScrollPos 0
-VertScrollPos 0
-Scale 1
-GridInterval 8
-LogicalLeft 0
 LogicalTop 8
 LogicalWidth 8
 LogicalHeight 4
@@ -108,6 +91,24 @@ grd 8
 ColorIndex 11
 Kind FSBVOState
 
+ChildrenCount 0
+Caption IN_T30
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 16
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
 ChildrenCount 3
 Caption S1
 IfEntering false
@@ -118,12 +119,13 @@ Scale 1
 GridInterval 8
 LogicalLeft 37
 LogicalTop 18
-LogicalWidth 9
-LogicalHeight 5
+LogicalWidth 12
+LogicalHeight 8
 LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
 Properties light = 0;
+Properties beat = 512;
 ColorIndex 11
 Kind FSBVOState
 
@@ -191,12 +193,13 @@ Scale 1
 GridInterval 8
 LogicalLeft 52
 LogicalTop 18
-LogicalWidth 9
-LogicalHeight 5
+LogicalWidth 13
+LogicalHeight 8
 LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
 Properties light = 0;
+Properties beat = 2048;
 ColorIndex 11
 Kind FSBVOState
 
@@ -264,12 +267,13 @@ Scale 1
 GridInterval 8
 LogicalLeft 66
 LogicalTop 18
-LogicalWidth 9
-LogicalHeight 5
+LogicalWidth 13
+LogicalHeight 8
 LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
 Properties light = 1;
+Properties beat = 32;
 ColorIndex 11
 Kind FSBVOState
 
@@ -337,12 +341,13 @@ Scale 1
 GridInterval 8
 LogicalLeft 81
 LogicalTop 18
-LogicalWidth 9
-LogicalHeight 5
+LogicalWidth 13
+LogicalHeight 8
 LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
 Properties light = 0;
+Properties beat = 2048;
 ColorIndex 11
 Kind FSBVOState
 
@@ -438,7 +443,7 @@ ColorIndex 11
 Kind FSBVOState
 
 ChildrenCount 0
-Caption OUT_T5
+Caption OUT_T19
 IfEntering false
 IfLeaving true
 HorzScrollPos 0
@@ -456,7 +461,7 @@ ColorIndex 11
 Kind FSBVOState
 
 ChildrenCount 0
-Caption OUT_T19
+Caption OUT_T5
 IfEntering false
 IfLeaving true
 HorzScrollPos 0
@@ -483,30 +488,13 @@ Scale 1
 GridInterval 8
 LogicalLeft 22
 LogicalTop 31
-LogicalWidth 9
-LogicalHeight 5
+LogicalWidth 12
+LogicalHeight 8
 LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
 Properties light = 1;
-ColorIndex 11
-Kind FSBVOState
-
-ChildrenCount 0
-Caption IN_T5
-IfEntering true
-IfLeaving false
-HorzScrollPos 0
-VertScrollPos 0
-Scale 1
-GridInterval 8
-LogicalLeft 0
-LogicalTop 0
-LogicalWidth 8
-LogicalHeight 4
-LogicalWidthSetting 8
-LogicalHeightSetting 4
-grd 8
+Properties beat = 256;
 ColorIndex 11
 Kind FSBVOState
 
@@ -546,6 +534,24 @@ grd 8
 ColorIndex 11
 Kind FSBVOState
 
+ChildrenCount 0
+Caption IN_T28
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
 ChildrenCount 3
 Caption S7
 IfEntering false
@@ -556,12 +562,13 @@ Scale 1
 GridInterval 8
 LogicalLeft 37
 LogicalTop 31
-LogicalWidth 9
-LogicalHeight 5
+LogicalWidth 12
+LogicalHeight 8
 LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
 Properties light = 0;
+Properties beat = 512;
 ColorIndex 11
 Kind FSBVOState
 
@@ -629,12 +636,13 @@ Scale 1
 GridInterval 8
 LogicalLeft 52
 LogicalTop 31
-LogicalWidth 9
-LogicalHeight 5
+LogicalWidth 13
+LogicalHeight 8
 LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
 Properties light = 0;
+Properties beat = 2048;
 ColorIndex 11
 Kind FSBVOState
 
@@ -702,12 +710,13 @@ Scale 1
 GridInterval 8
 LogicalLeft 66
 LogicalTop 31
-LogicalWidth 9
-LogicalHeight 5
+LogicalWidth 16
+LogicalHeight 8
 LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
 Properties light = 1;
+Properties beat = 32;
 ColorIndex 11
 Kind FSBVOState
 
@@ -775,12 +784,13 @@ Scale 1
 GridInterval 8
 LogicalLeft 81
 LogicalTop 31
-LogicalWidth 9
-LogicalHeight 5
+LogicalWidth 13
+LogicalHeight 8
 LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
 Properties light = 0;
+Properties beat = 2048;
 ColorIndex 11
 Kind FSBVOState
 
@@ -846,14 +856,15 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 94
-LogicalTop 31
-LogicalWidth 9
-LogicalHeight 5
+LogicalLeft 96
+LogicalTop 32
+LogicalWidth 12
+LogicalHeight 8
 LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
 Properties light = 0;
+Properties beat = 512;
 ColorIndex 11
 Kind FSBVOState
 
@@ -866,24 +877,6 @@ VertScrollPos 0
 Scale 1
 GridInterval 8
 LogicalLeft 0
-LogicalTop 0
-LogicalWidth 8
-LogicalHeight 4
-LogicalWidthSetting 8
-LogicalHeightSetting 4
-grd 8
-ColorIndex 11
-Kind FSBVOState
-
-ChildrenCount 0
-Caption OUT_T12
-IfEntering false
-IfLeaving true
-HorzScrollPos 0
-VertScrollPos 0
-Scale 1
-GridInterval 8
-LogicalLeft 50
 LogicalTop 0
 LogicalWidth 8
 LogicalHeight 4
@@ -912,6 +905,24 @@ ColorIndex 11
 Kind FSBVOState
 
 ChildrenCount 0
+Caption OUT_T29
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 16
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
 Caption T0
 IfEntering false
 IfLeaving false
@@ -919,8 +930,8 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 31
-LogicalTop 20
+LogicalLeft 33
+LogicalTop 22
 LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
@@ -943,8 +954,8 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 46
-LogicalTop 20
+LogicalLeft 47
+LogicalTop 22
 LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
@@ -967,8 +978,8 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 61
-LogicalTop 20
+LogicalLeft 63
+LogicalTop 22
 LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
@@ -991,8 +1002,8 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 75
-LogicalTop 20
+LogicalLeft 77
+LogicalTop 22
 LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
@@ -1016,7 +1027,7 @@ VertScrollPos 0
 Scale 1
 GridInterval 8
 LogicalLeft 89
-LogicalTop 20
+LogicalTop 21
 LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
@@ -1032,30 +1043,6 @@ LeavingCaption OUT_T4
 Kind FSBVOTrans
 
 ChildrenCount 0
-Caption T5
-IfEntering false
-IfLeaving false
-HorzScrollPos 0
-VertScrollPos 0
-Scale 1
-GridInterval 8
-LogicalLeft 85
-LogicalTop 44
-LogicalWidth 7
-LogicalHeight 3
-LogicalWidthSetting 0
-LogicalHeightSetting 0
-LogicalOffsetLeft 23
-LogicalOffsetTop 17
-grd 8
-ConditionProperties stop == 0
-LinkedObj0 S5
-LinkedObj1 S6
-EnteringCaption IN_T5
-LeavingCaption OUT_T5
-Kind FSBVOTrans
-
-ChildrenCount 0
 Caption T6
 IfEntering false
 IfLeaving false
@@ -1063,8 +1050,8 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 31
-LogicalTop 33
+LogicalLeft 33
+LogicalTop 35
 LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
@@ -1087,8 +1074,8 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 47
-LogicalTop 33
+LogicalLeft 48
+LogicalTop 34
 LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
@@ -1111,8 +1098,8 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 61
-LogicalTop 33
+LogicalLeft 64
+LogicalTop 34
 LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
@@ -1135,14 +1122,14 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 75
+LogicalLeft 77
 LogicalTop 33
 LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
 LogicalOffsetLeft -3
-LogicalOffsetTop 0
+LogicalOffsetTop -2
 grd 8
 ConditionProperties stop == 0
 LinkedObj0 S9
@@ -1159,14 +1146,14 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 88
-LogicalTop 33
+LogicalLeft 90
+LogicalTop 34
 LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
-LogicalOffsetLeft -3
-LogicalOffsetTop 0
+LogicalOffsetLeft -5
+LogicalOffsetTop -2
 grd 8
 ConditionProperties stop == 0
 LinkedObj0 S10
@@ -1211,31 +1198,7 @@ grd 8
 ColorIndex 11
 Kind FSBVOState
 
-ChildrenCount 0
-Caption T12
-IfEntering false
-IfLeaving false
-HorzScrollPos 0
-VertScrollPos 0
-Scale 1
-GridInterval 8
-LogicalLeft 65
-LogicalTop 7
-LogicalWidth 7
-LogicalHeight 3
-LogicalWidthSetting 0
-LogicalHeightSetting 0
-LogicalOffsetLeft 3
-LogicalOffsetTop -20
-grd 8
-ConditionProperties stop == 0
-LinkedObj0 S11
-LinkedObj1 S0
-EnteringCaption IN_T12
-LeavingCaption OUT_T12
-Kind FSBVOTrans
-
-ChildrenCount 14
+ChildrenCount 18
 Caption st
 IfEntering false
 IfLeaving false
@@ -1243,7 +1206,7 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 2
+LogicalLeft 6
 LogicalTop 24
 LogicalWidth 8
 LogicalHeight 4
@@ -1506,6 +1469,78 @@ ColorIndex 11
 Kind FSBVOState
 
 ChildrenCount 0
+Caption IN_T26
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 104
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T27
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 112
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T12
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 8
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T12
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 120
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
 Caption T11
 IfEntering false
 IfLeaving false
@@ -1513,7 +1548,7 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 6
+LogicalLeft 8
 LogicalTop 14
 LogicalWidth 1
 LogicalHeight 1
@@ -1536,7 +1571,7 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 10
+LogicalLeft 12
 LogicalTop 18
 LogicalWidth 8
 LogicalHeight 3
@@ -1560,7 +1595,7 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 12
+LogicalLeft 14
 LogicalTop 54
 LogicalWidth 7
 LogicalHeight 3
@@ -1584,13 +1619,13 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 22
+LogicalLeft 21
 LogicalTop 54
 LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
-LogicalOffsetLeft -2
+LogicalOffsetLeft -5
 LogicalOffsetTop 30
 grd 8
 ConditionProperties stop == 1
@@ -1608,14 +1643,14 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 32
-LogicalTop 24
+LogicalLeft 28
+LogicalTop 54
 LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
-LogicalOffsetLeft 1
-LogicalOffsetTop 0
+LogicalOffsetLeft -5
+LogicalOffsetTop 30
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S2
@@ -1632,14 +1667,14 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 31
+LogicalLeft 35
 LogicalTop 54
 LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
-LogicalOffsetLeft 0
-LogicalOffsetTop 0
+LogicalOffsetLeft -5
+LogicalOffsetTop 30
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S3
@@ -1656,14 +1691,14 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 38
+LogicalLeft 42
 LogicalTop 54
 LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
-LogicalOffsetLeft -1
-LogicalOffsetTop 0
+LogicalOffsetLeft -6
+LogicalOffsetTop 30
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S4
@@ -1680,14 +1715,14 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 45
+LogicalLeft 49
 LogicalTop 54
 LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
-LogicalOffsetLeft 0
-LogicalOffsetTop 0
+LogicalOffsetLeft -5
+LogicalOffsetTop 30
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S5
@@ -1704,7 +1739,7 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 12
+LogicalLeft 14
 LogicalTop 51
 LogicalWidth 7
 LogicalHeight 3
@@ -1728,7 +1763,7 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 19
+LogicalLeft 21
 LogicalTop 51
 LogicalWidth 7
 LogicalHeight 3
@@ -1752,7 +1787,7 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 26
+LogicalLeft 28
 LogicalTop 51
 LogicalWidth 7
 LogicalHeight 3
@@ -1776,7 +1811,7 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 33
+LogicalLeft 35
 LogicalTop 51
 LogicalWidth 7
 LogicalHeight 3
@@ -1800,7 +1835,7 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 40
+LogicalLeft 42
 LogicalTop 51
 LogicalWidth 7
 LogicalHeight 3
@@ -1824,13 +1859,13 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 47
+LogicalLeft 49
 LogicalTop 51
 LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
-LogicalOffsetLeft -5
+LogicalOffsetLeft -6
 LogicalOffsetTop 21
 grd 8
 ConditionProperties stop == 1
@@ -1838,6 +1873,321 @@ LinkedObj0 S11
 LinkedObj1 st
 EnteringCaption IN_T25
 LeavingCaption OUT_T25
+Kind FSBVOTrans
+
+ChildrenCount 3
+Caption S12
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 109
+LogicalTop 32
+LogicalWidth 12
+LogicalHeight 8
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties light = 0;
+Properties beat = 256;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T27
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T29
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T30
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 8
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 3
+Caption S13
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 109
+LogicalTop 18
+LogicalWidth 9
+LogicalHeight 5
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties light = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T26
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T5
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T28
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 8
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption T26
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 56
+LogicalTop 51
+LogicalWidth 7
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -6
+LogicalOffsetTop 27
+grd 8
+ConditionProperties stop == 1
+LinkedObj0 S13
+LinkedObj1 st
+EnteringCaption IN_T26
+LeavingCaption OUT_T26
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T27
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 56
+LogicalTop 54
+LogicalWidth 7
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -6
+LogicalOffsetTop 24
+grd 8
+ConditionProperties stop == 1
+LinkedObj0 S12
+LinkedObj1 st
+EnteringCaption IN_T27
+LeavingCaption OUT_T27
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T5
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 103
+LogicalTop 20
+LogicalWidth 7
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -3
+LogicalOffsetTop 0
+grd 8
+ConditionProperties stop == 0
+LinkedObj0 S5
+LinkedObj1 S13
+EnteringCaption IN_T5
+LeavingCaption OUT_T5
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T28
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 62
+LogicalTop 26
+LogicalWidth 7
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -10
+LogicalOffsetTop -1
+grd 8
+ConditionProperties stop == 0
+LinkedObj0 S13
+LinkedObj1 S6
+EnteringCaption IN_T28
+LeavingCaption OUT_T28
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T29
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 105
+LogicalTop 36
+LogicalWidth 7
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -3
+LogicalOffsetTop 0
+grd 8
+ConditionProperties stop == 0
+LinkedObj0 S11
+LinkedObj1 S12
+EnteringCaption IN_T29
+LeavingCaption OUT_T29
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T30
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 72
+LogicalTop 27
+LogicalWidth 7
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft 0
+LogicalOffsetTop -2
+grd 8
+ConditionProperties stop == 0
+LinkedObj0 S12
+LinkedObj1 S0
+EnteringCaption IN_T30
+LeavingCaption OUT_T30
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T12
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 2
+LogicalTop 18
+LogicalWidth 8
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -8
+LogicalOffsetTop -8
+grd 8
+ConditionProperties start == 0
+LinkedObj0 st
+LinkedObj1 st
+EnteringCaption IN_T12
+LeavingCaption OUT_T12
 Kind FSBVOTrans
 
 
@@ -1861,6 +2211,14 @@ PortName light
 PortType singlebit
 PortDirection out
 PortLV 0
+PortRV 0
+PortDirectionIndex 0
+PortLanguageType Veriilog
+
+PortName beat
+PortType multibit
+PortDirection out
+PortLV 11
 PortRV 0
 PortDirectionIndex 0
 PortLanguageType Veriilog

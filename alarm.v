@@ -1,13 +1,15 @@
-module alarm(reset, clock, start, stop, light);
+module alarm(reset, clock, start, stop, light, beat);
   input reset;
   input clock;
   input start;
   input stop;
   output light;
+  output [11:0] beat;
 
   reg light;
+  reg [11:0] beat;
 
-  parameter [3:0] S0 = 0, S1 = 1, S2 = 2, S3 = 3, S4 = 4, S5 = 5, S6 = 6, S7 = 7, S8 = 8, S9 = 9, S10 = 10, S11 = 11, st = 12;
+  parameter [3:0] S0 = 0, S1 = 1, S2 = 2, S3 = 3, S4 = 4, S5 = 5, S6 = 6, S7 = 7, S8 = 8, S9 = 9, S10 = 10, S11 = 11, st = 12, S12 = 13, S13 = 14;
   reg [3:0] current_state, next_state;
 
   always @(posedge clock or posedge reset)
@@ -32,6 +34,7 @@ module alarm(reset, clock, start, stop, light);
              next_state <= st;
              end
           light <= 1'b1;
+          beat <= 12'b000100000000;
 
         end
 
@@ -46,6 +49,7 @@ module alarm(reset, clock, start, stop, light);
              next_state <= st;
              end
           light <= 1'b0;
+          beat <= 12'b001000000000;
 
         end
 
@@ -60,6 +64,7 @@ module alarm(reset, clock, start, stop, light);
              next_state <= st;
              end
           light <= 1'b0;
+          beat <= 12'b100000000000;
 
         end
 
@@ -74,6 +79,7 @@ module alarm(reset, clock, start, stop, light);
              next_state <= st;
              end
           light <= 1'b1;
+          beat <= 12'b000000100000;
 
         end
 
@@ -88,18 +94,19 @@ module alarm(reset, clock, start, stop, light);
              next_state <= st;
              end
           light <= 1'b0;
+          beat <= 12'b100000000000;
 
         end
 
         S5:
         begin
-          if (stop == 1'b0)
-             begin
-             next_state <= S6;
-             end
-          else if (stop == 1'b1)
+          if (stop == 1'b1)
              begin
              next_state <= st;
+             end
+          else if (stop == 1'b0)
+             begin
+             next_state <= S13;
              end
           light <= 1'b0;
 
@@ -116,6 +123,7 @@ module alarm(reset, clock, start, stop, light);
              next_state <= st;
              end
           light <= 1'b1;
+          beat <= 12'b000100000000;
 
         end
 
@@ -130,6 +138,7 @@ module alarm(reset, clock, start, stop, light);
              next_state <= st;
              end
           light <= 1'b0;
+          beat <= 12'b001000000000;
 
         end
 
@@ -144,6 +153,7 @@ module alarm(reset, clock, start, stop, light);
              next_state <= st;
              end
           light <= 1'b0;
+          beat <= 12'b100000000000;
 
         end
 
@@ -158,6 +168,7 @@ module alarm(reset, clock, start, stop, light);
              next_state <= st;
              end
           light <= 1'b1;
+          beat <= 12'b000000100000;
 
         end
 
@@ -172,20 +183,22 @@ module alarm(reset, clock, start, stop, light);
              next_state <= st;
              end
           light <= 1'b0;
+          beat <= 12'b100000000000;
 
         end
 
         S11:
         begin
-          if (stop == 1'b0)
-             begin
-             next_state <= S0;
-             end
-          else if (stop == 1'b1)
+          if (stop == 1'b1)
              begin
              next_state <= st;
              end
+          else if (stop == 1'b0)
+             begin
+             next_state <= S12;
+             end
           light <= 1'b0;
+          beat <= 12'b001000000000;
 
         end
 
@@ -195,6 +208,39 @@ module alarm(reset, clock, start, stop, light);
              begin
              next_state <= S0;
              end
+          else if (start == 1'b0)
+             begin
+             next_state <= st;
+             end
+        end
+
+        S12:
+        begin
+          if (stop == 1'b1)
+             begin
+             next_state <= st;
+             end
+          else if (stop == 1'b0)
+             begin
+             next_state <= S0;
+             end
+          light <= 1'b0;
+          beat <= 12'b000100000000;
+
+        end
+
+        S13:
+        begin
+          if (stop == 1'b1)
+             begin
+             next_state <= st;
+             end
+          else if (stop == 1'b0)
+             begin
+             next_state <= S6;
+             end
+          light <= 1'b0;
+
         end
 
 

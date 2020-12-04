@@ -2,7 +2,7 @@
 projecttype=1
 [folder0]
 <<<<<<< HEAD
-filen=18
+filen=19
 =======
 filen=5
 >>>>>>> 97c73505ee81e3abf5e44e3ac77dcf1595670cb7
@@ -19,11 +19,12 @@ file9=multi_mux4.v
 file10=ripple_carry_adder_5bit.v
 file11=minus_one.v
 file12=enable_time.v
-file13=manual_setting.v
-file14=select_keypad.v
-file15=timer.v
-file16=time_register.v
-file17=alarm.v
+file13=select_keypad.v
+file14=timer.v
+file15=time_register.v
+file16=alarm.v
+file17=lullaby.v
+file18=manual_setting.v
 [folder1]
 filen=0
 [folder2]

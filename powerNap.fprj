@@ -1,9 +1,9 @@
 [project]
-projecttype=1
+projecttype=0
 [folder0]
 filen=0
 [folder1]
-filen=2
+filen=0
 file0=select_keypad.v
 file1=manual_setting.v
 [folder2]
