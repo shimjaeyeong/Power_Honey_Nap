@@ -1,6 +1,6 @@
 SaveFile
 LanguageType Veriilog
-ChildrenCount 369
+ChildrenCount 370
 Caption root
 IfEntering false
 IfLeaving false
@@ -53,7 +53,7 @@ grd 8
 ColorIndex 11
 Kind FSBVOState
 
-ChildrenCount 123
+ChildrenCount 125
 Caption musicOff
 IfEntering false
 IfLeaving false
@@ -2277,6 +2277,42 @@ Scale 1
 GridInterval 8
 LogicalLeft 0
 LogicalTop 968
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T245
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 8
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T245
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 976
 LogicalWidth 8
 LogicalHeight 4
 LogicalWidthSetting 8
@@ -17036,6 +17072,30 @@ EnteringCaption IN_T244
 LeavingCaption OUT_T244
 Kind FSBVOTrans
 
+ChildrenCount 0
+Caption T245
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 2
+LogicalTop 39
+LogicalWidth 8
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -5
+LogicalOffsetTop -10
+grd 8
+ConditionProperties start == 0
+LinkedObj0 musicOff
+LinkedObj1 musicOff
+EnteringCaption IN_T245
+LeavingCaption OUT_T245
+Kind FSBVOTrans
+
 
 PortName start
 PortType singlebit
@@ -17056,7 +17116,7 @@ PortLanguageType Veriilog
 PortName beat
 PortType multibit
 PortDirection out
-PortLV 3
+PortLV 12
 PortRV 0
 PortDirectionIndex 0
 PortLanguageType Veriilog
