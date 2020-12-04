@@ -1236,7 +1236,7 @@ LeavingCaption OUT_T12
 Kind FSBVOTrans
 
 ChildrenCount 14
-Caption wait
+Caption st
 IfEntering false
 IfLeaving false
 HorzScrollPos 0
@@ -1523,7 +1523,7 @@ LogicalOffsetLeft 0
 LogicalOffsetTop 0
 grd 8
 LinkedObj0 reset0
-LinkedObj1 wait
+LinkedObj1 st
 EnteringCaption IN_T11
 LeavingCaption OUT_T11
 Kind FSBVOTrans
@@ -1546,7 +1546,7 @@ LogicalOffsetLeft -6
 LogicalOffsetTop -6
 grd 8
 ConditionProperties start == 1
-LinkedObj0 wait
+LinkedObj0 st
 LinkedObj1 S0
 EnteringCaption IN_T13
 LeavingCaption OUT_T13
@@ -1571,7 +1571,7 @@ LogicalOffsetTop 30
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S0
-LinkedObj1 wait
+LinkedObj1 st
 EnteringCaption IN_T14
 LeavingCaption OUT_T14
 Kind FSBVOTrans
@@ -1584,7 +1584,7 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 19
+LogicalLeft 22
 LogicalTop 54
 LogicalWidth 7
 LogicalHeight 3
@@ -1595,7 +1595,7 @@ LogicalOffsetTop 30
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S1
-LinkedObj1 wait
+LinkedObj1 st
 EnteringCaption IN_T15
 LeavingCaption OUT_T15
 Kind FSBVOTrans
@@ -1608,8 +1608,8 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 25
-LogicalTop 54
+LogicalLeft 32
+LogicalTop 24
 LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
@@ -1619,7 +1619,7 @@ LogicalOffsetTop 0
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S2
-LinkedObj1 wait
+LinkedObj1 st
 EnteringCaption IN_T16
 LeavingCaption OUT_T16
 Kind FSBVOTrans
@@ -1643,7 +1643,7 @@ LogicalOffsetTop 0
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S3
-LinkedObj1 wait
+LinkedObj1 st
 EnteringCaption IN_T17
 LeavingCaption OUT_T17
 Kind FSBVOTrans
@@ -1667,7 +1667,7 @@ LogicalOffsetTop 0
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S4
-LinkedObj1 wait
+LinkedObj1 st
 EnteringCaption IN_T18
 LeavingCaption OUT_T18
 Kind FSBVOTrans
@@ -1691,7 +1691,7 @@ LogicalOffsetTop 0
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S5
-LinkedObj1 wait
+LinkedObj1 st
 EnteringCaption IN_T19
 LeavingCaption OUT_T19
 Kind FSBVOTrans
@@ -1715,7 +1715,7 @@ LogicalOffsetTop 21
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S6
-LinkedObj1 wait
+LinkedObj1 st
 EnteringCaption IN_T20
 LeavingCaption OUT_T20
 Kind FSBVOTrans
@@ -1739,7 +1739,7 @@ LogicalOffsetTop 21
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S7
-LinkedObj1 wait
+LinkedObj1 st
 EnteringCaption IN_T21
 LeavingCaption OUT_T21
 Kind FSBVOTrans
@@ -1763,7 +1763,7 @@ LogicalOffsetTop 21
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S8
-LinkedObj1 wait
+LinkedObj1 st
 EnteringCaption IN_T22
 LeavingCaption OUT_T22
 Kind FSBVOTrans
@@ -1787,7 +1787,7 @@ LogicalOffsetTop 21
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S9
-LinkedObj1 wait
+LinkedObj1 st
 EnteringCaption IN_T23
 LeavingCaption OUT_T23
 Kind FSBVOTrans
@@ -1811,7 +1811,7 @@ LogicalOffsetTop 21
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S10
-LinkedObj1 wait
+LinkedObj1 st
 EnteringCaption IN_T24
 LeavingCaption OUT_T24
 Kind FSBVOTrans
@@ -1835,7 +1835,7 @@ LogicalOffsetTop 21
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S11
-LinkedObj1 wait
+LinkedObj1 st
 EnteringCaption IN_T25
 LeavingCaption OUT_T25
 Kind FSBVOTrans

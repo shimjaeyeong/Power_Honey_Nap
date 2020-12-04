@@ -11,9 +11,9 @@ module minus_one(reset, clock, in, Res, Cout);
   parameter [1:0] over = 0, normal = 1, init = 2;
   reg [1:0] current_state, next_state;
 
-  always @(posedge clock or negedge reset)
+  always @(posedge clock or posedge reset)
   begin: SYNCH
-    if (reset == 1'b0)
+    if (reset == 1'b1)
        current_state <= init;
     else
        current_state <= next_state;

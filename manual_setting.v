@@ -1,91 +1,90 @@
-module manual_setting(keypad,hour_ten_out,hour_one_out,clk,rst,sharp,min_ten_out,min_one_out,sec_one_out,sec_ten_out,completeSetting);
+module manual_setting(reset, clock, sharp, hour_en, min_en, sec_en, completeSetting);
+  input reset;
+  input clock;
+  input sharp;
+  output hour_en;
+  output min_en;
+  output sec_en;
+  output completeSetting;
 
-input [9:0] keypad;
-output [3:0] hour_ten_out;
-output [3:0] hour_one_out;
-input clk;
-input rst;
-input sharp;
-output [3:0] min_ten_out;
-output [3:0] min_one_out;
-output [3:0] sec_one_out;
-output [3:0] sec_ten_out;
-output completeSetting;
+  reg hour_en;
+  reg min_en;
+  reg sec_en;
+  reg completeSetting;
 
-wire [3:0] b9;
-wire [3:0] b15;
-wire [3:0] b16;
-wire [3:0] b17;
-wire [3:0] b18;
-wire [3:0] b12;
-wire [3:0] b13;
-wire  w13;
-wire  w14;
-wire  w15;
-wire  w16;
-wire  w17;
-wire [9:0] b14;
-wire  w18;
-wire  w19;
+  parameter [1:0] hour = 0, minute = 1, second = 2, set_complete = 3;
+  reg [1:0] current_state, next_state;
 
-assign b14 = keypad;
-assign hour_ten_out = b15;
-assign hour_one_out = b16;
-assign w17 = clk;
-assign w18 = rst;
-assign w16 = sharp;
-assign min_ten_out = b13;
-assign min_one_out = b12;
-assign sec_one_out = b18;
-assign sec_ten_out = b17;
-assign completeSetting = w19;
+  always @(posedge clock or posedge reset)
+  begin: SYNCH
+    if (reset == 1'b1)
+       current_state <= hour;
+    else
+       current_state <= next_state;
+  end
 
-decimal_to_binary
-     s0 (
-      .b(b9),
-      .d(b14));
+  always @(current_state or sharp)
+  begin: COMBIN
+     case (current_state)
+        hour:
+        begin
+          if (sharp == 1'b0)
+             begin
+             next_state <= hour;
+             end
+          else if (sharp == 1'b1)
+             begin
+             next_state <= minute;
+             end
+          hour_en <= 1'b1;
+          sec_en <= 1'b0;
 
-enable_time
-     #(
-      .hour(0),
-      .minute(1),
-      .second(2),
-      .set_complete(3))
-     s4 (
-      .hour_en(w13),
-      .min_en(w14),
-      .sec_en(w15),
-      .sharp(w16),
-      .clock(w17),
-      .reset(w18),
-      .completeSetting(w19));
+        end
 
-shift_register_4bit
-     s5 (
-      .Din(b9),
-      .ten_out(b15),
-      .one_out(b16),
-      .Ce(w13),
-      .CLK(w17),
-      .RST(w18));
+        minute:
+        begin
+          if (sharp == 1'b1)
+             begin
+             next_state <= second;
+             end
+          else if (sharp == 1'b0)
+             begin
+             next_state <= minute;
+             end
+          min_en <= 1'b1;
+          hour_en <= 1'b0;
 
-shift_register_4bit
-     s3 (
-      .Din(b9),
-      .one_out(b12),
-      .ten_out(b13),
-      .Ce(w14),
-      .CLK(w17),
-      .RST(w18));
+        end
 
-shift_register_4bit
-     s6 (
-      .Din(b9),
-      .ten_out(b17),
-      .one_out(b18),
-      .Ce(w15),
-      .CLK(w17),
-      .RST(w18));
+        second:
+        begin
+          if (sharp == 1'b0)
+             begin
+             next_state <= second;
+             end
+          else if (sharp == 1'b1)
+             begin
+             next_state <= set_complete;
+             end
+          sec_en <= 1'b1;
+          min_en <= 1'b0;
+
+        end
+
+        set_complete:
+        begin
+          if (sharp == 1'b0)
+             begin
+             next_state <= hour;
+             end
+          completeSetting <= 1'b1;
+
+        end
+
+
+        default:
+          next_state <= hour;
+     endcase
+  end
 
 endmodule
-

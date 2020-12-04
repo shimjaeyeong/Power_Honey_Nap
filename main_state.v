@@ -22,9 +22,9 @@ module main_state(reset, clock, switch, completeSetting, completeSleep, sharp, i
   parameter [2:0] sutoSetting = 0, sleep = 1, alarm = 2, cancel = 3, start = 4, manualSetting = 5;
   reg [2:0] current_state, next_state;
 
-  always @(posedge clock or negedge reset)
+  always @(posedge clock or posedge reset)
   begin: SYNCH
-    if (reset == 1'b0)
+    if (reset == 1'b1)
        current_state <= start;
     else
        current_state <= next_state;

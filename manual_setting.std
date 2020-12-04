@@ -364,7 +364,7 @@ LogicalHeightSetting 0
 LogicalOffsetLeft -4
 LogicalOffsetTop -12
 grd 8
-ConditionProperties sharp != 1
+ConditionProperties sharp == 0
 LinkedObj0 hour
 LinkedObj1 hour
 EnteringCaption IN_T0
@@ -436,7 +436,7 @@ LogicalHeightSetting 0
 LogicalOffsetLeft -4
 LogicalOffsetTop -12
 grd 8
-ConditionProperties sharp != 1
+ConditionProperties sharp == 0
 LinkedObj0 minute
 LinkedObj1 minute
 EnteringCaption IN_T3
@@ -483,7 +483,7 @@ LogicalHeightSetting 0
 LogicalOffsetLeft -4
 LogicalOffsetTop -12
 grd 8
-ConditionProperties sharp != 1
+ConditionProperties sharp == 0
 LinkedObj0 second
 LinkedObj1 second
 EnteringCaption IN_T5
@@ -500,13 +500,12 @@ Scale 1
 GridInterval 8
 LogicalLeft 51
 LogicalTop 40
-LogicalWidth 22
-LogicalHeight 9
+LogicalWidth 20
+LogicalHeight 5
 LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
 Properties completeSetting <= 1;
-Properties sharp <= 0;
 ColorIndex 11
 Kind FSBVOState
 
@@ -597,7 +596,7 @@ Kind FSBVOTrans
 
 PortName sharp
 PortType singlebit
-PortDirection out
+PortDirection in
 PortLV 0
 PortRV 0
 PortDirectionIndex 0

@@ -29,9 +29,9 @@ module timer(reset, clock, start, setHour10, setHour1, setMinute10, setMinute1, 
   parameter [3:0] check = 0, second = 1, cpl1 = 2, minute1 = 3, cpl2 = 4, cpl3 = 5, minute2 = 6, cpl4 = 7, cpl5 = 8, hour1 = 9, hour2 = 10, cpl6 = 11, S3 = 12;
   reg [3:0] current_state, next_state;
 
-  always @(posedge clock or negedge reset)
+  always @(posedge clock or posedge reset)
   begin: SYNCH
-    if (reset == 1'b0)
+    if (reset == 1'b1)
        current_state <= check;
     else
        current_state <= next_state;

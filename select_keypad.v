@@ -16,9 +16,9 @@ module select_keypad(reset, clock, sharp, keypad, completeSetting, one_sec, ten_
   parameter [2:0] fiveSecond = 0, halfMinute = 1, oneMinute = 2, input_wait = 3, set_complete = 4;
   reg [2:0] current_state, next_state;
 
-  always @(posedge clock or negedge reset)
+  always @(posedge clock or posedge reset)
   begin: SYNCH
-    if (reset == 1'b0)
+    if (reset == 1'b1)
        current_state <= input_wait;
     else
        current_state <= next_state;

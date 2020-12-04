@@ -7,13 +7,13 @@ module alarm(reset, clock, start, stop, light);
 
   reg light;
 
-  parameter [3:0] S0 = 0, S1 = 1, S2 = 2, S3 = 3, S4 = 4, S5 = 5, S6 = 6, S7 = 7, S8 = 8, S9 = 9, S10 = 10, S11 = 11, wait = 12;
+  parameter [3:0] S0 = 0, S1 = 1, S2 = 2, S3 = 3, S4 = 4, S5 = 5, S6 = 6, S7 = 7, S8 = 8, S9 = 9, S10 = 10, S11 = 11, st = 12;
   reg [3:0] current_state, next_state;
 
-  always @(posedge clock or negedge reset)
+  always @(posedge clock or posedge reset)
   begin: SYNCH
-    if (reset == 1'b0)
-       current_state <= wait;
+    if (reset == 1'b1)
+       current_state <= st;
     else
        current_state <= next_state;
   end
@@ -29,7 +29,7 @@ module alarm(reset, clock, start, stop, light);
              end
           else if (stop == 1'b1)
              begin
-             next_state <= wait;
+             next_state <= st;
              end
           light <= 1'b1;
 
@@ -43,7 +43,7 @@ module alarm(reset, clock, start, stop, light);
              end
           else if (stop == 1'b1)
              begin
-             next_state <= wait;
+             next_state <= st;
              end
           light <= 1'b0;
 
@@ -57,7 +57,7 @@ module alarm(reset, clock, start, stop, light);
              end
           else if (stop == 1'b1)
              begin
-             next_state <= wait;
+             next_state <= st;
              end
           light <= 1'b0;
 
@@ -71,7 +71,7 @@ module alarm(reset, clock, start, stop, light);
              end
           else if (stop == 1'b1)
              begin
-             next_state <= wait;
+             next_state <= st;
              end
           light <= 1'b1;
 
@@ -85,7 +85,7 @@ module alarm(reset, clock, start, stop, light);
              end
           else if (stop == 1'b1)
              begin
-             next_state <= wait;
+             next_state <= st;
              end
           light <= 1'b0;
 
@@ -99,7 +99,7 @@ module alarm(reset, clock, start, stop, light);
              end
           else if (stop == 1'b1)
              begin
-             next_state <= wait;
+             next_state <= st;
              end
           light <= 1'b0;
 
@@ -113,7 +113,7 @@ module alarm(reset, clock, start, stop, light);
              end
           else if (stop == 1'b1)
              begin
-             next_state <= wait;
+             next_state <= st;
              end
           light <= 1'b1;
 
@@ -127,7 +127,7 @@ module alarm(reset, clock, start, stop, light);
              end
           else if (stop == 1'b1)
              begin
-             next_state <= wait;
+             next_state <= st;
              end
           light <= 1'b0;
 
@@ -141,7 +141,7 @@ module alarm(reset, clock, start, stop, light);
              end
           else if (stop == 1'b1)
              begin
-             next_state <= wait;
+             next_state <= st;
              end
           light <= 1'b0;
 
@@ -155,7 +155,7 @@ module alarm(reset, clock, start, stop, light);
              end
           else if (stop == 1'b1)
              begin
-             next_state <= wait;
+             next_state <= st;
              end
           light <= 1'b1;
 
@@ -169,7 +169,7 @@ module alarm(reset, clock, start, stop, light);
              end
           else if (stop == 1'b1)
              begin
-             next_state <= wait;
+             next_state <= st;
              end
           light <= 1'b0;
 
@@ -183,13 +183,13 @@ module alarm(reset, clock, start, stop, light);
              end
           else if (stop == 1'b1)
              begin
-             next_state <= wait;
+             next_state <= st;
              end
           light <= 1'b0;
 
         end
 
-        wait:
+        st:
         begin
           if (start == 1'b1)
              begin
@@ -199,7 +199,7 @@ module alarm(reset, clock, start, stop, light);
 
 
         default:
-          next_state <= wait;
+          next_state <= st;
      endcase
   end
 

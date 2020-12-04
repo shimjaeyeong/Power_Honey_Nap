@@ -1,7 +1,7 @@
 [project]
 projecttype=1
 [folder0]
-filen=17
+filen=18
 file0=Binary_to_Decimal_Convert.v
 file1=multiAND.v
 file2=multiAND3.v
@@ -19,6 +19,7 @@ file13=manual_setting.v
 file14=select_keypad.v
 file15=timer.v
 file16=time_register.v
+file17=alarm.v
 [folder1]
 filen=0
 [folder2]

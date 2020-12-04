@@ -15,9 +15,9 @@ module enable_time(reset, clock, sharp, hour_en, min_en, sec_en, completeSetting
   parameter [1:0] hour = 0, minute = 1, second = 2, set_complete = 3;
   reg [1:0] current_state, next_state;
 
-  always @(posedge clock or negedge reset)
+  always @(posedge clock or posedge reset)
   begin: SYNCH
-    if (reset == 1'b0)
+    if (reset == 1'b1)
        current_state <= hour;
     else
        current_state <= next_state;
