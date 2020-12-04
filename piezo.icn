@@ -15,7 +15,7 @@ End
 Parameters
 End
 Ports
-Port Left: 328 Top: 568 ,SymbolSideLeft: 352 ,SymbolSideTop: 568
+Port Left: 328 Top: 584 ,SymbolSideLeft: 352 ,SymbolSideTop: 584
 Portname: clk ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
 0
 ,RV:
@@ -25,7 +25,7 @@ Portname: piezo ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,
 0
 ,RV:
 0
-Port Left: 328 Top: 584 ,SymbolSideLeft: 352 ,SymbolSideTop: 584
+Port Left: 328 Top: 568 ,SymbolSideLeft: 352 ,SymbolSideTop: 568
 Portname: playSound ,PortType: multibit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
 12
 ,RV:
