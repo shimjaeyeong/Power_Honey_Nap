@@ -32,7 +32,7 @@ End
 Ports
 Port Left: 488 Top: 568 ,SymbolSideLeft: 464 ,SymbolSideTop: 568
 Portname: beat ,PortType: multibit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
-11
+12
 ,RV:
 0
 Port Left: 344 Top: 568 ,SymbolSideLeft: 368 ,SymbolSideTop: 568

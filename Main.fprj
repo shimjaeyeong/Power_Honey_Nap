@@ -2,7 +2,7 @@
 projecttype=1
 [folder0]
 <<<<<<< HEAD
-filen=19
+filen=24
 =======
 filen=5
 >>>>>>> 97c73505ee81e3abf5e44e3ac77dcf1595670cb7
@@ -25,6 +25,11 @@ file15=time_register.v
 file16=alarm.v
 file17=lullaby.v
 file18=manual_setting.v
+file19=piezo.v
+file20=shortcutSetting.v
+file21=time_mux2.v
+file22=time_check.v
+file23=rotateSegment7.v
 [folder1]
 filen=0
 [folder2]
