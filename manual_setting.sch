@@ -2,7 +2,7 @@ ModuleName manual_setting
 LanguageType Veirlog
 GridInterval 8
 MillimetersIn100RealScaledUnit 25
-ZoomOutScale 40
+ZoomOutScale 51
 NumberOfHorzPapaers 8
 NumberOfVertPapaers 4
 Parameters
@@ -112,7 +112,27 @@ LV: 0
 RV: 0
 Width: 1
 Edges
-Edge X1: 80 ,Y1: 320 ,X2: 120 ,Y2: 320
+Edge X1: 80 ,Y1: 328 ,X2: 120 ,Y2: 328
+End
+Branches
+End
+Wire Name: b14
+LV: 9
+RV: 0
+Width: 10
+Edges
+Edge X1: 40 ,Y1: 96 ,X2: 208 ,Y2: 96
+End
+Branches
+End
+Wire Name: w19
+LV: 0
+RV: 0
+Width: 1
+Edges
+Edge X1: 400 ,Y1: 328 ,X2: 504 ,Y2: 328
+Edge X1: 504 ,Y1: 328 ,X2: 504 ,Y2: 344
+Edge X1: 504 ,Y1: 344 ,X2: 776 ,Y2: 344
 End
 Branches
 End
@@ -128,16 +148,7 @@ Edge X1: 464 ,Y1: 112 ,X2: 464 ,Y2: 192
 Edge X1: 464 ,Y1: 112 ,X2: 504 ,Y2: 112
 Edge X1: 120 ,Y1: 112 ,X2: 464 ,Y2: 112
 Edge X1: 80 ,Y1: 112 ,X2: 120 ,Y2: 112
-Edge X1: 120 ,Y1: 112 ,X2: 120 ,Y2: 288
-End
-Branches
-End
-Wire Name: b14
-LV: 9
-RV: 0
-Width: 10
-Edges
-Edge X1: 40 ,Y1: 96 ,X2: 208 ,Y2: 96
+Edge X1: 120 ,Y1: 112 ,X2: 120 ,Y2: 280
 End
 Branches
 End
@@ -146,26 +157,24 @@ LV: 0
 RV: 0
 Width: 1
 Edges
-Edge X1: 96 ,Y1: 304 ,X2: 120 ,Y2: 304
-Edge X1: 96 ,Y1: 128 ,X2: 96 ,Y2: 304
-Edge X1: 64 ,Y1: 128 ,X2: 96 ,Y2: 128
-Edge X1: 96 ,Y1: 128 ,X2: 448 ,Y2: 128
 Edge X1: 448 ,Y1: 128 ,X2: 448 ,Y2: 208
 Edge X1: 448 ,Y1: 128 ,X2: 504 ,Y2: 128
+Edge X1: 96 ,Y1: 128 ,X2: 448 ,Y2: 128
 Edge X1: 448 ,Y1: 208 ,X2: 504 ,Y2: 208
 Edge X1: 448 ,Y1: 208 ,X2: 448 ,Y2: 296
 Edge X1: 448 ,Y1: 296 ,X2: 504 ,Y2: 296
+Edge X1: 64 ,Y1: 128 ,X2: 96 ,Y2: 128
+Edge X1: 96 ,Y1: 128 ,X2: 96 ,Y2: 296
+Edge X1: 96 ,Y1: 296 ,X2: 120 ,Y2: 296
 End
 Branches
 End
-Wire Name: w19
+Wire Name: w20
 LV: 0
 RV: 0
 Width: 1
 Edges
-Edge X1: 400 ,Y1: 328 ,X2: 504 ,Y2: 328
-Edge X1: 504 ,Y1: 328 ,X2: 504 ,Y2: 344
-Edge X1: 504 ,Y1: 344 ,X2: 776 ,Y2: 344
+Edge X1: 56 ,Y1: 312 ,X2: 120 ,Y2: 312
 End
 Branches
 End
@@ -206,7 +215,7 @@ Portname: rst ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV
 1
 ,RV:
 0
-Port Left: 80 Top: 320 ,Orientation: 0
+Port Left: 80 Top: 328 ,Orientation: 0
 Portname: sharp ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
 0
 ,Width:
@@ -248,6 +257,13 @@ Portname: completeSetting ,PortType: singlebit ,LanguageType: Veriilog ,PortDire
 1
 ,RV:
 0
+Port Left: 56 Top: 312 ,Orientation: 0
+Portname: en ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
+0
+,Width:
+1
+,RV:
+0
 End
 Symbols
 Symbol Left: 232 Top: 88
@@ -255,20 +271,6 @@ Name: s0
 LibraryName: (NoLibraryName)
 IpName: decimal_to_binary
 SymbolParameters
-End
-Symbol Left: 144 Top: 272
-Name: s4
-LibraryName: (NoLibraryName)
-IpName: enable_time
-SymbolParameters
-Parameter Name: hour ,Type: integer ,Value:
-0
-Parameter Name: minute ,Type: integer ,Value:
-1
-Parameter Name: second ,Type: integer ,Value:
-2
-Parameter Name: set_complete ,Type: integer ,Value:
-3
 End
 Symbol Left: 528 Top: 88
 Name: s5
@@ -287,6 +289,22 @@ Name: s6
 LibraryName: (NoLibraryName)
 IpName: shift_register_4bit
 SymbolParameters
+End
+Symbol Left: 144 Top: 272
+Name: s4
+LibraryName: (NoLibraryName)
+IpName: enable_time
+SymbolParameters
+Parameter Name: S0 ,Type: integer ,Value:
+3
+Parameter Name: hour ,Type: integer ,Value:
+0
+Parameter Name: input_wait ,Type: integer ,Value:
+4
+Parameter Name: min ,Type: integer ,Value:
+1
+Parameter Name: sec ,Type: integer ,Value:
+2
 End
 End
 Texts

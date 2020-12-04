@@ -442,16 +442,16 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 58
-LogicalTop 15
-LogicalWidth 10
+LogicalLeft 52
+LogicalTop 17
+LogicalWidth 18
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
-LogicalOffsetLeft -9
+LogicalOffsetLeft -16
 LogicalOffsetTop -8
 grd 8
-ConditionProperties keypad == 2
+ConditionProperties keypad == 2 && en == 1
 LinkedObj0 input_wait
 LinkedObj1 fiveSecond
 EnteringCaption IN_T1
@@ -466,16 +466,16 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 65
-LogicalTop 25
-LogicalWidth 10
+LogicalLeft 62
+LogicalTop 27
+LogicalWidth 18
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
-LogicalOffsetLeft -4
+LogicalOffsetLeft -6
 LogicalOffsetTop -5
 grd 8
-ConditionProperties keypad == 4
+ConditionProperties keypad == 4 && en == 1
 LinkedObj0 input_wait
 LinkedObj1 halfMinute
 EnteringCaption IN_T2
@@ -490,16 +490,16 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 68
+LogicalLeft 64
 LogicalTop 38
-LogicalWidth 10
+LogicalWidth 18
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
-LogicalOffsetLeft -1
-LogicalOffsetTop -2
+LogicalOffsetLeft -4
+LogicalOffsetTop -1
 grd 8
-ConditionProperties keypad == 8
+ConditionProperties keypad == 8 && en == 1
 LinkedObj0 input_wait
 LinkedObj1 oneMinute
 EnteringCaption IN_T3
@@ -514,14 +514,14 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 67
+LogicalLeft 66
 LogicalTop 22
 LogicalWidth 1
 LogicalHeight 1
 LogicalWidthSetting 0
 LogicalHeightSetting 0
 LogicalOffsetLeft -2
-LogicalOffsetTop -1
+LogicalOffsetTop -3
 grd 8
 LinkedObj0 fiveSecond
 LinkedObj1 input_wait
@@ -537,14 +537,14 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 69
-LogicalTop 33
+LogicalLeft 67
+LogicalTop 32
 LogicalWidth 1
 LogicalHeight 1
 LogicalWidthSetting 0
 LogicalHeightSetting 0
-LogicalOffsetLeft 0
-LogicalOffsetTop 3
+LogicalOffsetLeft -1
+LogicalOffsetTop 0
 grd 8
 LinkedObj0 halfMinute
 LinkedObj1 input_wait
@@ -560,14 +560,14 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 59
-LogicalTop 40
+LogicalLeft 63
+LogicalTop 43
 LogicalWidth 1
 LogicalHeight 1
 LogicalWidthSetting 0
 LogicalHeightSetting 0
-LogicalOffsetLeft -10
-LogicalOffsetTop 0
+LogicalOffsetLeft -5
+LogicalOffsetTop 4
 grd 8
 LinkedObj0 oneMinute
 LinkedObj1 input_wait
@@ -583,8 +583,8 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 35
-LogicalTop 49
+LogicalLeft 22
+LogicalTop 48
 LogicalWidth 22
 LogicalHeight 9
 LogicalWidthSetting 8
@@ -639,16 +639,16 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 46
-LogicalTop 40
-LogicalWidth 8
+LogicalLeft 39
+LogicalTop 41
+LogicalWidth 17
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
-LogicalOffsetLeft 0
-LogicalOffsetTop -1
+LogicalOffsetLeft -1
+LogicalOffsetTop 1
 grd 8
-ConditionProperties sharp == 1
+ConditionProperties sharp == 1 && en == 1
 LinkedObj0 input_wait
 LinkedObj1 set_complete
 EnteringCaption IN_T7
@@ -663,16 +663,15 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 36
-LogicalTop 40
-LogicalWidth 8
-LogicalHeight 3
+LogicalLeft 27
+LogicalTop 39
+LogicalWidth 1
+LogicalHeight 1
 LogicalWidthSetting 0
 LogicalHeightSetting 0
-LogicalOffsetLeft -10
+LogicalOffsetLeft -13
 LogicalOffsetTop -1
 grd 8
-ConditionProperties sharp == 0
 LinkedObj0 set_complete
 LinkedObj1 input_wait
 EnteringCaption IN_T8
@@ -687,16 +686,16 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 42
-LogicalTop 19
-LogicalWidth 8
+LogicalLeft 43
+LogicalTop 20
+LogicalWidth 6
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
-LogicalOffsetLeft -4
-LogicalOffsetTop -11
+LogicalOffsetLeft -3
+LogicalOffsetTop -10
 grd 8
-ConditionProperties sharp != 1
+ConditionProperties en == 0
 LinkedObj0 input_wait
 LinkedObj1 input_wait
 EnteringCaption IN_T9
@@ -727,6 +726,14 @@ LeavingCaption OUT_T0
 Kind FSBVOTrans
 
 
+PortName en
+PortType singlebit
+PortDirection in
+PortLV 0
+PortRV 0
+PortDirectionIndex 0
+PortLanguageType Veriilog
+
 PortName sharp
 PortType singlebit
 PortDirection in
@@ -739,14 +746,6 @@ PortName keypad
 PortType multibit
 PortDirection in
 PortLV 9
-PortRV 0
-PortDirectionIndex 0
-PortLanguageType Veriilog
-
-PortName completeSetting
-PortType singlebit
-PortDirection out
-PortLV 0
 PortRV 0
 PortDirectionIndex 0
 PortLanguageType Veriilog
@@ -771,6 +770,14 @@ PortName one_min
 PortType multibit
 PortDirection out
 PortLV 3
+PortRV 0
+PortDirectionIndex 0
+PortLanguageType Veriilog
+
+PortName completeSetting
+PortType singlebit
+PortDirection out
+PortLV 0
 PortRV 0
 PortDirectionIndex 0
 PortLanguageType Veriilog

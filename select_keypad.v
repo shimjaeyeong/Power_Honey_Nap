@@ -1,17 +1,18 @@
-module select_keypad(reset, clock, sharp, keypad, completeSetting, one_sec, ten_sec, one_min);
+module select_keypad(reset, clock, en, sharp, keypad, one_sec, ten_sec, one_min, completeSetting);
   input reset;
   input clock;
+  input en;
   input sharp;
   input [9:0] keypad;
-  output completeSetting;
   output [3:0] one_sec;
   output [3:0] ten_sec;
   output [3:0] one_min;
+  output completeSetting;
 
-  reg completeSetting;
   reg [3:0] one_sec;
   reg [3:0] ten_sec;
   reg [3:0] one_min;
+  reg completeSetting;
 
   parameter [2:0] fiveSecond = 0, halfMinute = 1, oneMinute = 2, input_wait = 3, set_complete = 4;
   reg [2:0] current_state, next_state;
@@ -24,7 +25,7 @@ module select_keypad(reset, clock, sharp, keypad, completeSetting, one_sec, ten_
        current_state <= next_state;
   end
 
-  always @(current_state or sharp or keypad)
+  always @(current_state or en or sharp or keypad)
   begin: COMBIN
      case (current_state)
         fiveSecond:
@@ -50,23 +51,23 @@ module select_keypad(reset, clock, sharp, keypad, completeSetting, one_sec, ten_
 
         input_wait:
         begin
-          if (keypad == 10'b0000000010)
+          if (keypad == 10'b0000000010 && en == 1'b1)
              begin
              next_state <= fiveSecond;
              end
-          else if (keypad == 10'b0000000100)
+          else if (keypad == 10'b0000000100 && en == 1'b1)
              begin
              next_state <= halfMinute;
              end
-          else if (keypad == 10'b0000001000)
+          else if (keypad == 10'b0000001000 && en == 1'b1)
              begin
              next_state <= oneMinute;
              end
-          else if (sharp == 1'b1)
+          else if (sharp == 1'b1 && en == 1'b1)
              begin
              next_state <= set_complete;
              end
-          else if (sharp != 1'b1)
+          else if (en == 1'b0)
              begin
              next_state <= input_wait;
              end
@@ -74,10 +75,7 @@ module select_keypad(reset, clock, sharp, keypad, completeSetting, one_sec, ten_
 
         set_complete:
         begin
-          if (sharp == 1'b0)
-             begin
              next_state <= input_wait;
-             end
           completeSetting <= 1'b1;
           sharp <= 1'b0;
 

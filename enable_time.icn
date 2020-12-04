@@ -13,19 +13,25 @@ Boxes
 Box Left: 304 Top: 560 ,Right: 536 ,Bottom: 624
 End
 Parameters
+Parameter Name: S0 ,Type: integer ,Value: 3
 Parameter Name: hour ,Type: integer ,Value: 0
-Parameter Name: minute ,Type: integer ,Value: 1
-Parameter Name: second ,Type: integer ,Value: 2
-Parameter Name: set_complete ,Type: integer ,Value: 3
+Parameter Name: input_wait ,Type: integer ,Value: 4
+Parameter Name: min ,Type: integer ,Value: 1
+Parameter Name: sec ,Type: integer ,Value: 2
 End
 Ports
-Port Left: 280 Top: 576 ,SymbolSideLeft: 304 ,SymbolSideTop: 576
+Port Left: 280 Top: 568 ,SymbolSideLeft: 304 ,SymbolSideTop: 568
 Portname: clock ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
 0
 ,RV:
 0
 Port Left: 560 Top: 616 ,SymbolSideLeft: 536 ,SymbolSideTop: 616
 Portname: completeSetting ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
+0
+,RV:
+0
+Port Left: 280 Top: 600 ,SymbolSideLeft: 304 ,SymbolSideTop: 600
+Portname: en ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
 0
 ,RV:
 0
@@ -39,7 +45,7 @@ Portname: min_en ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 
 0
 ,RV:
 0
-Port Left: 280 Top: 592 ,SymbolSideLeft: 304 ,SymbolSideTop: 592
+Port Left: 280 Top: 584 ,SymbolSideLeft: 304 ,SymbolSideTop: 584
 Portname: reset ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
 0
 ,RV:
@@ -49,7 +55,7 @@ Portname: sec_en ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 
 0
 ,RV:
 0
-Port Left: 280 Top: 608 ,SymbolSideLeft: 304 ,SymbolSideTop: 608
+Port Left: 280 Top: 616 ,SymbolSideLeft: 304 ,SymbolSideTop: 616
 Portname: sharp ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
 0
 ,RV:
