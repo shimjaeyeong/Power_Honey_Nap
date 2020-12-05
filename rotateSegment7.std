@@ -64,12 +64,13 @@ GridInterval 8
 LogicalLeft 17
 LogicalTop 15
 LogicalWidth 13
-LogicalHeight 8
+LogicalHeight 10
 LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
 Properties com = 223;
 Properties seg = data1;
+Properties dot = 0;
 ColorIndex 32
 Kind FSBVOState
 
@@ -231,12 +232,13 @@ GridInterval 8
 LogicalLeft 78
 LogicalTop 17
 LogicalWidth 13
-LogicalHeight 8
+LogicalHeight 10
 LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
 Properties com = 247;
 Properties seg = data3;
+Properties dot = 0;
 ColorIndex 42
 Kind FSBVOState
 
@@ -380,12 +382,13 @@ GridInterval 8
 LogicalLeft 46
 LogicalTop 60
 LogicalWidth 13
-LogicalHeight 8
+LogicalHeight 10
 LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
 Properties com = 253;
 Properties seg = data5;
+Properties dot = 0;
 ColorIndex 32
 Kind FSBVOState
 

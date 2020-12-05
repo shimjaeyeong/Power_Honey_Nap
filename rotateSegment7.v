@@ -37,6 +37,7 @@ module rotateSegment7(reset, clock, com, seg, dot, data1, data2, data3, data4, d
              next_state <= S4;
           com <= 8'b11011111;
           seg <= data1;
+          dot <= 1'b0;
 
         end
 
@@ -61,6 +62,7 @@ module rotateSegment7(reset, clock, com, seg, dot, data1, data2, data3, data4, d
              next_state <= S6;
           com <= 8'b11110111;
           seg <= data3;
+          dot <= 1'b0;
 
         end
 
@@ -85,6 +87,7 @@ module rotateSegment7(reset, clock, com, seg, dot, data1, data2, data3, data4, d
              next_state <= S8;
           com <= 8'b11111101;
           seg <= data5;
+          dot <= 1'b0;
 
         end
 
