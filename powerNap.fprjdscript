@@ -1,0 +1,37 @@
+if [ -f   /opt/Xilinx/14.1/ISE_DS/settings32.sh ]; then 
+ source /opt/Xilinx/14.1/ISE_DS/settings32.sh >> /tmp/log 
+fi
+if [ -f   /opt/Xilinx/14.1/ISE_DS/settings64.sh ]; then
+ source /opt/Xilinx/14.1/ISE_DS/settings64.sh >> /tmp/log
+fi
+ 
+echo PNULib= $FLOWRIANLIBRARY/PNULib/ISim/PNULib >> trigger_tb.init
+echo work=./work >> trigger_tb.init
+echo verilog work trigger.v >> trigger_tb.prj
+echo verilog work trigger_tb.v >> trigger_tb.prj
+fuse -top work.trigger_tb -init trigger_tb.init -prj trigger_tb.prj  -lib PNULib -o trigger_tb.exe
+rm trigger_tb.init
+rm trigger_tb.prj
+rm fuse.xmsgs
+rm fuseRelaunch.cmd
+rm trigger_tb.exe  fuse.log 
+rm -rf isim
+rm -rf ./work
+rm -rf select_keypad.v
+rm -rf lullaby.v
+rm -rf enable_time.v
+rm -rf alarm.v
+rm -rf manual_setting.v
+rm -rf allZero.v
+rm -rf shortcutSetting.v
+rm -rf lullabySoundPrint.v
+rm -rf piezo.v
+rm -rf LTP.v
+rm -rf alarmSound.v
+rm -rf nap_machine.v
+rm -rf keypadL2P.v
+rm -rf main_state.v
+rm -rf LTP_tb.v
+rm -rf trigger.v
+rm -rf trigger_tb.v
+echo Finish compilation!!

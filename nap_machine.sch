@@ -2,7 +2,7 @@ ModuleName nap_machine
 LanguageType Veirlog
 GridInterval 8
 MillimetersIn100RealScaledUnit 25
-ZoomOutScale 62
+ZoomOutScale 64
 NumberOfHorzPapaers 8
 NumberOfVertPapaers 4
 Parameters
@@ -105,20 +105,6 @@ RV: 0
 Width: 1
 Edges
 Edge X1: 248 ,Y1: 152 ,X2: 400 ,Y2: 152
-End
-Branches
-End
-Wire Name: sharpLine
-LV: 0
-RV: 0
-Width: 1
-Edges
-Edge X1: 256 ,Y1: 400 ,X2: 400 ,Y2: 400
-Edge X1: 256 ,Y1: 312 ,X2: 256 ,Y2: 400
-Edge X1: 256 ,Y1: 136 ,X2: 256 ,Y2: 312
-Edge X1: 256 ,Y1: 312 ,X2: 400 ,Y2: 312
-Edge X1: 248 ,Y1: 136 ,X2: 256 ,Y2: 136
-Edge X1: 256 ,Y1: 136 ,X2: 400 ,Y2: 136
 End
 Branches
 End
@@ -766,38 +752,6 @@ Edge X1: 256 ,Y1: 888 ,X2: 400 ,Y2: 888
 End
 Branches
 End
-Wire Name: w87
-LV: 0
-RV: 0
-Width: 1
-Edges
-Edge X1: 24 ,Y1: 280 ,X2: 24 ,Y2: 328
-Edge X1: 24 ,Y1: 280 ,X2: 32 ,Y2: 280
-Edge X1: 24 ,Y1: 328 ,X2: 264 ,Y2: 328
-Edge X1: 264 ,Y1: 248 ,X2: 264 ,Y2: 328
-Edge X1: 264 ,Y1: 328 ,X2: 264 ,Y2: 336
-Edge X1: 264 ,Y1: 72 ,X2: 264 ,Y2: 248
-Edge X1: 264 ,Y1: 248 ,X2: 400 ,Y2: 248
-Edge X1: 248 ,Y1: 72 ,X2: 264 ,Y2: 72
-Edge X1: 264 ,Y1: 72 ,X2: 400 ,Y2: 72
-Edge X1: 264 ,Y1: 336 ,X2: 400 ,Y2: 336
-Edge X1: 264 ,Y1: 336 ,X2: 264 ,Y2: 456
-Edge X1: 264 ,Y1: 456 ,X2: 264 ,Y2: 632
-Edge X1: 264 ,Y1: 456 ,X2: 400 ,Y2: 456
-Edge X1: 264 ,Y1: 632 ,X2: 264 ,Y2: 808
-Edge X1: 264 ,Y1: 632 ,X2: 400 ,Y2: 632
-Edge X1: 264 ,Y1: 808 ,X2: 552 ,Y2: 808
-Edge X1: 264 ,Y1: 808 ,X2: 264 ,Y2: 928
-Edge X1: 552 ,Y1: 808 ,X2: 888 ,Y2: 808
-Edge X1: 552 ,Y1: 760 ,X2: 552 ,Y2: 808
-Edge X1: 888 ,Y1: 440 ,X2: 888 ,Y2: 808
-Edge X1: 888 ,Y1: 440 ,X2: 904 ,Y2: 440
-Edge X1: 552 ,Y1: 688 ,X2: 552 ,Y2: 760
-Edge X1: 552 ,Y1: 760 ,X2: 568 ,Y2: 760
-Edge X1: 552 ,Y1: 688 ,X2: 568 ,Y2: 688
-End
-Branches
-End
 Wire Name: w78
 LV: 0
 RV: 0
@@ -878,40 +832,102 @@ Edge X1: 728 ,Y1: 72 ,X2: 776 ,Y2: 72
 End
 Branches
 End
+Wire Name: w88
+LV: 0
+RV: 0
+Width: 1
+Edges
+Edge X1: 256 ,Y1: 400 ,X2: 400 ,Y2: 400
+Edge X1: 256 ,Y1: 312 ,X2: 256 ,Y2: 400
+Edge X1: 256 ,Y1: 136 ,X2: 256 ,Y2: 312
+Edge X1: 256 ,Y1: 312 ,X2: 400 ,Y2: 312
+Edge X1: 216 ,Y1: 136 ,X2: 256 ,Y2: 136
+Edge X1: 256 ,Y1: 136 ,X2: 400 ,Y2: 136
+End
+Branches
+End
+Wire Name: w89
+LV: 0
+RV: 0
+Width: 1
+Edges
+Edge X1: 40 ,Y1: 136 ,X2: 72 ,Y2: 136
+End
+Branches
+End
 Wire Name: w84
 LV: 0
 RV: 0
 Width: 1
 Edges
-Edge X1: 896 ,Y1: 456 ,X2: 896 ,Y2: 824
-Edge X1: 896 ,Y1: 456 ,X2: 904 ,Y2: 456
+Edge X1: 72 ,Y1: 168 ,X2: 72 ,Y2: 184
+Edge X1: 72 ,Y1: 184 ,X2: 272 ,Y2: 184
+Edge X1: 272 ,Y1: 120 ,X2: 272 ,Y2: 184
+Edge X1: 272 ,Y1: 184 ,X2: 272 ,Y2: 296
+Edge X1: 248 ,Y1: 120 ,X2: 272 ,Y2: 120
+Edge X1: 272 ,Y1: 120 ,X2: 400 ,Y2: 120
+Edge X1: 272 ,Y1: 296 ,X2: 272 ,Y2: 320
+Edge X1: 272 ,Y1: 296 ,X2: 400 ,Y2: 296
+Edge X1: 272 ,Y1: 320 ,X2: 272 ,Y2: 384
+Edge X1: 32 ,Y1: 320 ,X2: 272 ,Y2: 320
+Edge X1: 272 ,Y1: 384 ,X2: 272 ,Y2: 464
+Edge X1: 272 ,Y1: 384 ,X2: 400 ,Y2: 384
+Edge X1: 272 ,Y1: 464 ,X2: 272 ,Y2: 648
+Edge X1: 192 ,Y1: 464 ,X2: 272 ,Y2: 464
+Edge X1: 272 ,Y1: 648 ,X2: 272 ,Y2: 688
+Edge X1: 272 ,Y1: 648 ,X2: 400 ,Y2: 648
+Edge X1: 272 ,Y1: 688 ,X2: 272 ,Y2: 760
+Edge X1: 272 ,Y1: 688 ,X2: 400 ,Y2: 688
+Edge X1: 272 ,Y1: 760 ,X2: 272 ,Y2: 824
+Edge X1: 272 ,Y1: 760 ,X2: 400 ,Y2: 760
+Edge X1: 272 ,Y1: 824 ,X2: 560 ,Y2: 824
+Edge X1: 272 ,Y1: 824 ,X2: 272 ,Y2: 856
 Edge X1: 560 ,Y1: 824 ,X2: 896 ,Y2: 824
 Edge X1: 560 ,Y1: 776 ,X2: 560 ,Y2: 824
-Edge X1: 272 ,Y1: 824 ,X2: 560 ,Y2: 824
+Edge X1: 896 ,Y1: 456 ,X2: 896 ,Y2: 824
+Edge X1: 896 ,Y1: 456 ,X2: 904 ,Y2: 456
 Edge X1: 560 ,Y1: 704 ,X2: 560 ,Y2: 776
 Edge X1: 560 ,Y1: 776 ,X2: 568 ,Y2: 776
 Edge X1: 560 ,Y1: 704 ,X2: 568 ,Y2: 704
-Edge X1: 272 ,Y1: 760 ,X2: 272 ,Y2: 824
-Edge X1: 272 ,Y1: 824 ,X2: 272 ,Y2: 856
-Edge X1: 272 ,Y1: 688 ,X2: 272 ,Y2: 760
-Edge X1: 272 ,Y1: 760 ,X2: 400 ,Y2: 760
-Edge X1: 272 ,Y1: 648 ,X2: 272 ,Y2: 688
-Edge X1: 272 ,Y1: 688 ,X2: 400 ,Y2: 688
-Edge X1: 272 ,Y1: 648 ,X2: 400 ,Y2: 648
-Edge X1: 272 ,Y1: 464 ,X2: 272 ,Y2: 648
-Edge X1: 272 ,Y1: 384 ,X2: 272 ,Y2: 464
-Edge X1: 192 ,Y1: 464 ,X2: 272 ,Y2: 464
-Edge X1: 272 ,Y1: 320 ,X2: 272 ,Y2: 384
-Edge X1: 272 ,Y1: 384 ,X2: 400 ,Y2: 384
-Edge X1: 32 ,Y1: 320 ,X2: 272 ,Y2: 320
-Edge X1: 272 ,Y1: 296 ,X2: 272 ,Y2: 320
-Edge X1: 32 ,Y1: 296 ,X2: 32 ,Y2: 320
-Edge X1: 272 ,Y1: 120 ,X2: 272 ,Y2: 296
-Edge X1: 272 ,Y1: 296 ,X2: 400 ,Y2: 296
-Edge X1: 248 ,Y1: 120 ,X2: 272 ,Y2: 120
-Edge X1: 272 ,Y1: 120 ,X2: 400 ,Y2: 120
 Edge X1: 272 ,Y1: 856 ,X2: 400 ,Y2: 856
 Edge X1: 272 ,Y1: 856 ,X2: 272 ,Y2: 928
+Edge X1: 32 ,Y1: 296 ,X2: 32 ,Y2: 320
+End
+Branches
+End
+Wire Name: w87
+LV: 0
+RV: 0
+Width: 1
+Edges
+Edge X1: 64 ,Y1: 152 ,X2: 72 ,Y2: 152
+Edge X1: 64 ,Y1: 152 ,X2: 64 ,Y2: 192
+Edge X1: 64 ,Y1: 192 ,X2: 264 ,Y2: 192
+Edge X1: 264 ,Y1: 72 ,X2: 264 ,Y2: 192
+Edge X1: 264 ,Y1: 192 ,X2: 264 ,Y2: 248
+Edge X1: 248 ,Y1: 72 ,X2: 264 ,Y2: 72
+Edge X1: 264 ,Y1: 72 ,X2: 400 ,Y2: 72
+Edge X1: 264 ,Y1: 248 ,X2: 264 ,Y2: 328
+Edge X1: 264 ,Y1: 248 ,X2: 400 ,Y2: 248
+Edge X1: 24 ,Y1: 328 ,X2: 264 ,Y2: 328
+Edge X1: 264 ,Y1: 328 ,X2: 264 ,Y2: 336
+Edge X1: 24 ,Y1: 280 ,X2: 24 ,Y2: 328
+Edge X1: 24 ,Y1: 280 ,X2: 32 ,Y2: 280
+Edge X1: 264 ,Y1: 336 ,X2: 400 ,Y2: 336
+Edge X1: 264 ,Y1: 336 ,X2: 264 ,Y2: 456
+Edge X1: 264 ,Y1: 456 ,X2: 264 ,Y2: 632
+Edge X1: 264 ,Y1: 456 ,X2: 400 ,Y2: 456
+Edge X1: 264 ,Y1: 632 ,X2: 264 ,Y2: 808
+Edge X1: 264 ,Y1: 632 ,X2: 400 ,Y2: 632
+Edge X1: 264 ,Y1: 808 ,X2: 552 ,Y2: 808
+Edge X1: 264 ,Y1: 808 ,X2: 264 ,Y2: 928
+Edge X1: 552 ,Y1: 808 ,X2: 888 ,Y2: 808
+Edge X1: 552 ,Y1: 760 ,X2: 552 ,Y2: 808
+Edge X1: 888 ,Y1: 440 ,X2: 888 ,Y2: 808
+Edge X1: 888 ,Y1: 440 ,X2: 904 ,Y2: 440
+Edge X1: 552 ,Y1: 688 ,X2: 552 ,Y2: 760
+Edge X1: 552 ,Y1: 760 ,X2: 568 ,Y2: 760
+Edge X1: 552 ,Y1: 688 ,X2: 568 ,Y2: 688
 End
 Branches
 End
@@ -938,7 +954,7 @@ Portname: keypad ,PortType: multibit ,LanguageType: Veriilog ,PortDirection: 0 ,
 10
 ,RV:
 0
-Port Left: 248 Top: 136 ,Orientation: 0
+Port Left: 40 Top: 136 ,Orientation: 0
 Portname: sharp ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
 0
 ,Width:
@@ -1548,6 +1564,12 @@ Symbol Left: 192 Top: 456
 Name: s11
 LibraryName: PNULib
 IpName: PNU_OR2
+SymbolParameters
+End
+Symbol Left: 96 Top: 128
+Name: s35
+LibraryName: (NoLibraryName)
+IpName: LTP
 SymbolParameters
 End
 End

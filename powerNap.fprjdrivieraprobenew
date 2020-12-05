@@ -1,0 +1,5 @@
+trigger_tb
+	clock
+	level
+	pulse
+	reset
