@@ -76,37 +76,6 @@ Edge X1: 736 ,Y1: 184 ,X2: 776 ,Y2: 184
 End
 Branches
 End
-Wire Name: w13
-LV: 0
-RV: 0
-Width: 1
-Edges
-Edge X1: 416 ,Y1: 144 ,X2: 416 ,Y2: 280
-Edge X1: 416 ,Y1: 144 ,X2: 504 ,Y2: 144
-Edge X1: 400 ,Y1: 280 ,X2: 416 ,Y2: 280
-End
-Branches
-End
-Wire Name: w14
-LV: 0
-RV: 0
-Width: 1
-Edges
-Edge X1: 432 ,Y1: 224 ,X2: 432 ,Y2: 296
-Edge X1: 432 ,Y1: 224 ,X2: 504 ,Y2: 224
-Edge X1: 400 ,Y1: 296 ,X2: 432 ,Y2: 296
-End
-Branches
-End
-Wire Name: w15
-LV: 0
-RV: 0
-Width: 1
-Edges
-Edge X1: 400 ,Y1: 312 ,X2: 504 ,Y2: 312
-End
-Branches
-End
 Wire Name: w16
 LV: 0
 RV: 0
@@ -175,6 +144,41 @@ RV: 0
 Width: 1
 Edges
 Edge X1: 56 ,Y1: 312 ,X2: 120 ,Y2: 312
+End
+Branches
+End
+Wire Name: w21
+LV: 0
+RV: 0
+Width: 1
+Edges
+Edge X1: 416 ,Y1: 144 ,X2: 416 ,Y2: 280
+Edge X1: 416 ,Y1: 144 ,X2: 504 ,Y2: 144
+Edge X1: 400 ,Y1: 280 ,X2: 416 ,Y2: 280
+Edge X1: 416 ,Y1: 280 ,X2: 416 ,Y2: 344
+End
+Branches
+End
+Wire Name: w22
+LV: 0
+RV: 0
+Width: 1
+Edges
+Edge X1: 432 ,Y1: 224 ,X2: 432 ,Y2: 296
+Edge X1: 432 ,Y1: 224 ,X2: 504 ,Y2: 224
+Edge X1: 400 ,Y1: 296 ,X2: 432 ,Y2: 296
+Edge X1: 432 ,Y1: 296 ,X2: 432 ,Y2: 344
+End
+Branches
+End
+Wire Name: w15
+LV: 0
+RV: 0
+Width: 1
+Edges
+Edge X1: 400 ,Y1: 312 ,X2: 448 ,Y2: 312
+Edge X1: 448 ,Y1: 312 ,X2: 504 ,Y2: 312
+Edge X1: 448 ,Y1: 312 ,X2: 448 ,Y2: 344
 End
 Branches
 End
@@ -259,6 +263,27 @@ Portname: completeSetting ,PortType: singlebit ,LanguageType: Veriilog ,PortDire
 0
 Port Left: 56 Top: 312 ,Orientation: 0
 Portname: en ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
+0
+,Width:
+1
+,RV:
+0
+Port Left: 416 Top: 344 ,Orientation: 3
+Portname: h ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
+0
+,Width:
+1
+,RV:
+0
+Port Left: 432 Top: 344 ,Orientation: 3
+Portname: m ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
+0
+,Width:
+1
+,RV:
+0
+Port Left: 448 Top: 344 ,Orientation: 3
+Portname: s ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
 0
 ,Width:
 1

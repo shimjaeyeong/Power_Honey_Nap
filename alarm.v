@@ -34,7 +34,11 @@ module alarm(reset, clock, start, stop, light, beat);
              next_state <= st;
              end
           light <= 1'b1;
+<<<<<<< HEAD
           beat <= 13'b0000100000000;
+=======
+          beat <= 13'b0001000000000;
+>>>>>>> 9be4cf6cca46aad491f15aecbc50aa6595796f8d
 
         end
 
@@ -49,7 +53,11 @@ module alarm(reset, clock, start, stop, light, beat);
              next_state <= st;
              end
           light <= 1'b0;
+<<<<<<< HEAD
           beat <= 13'b0001000000000;
+=======
+          beat <= 13'b0010000000000;
+>>>>>>> 9be4cf6cca46aad491f15aecbc50aa6595796f8d
 
         end
 
@@ -64,7 +72,11 @@ module alarm(reset, clock, start, stop, light, beat);
              next_state <= st;
              end
           light <= 1'b0;
+<<<<<<< HEAD
           beat <= 13'b0100000000000;
+=======
+          beat <= 13'b1000000000000;
+>>>>>>> 9be4cf6cca46aad491f15aecbc50aa6595796f8d
 
         end
 
@@ -79,7 +91,11 @@ module alarm(reset, clock, start, stop, light, beat);
              next_state <= st;
              end
           light <= 1'b1;
+<<<<<<< HEAD
           beat <= 13'b0000000100000;
+=======
+          beat <= 13'b0000001000000;
+>>>>>>> 9be4cf6cca46aad491f15aecbc50aa6595796f8d
 
         end
 
@@ -94,7 +110,11 @@ module alarm(reset, clock, start, stop, light, beat);
              next_state <= st;
              end
           light <= 1'b0;
+<<<<<<< HEAD
           beat <= 13'b0100000000000;
+=======
+          beat <= 13'b1000000000000;
+>>>>>>> 9be4cf6cca46aad491f15aecbc50aa6595796f8d
 
         end
 
@@ -123,7 +143,11 @@ module alarm(reset, clock, start, stop, light, beat);
              next_state <= st;
              end
           light <= 1'b1;
+<<<<<<< HEAD
           beat <= 13'b0000100000000;
+=======
+          beat <= 13'b0001000000000;
+>>>>>>> 9be4cf6cca46aad491f15aecbc50aa6595796f8d
 
         end
 
@@ -138,7 +162,11 @@ module alarm(reset, clock, start, stop, light, beat);
              next_state <= st;
              end
           light <= 1'b0;
+<<<<<<< HEAD
           beat <= 13'b0001000000000;
+=======
+          beat <= 13'b0010000000000;
+>>>>>>> 9be4cf6cca46aad491f15aecbc50aa6595796f8d
 
         end
 
@@ -153,7 +181,11 @@ module alarm(reset, clock, start, stop, light, beat);
              next_state <= st;
              end
           light <= 1'b0;
+<<<<<<< HEAD
           beat <= 13'b0100000000000;
+=======
+          beat <= 13'b1000000000000;
+>>>>>>> 9be4cf6cca46aad491f15aecbc50aa6595796f8d
 
         end
 
@@ -168,7 +200,11 @@ module alarm(reset, clock, start, stop, light, beat);
              next_state <= st;
              end
           light <= 1'b1;
+<<<<<<< HEAD
           beat <= 13'b0000000100000;
+=======
+          beat <= 13'b0000001000000;
+>>>>>>> 9be4cf6cca46aad491f15aecbc50aa6595796f8d
 
         end
 
@@ -183,7 +219,11 @@ module alarm(reset, clock, start, stop, light, beat);
              next_state <= st;
              end
           light <= 1'b0;
+<<<<<<< HEAD
           beat <= 13'b0100000000000;
+=======
+          beat <= 13'b1000000000000;
+>>>>>>> 9be4cf6cca46aad491f15aecbc50aa6595796f8d
 
         end
 
@@ -198,7 +238,11 @@ module alarm(reset, clock, start, stop, light, beat);
              next_state <= S12;
              end
           light <= 1'b0;
+<<<<<<< HEAD
           beat <= 13'b0001000000000;
+=======
+          beat <= 13'b0010000000000;
+>>>>>>> 9be4cf6cca46aad491f15aecbc50aa6595796f8d
 
         end
 
@@ -225,7 +269,11 @@ module alarm(reset, clock, start, stop, light, beat);
              next_state <= S0;
              end
           light <= 1'b0;
+<<<<<<< HEAD
           beat <= 13'b0000100000000;
+=======
+          beat <= 13'b0001000000000;
+>>>>>>> 9be4cf6cca46aad491f15aecbc50aa6595796f8d
 
         end
 

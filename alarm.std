@@ -4,7 +4,11 @@ ChildrenCount 47
 Caption root
 IfEntering false
 IfLeaving false
+<<<<<<< HEAD
 HorzScrollPos 0
+=======
+HorzScrollPos 87
+>>>>>>> 9be4cf6cca46aad491f15aecbc50aa6595796f8d
 VertScrollPos 0
 Scale 1
 GridInterval 8
@@ -33,7 +37,7 @@ LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
 Properties light = 1;
-Properties beat = 256;
+Properties beat = 512;
 ColorIndex 11
 Kind FSBVOState
 
@@ -119,13 +123,13 @@ Scale 1
 GridInterval 8
 LogicalLeft 37
 LogicalTop 18
-LogicalWidth 12
+LogicalWidth 13
 LogicalHeight 8
 LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
 Properties light = 0;
-Properties beat = 512;
+Properties beat = 1024;
 ColorIndex 11
 Kind FSBVOState
 
@@ -199,7 +203,7 @@ LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
 Properties light = 0;
-Properties beat = 2048;
+Properties beat = 4096;
 ColorIndex 11
 Kind FSBVOState
 
@@ -267,13 +271,13 @@ Scale 1
 GridInterval 8
 LogicalLeft 66
 LogicalTop 18
-LogicalWidth 13
+LogicalWidth 17
 LogicalHeight 8
 LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
 Properties light = 1;
-Properties beat = 32;
+Properties beat = 64;
 ColorIndex 11
 Kind FSBVOState
 
@@ -347,7 +351,7 @@ LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
 Properties light = 0;
-Properties beat = 2048;
+Properties beat = 4096;
 ColorIndex 11
 Kind FSBVOState
 
@@ -494,7 +498,7 @@ LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
 Properties light = 1;
-Properties beat = 256;
+Properties beat = 512;
 ColorIndex 11
 Kind FSBVOState
 
@@ -562,13 +566,13 @@ Scale 1
 GridInterval 8
 LogicalLeft 37
 LogicalTop 31
-LogicalWidth 12
+LogicalWidth 13
 LogicalHeight 8
 LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
 Properties light = 0;
-Properties beat = 512;
+Properties beat = 1024;
 ColorIndex 11
 Kind FSBVOState
 
@@ -642,7 +646,7 @@ LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
 Properties light = 0;
-Properties beat = 2048;
+Properties beat = 4096;
 ColorIndex 11
 Kind FSBVOState
 
@@ -710,13 +714,13 @@ Scale 1
 GridInterval 8
 LogicalLeft 66
 LogicalTop 31
-LogicalWidth 16
+LogicalWidth 20
 LogicalHeight 8
 LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
 Properties light = 1;
-Properties beat = 32;
+Properties beat = 64;
 ColorIndex 11
 Kind FSBVOState
 
@@ -790,7 +794,7 @@ LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
 Properties light = 0;
-Properties beat = 2048;
+Properties beat = 4096;
 ColorIndex 11
 Kind FSBVOState
 
@@ -858,13 +862,13 @@ Scale 1
 GridInterval 8
 LogicalLeft 96
 LogicalTop 32
-LogicalWidth 12
+LogicalWidth 13
 LogicalHeight 8
 LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
 Properties light = 0;
-Properties beat = 512;
+Properties beat = 1024;
 ColorIndex 11
 Kind FSBVOState
 
@@ -954,7 +958,7 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 47
+LogicalLeft 48
 LogicalTop 22
 LogicalWidth 7
 LogicalHeight 3
@@ -1074,8 +1078,8 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 48
-LogicalTop 34
+LogicalLeft 49
+LogicalTop 35
 LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
@@ -1099,7 +1103,7 @@ VertScrollPos 0
 Scale 1
 GridInterval 8
 LogicalLeft 64
-LogicalTop 34
+LogicalTop 35
 LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
@@ -1891,7 +1895,7 @@ LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
 Properties light = 0;
-Properties beat = 256;
+Properties beat = 512;
 ColorIndex 11
 Kind FSBVOState
 
