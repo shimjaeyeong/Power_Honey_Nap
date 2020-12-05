@@ -71,11 +71,11 @@ wire  w74;
 wire  w79;
 wire  w86;
 wire  w87;
-wire  w84;
 wire  w78;
 wire  w75;
 wire  w82;
 wire  w80;
+wire  w84;
 wire [3:0] b69_3to0;
 wire [3:0] b69_15to12;
 wire [3:0] b69_11to8;
@@ -314,8 +314,8 @@ lullaby
       .beat(b40),
       .clock(w81),
       .stop(w77),
-      .reset(w84),
-      .start(w78));
+      .start(w78),
+      .reset(w84));
 
 piezo
      s15 (
@@ -376,11 +376,11 @@ main_state
       .init(w85),
       .enAlarm(w74),
       .clock(w87),
-      .reset(w84),
       .enSleep(w78),
       .enCancel(w75),
       .enManualSetting(w82),
-      .enAutoSetting(w80));
+      .enAutoSetting(w80),
+      .reset(w84));
 
 shortcutSetting
      s19 (
@@ -400,8 +400,8 @@ shortcutSetting
       .sec_one_out(b68_3to0),
       .keypad(b74),
       .clk(w87),
-      .rst(w84),
-      .en(w80));
+      .en(w80),
+      .rst(w84));
 
 PNU_OR2
      s21 (
@@ -436,8 +436,8 @@ manual_setting
       .s(w65),
       .keypad(b74),
       .clk(w87),
-      .rst(w84),
-      .en(w82));
+      .en(w82),
+      .rst(w84));
 
 PNU_CLK_DIV
      #(

@@ -2,7 +2,7 @@ ModuleName nap_machine
 LanguageType Veirlog
 GridInterval 8
 MillimetersIn100RealScaledUnit 25
-ZoomOutScale 16
+ZoomOutScale 62
 NumberOfHorzPapaers 8
 NumberOfVertPapaers 4
 Parameters
@@ -798,44 +798,6 @@ Edge X1: 552 ,Y1: 688 ,X2: 568 ,Y2: 688
 End
 Branches
 End
-Wire Name: w84
-LV: 0
-RV: 0
-Width: 1
-Edges
-Edge X1: 560 ,Y1: 816 ,X2: 896 ,Y2: 816
-Edge X1: 560 ,Y1: 776 ,X2: 560 ,Y2: 816
-Edge X1: 560 ,Y1: 816 ,X2: 560 ,Y2: 824
-Edge X1: 896 ,Y1: 456 ,X2: 896 ,Y2: 816
-Edge X1: 896 ,Y1: 456 ,X2: 904 ,Y2: 456
-Edge X1: 560 ,Y1: 704 ,X2: 560 ,Y2: 776
-Edge X1: 560 ,Y1: 776 ,X2: 568 ,Y2: 776
-Edge X1: 560 ,Y1: 704 ,X2: 568 ,Y2: 704
-Edge X1: 272 ,Y1: 824 ,X2: 560 ,Y2: 824
-Edge X1: 272 ,Y1: 760 ,X2: 272 ,Y2: 824
-Edge X1: 272 ,Y1: 824 ,X2: 272 ,Y2: 856
-Edge X1: 272 ,Y1: 688 ,X2: 272 ,Y2: 760
-Edge X1: 272 ,Y1: 760 ,X2: 400 ,Y2: 760
-Edge X1: 272 ,Y1: 648 ,X2: 272 ,Y2: 688
-Edge X1: 272 ,Y1: 688 ,X2: 400 ,Y2: 688
-Edge X1: 272 ,Y1: 648 ,X2: 400 ,Y2: 648
-Edge X1: 272 ,Y1: 464 ,X2: 272 ,Y2: 648
-Edge X1: 272 ,Y1: 384 ,X2: 272 ,Y2: 464
-Edge X1: 192 ,Y1: 464 ,X2: 272 ,Y2: 464
-Edge X1: 272 ,Y1: 320 ,X2: 272 ,Y2: 384
-Edge X1: 272 ,Y1: 384 ,X2: 400 ,Y2: 384
-Edge X1: 32 ,Y1: 320 ,X2: 272 ,Y2: 320
-Edge X1: 272 ,Y1: 296 ,X2: 272 ,Y2: 320
-Edge X1: 32 ,Y1: 296 ,X2: 32 ,Y2: 320
-Edge X1: 272 ,Y1: 120 ,X2: 272 ,Y2: 296
-Edge X1: 272 ,Y1: 296 ,X2: 400 ,Y2: 296
-Edge X1: 248 ,Y1: 120 ,X2: 272 ,Y2: 120
-Edge X1: 272 ,Y1: 120 ,X2: 400 ,Y2: 120
-Edge X1: 272 ,Y1: 856 ,X2: 400 ,Y2: 856
-Edge X1: 272 ,Y1: 856 ,X2: 272 ,Y2: 928
-End
-Branches
-End
 Wire Name: w78
 LV: 0
 RV: 0
@@ -913,6 +875,43 @@ Edge X1: 320 ,Y1: 208 ,X2: 728 ,Y2: 208
 Edge X1: 728 ,Y1: 72 ,X2: 728 ,Y2: 208
 Edge X1: 680 ,Y1: 72 ,X2: 728 ,Y2: 72
 Edge X1: 728 ,Y1: 72 ,X2: 776 ,Y2: 72
+End
+Branches
+End
+Wire Name: w84
+LV: 0
+RV: 0
+Width: 1
+Edges
+Edge X1: 896 ,Y1: 456 ,X2: 896 ,Y2: 824
+Edge X1: 896 ,Y1: 456 ,X2: 904 ,Y2: 456
+Edge X1: 560 ,Y1: 824 ,X2: 896 ,Y2: 824
+Edge X1: 560 ,Y1: 776 ,X2: 560 ,Y2: 824
+Edge X1: 272 ,Y1: 824 ,X2: 560 ,Y2: 824
+Edge X1: 560 ,Y1: 704 ,X2: 560 ,Y2: 776
+Edge X1: 560 ,Y1: 776 ,X2: 568 ,Y2: 776
+Edge X1: 560 ,Y1: 704 ,X2: 568 ,Y2: 704
+Edge X1: 272 ,Y1: 760 ,X2: 272 ,Y2: 824
+Edge X1: 272 ,Y1: 824 ,X2: 272 ,Y2: 856
+Edge X1: 272 ,Y1: 688 ,X2: 272 ,Y2: 760
+Edge X1: 272 ,Y1: 760 ,X2: 400 ,Y2: 760
+Edge X1: 272 ,Y1: 648 ,X2: 272 ,Y2: 688
+Edge X1: 272 ,Y1: 688 ,X2: 400 ,Y2: 688
+Edge X1: 272 ,Y1: 648 ,X2: 400 ,Y2: 648
+Edge X1: 272 ,Y1: 464 ,X2: 272 ,Y2: 648
+Edge X1: 272 ,Y1: 384 ,X2: 272 ,Y2: 464
+Edge X1: 192 ,Y1: 464 ,X2: 272 ,Y2: 464
+Edge X1: 272 ,Y1: 320 ,X2: 272 ,Y2: 384
+Edge X1: 272 ,Y1: 384 ,X2: 400 ,Y2: 384
+Edge X1: 32 ,Y1: 320 ,X2: 272 ,Y2: 320
+Edge X1: 272 ,Y1: 296 ,X2: 272 ,Y2: 320
+Edge X1: 32 ,Y1: 296 ,X2: 32 ,Y2: 320
+Edge X1: 272 ,Y1: 120 ,X2: 272 ,Y2: 296
+Edge X1: 272 ,Y1: 296 ,X2: 400 ,Y2: 296
+Edge X1: 248 ,Y1: 120 ,X2: 272 ,Y2: 120
+Edge X1: 272 ,Y1: 120 ,X2: 400 ,Y2: 120
+Edge X1: 272 ,Y1: 856 ,X2: 400 ,Y2: 856
+Edge X1: 272 ,Y1: 856 ,X2: 272 ,Y2: 928
 End
 Branches
 End
