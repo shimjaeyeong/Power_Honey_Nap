@@ -24,7 +24,6 @@ wire [3:0] b18;
 wire [3:0] b12;
 wire [3:0] b13;
 wire  w16;
-wire [9:0] b14;
 wire  w19;
 wire  w17;
 wire  w18;
@@ -32,8 +31,9 @@ wire  w20;
 wire  w21;
 wire  w22;
 wire  w15;
+wire [9:0] b19;
 
-assign b14 = keypad;
+assign b19 = keypad;
 assign hour_ten_out = b15;
 assign hour_one_out = b16;
 assign w17 = clk;
@@ -48,11 +48,6 @@ assign w20 = en;
 assign h = w21;
 assign m = w22;
 assign s = w15;
-
-decimal_to_binary
-     s0 (
-      .b(b9),
-      .d(b14));
 
 shift_register_4bit
      s5 (
@@ -97,6 +92,11 @@ enable_time
       .hour_en(w21),
       .min_en(w22),
       .sec_en(w15));
+
+Decimal_to_Binary_Converter
+     s7 (
+      .b(b9),
+      .d(b19));
 
 endmodule
 

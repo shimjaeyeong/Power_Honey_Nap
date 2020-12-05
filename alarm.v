@@ -198,6 +198,9 @@ module alarm(reset, clock, start, stop, light, beat);
              begin
              next_state <= st;
              end
+          light <= 1'b0;
+          beat <= 13'b0000000000000;
+
         end
 
         S12:

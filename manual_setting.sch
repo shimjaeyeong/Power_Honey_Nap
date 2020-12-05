@@ -85,15 +85,6 @@ Edge X1: 80 ,Y1: 328 ,X2: 120 ,Y2: 328
 End
 Branches
 End
-Wire Name: b14
-LV: 9
-RV: 0
-Width: 10
-Edges
-Edge X1: 40 ,Y1: 96 ,X2: 208 ,Y2: 96
-End
-Branches
-End
 Wire Name: w19
 LV: 0
 RV: 0
@@ -179,6 +170,15 @@ Edges
 Edge X1: 400 ,Y1: 312 ,X2: 448 ,Y2: 312
 Edge X1: 448 ,Y1: 312 ,X2: 504 ,Y2: 312
 Edge X1: 448 ,Y1: 312 ,X2: 448 ,Y2: 344
+End
+Branches
+End
+Wire Name: b19
+LV: 9
+RV: 0
+Width: 10
+Edges
+Edge X1: 40 ,Y1: 96 ,X2: 160 ,Y2: 96
 End
 Branches
 End
@@ -291,12 +291,6 @@ Portname: s ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
 0
 End
 Symbols
-Symbol Left: 232 Top: 88
-Name: s0
-LibraryName: (NoLibraryName)
-IpName: decimal_to_binary
-SymbolParameters
-End
 Symbol Left: 528 Top: 88
 Name: s5
 LibraryName: (NoLibraryName)
@@ -330,6 +324,12 @@ Parameter Name: min ,Type: integer ,Value:
 1
 Parameter Name: sec ,Type: integer ,Value:
 2
+End
+Symbol Left: 184 Top: 80
+Name: s7
+LibraryName: (NoLibraryName)
+IpName: Decimal_to_Binary_Converter
+SymbolParameters
 End
 End
 Texts

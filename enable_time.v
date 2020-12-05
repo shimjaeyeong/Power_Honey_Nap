@@ -1,6 +1,7 @@
-module enable_time(reset, clock, sharp, hour_en, min_en, sec_en, completeSetting);
+module enable_time(reset, clock, en, sharp, hour_en, min_en, sec_en, completeSetting);
   input reset;
   input clock;
+  input en;
   input sharp;
   output hour_en;
   output min_en;
@@ -12,79 +13,87 @@ module enable_time(reset, clock, sharp, hour_en, min_en, sec_en, completeSetting
   reg sec_en;
   reg completeSetting;
 
-  parameter [1:0] hour = 0, minute = 1, second = 2, set_complete = 3;
-  reg [1:0] current_state, next_state;
+  parameter [2:0] hour = 0, min = 1, sec = 2, S0 = 3, input_wait = 4;
+  reg [2:0] current_state, next_state;
 
   always @(posedge clock or posedge reset)
   begin: SYNCH
     if (reset == 1'b1)
-       current_state <= hour;
+       current_state <= input_wait;
     else
        current_state <= next_state;
   end
 
-  always @(current_state or sharp)
+  always @(current_state or en or sharp)
   begin: COMBIN
      case (current_state)
         hour:
         begin
-          if (sharp != 1'b1)
+          if (sharp == 1'b0)
              begin
              next_state <= hour;
              end
           else if (sharp == 1'b1)
              begin
-             next_state <= minute;
+             next_state <= min;
              end
           hour_en <= 1'b1;
           sec_en <= 1'b0;
 
         end
 
-        minute:
+        min:
         begin
           if (sharp == 1'b1)
              begin
-             next_state <= second;
+             next_state <= sec;
              end
-          else if (sharp != 1'b1)
+          else if (sharp == 1'b0)
              begin
-             next_state <= minute;
+             next_state <= min;
              end
           min_en <= 1'b1;
           hour_en <= 1'b0;
 
         end
 
-        second:
+        sec:
         begin
-          if (sharp != 1'b1)
+          if (sharp == 1'b0)
              begin
-             next_state <= second;
+             next_state <= sec;
              end
           else if (sharp == 1'b1)
              begin
-             next_state <= set_complete;
+             next_state <= S0;
              end
           sec_en <= 1'b1;
           min_en <= 1'b0;
 
         end
 
-        set_complete:
+        S0:
         begin
-          if (sharp == 1'b0)
+             next_state <= input_wait;
+          completeSetting <= 1'b1;
+
+        end
+
+        input_wait:
+        begin
+          if (en == 1'b1)
              begin
              next_state <= hour;
              end
-          completeSetting <= 1'b1;
-          sharp <= 1'b0;
-
+          else if (en == 1'b0)
+             begin
+             next_state <= input_wait;
+             end
         end
 
 
         default:
-          next_state <= hour;
+          next_state <= input_wait;
      endcase
   end
 
