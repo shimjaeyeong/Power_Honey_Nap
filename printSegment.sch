@@ -44,24 +44,6 @@ Edge X1: 312 ,Y1: 72 ,X2: 336 ,Y2: 72
 End
 Branches
 End
-Wire Name: w6
-LV: 0
-RV: 0
-Width: 1
-Edges
-Edge X1: 464 ,Y1: 72 ,X2: 480 ,Y2: 72
-End
-Branches
-End
-Wire Name: w7
-LV: 0
-RV: 0
-Width: 1
-Edges
-Edge X1: 312 ,Y1: 88 ,X2: 480 ,Y2: 88
-End
-Branches
-End
 Wire Name: b22
 LV: 9
 RV: 0
@@ -281,24 +263,6 @@ Edge X1: 312 ,Y1: 224 ,X2: 336 ,Y2: 224
 End
 Branches
 End
-Wire Name: w32
-LV: 0
-RV: 0
-Width: 1
-Edges
-Edge X1: 464 ,Y1: 104 ,X2: 480 ,Y2: 104
-End
-Branches
-End
-Wire Name: w33
-LV: 0
-RV: 0
-Width: 1
-Edges
-Edge X1: 464 ,Y1: 120 ,X2: 480 ,Y2: 120
-End
-Branches
-End
 Wire Name: w34
 LV: 0
 RV: 0
@@ -344,6 +308,42 @@ Edge X1: 464 ,Y1: 240 ,X2: 480 ,Y2: 240
 End
 Branches
 End
+Wire Name: w37
+LV: 0
+RV: 0
+Width: 1
+Edges
+Edge X1: 464 ,Y1: 72 ,X2: 480 ,Y2: 72
+End
+Branches
+End
+Wire Name: w38
+LV: 0
+RV: 0
+Width: 1
+Edges
+Edge X1: 312 ,Y1: 88 ,X2: 480 ,Y2: 88
+End
+Branches
+End
+Wire Name: w32
+LV: 0
+RV: 0
+Width: 1
+Edges
+Edge X1: 464 ,Y1: 104 ,X2: 480 ,Y2: 104
+End
+Branches
+End
+Wire Name: w33
+LV: 0
+RV: 0
+Width: 1
+Edges
+Edge X1: 464 ,Y1: 120 ,X2: 480 ,Y2: 120
+End
+Branches
+End
 End
 Ports
 Port Left: 24 Top: 16 ,Orientation: 0
@@ -366,30 +366,6 @@ Symbol Left: 80 Top: 8
 Name: s16
 LibraryName: (NoLibraryName)
 IpName: Binary_to_Decimal_Convert
-SymbolParameters
-End
-Symbol Left: 480 Top: 64
-Name: s4
-LibraryName: PNULib
-IpName: PNU_AND2
-SymbolParameters
-End
-Symbol Left: 480 Top: 96
-Name: s7
-LibraryName: PNULib
-IpName: PNU_AND2
-SymbolParameters
-End
-Symbol Left: 480 Top: 176
-Name: s12
-LibraryName: PNULib
-IpName: PNU_AND2
-SymbolParameters
-End
-Symbol Left: 480 Top: 216
-Name: s15
-LibraryName: PNULib
-IpName: PNU_AND2
 SymbolParameters
 End
 Symbol Left: 360 Top: 16
@@ -450,6 +426,30 @@ Symbol Left: 360 Top: 232
 Name: s23
 LibraryName: (NoLibraryName)
 IpName: multiOR3
+SymbolParameters
+End
+Symbol Left: 480 Top: 64
+Name: s12
+LibraryName: PNULib
+IpName: PNU_OR2
+SymbolParameters
+End
+Symbol Left: 480 Top: 96
+Name: s15
+LibraryName: PNULib
+IpName: PNU_OR2
+SymbolParameters
+End
+Symbol Left: 480 Top: 176
+Name: s24
+LibraryName: PNULib
+IpName: PNU_OR2
+SymbolParameters
+End
+Symbol Left: 480 Top: 216
+Name: s25
+LibraryName: PNULib
+IpName: PNU_OR2
 SymbolParameters
 End
 End
