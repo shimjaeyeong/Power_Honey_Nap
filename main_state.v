@@ -19,7 +19,7 @@ module main_state(reset, clock, switch, completeSetting, completeSleep, sharp, i
   reg enAlarm;
   reg enCancel;
 
-  parameter [2:0] sutoSetting = 0, sleep = 1, alarm = 2, cancel = 3, start = 4, manualSetting = 5;
+  parameter [2:0] autoSetting = 0, sleep = 1, alarm = 2, cancel = 3, start = 4, manualSetting = 5;
   reg [2:0] current_state, next_state;
 
   always @(posedge clock or posedge reset)
@@ -33,17 +33,17 @@ module main_state(reset, clock, switch, completeSetting, completeSleep, sharp, i
   always @(current_state or switch or completeSetting or completeSleep or sharp)
   begin: COMBIN
      case (current_state)
-        sutoSetting:
+        autoSetting:
         begin
           if (completeSetting == 1'b1)
              begin
              next_state <= sleep;
              end
-          else if (completeSetting == 1'b0)
+          else if (completeSetting == 1'b0 && switch == 1'b0)
              begin
-             next_state <= sutoSetting;
+             next_state <= autoSetting;
              end
-          else if (switch == 1'b1)
+          else if (completeSetting == 1'b0 && switch == 1'b1)
              begin
              next_state <= manualSetting;
              end
@@ -58,7 +58,7 @@ module main_state(reset, clock, switch, completeSetting, completeSleep, sharp, i
 
         sleep:
         begin
-          if (completeSleep == 1'b1)
+          if (sharp == 1'b0 && completeSleep == 1'b1)
              begin
              next_state <= alarm;
              end
@@ -66,7 +66,7 @@ module main_state(reset, clock, switch, completeSetting, completeSleep, sharp, i
              begin
              next_state <= cancel;
              end
-          else if (sharp == 1'b0)
+          else if (sharp == 1'b0 && completeSleep == 1'b0)
              begin
              next_state <= sleep;
              end
@@ -114,7 +114,7 @@ module main_state(reset, clock, switch, completeSetting, completeSleep, sharp, i
         begin
           if (switch == 1'b0)
              begin
-             next_state <= sutoSetting;
+             next_state <= autoSetting;
              end
           else if (switch == 1'b1)
              begin
@@ -131,7 +131,7 @@ module main_state(reset, clock, switch, completeSetting, completeSleep, sharp, i
 
         manualSetting:
         begin
-          if (completeSetting == 1'b0)
+          if (completeSetting == 1'b0 && switch == 1'b1)
              begin
              next_state <= manualSetting;
              end
@@ -139,9 +139,9 @@ module main_state(reset, clock, switch, completeSetting, completeSleep, sharp, i
              begin
              next_state <= sleep;
              end
-          else if (switch == 1'b0)
+          else if (completeSetting == 1'b0 && switch == 1'b0)
              begin
-             next_state <= sutoSetting;
+             next_state <= autoSetting;
              end
           init <= 1'b0;
           enAutoSetting <= 1'b0;

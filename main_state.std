@@ -18,15 +18,15 @@ grd 8
 Kind AGObjectBase
 
 ChildrenCount 6
-Caption sutoSetting
+Caption autoSetting
 IfEntering false
 IfLeaving false
 HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 27
-LogicalTop 5
+LogicalLeft 35
+LogicalTop 8
 LogicalWidth 22
 LogicalHeight 16
 LogicalWidthSetting 8
@@ -157,8 +157,8 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 57
-LogicalTop 14
+LogicalLeft 72
+LogicalTop 9
 LogicalWidth 22
 LogicalHeight 16
 LogicalWidthSetting 8
@@ -289,8 +289,8 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 85
-LogicalTop 14
+LogicalLeft 125
+LogicalTop 10
 LogicalWidth 22
 LogicalHeight 16
 LogicalWidthSetting 8
@@ -385,8 +385,8 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 68
-LogicalTop 42
+LogicalLeft 95
+LogicalTop 51
 LogicalWidth 22
 LogicalHeight 16
 LogicalWidthSetting 8
@@ -463,8 +463,8 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 45
-LogicalTop 13
+LogicalLeft 56
+LogicalTop 11
 LogicalWidth 16
 LogicalHeight 3
 LogicalWidthSetting 0
@@ -473,7 +473,7 @@ LogicalOffsetLeft -8
 LogicalOffsetTop -5
 grd 8
 ConditionProperties completeSetting == 1
-LinkedObj0 sutoSetting
+LinkedObj0 autoSetting
 LinkedObj1 sleep
 EnteringCaption IN_T0
 LeavingCaption OUT_T0
@@ -487,16 +487,16 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 74
-LogicalTop 15
-LogicalWidth 15
+LogicalLeft 97
+LogicalTop 10
+LogicalWidth 26
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
-LogicalOffsetLeft -8
-LogicalOffsetTop -7
+LogicalOffsetLeft -13
+LogicalOffsetTop -8
 grd 8
-ConditionProperties completeSleep == 1
+ConditionProperties sharp == 0 && completeSleep == 1
 LinkedObj0 sleep
 LinkedObj1 alarm
 EnteringCaption IN_T1
@@ -511,8 +511,8 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 84
-LogicalTop 34
+LogicalLeft 117
+LogicalTop 36
 LogicalWidth 8
 LogicalHeight 3
 LogicalWidthSetting 0
@@ -535,8 +535,8 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 70
-LogicalTop 35
+LogicalLeft 90
+LogicalTop 37
 LogicalWidth 8
 LogicalHeight 3
 LogicalWidthSetting 0
@@ -559,18 +559,18 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 30
-LogicalTop 2
-LogicalWidth 16
+LogicalLeft 33
+LogicalTop 3
+LogicalWidth 28
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
-LogicalOffsetLeft -8
-LogicalOffsetTop -11
+LogicalOffsetLeft -13
+LogicalOffsetTop -13
 grd 8
-ConditionProperties completeSetting == 0
-LinkedObj0 sutoSetting
-LinkedObj1 sutoSetting
+ConditionProperties completeSetting == 0 && switch == 0
+LinkedObj0 autoSetting
+LinkedObj1 autoSetting
 EnteringCaption IN_T4
 LeavingCaption OUT_T4
 Kind FSBVOTrans
@@ -583,16 +583,16 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 64
-LogicalTop 8
-LogicalWidth 8
+LogicalLeft 71
+LogicalTop 2
+LogicalWidth 26
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
-LogicalOffsetLeft -4
-LogicalOffsetTop -14
+LogicalOffsetLeft -12
+LogicalOffsetTop -15
 grd 8
-ConditionProperties sharp == 0
+ConditionProperties sharp == 0 && completeSleep == 0
 LinkedObj0 sleep
 LinkedObj1 sleep
 EnteringCaption IN_T5
@@ -607,8 +607,8 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 92
-LogicalTop 8
+LogicalLeft 132
+LogicalTop 4
 LogicalWidth 8
 LogicalHeight 3
 LogicalWidthSetting 0
@@ -727,8 +727,8 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 22
-LogicalTop 18
+LogicalLeft 26
+LogicalTop 20
 LogicalWidth 9
 LogicalHeight 3
 LogicalWidthSetting 0
@@ -738,7 +738,7 @@ LogicalOffsetTop 0
 grd 8
 ConditionProperties switch == 0
 LinkedObj0 start
-LinkedObj1 sutoSetting
+LinkedObj1 autoSetting
 EnteringCaption IN_T7
 LeavingCaption OUT_T7
 Kind FSBVOTrans
@@ -751,14 +751,14 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 26
-LogicalTop 51
+LogicalLeft 11
+LogicalTop 82
 LogicalWidth 1
 LogicalHeight 1
 LogicalWidthSetting 0
 LogicalHeightSetting 0
-LogicalOffsetLeft -20
-LogicalOffsetTop 15
+LogicalOffsetLeft -49
+LogicalOffsetTop 41
 grd 8
 LinkedObj0 cancel
 LinkedObj1 start
@@ -774,8 +774,8 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 27
-LogicalTop 31
+LogicalLeft 38
+LogicalTop 50
 LogicalWidth 22
 LogicalHeight 16
 LogicalWidthSetting 8
@@ -906,8 +906,8 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 21
-LogicalTop 31
+LogicalLeft 26
+LogicalTop 40
 LogicalWidth 9
 LogicalHeight 3
 LogicalWidthSetting 0
@@ -930,16 +930,16 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 30
-LogicalTop 32
-LogicalWidth 16
+LogicalLeft 37
+LogicalTop 45
+LogicalWidth 28
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
-LogicalOffsetLeft -8
-LogicalOffsetTop -7
+LogicalOffsetLeft -12
+LogicalOffsetTop -13
 grd 8
-ConditionProperties completeSetting == 0
+ConditionProperties completeSetting == 0 && switch == 1
 LinkedObj0 manualSetting
 LinkedObj1 manualSetting
 EnteringCaption IN_T10
@@ -954,8 +954,8 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 48
-LogicalTop 30
+LogicalLeft 61
+LogicalTop 38
 LogicalWidth 16
 LogicalHeight 3
 LogicalWidthSetting 0
@@ -1037,18 +1037,18 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 23
-LogicalTop 25
-LogicalWidth 9
+LogicalLeft 28
+LogicalTop 36
+LogicalWidth 28
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
-LogicalOffsetLeft -15
+LogicalOffsetLeft -20
 LogicalOffsetTop -1
 grd 8
-ConditionProperties switch == 0
+ConditionProperties completeSetting == 0 && switch == 0
 LinkedObj0 manualSetting
-LinkedObj1 sutoSetting
+LinkedObj1 autoSetting
 EnteringCaption IN_T13
 LeavingCaption OUT_T13
 Kind FSBVOTrans
@@ -1061,17 +1061,17 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 46
-LogicalTop 24
-LogicalWidth 9
+LogicalLeft 45
+LogicalTop 30
+LogicalWidth 28
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
-LogicalOffsetLeft 8
-LogicalOffsetTop -2
+LogicalOffsetLeft -2
+LogicalOffsetTop -7
 grd 8
-ConditionProperties switch == 1
-LinkedObj0 sutoSetting
+ConditionProperties completeSetting == 0 && switch == 1
+LinkedObj0 autoSetting
 LinkedObj1 manualSetting
 EnteringCaption IN_T14
 LeavingCaption OUT_T14
