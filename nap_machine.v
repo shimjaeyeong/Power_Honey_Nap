@@ -1,4 +1,4 @@
-module nap_machine(clock,reset,keypad,sharp,dip_switch,com,seg,modeSetAuto,modeSetManual,modeSleep,modeAlarm,modeCancel,modeInit,piezo,seg_dot,light);
+module nap_machine(clock,reset,keypad,sharp,dip_switch,com,seg,modeSetAuto,modeSetManual,modeSleep,modeAlarm,modeCancel,modeInit,piezo,seg_dot,light,led_R,led_G,led_B);
 
 input clock;
 input reset;
@@ -16,6 +16,9 @@ output modeInit;
 output piezo;
 output seg_dot;
 output light;
+output [3:0] led_R;
+output [3:0] led_G;
+output [3:0] led_B;
 
 wire [6:0] b18;
 wire [6:0] b19;
@@ -25,10 +28,7 @@ wire [6:0] b22;
 wire [6:0] b23;
 wire  w32;
 wire  autoLine;
-wire  w33;
-wire  w35;
 wire [12:0] b40;
-wire [12:0] b41;
 wire  w43;
 wire  w44;
 wire  w45;
@@ -49,15 +49,12 @@ wire [23:0] b69;
 wire [23:0] b68;
 wire [23:0] b73;
 wire  w53;
-wire  w56;
 wire  w61;
 wire  w62;
 wire  w63;
 wire  w64;
 wire  w65;
 wire  w69;
-wire  w70;
-wire  w71;
 wire [7:0] b75;
 wire [6:0] b76;
 wire  w72;
@@ -66,6 +63,15 @@ wire  w67;
 wire  w68;
 wire [9:0] b74;
 wire  w73;
+wire  w70;
+wire  w71;
+wire [3:0] b77;
+wire [3:0] b78;
+wire [3:0] b79;
+wire  w74;
+wire  w75;
+wire  w76;
+wire [12:0] b80;
 wire [3:0] b69_3to0;
 wire [3:0] b69_15to12;
 wire [3:0] b69_11to8;
@@ -95,12 +101,15 @@ assign seg = b76;
 assign modeSetAuto = autoLine;
 assign modeSetManual = w53;
 assign modeSleep = w46;
-assign modeAlarm = w33;
-assign modeCancel = w35;
+assign modeAlarm = w74;
+assign modeCancel = w75;
 assign modeInit = w69;
 assign piezo = w45;
 assign seg_dot = w72;
-assign light = w56;
+assign light = w76;
+assign led_R = b77;
+assign led_G = b78;
+assign led_B = b79;
 
 assign b69[23:20] = b69_23to20[3:0];
 assign b69[19:16] = b69_19to16[3:0];
@@ -139,8 +148,8 @@ time_register
       .setMinute10(b73_15to12_b60),
       .setHour1(b73_19to16_b58),
       .setHour10(b73_23to20_b56),
-      .clock(w70),
-      .write(w73));
+      .write(w73),
+      .clock(w70));
 
 printSegment
      s2 (
@@ -304,11 +313,11 @@ lullaby
       .S99(99),
       .musicOff(0))
      s13 (
-      .stop(w35),
       .beat(b40),
       .start(w46),
       .clock(w70),
-      .reset(w71));
+      .reset(w71),
+      .stop(w75));
 
 piezo
      s15 (
@@ -319,10 +328,10 @@ piezo
 
 piezo
      s16 (
-      .playSound(b41),
       .piezo(w44),
       .clk(w70),
-      .rst(w71));
+      .rst(w71),
+      .playSound(b80));
 
 alarm
      #(
@@ -331,23 +340,21 @@ alarm
       .S10(10),
       .S11(11),
       .S12(13),
-      .S13(14),
       .S2(2),
       .S3(3),
       .S4(4),
-      .S5(5),
       .S6(6),
       .S7(7),
       .S8(8),
       .S9(9),
       .st(12))
      s17 (
-      .start(w33),
-      .stop(w35),
-      .beat(b41),
-      .light(w56),
       .clock(w70),
-      .reset(w71));
+      .reset(w71),
+      .start(w74),
+      .stop(w75),
+      .light(w76),
+      .beat(b80));
 
 PNU_OR2
      s18 (
@@ -365,8 +372,6 @@ main_state
       .sutoSetting(0))
      s0 (
       .enAutoSetting(autoLine),
-      .enAlarm(w33),
-      .enCancel(w35),
       .switch(w19),
       .sharp(sharpLine),
       .completeSleep(w40),
@@ -375,7 +380,9 @@ main_state
       .enManualSetting(w53),
       .init(w69),
       .clock(w70),
-      .reset(w71));
+      .reset(w71),
+      .enAlarm(w74),
+      .enCancel(w75));
 
 shortcutSetting
      s19 (
@@ -394,9 +401,9 @@ shortcutSetting
       .min_one_out(b68_11to8),
       .sec_ten_out(b68_7to4),
       .sec_one_out(b68_3to0),
+      .keypad(b74),
       .clk(w70),
-      .rst(w71),
-      .keypad(b74));
+      .rst(w71));
 
 PNU_OR2
      s21 (
@@ -430,9 +437,9 @@ manual_setting
       .h(w63),
       .m(w64),
       .s(w65),
+      .keypad(b74),
       .clk(w70),
-      .rst(w71),
-      .keypad(b74));
+      .rst(w71));
 
 PNU_CLK_DIV
      #(
@@ -483,14 +490,32 @@ rotateSegment7
       .data4(b21),
       .data5(b22),
       .data6(b23),
-      .clock(w70),
-      .reset(w71),
       .com(b75),
       .seg(b76),
       .dot(w72),
       .h(w66),
       .m(w67),
-      .s(w68));
+      .s(w68),
+      .clock(w70),
+      .reset(w71));
+
+crazy_light
+     #(
+      .S0(0),
+      .S1(1),
+      .S2(2),
+      .S3(3),
+      .S4(4),
+      .S5(5),
+      .S6(6))
+     s29 (
+      .clock(w70),
+      .reset(w71),
+      .r(b77),
+      .g(b78),
+      .b(b79),
+      .start(w74),
+      .stop(w75));
 
 endmodule
 

@@ -94,15 +94,6 @@ Edge X1: 344 ,Y1: 672 ,X2: 368 ,Y2: 672
 End
 Branches
 End
-Wire Name: b41
-LV: 12
-RV: 0
-Width: 13
-Edges
-Edge X1: 344 ,Y1: 744 ,X2: 368 ,Y2: 744
-End
-Branches
-End
 Wire Name: w43
 LV: 0
 RV: 0
@@ -527,16 +518,6 @@ Edge X1: 176 ,Y1: 488 ,X2: 200 ,Y2: 488
 End
 Branches
 End
-Wire Name: w56
-LV: 0
-RV: 0
-Width: 1
-Edges
-Edge X1: 344 ,Y1: 760 ,X2: 344 ,Y2: 800
-Edge X1: 344 ,Y1: 800 ,X2: 368 ,Y2: 800
-End
-Branches
-End
 Wire Name: w61
 LV: 0
 RV: 0
@@ -849,6 +830,26 @@ Edge X1: 88 ,Y1: 176 ,X2: 496 ,Y2: 176
 Edge X1: 496 ,Y1: 136 ,X2: 496 ,Y2: 176
 Edge X1: 480 ,Y1: 136 ,X2: 496 ,Y2: 136
 Edge X1: 496 ,Y1: 136 ,X2: 576 ,Y2: 136
+End
+Branches
+End
+Wire Name: w76
+LV: 0
+RV: 0
+Width: 1
+Edges
+Edge X1: 344 ,Y1: 800 ,X2: 368 ,Y2: 800
+Edge X1: 344 ,Y1: 784 ,X2: 344 ,Y2: 800
+End
+Branches
+End
+Wire Name: b80
+LV: 12
+RV: 0
+Width: 13
+Edges
+Edge X1: 344 ,Y1: 744 ,X2: 368 ,Y2: 744
+Edge X1: 344 ,Y1: 744 ,X2: 344 ,Y2: 752
 End
 Branches
 End
