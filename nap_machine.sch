@@ -145,18 +145,6 @@ Edge X1: 256 ,Y1: 136 ,X2: 400 ,Y2: 136
 End
 Branches
 End
-Wire Name: w40
-LV: 0
-RV: 0
-Width: 1
-Edges
-Edge X1: 392 ,Y1: 104 ,X2: 400 ,Y2: 104
-Edge X1: 392 ,Y1: 104 ,X2: 392 ,Y2: 448
-Edge X1: 392 ,Y1: 448 ,X2: 648 ,Y2: 448
-Edge X1: 648 ,Y1: 448 ,X2: 648 ,Y2: 456
-End
-Branches
-End
 Wire Name: w39
 LV: 0
 RV: 0
@@ -252,22 +240,6 @@ Edges
 Edge X1: 648 ,Y1: 552 ,X2: 696 ,Y2: 552
 Edge X1: 696 ,Y1: 552 ,X2: 704 ,Y2: 552
 Edge X1: 696 ,Y1: 360 ,X2: 696 ,Y2: 552
-End
-Branches
-End
-Wire Name: w46
-LV: 0
-RV: 0
-Width: 1
-Edges
-Edge X1: 304 ,Y1: 704 ,X2: 400 ,Y2: 704
-Edge X1: 304 ,Y1: 584 ,X2: 304 ,Y2: 704
-Edge X1: 304 ,Y1: 192 ,X2: 304 ,Y2: 584
-Edge X1: 304 ,Y1: 584 ,X2: 400 ,Y2: 584
-Edge X1: 304 ,Y1: 192 ,X2: 712 ,Y2: 192
-Edge X1: 712 ,Y1: 104 ,X2: 712 ,Y2: 192
-Edge X1: 680 ,Y1: 104 ,X2: 712 ,Y2: 104
-Edge X1: 712 ,Y1: 104 ,X2: 776 ,Y2: 104
 End
 Branches
 End
@@ -704,40 +676,6 @@ Edge X1: 568 ,Y1: 872 ,X2: 584 ,Y2: 872
 End
 Branches
 End
-Wire Name: w74
-LV: 0
-RV: 0
-Width: 1
-Edges
-Edge X1: 296 ,Y1: 872 ,X2: 400 ,Y2: 872
-Edge X1: 296 ,Y1: 776 ,X2: 296 ,Y2: 872
-Edge X1: 296 ,Y1: 184 ,X2: 296 ,Y2: 776
-Edge X1: 296 ,Y1: 776 ,X2: 400 ,Y2: 776
-Edge X1: 296 ,Y1: 184 ,X2: 704 ,Y2: 184
-Edge X1: 704 ,Y1: 120 ,X2: 704 ,Y2: 184
-Edge X1: 680 ,Y1: 120 ,X2: 704 ,Y2: 120
-Edge X1: 704 ,Y1: 120 ,X2: 776 ,Y2: 120
-End
-Branches
-End
-Wire Name: w75
-LV: 0
-RV: 0
-Width: 1
-Edges
-Edge X1: 288 ,Y1: 888 ,X2: 400 ,Y2: 888
-Edge X1: 288 ,Y1: 792 ,X2: 288 ,Y2: 888
-Edge X1: 288 ,Y1: 720 ,X2: 288 ,Y2: 792
-Edge X1: 288 ,Y1: 792 ,X2: 400 ,Y2: 792
-Edge X1: 288 ,Y1: 176 ,X2: 288 ,Y2: 720
-Edge X1: 288 ,Y1: 720 ,X2: 400 ,Y2: 720
-Edge X1: 288 ,Y1: 176 ,X2: 696 ,Y2: 176
-Edge X1: 696 ,Y1: 136 ,X2: 696 ,Y2: 176
-Edge X1: 680 ,Y1: 136 ,X2: 696 ,Y2: 136
-Edge X1: 696 ,Y1: 136 ,X2: 776 ,Y2: 136
-End
-Branches
-End
 Wire Name: w76
 LV: 0
 RV: 0
@@ -867,6 +805,86 @@ Edge X1: 560 ,Y1: 776 ,X2: 568 ,Y2: 776
 Edge X1: 560 ,Y1: 704 ,X2: 568 ,Y2: 704
 Edge X1: 272 ,Y1: 856 ,X2: 400 ,Y2: 856
 Edge X1: 272 ,Y1: 856 ,X2: 272 ,Y2: 896
+End
+Branches
+End
+Wire Name: w40
+LV: 0
+RV: 0
+Width: 1
+Edges
+Edge X1: 392 ,Y1: 104 ,X2: 400 ,Y2: 104
+Edge X1: 392 ,Y1: 104 ,X2: 392 ,Y2: 448
+Edge X1: 392 ,Y1: 448 ,X2: 648 ,Y2: 448
+Edge X1: 648 ,Y1: 448 ,X2: 648 ,Y2: 456
+End
+Branches
+End
+Wire Name: w77
+LV: 0
+RV: 0
+Width: 1
+Edges
+Edge X1: 376 ,Y1: 720 ,X2: 400 ,Y2: 720
+End
+Branches
+End
+Wire Name: w78
+LV: 0
+RV: 0
+Width: 1
+Edges
+Edge X1: 304 ,Y1: 704 ,X2: 400 ,Y2: 704
+Edge X1: 304 ,Y1: 584 ,X2: 304 ,Y2: 704
+Edge X1: 304 ,Y1: 704 ,X2: 304 ,Y2: 720
+Edge X1: 304 ,Y1: 192 ,X2: 304 ,Y2: 584
+Edge X1: 304 ,Y1: 584 ,X2: 400 ,Y2: 584
+Edge X1: 304 ,Y1: 192 ,X2: 712 ,Y2: 192
+Edge X1: 712 ,Y1: 104 ,X2: 712 ,Y2: 192
+Edge X1: 680 ,Y1: 104 ,X2: 712 ,Y2: 104
+Edge X1: 712 ,Y1: 104 ,X2: 776 ,Y2: 104
+Edge X1: 304 ,Y1: 720 ,X2: 320 ,Y2: 720
+End
+Branches
+End
+Wire Name: w75
+LV: 0
+RV: 0
+Width: 1
+Edges
+Edge X1: 288 ,Y1: 888 ,X2: 400 ,Y2: 888
+Edge X1: 288 ,Y1: 176 ,X2: 288 ,Y2: 888
+Edge X1: 288 ,Y1: 176 ,X2: 696 ,Y2: 176
+Edge X1: 696 ,Y1: 136 ,X2: 696 ,Y2: 176
+Edge X1: 680 ,Y1: 136 ,X2: 696 ,Y2: 136
+Edge X1: 696 ,Y1: 136 ,X2: 776 ,Y2: 136
+End
+Branches
+End
+Wire Name: w79
+LV: 0
+RV: 0
+Width: 1
+Edges
+Edge X1: 376 ,Y1: 792 ,X2: 400 ,Y2: 792
+End
+Branches
+End
+Wire Name: w74
+LV: 0
+RV: 0
+Width: 1
+Edges
+Edge X1: 296 ,Y1: 872 ,X2: 400 ,Y2: 872
+Edge X1: 296 ,Y1: 792 ,X2: 296 ,Y2: 872
+Edge X1: 296 ,Y1: 776 ,X2: 296 ,Y2: 792
+Edge X1: 296 ,Y1: 792 ,X2: 320 ,Y2: 792
+Edge X1: 296 ,Y1: 776 ,X2: 400 ,Y2: 776
+Edge X1: 296 ,Y1: 184 ,X2: 296 ,Y2: 776
+Edge X1: 296 ,Y1: 184 ,X2: 704 ,Y2: 184
+Edge X1: 704 ,Y1: 120 ,X2: 704 ,Y2: 184
+Edge X1: 680 ,Y1: 120 ,X2: 704 ,Y2: 120
+Edge X1: 704 ,Y1: 120 ,X2: 776 ,Y2: 120
 End
 Branches
 End
@@ -1485,6 +1503,18 @@ Symbol Left: 56 Top: 256
 Name: s33
 LibraryName: (NoLibraryName)
 IpName: keypadL2P
+SymbolParameters
+End
+Symbol Left: 320 Top: 712
+Name: s31
+LibraryName: PNULib
+IpName: PNU_NOT
+SymbolParameters
+End
+Symbol Left: 320 Top: 784
+Name: s32
+LibraryName: PNULib
+IpName: PNU_NOT
 SymbolParameters
 End
 End

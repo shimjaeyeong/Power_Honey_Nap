@@ -34,7 +34,6 @@ wire  w44;
 wire  w45;
 wire  w19;
 wire  sharpLine;
-wire  w40;
 wire  w39;
 wire  w41;
 wire  w42;
@@ -44,7 +43,6 @@ wire [3:0] b49;
 wire [3:0] b51;
 wire [3:0] b50;
 wire [3:0] b52;
-wire  w46;
 wire [23:0] b69;
 wire [23:0] b68;
 wire [23:0] b73;
@@ -64,8 +62,6 @@ wire  w73;
 wire [3:0] b77;
 wire [3:0] b78;
 wire [3:0] b79;
-wire  w74;
-wire  w75;
 wire  w76;
 wire [12:0] b80;
 wire [9:0] b74;
@@ -73,6 +69,12 @@ wire [9:0] b81;
 wire  w81;
 wire  w70;
 wire  w71;
+wire  w40;
+wire  w77;
+wire  w78;
+wire  w75;
+wire  w79;
+wire  w74;
 wire [3:0] b69_3to0;
 wire [3:0] b69_15to12;
 wire [3:0] b69_11to8;
@@ -101,7 +103,7 @@ assign com = b75;
 assign seg = b76;
 assign modeSetAuto = autoLine;
 assign modeSetManual = w53;
-assign modeSleep = w46;
+assign modeSleep = w78;
 assign modeAlarm = w74;
 assign modeCancel = w75;
 assign modeInit = w69;
@@ -135,14 +137,12 @@ assign b73_23to20_b56[3:0] = {b73[23:20]};
 time_register
      s4 (
       .reset(w32),
-      .complete(w40),
       .getHour10(b47),
       .getHour1(b48),
       .getMinute10(b49),
       .getMinute1(b51),
       .getSecond10(b50),
       .getSecond1(b52),
-      .start(w46),
       .setSecond10(b73_7to4_b71),
       .setSecond1(b73_3to0_b70),
       .setMinute1(b73_11to8_b72),
@@ -150,7 +150,9 @@ time_register
       .setHour1(b73_19to16_b58),
       .setHour10(b73_23to20_b56),
       .write(w73),
-      .clock(w70));
+      .clock(w70),
+      .complete(w40),
+      .start(w78));
 
 printSegment
      s2 (
@@ -315,10 +317,10 @@ lullaby
       .musicOff(0))
      s13 (
       .beat(b40),
-      .start(w46),
-      .stop(w75),
       .clock(w81),
-      .reset(w71));
+      .reset(w71),
+      .stop(w77),
+      .start(w78));
 
 piezo
      s15 (
@@ -350,12 +352,12 @@ alarm
       .S9(9),
       .st(12))
      s17 (
-      .start(w74),
-      .stop(w75),
       .light(w76),
       .beat(b80),
       .clock(w81),
-      .reset(w71));
+      .reset(w71),
+      .stop(w79),
+      .start(w74));
 
 PNU_OR2
      s18 (
@@ -375,15 +377,15 @@ main_state
       .enAutoSetting(autoLine),
       .switch(w19),
       .sharp(sharpLine),
-      .completeSleep(w40),
       .completeSetting(w39),
-      .enSleep(w46),
       .enManualSetting(w53),
       .init(w69),
-      .enAlarm(w74),
-      .enCancel(w75),
       .clock(w70),
-      .reset(w71));
+      .reset(w71),
+      .completeSleep(w40),
+      .enSleep(w78),
+      .enCancel(w75),
+      .enAlarm(w74));
 
 shortcutSetting
      s19 (
@@ -513,10 +515,10 @@ crazy_light
       .r(b77),
       .g(b78),
       .b(b79),
-      .start(w74),
-      .stop(w75),
       .clock(w81),
-      .reset(w71));
+      .reset(w71),
+      .stop(w75),
+      .start(w74));
 
 keypadL2P
      s33 (
@@ -524,6 +526,16 @@ keypadL2P
       .input_key(b81),
       .clk(w70),
       .rst(w71));
+
+PNU_NOT
+     s31 (
+      .o1(w77),
+      .i1(w78));
+
+PNU_NOT
+     s32 (
+      .o1(w79),
+      .i1(w74));
 
 endmodule
 

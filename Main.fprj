@@ -2,7 +2,7 @@
 projecttype=1
 [folder0]
 <<<<<<< HEAD
-filen=25
+filen=28
 =======
 filen=5
 >>>>>>> 97c73505ee81e3abf5e44e3ac77dcf1595670cb7
@@ -31,6 +31,9 @@ file21=time_mux2.v
 file22=time_check.v
 file23=rotateSegment7.v
 file24=crazy_light.v
+file25=multiOR3.v
+file26=multiOR4.v
+file27=multiOR.v
 [folder1]
 filen=0
 [folder2]
