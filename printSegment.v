@@ -7,10 +7,10 @@ wire [3:0] b0;
 wire [9:0] b22;
 wire  w6;
 wire [6:0] b23;
-wire  w15;
-wire  w16;
-wire  w20;
-wire  w21;
+wire  w32;
+wire  w33;
+wire  w35;
+wire  w36;
 wire  w28;
 wire  w31;
 wire [7:0] b22_9to5_3to2_0_b2;
@@ -26,11 +26,11 @@ wire  b23_6;
 wire [3:0] b22_5_3to2_0_b17;
 wire [2:0] b22_9to8_6_b18;
 wire [3:0] b22_8_6_2_0_b19;
-wire  b23_4;
 wire [2:0] b22_6to4_b24;
 wire [2:0] b22_9to8_0_b25;
 wire [2:0] b22_9to8_6_b26;
 wire [3:0] b22_5to2_b27;
+wire  b23_4;
 
 assign b0 = bNum;
 assign seg = b23;
@@ -60,79 +60,79 @@ Binary_to_Decimal_Convert
       .binary(b0),
       .decimal(b22));
 
-multiAND
-     s8 (
-      .in(b22_9to5_3to2_0_b2),
-      .out(b23_0));
-
-multiAND
-     s2 (
-      .in(b22_9to7_4to0_b4),
-      .out(b23_1));
-
-multiAND
-     s3 (
-      .in(b22_8to3_1to0_b5),
-      .out(w6));
-
 PNU_AND2
      s4 (
       .i1(w6),
       .i2(b22_9_w7),
       .o1(b23_2));
 
-multiAND4
-     s5 (
-      .out(w15),
-      .in(b22_5_3to2_0_b17));
-
-multiAND3
-     s6 (
-      .out(w16),
-      .in(b22_9to8_6_b18));
-
 PNU_AND2
      s7 (
       .o1(b23_3),
-      .i1(w15),
-      .i2(w16));
-
-multiAND4
-     s9 (
-      .in(b22_8_6_2_0_b19),
-      .out(b23_4));
-
-multiAND3
-     s10 (
-      .out(w20),
-      .in(b22_6to4_b24));
-
-multiAND3
-     s11 (
-      .out(w21),
-      .in(b22_9to8_0_b25));
+      .i1(w32),
+      .i2(w33));
 
 PNU_AND2
      s12 (
       .o1(b23_5),
-      .i1(w20),
-      .i2(w21));
-
-multiAND4
-     s13 (
-      .in(b22_5to2_b27),
-      .out(w28));
-
-multiAND3
-     s14 (
-      .in(b22_9to8_6_b26),
-      .out(w31));
+      .i1(w35),
+      .i2(w36));
 
 PNU_AND2
      s15 (
       .o1(b23_6),
       .i1(w28),
       .i2(w31));
+
+multiOR
+     s17 (
+      .in(b22_9to5_3to2_0_b2),
+      .out(b23_0));
+
+multiOR
+     s18 (
+      .in(b22_9to7_4to0_b4),
+      .out(b23_1));
+
+multiOR
+     s19 (
+      .in(b22_8to3_1to0_b5),
+      .out(w6));
+
+multiOR4
+     s20 (
+      .in(b22_5_3to2_0_b17),
+      .out(w32));
+
+multiOR3
+     s21 (
+      .in(b22_9to8_6_b18),
+      .out(w33));
+
+multiOR4
+     s22 (
+      .in(b22_8_6_2_0_b19),
+      .out(b23_4));
+
+multiOR3
+     s11 (
+      .in(b22_6to4_b24),
+      .out(w35));
+
+multiOR3
+     s13 (
+      .in(b22_9to8_0_b25),
+      .out(w36));
+
+multiOR4
+     s14 (
+      .in(b22_5to2_b27),
+      .out(w28));
+
+multiOR3
+     s23 (
+      .in(b22_9to8_6_b26),
+      .out(w31));
 
 endmodule
 
