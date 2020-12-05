@@ -63,12 +63,15 @@ Scale 1
 GridInterval 8
 LogicalLeft 85
 LogicalTop 13
-LogicalWidth 13
-LogicalHeight 5
+LogicalWidth 22
+LogicalHeight 11
 LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
 Properties one_sec <= 5;
+Properties completeSetting <= 0;
+Properties ten_sec <= 0;
+Properties one_min <= 0;
 ColorIndex 16
 Kind FSBVOState
 
@@ -118,12 +121,15 @@ Scale 1
 GridInterval 8
 LogicalLeft 85
 LogicalTop 29
-LogicalWidth 13
-LogicalHeight 5
+LogicalWidth 22
+LogicalHeight 11
 LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
 Properties ten_sec <= 3;
+Properties completeSetting <= 0;
+Properties one_sec <= 0;
+Properties one_min <= 0;
 ColorIndex 16
 Kind FSBVOState
 
@@ -173,12 +179,15 @@ Scale 1
 GridInterval 8
 LogicalLeft 85
 LogicalTop 46
-LogicalWidth 13
-LogicalHeight 5
+LogicalWidth 22
+LogicalHeight 11
 LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
 Properties one_min <= 1;
+Properties completeSetting <= 0;
+Properties one_sec <= 0;
+Properties ten_sec <= 0;
 ColorIndex 16
 Kind FSBVOState
 
@@ -483,7 +492,7 @@ VertScrollPos 0
 Scale 1
 GridInterval 8
 LogicalLeft 58
-LogicalTop 15
+LogicalTop 17
 LogicalWidth 18
 LogicalHeight 3
 LogicalWidthSetting 0
@@ -507,7 +516,7 @@ VertScrollPos 0
 Scale 1
 GridInterval 8
 LogicalLeft 68
-LogicalTop 27
+LogicalTop 28
 LogicalWidth 18
 LogicalHeight 3
 LogicalWidthSetting 0
@@ -555,7 +564,7 @@ VertScrollPos 0
 Scale 1
 GridInterval 8
 LogicalLeft 72
-LogicalTop 20
+LogicalTop 22
 LogicalWidth 1
 LogicalHeight 1
 LogicalWidthSetting 0
