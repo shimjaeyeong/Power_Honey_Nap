@@ -27,7 +27,6 @@ wire [6:0] b21;
 wire [6:0] b22;
 wire [6:0] b23;
 wire  w32;
-wire  autoLine;
 wire [12:0] b40;
 wire  w43;
 wire  w44;
@@ -46,12 +45,10 @@ wire [3:0] b52;
 wire [23:0] b69;
 wire [23:0] b68;
 wire [23:0] b73;
-wire  w53;
 wire  w61;
 wire  w63;
 wire  w64;
 wire  w65;
-wire  w69;
 wire [7:0] b75;
 wire [6:0] b76;
 wire  w72;
@@ -71,10 +68,13 @@ wire  w70;
 wire  w71;
 wire  w40;
 wire  w77;
-wire  w78;
-wire  w75;
 wire  w79;
+wire  w80;
+wire  w82;
+wire  w78;
 wire  w74;
+wire  w75;
+wire  w83;
 wire [3:0] b69_3to0;
 wire [3:0] b69_15to12;
 wire [3:0] b69_11to8;
@@ -101,12 +101,12 @@ assign sharpLine = sharp;
 assign w19 = dip_switch;
 assign com = b75;
 assign seg = b76;
-assign modeSetAuto = autoLine;
-assign modeSetManual = w53;
+assign modeSetAuto = w80;
+assign modeSetManual = w82;
 assign modeSleep = w78;
 assign modeAlarm = w74;
 assign modeCancel = w75;
-assign modeInit = w69;
+assign modeInit = w83;
 assign piezo = w45;
 assign seg_dot = w72;
 assign light = w76;
@@ -187,8 +187,8 @@ printSegment
 PNU_OR2
      s11 (
       .o1(w32),
-      .i2(w69),
-      .i1(w71));
+      .i1(w71),
+      .i2(w83));
 
 lullaby
      #(
@@ -365,31 +365,8 @@ PNU_OR2
       .i2(w44),
       .o1(w45));
 
-main_state
-     #(
-      .alarm(2),
-      .cancel(3),
-      .manualSetting(5),
-      .sleep(1),
-      .start(4),
-      .sutoSetting(0))
-     s0 (
-      .enAutoSetting(autoLine),
-      .switch(w19),
-      .sharp(sharpLine),
-      .completeSetting(w39),
-      .enManualSetting(w53),
-      .init(w69),
-      .clock(w70),
-      .reset(w71),
-      .completeSleep(w40),
-      .enSleep(w78),
-      .enCancel(w75),
-      .enAlarm(w74));
-
 shortcutSetting
      s19 (
-      .en(autoLine),
       .sharp(sharpLine),
       .completeSetting(w41),
       .hour_ten_in(b47),
@@ -406,7 +383,8 @@ shortcutSetting
       .sec_one_out(b68_3to0),
       .keypad(b74),
       .clk(w70),
-      .rst(w71));
+      .rst(w71),
+      .en(w80));
 
 PNU_OR2
      s21 (
@@ -418,8 +396,8 @@ time_mux2
      s22 (
       .time1(b68),
       .time2(b69),
-      .en(w53),
-      .selected(b73));
+      .selected(b73),
+      .en(w82));
 
 time_check
      s20 (
@@ -436,13 +414,13 @@ manual_setting
       .sec_ten_out(b69_7to4),
       .hour_one_out(b69_19to16),
       .hour_ten_out(b69_23to20),
-      .en(w53),
       .h(w63),
       .m(w64),
       .s(w65),
       .keypad(b74),
       .clk(w70),
-      .rst(w71));
+      .rst(w71),
+      .en(w82));
 
 PNU_CLK_DIV
      #(
@@ -517,8 +495,8 @@ crazy_light
       .b(b79),
       .clock(w81),
       .reset(w71),
-      .stop(w75),
-      .start(w74));
+      .start(w74),
+      .stop(w75));
 
 keypadL2P
      s33 (
@@ -536,6 +514,28 @@ PNU_NOT
      s32 (
       .o1(w79),
       .i1(w74));
+
+main_state
+     #(
+      .alarm(2),
+      .autoSetting(0),
+      .cancel(3),
+      .manualSetting(5),
+      .sleep(1),
+      .start(4))
+     s34 (
+      .switch(w19),
+      .sharp(sharpLine),
+      .completeSetting(w39),
+      .clock(w70),
+      .reset(w71),
+      .completeSleep(w40),
+      .enAutoSetting(w80),
+      .enManualSetting(w82),
+      .enSleep(w78),
+      .enAlarm(w74),
+      .enCancel(w75),
+      .init(w83));
 
 endmodule
 

@@ -14,11 +14,11 @@ Box Left: 304 Top: 560 ,Right: 536 ,Bottom: 656
 End
 Parameters
 Parameter Name: alarm ,Type: integer ,Value: 2
+Parameter Name: autoSetting ,Type: integer ,Value: 0
 Parameter Name: cancel ,Type: integer ,Value: 3
 Parameter Name: manualSetting ,Type: integer ,Value: 5
 Parameter Name: sleep ,Type: integer ,Value: 1
 Parameter Name: start ,Type: integer ,Value: 4
-Parameter Name: sutoSetting ,Type: integer ,Value: 0
 End
 Ports
 Port Left: 280 Top: 568 ,SymbolSideLeft: 304 ,SymbolSideTop: 568
