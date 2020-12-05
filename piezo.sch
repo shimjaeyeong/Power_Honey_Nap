@@ -2,7 +2,7 @@ ModuleName piezo
 LanguageType Veirlog
 GridInterval 8
 MillimetersIn100RealScaledUnit 25
-ZoomOutScale 70
+ZoomOutScale 64
 NumberOfHorzPapaers 8
 NumberOfVertPapaers 4
 Parameters

@@ -4,7 +4,7 @@ ChildrenCount 47
 Caption root
 IfEntering false
 IfLeaving false
-HorzScrollPos 48
+HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
@@ -1170,8 +1170,8 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 5
-LogicalTop 3
+LogicalLeft 2
+LogicalTop 36
 LogicalWidth 2
 LogicalHeight 2
 LogicalWidthSetting 2
@@ -1548,8 +1548,8 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 8
-LogicalTop 14
+LogicalLeft 5
+LogicalTop 32
 LogicalWidth 1
 LogicalHeight 1
 LogicalWidthSetting 0
@@ -1571,13 +1571,13 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 12
+LogicalLeft 13
 LogicalTop 18
 LogicalWidth 8
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
-LogicalOffsetLeft -6
+LogicalOffsetLeft -5
 LogicalOffsetTop -6
 grd 8
 ConditionProperties start == 1
@@ -2031,13 +2031,13 @@ VertScrollPos 0
 Scale 1
 GridInterval 8
 LogicalLeft 56
-LogicalTop 51
+LogicalTop 54
 LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
 LogicalOffsetLeft -6
-LogicalOffsetTop 27
+LogicalOffsetTop 30
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S13
@@ -2055,13 +2055,13 @@ VertScrollPos 0
 Scale 1
 GridInterval 8
 LogicalLeft 56
-LogicalTop 54
+LogicalTop 51
 LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
 LogicalOffsetLeft -6
-LogicalOffsetTop 24
+LogicalOffsetTop 21
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S12
@@ -2102,14 +2102,14 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 62
-LogicalTop 26
+LogicalLeft 91
+LogicalTop 8
 LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
-LogicalOffsetLeft -10
-LogicalOffsetTop -1
+LogicalOffsetLeft 19
+LogicalOffsetTop -19
 grd 8
 ConditionProperties stop == 0
 LinkedObj0 S13
@@ -2150,14 +2150,14 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 72
-LogicalTop 27
+LogicalLeft 53
+LogicalTop 8
 LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
-LogicalOffsetLeft 0
-LogicalOffsetTop -2
+LogicalOffsetLeft -19
+LogicalOffsetTop -21
 grd 8
 ConditionProperties stop == 0
 LinkedObj0 S12
@@ -2174,13 +2174,13 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 2
+LogicalLeft 1
 LogicalTop 18
 LogicalWidth 8
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
-LogicalOffsetLeft -8
+LogicalOffsetLeft -9
 LogicalOffsetTop -8
 grd 8
 ConditionProperties start == 0
@@ -2218,7 +2218,7 @@ PortLanguageType Veriilog
 PortName beat
 PortType multibit
 PortDirection out
-PortLV 11
+PortLV 12
 PortRV 0
 PortDirectionIndex 0
 PortLanguageType Veriilog
