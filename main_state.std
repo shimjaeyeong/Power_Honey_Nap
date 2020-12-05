@@ -25,14 +25,19 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 24
-LogicalTop 7
-LogicalWidth 17
-LogicalHeight 5
+LogicalLeft 27
+LogicalTop 5
+LogicalWidth 22
+LogicalHeight 16
 LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
+Properties init = 0;
 Properties enAutoSetting = 1;
+Properties enManualSetting = 0;
+Properties enSleep = 0;
+Properties enAlarm = 0;
+Properties enCancel = 0;
 ColorIndex 11
 Kind FSBVOState
 
@@ -152,14 +157,19 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 58
-LogicalTop 12
-LogicalWidth 11
-LogicalHeight 5
+LogicalLeft 57
+LogicalTop 14
+LogicalWidth 22
+LogicalHeight 16
 LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
+Properties init = 0;
+Properties enAutoSetting = 0;
+Properties enManualSetting = 0;
 Properties enSleep = 1;
+Properties enAlarm = 0;
+Properties enCancel = 0;
 ColorIndex 11
 Kind FSBVOState
 
@@ -280,13 +290,18 @@ VertScrollPos 0
 Scale 1
 GridInterval 8
 LogicalLeft 85
-LogicalTop 12
-LogicalWidth 11
-LogicalHeight 5
+LogicalTop 14
+LogicalWidth 22
+LogicalHeight 16
 LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
+Properties init = 0;
+Properties enAutoSetting = 0;
+Properties enManualSetting = 0;
+Properties enSleep = 0;
 Properties enAlarm = 1;
+Properties enCancel = 0;
 ColorIndex 11
 Kind FSBVOState
 
@@ -370,13 +385,18 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 72
-LogicalTop 30
-LogicalWidth 13
-LogicalHeight 5
+LogicalLeft 68
+LogicalTop 42
+LogicalWidth 22
+LogicalHeight 16
 LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
+Properties init = 0;
+Properties enAutoSetting = 0;
+Properties enManualSetting = 0;
+Properties enSleep = 0;
+Properties enAlarm = 0;
 Properties enCancel = 1;
 ColorIndex 11
 Kind FSBVOState
@@ -443,8 +463,8 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 42
-LogicalTop 7
+LogicalLeft 45
+LogicalTop 13
 LogicalWidth 16
 LogicalHeight 3
 LogicalWidthSetting 0
@@ -467,8 +487,8 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 69
-LogicalTop 7
+LogicalLeft 74
+LogicalTop 15
 LogicalWidth 15
 LogicalHeight 3
 LogicalWidthSetting 0
@@ -491,8 +511,8 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 80
-LogicalTop 22
+LogicalLeft 84
+LogicalTop 34
 LogicalWidth 8
 LogicalHeight 3
 LogicalWidthSetting 0
@@ -515,8 +535,8 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 66
-LogicalTop 23
+LogicalLeft 70
+LogicalTop 35
 LogicalWidth 8
 LogicalHeight 3
 LogicalWidthSetting 0
@@ -539,14 +559,14 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 24
+LogicalLeft 30
 LogicalTop 2
 LogicalWidth 16
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
 LogicalOffsetLeft -8
-LogicalOffsetTop -7
+LogicalOffsetTop -11
 grd 8
 ConditionProperties completeSetting == 0
 LinkedObj0 sutoSetting
@@ -563,14 +583,14 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 59
-LogicalTop 7
+LogicalLeft 64
+LogicalTop 8
 LogicalWidth 8
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
 LogicalOffsetLeft -4
-LogicalOffsetTop -7
+LogicalOffsetTop -14
 grd 8
 ConditionProperties sharp == 0
 LinkedObj0 sleep
@@ -587,14 +607,14 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 86
-LogicalTop 7
+LogicalLeft 92
+LogicalTop 8
 LogicalWidth 8
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
 LogicalOffsetLeft -4
-LogicalOffsetTop -7
+LogicalOffsetTop -14
 grd 8
 ConditionProperties sharp == 0
 LinkedObj0 alarm
@@ -611,14 +631,19 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 5
-LogicalTop 12
-LogicalWidth 9
-LogicalHeight 5
+LogicalLeft 2
+LogicalTop 15
+LogicalWidth 22
+LogicalHeight 16
 LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
 Properties init = 1;
+Properties enAutoSetting = 0;
+Properties enManualSetting = 0;
+Properties enSleep = 0;
+Properties enAlarm = 0;
+Properties enCancel = 0;
 ColorIndex 11
 Kind FSBVOState
 
@@ -702,8 +727,8 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 15
-LogicalTop 12
+LogicalLeft 22
+LogicalTop 18
 LogicalWidth 9
 LogicalHeight 3
 LogicalWidthSetting 0
@@ -726,8 +751,8 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 23
-LogicalTop 39
+LogicalLeft 26
+LogicalTop 51
 LogicalWidth 1
 LogicalHeight 1
 LogicalWidthSetting 0
@@ -749,14 +774,19 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 23
-LogicalTop 22
-LogicalWidth 20
-LogicalHeight 5
+LogicalLeft 27
+LogicalTop 31
+LogicalWidth 22
+LogicalHeight 16
 LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
+Properties init = 0;
+Properties enAutoSetting = 0;
 Properties enManualSetting = 1;
+Properties enSleep = 0;
+Properties enAlarm = 0;
+Properties enCancel = 0;
 ColorIndex 11
 Kind FSBVOState
 
@@ -876,8 +906,8 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 13
-LogicalTop 20
+LogicalLeft 21
+LogicalTop 31
 LogicalWidth 9
 LogicalHeight 3
 LogicalWidthSetting 0
@@ -900,8 +930,8 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 25
-LogicalTop 17
+LogicalLeft 30
+LogicalTop 32
 LogicalWidth 16
 LogicalHeight 3
 LogicalWidthSetting 0
@@ -924,8 +954,8 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 45
-LogicalTop 20
+LogicalLeft 48
+LogicalTop 30
 LogicalWidth 16
 LogicalHeight 3
 LogicalWidthSetting 0
@@ -984,8 +1014,8 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 6
-LogicalTop 8
+LogicalLeft 8
+LogicalTop 10
 LogicalWidth 1
 LogicalHeight 1
 LogicalWidthSetting 0
@@ -1007,8 +1037,8 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 17
-LogicalTop 16
+LogicalLeft 23
+LogicalTop 25
 LogicalWidth 9
 LogicalHeight 3
 LogicalWidthSetting 0
@@ -1031,8 +1061,8 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 40
-LogicalTop 15
+LogicalLeft 46
+LogicalTop 24
 LogicalWidth 9
 LogicalHeight 3
 LogicalWidthSetting 0

@@ -43,7 +43,16 @@ module main_state(reset, clock, switch, completeSetting, completeSleep, sharp, i
              begin
              next_state <= sutoSetting;
              end
+          else if (switch == 1'b1)
+             begin
+             next_state <= manualSetting;
+             end
+          init <= 1'b0;
           enAutoSetting <= 1'b1;
+          enManualSetting <= 1'b0;
+          enSleep <= 1'b0;
+          enAlarm <= 1'b0;
+          enCancel <= 1'b0;
 
         end
 
@@ -61,7 +70,12 @@ module main_state(reset, clock, switch, completeSetting, completeSleep, sharp, i
              begin
              next_state <= sleep;
              end
+          init <= 1'b0;
+          enAutoSetting <= 1'b0;
+          enManualSetting <= 1'b0;
           enSleep <= 1'b1;
+          enAlarm <= 1'b0;
+          enCancel <= 1'b0;
 
         end
 
@@ -75,13 +89,23 @@ module main_state(reset, clock, switch, completeSetting, completeSleep, sharp, i
              begin
              next_state <= alarm;
              end
+          init <= 1'b0;
+          enAutoSetting <= 1'b0;
+          enManualSetting <= 1'b0;
+          enSleep <= 1'b0;
           enAlarm <= 1'b1;
+          enCancel <= 1'b0;
 
         end
 
         cancel:
         begin
              next_state <= start;
+          init <= 1'b0;
+          enAutoSetting <= 1'b0;
+          enManualSetting <= 1'b0;
+          enSleep <= 1'b0;
+          enAlarm <= 1'b0;
           enCancel <= 1'b1;
 
         end
@@ -97,6 +121,11 @@ module main_state(reset, clock, switch, completeSetting, completeSleep, sharp, i
              next_state <= manualSetting;
              end
           init <= 1'b1;
+          enAutoSetting <= 1'b0;
+          enManualSetting <= 1'b0;
+          enSleep <= 1'b0;
+          enAlarm <= 1'b0;
+          enCancel <= 1'b0;
 
         end
 
@@ -110,7 +139,16 @@ module main_state(reset, clock, switch, completeSetting, completeSleep, sharp, i
              begin
              next_state <= sleep;
              end
+          else if (switch == 1'b0)
+             begin
+             next_state <= sutoSetting;
+             end
+          init <= 1'b0;
+          enAutoSetting <= 1'b0;
           enManualSetting <= 1'b1;
+          enSleep <= 1'b0;
+          enAlarm <= 1'b0;
+          enCancel <= 1'b0;
 
         end
 
