@@ -63,12 +63,14 @@ Scale 1
 GridInterval 8
 LogicalLeft 18
 LogicalTop 15
-LogicalWidth 9
-LogicalHeight 5
+LogicalWidth 11
+LogicalHeight 10
 LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
 Properties r = 15;
+Properties g = 0;
+Properties b = 0;
 ColorIndex 11
 Kind FSBVOState
 
@@ -173,12 +175,13 @@ GridInterval 8
 LogicalLeft 38
 LogicalTop 9
 LogicalWidth 11
-LogicalHeight 8
+LogicalHeight 10
 LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
 Properties r = 15;
 Properties g = 15;
+Properties b = 0;
 ColorIndex 11
 Kind FSBVOState
 
@@ -246,12 +249,14 @@ Scale 1
 GridInterval 8
 LogicalLeft 58
 LogicalTop 18
-LogicalWidth 9
-LogicalHeight 5
+LogicalWidth 11
+LogicalHeight 10
 LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
+Properties r= 0;
 Properties g = 15;
+Properties b = 0;
 ColorIndex 11
 Kind FSBVOState
 
@@ -320,10 +325,11 @@ GridInterval 8
 LogicalLeft 59
 LogicalTop 39
 LogicalWidth 11
-LogicalHeight 8
+LogicalHeight 10
 LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
+Properties r = 0;
 Properties g = 15;
 Properties b = 15;
 ColorIndex 11
@@ -393,11 +399,13 @@ Scale 1
 GridInterval 8
 LogicalLeft 37
 LogicalTop 45
-LogicalWidth 9
-LogicalHeight 5
+LogicalWidth 11
+LogicalHeight 10
 LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
+Properties r = 0;
+Properties g = 0;
 Properties b = 15;
 ColorIndex 11
 Kind FSBVOState
@@ -467,11 +475,12 @@ GridInterval 8
 LogicalLeft 16
 LogicalTop 33
 LogicalWidth 11
-LogicalHeight 8
+LogicalHeight 10
 LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
 Properties r = 15;
+Properties g = 0;
 Properties b = 15;
 ColorIndex 11
 Kind FSBVOState

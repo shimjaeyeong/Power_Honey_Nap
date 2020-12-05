@@ -36,6 +36,8 @@ module crazy_light(reset, clock, start, stop, r, g, b);
              next_state <= S6;
              end
           r <= 4'b1111;
+          g <= 4'b0000;
+          b <= 4'b0000;
 
         end
 
@@ -51,6 +53,7 @@ module crazy_light(reset, clock, start, stop, r, g, b);
              end
           r <= 4'b1111;
           g <= 4'b1111;
+          b <= 4'b0000;
 
         end
 
@@ -64,7 +67,9 @@ module crazy_light(reset, clock, start, stop, r, g, b);
              begin
              next_state <= S6;
              end
+          r <= 4'b0000;
           g <= 4'b1111;
+          b <= 4'b0000;
 
         end
 
@@ -78,6 +83,7 @@ module crazy_light(reset, clock, start, stop, r, g, b);
              begin
              next_state <= S6;
              end
+          r <= 4'b0000;
           g <= 4'b1111;
           b <= 4'b1111;
 
@@ -93,6 +99,8 @@ module crazy_light(reset, clock, start, stop, r, g, b);
              begin
              next_state <= S6;
              end
+          r <= 4'b0000;
+          g <= 4'b0000;
           b <= 4'b1111;
 
         end
@@ -108,6 +116,7 @@ module crazy_light(reset, clock, start, stop, r, g, b);
              next_state <= S6;
              end
           r <= 4'b1111;
+          g <= 4'b0000;
           b <= 4'b1111;
 
         end
