@@ -2,7 +2,7 @@ ModuleName printSegment
 LanguageType Veirlog
 GridInterval 8
 MillimetersIn100RealScaledUnit 25
-ZoomOutScale 58
+ZoomOutScale 49
 NumberOfHorzPapaers 8
 NumberOfVertPapaers 4
 Parameters
@@ -218,24 +218,6 @@ Edge X1: 544 ,Y1: 232 ,X2: 560 ,Y2: 232
 End
 Branches
 End
-Wire Name: w15
-LV: 0
-RV: 0
-Width: 1
-Edges
-Edge X1: 472 ,Y1: 104 ,X2: 480 ,Y2: 104
-End
-Branches
-End
-Wire Name: w16
-LV: 0
-RV: 0
-Width: 1
-Edges
-Edge X1: 472 ,Y1: 120 ,X2: 480 ,Y2: 120
-End
-Branches
-End
 Wire Name: b17
 LV: 3
 RV: 0
@@ -260,33 +242,6 @@ RV: 0
 Width: 4
 Edges
 Edge X1: 312 ,Y1: 152 ,X2: 336 ,Y2: 152
-End
-Branches
-End
-Wire Name: w19
-LV: 0
-RV: 0
-Width: 1
-Edges
-Edge X1: 472 ,Y1: 152 ,X2: 560 ,Y2: 152
-End
-Branches
-End
-Wire Name: w20
-LV: 0
-RV: 0
-Width: 1
-Edges
-Edge X1: 472 ,Y1: 184 ,X2: 480 ,Y2: 184
-End
-Branches
-End
-Wire Name: w21
-LV: 0
-RV: 0
-Width: 1
-Edges
-Edge X1: 472 ,Y1: 200 ,X2: 480 ,Y2: 200
 End
 Branches
 End
@@ -326,12 +281,57 @@ Edge X1: 312 ,Y1: 224 ,X2: 336 ,Y2: 224
 End
 Branches
 End
+Wire Name: w32
+LV: 0
+RV: 0
+Width: 1
+Edges
+Edge X1: 464 ,Y1: 104 ,X2: 480 ,Y2: 104
+End
+Branches
+End
+Wire Name: w33
+LV: 0
+RV: 0
+Width: 1
+Edges
+Edge X1: 464 ,Y1: 120 ,X2: 480 ,Y2: 120
+End
+Branches
+End
+Wire Name: w34
+LV: 0
+RV: 0
+Width: 1
+Edges
+Edge X1: 464 ,Y1: 152 ,X2: 560 ,Y2: 152
+End
+Branches
+End
+Wire Name: w35
+LV: 0
+RV: 0
+Width: 1
+Edges
+Edge X1: 464 ,Y1: 184 ,X2: 480 ,Y2: 184
+End
+Branches
+End
+Wire Name: w36
+LV: 0
+RV: 0
+Width: 1
+Edges
+Edge X1: 464 ,Y1: 200 ,X2: 480 ,Y2: 200
+End
+Branches
+End
 Wire Name: w28
 LV: 0
 RV: 0
 Width: 1
 Edges
-Edge X1: 472 ,Y1: 224 ,X2: 480 ,Y2: 224
+Edge X1: 464 ,Y1: 224 ,X2: 480 ,Y2: 224
 End
 Branches
 End
@@ -340,7 +340,7 @@ LV: 0
 RV: 0
 Width: 1
 Edges
-Edge X1: 472 ,Y1: 240 ,X2: 480 ,Y2: 240
+Edge X1: 464 ,Y1: 240 ,X2: 480 ,Y2: 240
 End
 Branches
 End
@@ -368,40 +368,10 @@ LibraryName: (NoLibraryName)
 IpName: Binary_to_Decimal_Convert
 SymbolParameters
 End
-Symbol Left: 360 Top: 16
-Name: s8
-LibraryName: (NoLibraryName)
-IpName: multiAND
-SymbolParameters
-End
-Symbol Left: 360 Top: 40
-Name: s2
-LibraryName: (NoLibraryName)
-IpName: multiAND
-SymbolParameters
-End
-Symbol Left: 360 Top: 64
-Name: s3
-LibraryName: (NoLibraryName)
-IpName: multiAND
-SymbolParameters
-End
 Symbol Left: 480 Top: 64
 Name: s4
 LibraryName: PNULib
 IpName: PNU_AND2
-SymbolParameters
-End
-Symbol Left: 360 Top: 96
-Name: s5
-LibraryName: (NoLibraryName)
-IpName: multiAND4
-SymbolParameters
-End
-Symbol Left: 360 Top: 112
-Name: s6
-LibraryName: (NoLibraryName)
-IpName: multiAND3
 SymbolParameters
 End
 Symbol Left: 480 Top: 96
@@ -410,46 +380,76 @@ LibraryName: PNULib
 IpName: PNU_AND2
 SymbolParameters
 End
-Symbol Left: 360 Top: 144
-Name: s9
-LibraryName: (NoLibraryName)
-IpName: multiAND4
-SymbolParameters
-End
-Symbol Left: 360 Top: 176
-Name: s10
-LibraryName: (NoLibraryName)
-IpName: multiAND3
-SymbolParameters
-End
-Symbol Left: 360 Top: 192
-Name: s11
-LibraryName: (NoLibraryName)
-IpName: multiAND3
-SymbolParameters
-End
 Symbol Left: 480 Top: 176
 Name: s12
 LibraryName: PNULib
 IpName: PNU_AND2
 SymbolParameters
 End
-Symbol Left: 360 Top: 216
-Name: s13
-LibraryName: (NoLibraryName)
-IpName: multiAND4
-SymbolParameters
-End
-Symbol Left: 360 Top: 232
-Name: s14
-LibraryName: (NoLibraryName)
-IpName: multiAND3
-SymbolParameters
-End
 Symbol Left: 480 Top: 216
 Name: s15
 LibraryName: PNULib
 IpName: PNU_AND2
+SymbolParameters
+End
+Symbol Left: 360 Top: 16
+Name: s17
+LibraryName: (NoLibraryName)
+IpName: multiOR
+SymbolParameters
+End
+Symbol Left: 360 Top: 40
+Name: s18
+LibraryName: (NoLibraryName)
+IpName: multiOR
+SymbolParameters
+End
+Symbol Left: 360 Top: 64
+Name: s19
+LibraryName: (NoLibraryName)
+IpName: multiOR
+SymbolParameters
+End
+Symbol Left: 360 Top: 96
+Name: s20
+LibraryName: (NoLibraryName)
+IpName: multiOR4
+SymbolParameters
+End
+Symbol Left: 360 Top: 112
+Name: s21
+LibraryName: (NoLibraryName)
+IpName: multiOR3
+SymbolParameters
+End
+Symbol Left: 360 Top: 144
+Name: s22
+LibraryName: (NoLibraryName)
+IpName: multiOR4
+SymbolParameters
+End
+Symbol Left: 360 Top: 176
+Name: s11
+LibraryName: (NoLibraryName)
+IpName: multiOR3
+SymbolParameters
+End
+Symbol Left: 360 Top: 192
+Name: s13
+LibraryName: (NoLibraryName)
+IpName: multiOR3
+SymbolParameters
+End
+Symbol Left: 360 Top: 216
+Name: s14
+LibraryName: (NoLibraryName)
+IpName: multiOR4
+SymbolParameters
+End
+Symbol Left: 360 Top: 232
+Name: s23
+LibraryName: (NoLibraryName)
+IpName: multiOR3
 SymbolParameters
 End
 End
