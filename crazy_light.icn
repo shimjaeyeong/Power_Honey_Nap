@@ -1,0 +1,68 @@
+SymbolianIcn ver1.00(2006.04.27)
+ModuleName crazy_light
+LanguageType Veirlog
+GridInterval 8
+MillimetersIn100RealScaledUnit 25
+ZoomOutScale 32
+NumberOfHorzPapaers 1
+NumberOfVertPapaers 1
+IfDrawModuleName True
+IfDrawPortnameText True
+ModuleNameDrawPosition middle
+Boxes
+Box Left: 360 Top: 560 ,Right: 480 ,Bottom: 624
+End
+Parameters
+Parameter Name: S0 ,Type: integer ,Value: 0
+Parameter Name: S1 ,Type: integer ,Value: 1
+Parameter Name: S2 ,Type: integer ,Value: 2
+Parameter Name: S3 ,Type: integer ,Value: 3
+Parameter Name: S4 ,Type: integer ,Value: 4
+Parameter Name: S5 ,Type: integer ,Value: 5
+Parameter Name: S6 ,Type: integer ,Value: 6
+End
+Ports
+Port Left: 504 Top: 600 ,SymbolSideLeft: 480 ,SymbolSideTop: 600
+Portname: b ,PortType: multibit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
+3
+,RV:
+0
+Port Left: 336 Top: 568 ,SymbolSideLeft: 360 ,SymbolSideTop: 568
+Portname: clock ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
+0
+,RV:
+0
+Port Left: 504 Top: 584 ,SymbolSideLeft: 480 ,SymbolSideTop: 584
+Portname: g ,PortType: multibit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
+3
+,RV:
+0
+Port Left: 504 Top: 568 ,SymbolSideLeft: 480 ,SymbolSideTop: 568
+Portname: r ,PortType: multibit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
+3
+,RV:
+0
+Port Left: 336 Top: 584 ,SymbolSideLeft: 360 ,SymbolSideTop: 584
+Portname: reset ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
+0
+,RV:
+0
+Port Left: 336 Top: 600 ,SymbolSideLeft: 360 ,SymbolSideTop: 600
+Portname: start ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
+0
+,RV:
+0
+Port Left: 336 Top: 616 ,SymbolSideLeft: 360 ,SymbolSideTop: 616
+Portname: stop ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
+0
+,RV:
+0
+End
+Ellipses
+End
+Lines
+End
+Arcs
+End
+Texts
+End
