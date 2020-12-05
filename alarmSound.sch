@@ -2,7 +2,7 @@ ModuleName alarmSound
 LanguageType Veirlog
 GridInterval 8
 MillimetersIn100RealScaledUnit 25
-ZoomOutScale 51
+ZoomOutScale 40
 NumberOfHorzPapaers 8
 NumberOfVertPapaers 4
 Parameters
@@ -25,15 +25,6 @@ Edges
 Edge X1: 480 ,Y1: 184 ,X2: 496 ,Y2: 184
 Edge X1: 496 ,Y1: 184 ,X2: 496 ,Y2: 216
 Edge X1: 496 ,Y1: 216 ,X2: 768 ,Y2: 216
-End
-Branches
-End
-Wire Name: w4
-LV: 0
-RV: 0
-Width: 1
-Edges
-Edge X1: 736 ,Y1: 152 ,X2: 768 ,Y2: 152
 End
 Branches
 End
@@ -101,6 +92,15 @@ Edge X1: 80 ,Y1: 208 ,X2: 80 ,Y2: 280
 End
 Branches
 End
+Wire Name: w11
+LV: 0
+RV: 0
+Width: 1
+Edges
+Edge X1: 736 ,Y1: 152 ,X2: 768 ,Y2: 152
+End
+Branches
+End
 End
 Ports
 Port Left: 40 Top: 248 ,Orientation: 0
@@ -147,14 +147,22 @@ Portname: keypad ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 
 0
 End
 Symbols
-Symbol Left: 568 Top: 144
-Name: s1
+Symbol Left: 104 Top: 168
+Name: s3
 LibraryName: (NoLibraryName)
-IpName: piezo
+IpName: PNU_CLK_DIV
+SymbolParameters
+Parameter Name: cnt_num ,Type: integer ,Value:
+500000
+End
+Symbol Left: 48 Top: 160
+Name: s4
+LibraryName: PNULib
+IpName: PNU_ONE
 SymbolParameters
 End
 Symbol Left: 360 Top: 136
-Name: s2
+Name: s5
 LibraryName: (NoLibraryName)
 IpName: alarm
 SymbolParameters
@@ -163,44 +171,32 @@ Parameter Name: S0 ,Type: integer ,Value:
 Parameter Name: S1 ,Type: integer ,Value:
 1
 Parameter Name: S10 ,Type: integer ,Value:
-10
+9
 Parameter Name: S11 ,Type: integer ,Value:
-11
+10
 Parameter Name: S12 ,Type: integer ,Value:
-13
-Parameter Name: S13 ,Type: integer ,Value:
-14
+12
 Parameter Name: S2 ,Type: integer ,Value:
 2
 Parameter Name: S3 ,Type: integer ,Value:
 3
 Parameter Name: S4 ,Type: integer ,Value:
 4
-Parameter Name: S5 ,Type: integer ,Value:
-5
 Parameter Name: S6 ,Type: integer ,Value:
-6
+5
 Parameter Name: S7 ,Type: integer ,Value:
-7
+6
 Parameter Name: S8 ,Type: integer ,Value:
-8
+7
 Parameter Name: S9 ,Type: integer ,Value:
-9
+8
 Parameter Name: st ,Type: integer ,Value:
-12
+11
 End
-Symbol Left: 104 Top: 168
-Name: s3
+Symbol Left: 568 Top: 144
+Name: s6
 LibraryName: (NoLibraryName)
-IpName: PNU_CLK_DIV
-SymbolParameters
-Parameter Name: cnt_num ,Type: integer ,Value:
-1000000
-End
-Symbol Left: 48 Top: 160
-Name: s4
-LibraryName: PNULib
-IpName: PNU_ONE
+IpName: piezo
 SymbolParameters
 End
 End
