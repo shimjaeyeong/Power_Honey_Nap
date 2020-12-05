@@ -89,6 +89,11 @@ module enable_time(reset, clock, en, sharp, hour_en, min_en, sec_en, completeSet
              begin
              next_state <= input_wait;
              end
+          completeSetting <= 1'b0;
+          hour_en <= 1'b0;
+          min_en <= 1'b0;
+          sec_en <= 1'b0;
+
         end
 
 

@@ -536,13 +536,17 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 10
-LogicalTop 13
-LogicalWidth 8
-LogicalHeight 4
+LogicalLeft 3
+LogicalTop 14
+LogicalWidth 22
+LogicalHeight 11
 LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
+Properties completeSetting <= 0;
+Properties hour_en <= 0;
+Properties min_en <= 0;
+Properties sec_en <= 0;
 ColorIndex 13
 Kind FSBVOState
 
@@ -644,7 +648,7 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 6
+LogicalLeft 7
 LogicalTop 9
 LogicalWidth 1
 LogicalHeight 1
@@ -667,8 +671,8 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 15
-LogicalTop 23
+LogicalLeft 18
+LogicalTop 27
 LogicalWidth 6
 LogicalHeight 3
 LogicalWidthSetting 0
@@ -692,13 +696,13 @@ VertScrollPos 0
 Scale 1
 GridInterval 8
 LogicalLeft 11
-LogicalTop 5
+LogicalTop 6
 LogicalWidth 6
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
 LogicalOffsetLeft -3
-LogicalOffsetTop -10
+LogicalOffsetTop -13
 grd 8
 ConditionProperties en == 0
 LinkedObj0 input_wait
@@ -715,8 +719,8 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 1
-LogicalTop 48
+LogicalLeft 4
+LogicalTop 52
 LogicalWidth 1
 LogicalHeight 1
 LogicalWidthSetting 0

@@ -1,6 +1,6 @@
 SaveFile
 LanguageType Veriilog
-ChildrenCount 16
+ChildrenCount 17
 Caption root
 IfEntering false
 IfLeaving false
@@ -218,7 +218,7 @@ grd 8
 ColorIndex 11
 Kind FSBVOState
 
-ChildrenCount 11
+ChildrenCount 13
 Caption input_wait
 IfEntering false
 IfLeaving false
@@ -226,13 +226,17 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 42
+LogicalLeft 41
 LogicalTop 28
-LogicalWidth 8
-LogicalHeight 4
+LogicalWidth 22
+LogicalHeight 11
 LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
+Properties completeSetting <= 0;
+Properties one_sec <= 0;
+Properties ten_sec <= 0;
+Properties one_min <= 0;
 ColorIndex 13
 Kind FSBVOState
 
@@ -435,6 +439,42 @@ ColorIndex 11
 Kind FSBVOState
 
 ChildrenCount 0
+Caption OUT_T10
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 40
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T10
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 48
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
 Caption T1
 IfEntering false
 IfLeaving false
@@ -442,8 +482,8 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 52
-LogicalTop 17
+LogicalLeft 58
+LogicalTop 15
 LogicalWidth 18
 LogicalHeight 3
 LogicalWidthSetting 0
@@ -466,7 +506,7 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 62
+LogicalLeft 68
 LogicalTop 27
 LogicalWidth 18
 LogicalHeight 3
@@ -490,8 +530,8 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 64
-LogicalTop 38
+LogicalLeft 70
+LogicalTop 41
 LogicalWidth 18
 LogicalHeight 3
 LogicalWidthSetting 0
@@ -514,8 +554,8 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 66
-LogicalTop 22
+LogicalLeft 72
+LogicalTop 20
 LogicalWidth 1
 LogicalHeight 1
 LogicalWidthSetting 0
@@ -537,7 +577,7 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 67
+LogicalLeft 73
 LogicalTop 32
 LogicalWidth 1
 LogicalHeight 1
@@ -560,8 +600,8 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 63
-LogicalTop 43
+LogicalLeft 69
+LogicalTop 46
 LogicalWidth 1
 LogicalHeight 1
 LogicalWidthSetting 0
@@ -585,13 +625,12 @@ Scale 1
 GridInterval 8
 LogicalLeft 22
 LogicalTop 48
-LogicalWidth 22
-LogicalHeight 9
+LogicalWidth 20
+LogicalHeight 5
 LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
 Properties completeSetting <= 1;
-Properties sharp <= 0;
 ColorIndex 11
 Kind FSBVOState
 
@@ -639,8 +678,8 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 39
-LogicalTop 41
+LogicalLeft 41
+LogicalTop 45
 LogicalWidth 17
 LogicalHeight 3
 LogicalWidthSetting 0
@@ -663,8 +702,8 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 27
-LogicalTop 39
+LogicalLeft 29
+LogicalTop 43
 LogicalWidth 1
 LogicalHeight 1
 LogicalWidthSetting 0
@@ -686,14 +725,14 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 43
+LogicalLeft 49
 LogicalTop 20
 LogicalWidth 6
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
 LogicalOffsetLeft -3
-LogicalOffsetTop -10
+LogicalOffsetTop -13
 grd 8
 ConditionProperties en == 0
 LinkedObj0 input_wait
@@ -710,7 +749,7 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 28
+LogicalLeft 27
 LogicalTop 21
 LogicalWidth 1
 LogicalHeight 1
@@ -723,6 +762,29 @@ LinkedObj0 reset0
 LinkedObj1 input_wait
 EnteringCaption IN_T0
 LeavingCaption OUT_T0
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T10
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 52
+LogicalTop 21
+LogicalWidth 1
+LogicalHeight 1
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft 0
+LogicalOffsetTop -12
+grd 8
+LinkedObj0 input_wait
+LinkedObj1 input_wait
+EnteringCaption IN_T10
+LeavingCaption OUT_T10
 Kind FSBVOTrans
 
 

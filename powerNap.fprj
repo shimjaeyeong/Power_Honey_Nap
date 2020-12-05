@@ -3,7 +3,7 @@ projecttype=1
 [folder0]
 filen=0
 [folder1]
-filen=12
+filen=13
 file0=select_keypad.v
 file1=lullaby.v
 file2=enable_time.v
@@ -13,9 +13,10 @@ file5=allZero.v
 file6=shortcutSetting.v
 file7=lullabySoundPrint.v
 file8=piezo.v
-file9=piezo123.v
-file10=LTP.v
-file11=alarmSound.v
+file9=LTP.v
+file10=alarmSound.v
+file11=nap_machine.v
+file12=keypadL2P.v
 [folder2]
 filen=0
 [usedlibrary]
