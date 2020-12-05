@@ -37,7 +37,9 @@ module enable_time(reset, clock, en, sharp, hour_en, min_en, sec_en, completeSet
              begin
              next_state <= min;
              end
+          completeSetting <= 1'b0;
           hour_en <= 1'b1;
+          min_en <= 1'b0;
           sec_en <= 1'b0;
 
         end
@@ -52,8 +54,10 @@ module enable_time(reset, clock, en, sharp, hour_en, min_en, sec_en, completeSet
              begin
              next_state <= min;
              end
-          min_en <= 1'b1;
+          completeSetting <= 1'b0;
           hour_en <= 1'b0;
+          min_en <= 1'b1;
+          sec_en <= 1'b0;
 
         end
 
@@ -67,8 +71,10 @@ module enable_time(reset, clock, en, sharp, hour_en, min_en, sec_en, completeSet
              begin
              next_state <= S0;
              end
-          sec_en <= 1'b1;
+          completeSetting <= 1'b0;
+          hour_en <= 1'b0;
           min_en <= 1'b0;
+          sec_en <= 1'b1;
 
         end
 
@@ -76,6 +82,9 @@ module enable_time(reset, clock, en, sharp, hour_en, min_en, sec_en, completeSet
         begin
              next_state <= input_wait;
           completeSetting <= 1'b1;
+          hour_en <= 1'b0;
+          min_en <= 1'b0;
+          sec_en <= 1'b0;
 
         end
 

@@ -5,7 +5,7 @@ Caption root
 IfEntering false
 IfLeaving false
 HorzScrollPos 0
-VertScrollPos 0
+VertScrollPos 219
 Scale 1
 GridInterval 8
 LogicalLeft 0
@@ -27,12 +27,14 @@ Scale 1
 GridInterval 8
 LogicalLeft 28
 LogicalTop 30
-LogicalWidth 15
-LogicalHeight 9
+LogicalWidth 22
+LogicalHeight 11
 LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
+Properties completeSetting <= 0;
 Properties hour_en <= 1;
+Properties min_en <= 0;
 Properties sec_en <= 0;
 ColorIndex 17
 Kind FSBVOState
@@ -119,13 +121,15 @@ Scale 1
 GridInterval 8
 LogicalLeft 58
 LogicalTop 30
-LogicalWidth 15
-LogicalHeight 9
+LogicalWidth 22
+LogicalHeight 11
 LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
-Properties min_en <= 1;
+Properties completeSetting <= 0;
 Properties hour_en <= 0;
+Properties min_en <= 1;
+Properties sec_en <= 0;
 ColorIndex 17
 Kind FSBVOState
 
@@ -211,13 +215,15 @@ Scale 1
 GridInterval 8
 LogicalLeft 88
 LogicalTop 30
-LogicalWidth 15
-LogicalHeight 9
+LogicalWidth 22
+LogicalHeight 11
 LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
-Properties sec_en <= 1;
+Properties completeSetting <= 0;
+Properties hour_en <= 0;
 Properties min_en <= 0;
+Properties sec_en <= 1;
 ColorIndex 17
 Kind FSBVOState
 
@@ -459,12 +465,15 @@ Scale 1
 GridInterval 8
 LogicalLeft 48
 LogicalTop 61
-LogicalWidth 20
-LogicalHeight 5
+LogicalWidth 22
+LogicalHeight 11
 LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
 Properties completeSetting <= 1;
+Properties hour_en <= 0;
+Properties min_en <= 0;
+Properties sec_en <= 0;
 ColorIndex 11
 Kind FSBVOState
 
