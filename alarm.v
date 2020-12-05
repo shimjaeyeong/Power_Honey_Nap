@@ -9,7 +9,7 @@ module alarm(reset, clock, start, stop, light, beat);
   reg light;
   reg [12:0] beat;
 
-  parameter [3:0] S0 = 0, S1 = 1, S2 = 2, S3 = 3, S4 = 4, S5 = 5, S6 = 6, S7 = 7, S8 = 8, S9 = 9, S10 = 10, S11 = 11, st = 12, S12 = 13, S13 = 14;
+  parameter [3:0] S0 = 0, S1 = 1, S2 = 2, S3 = 3, S4 = 4, S6 = 5, S7 = 6, S8 = 7, S9 = 8, S10 = 9, S11 = 10, st = 11, S12 = 12;
   reg [3:0] current_state, next_state;
 
   always @(posedge clock or posedge reset)
@@ -34,11 +34,7 @@ module alarm(reset, clock, start, stop, light, beat);
              next_state <= st;
              end
           light <= 1'b1;
-<<<<<<< HEAD
-          beat <= 13'b0000100000000;
-=======
           beat <= 13'b0001000000000;
->>>>>>> 9be4cf6cca46aad491f15aecbc50aa6595796f8d
 
         end
 
@@ -53,11 +49,7 @@ module alarm(reset, clock, start, stop, light, beat);
              next_state <= st;
              end
           light <= 1'b0;
-<<<<<<< HEAD
-          beat <= 13'b0001000000000;
-=======
           beat <= 13'b0010000000000;
->>>>>>> 9be4cf6cca46aad491f15aecbc50aa6595796f8d
 
         end
 
@@ -72,11 +64,7 @@ module alarm(reset, clock, start, stop, light, beat);
              next_state <= st;
              end
           light <= 1'b0;
-<<<<<<< HEAD
-          beat <= 13'b0100000000000;
-=======
           beat <= 13'b1000000000000;
->>>>>>> 9be4cf6cca46aad491f15aecbc50aa6595796f8d
 
         end
 
@@ -91,34 +79,11 @@ module alarm(reset, clock, start, stop, light, beat);
              next_state <= st;
              end
           light <= 1'b1;
-<<<<<<< HEAD
-          beat <= 13'b0000000100000;
-=======
-          beat <= 13'b0000001000000;
->>>>>>> 9be4cf6cca46aad491f15aecbc50aa6595796f8d
+          beat <= 13'b0000000000001;
 
         end
 
         S4:
-        begin
-          if (stop == 1'b0)
-             begin
-             next_state <= S5;
-             end
-          else if (stop == 1'b1)
-             begin
-             next_state <= st;
-             end
-          light <= 1'b0;
-<<<<<<< HEAD
-          beat <= 13'b0100000000000;
-=======
-          beat <= 13'b1000000000000;
->>>>>>> 9be4cf6cca46aad491f15aecbc50aa6595796f8d
-
-        end
-
-        S5:
         begin
           if (stop == 1'b1)
              begin
@@ -126,9 +91,10 @@ module alarm(reset, clock, start, stop, light, beat);
              end
           else if (stop == 1'b0)
              begin
-             next_state <= S13;
+             next_state <= S6;
              end
           light <= 1'b0;
+          beat <= 13'b1000000000000;
 
         end
 
@@ -143,11 +109,7 @@ module alarm(reset, clock, start, stop, light, beat);
              next_state <= st;
              end
           light <= 1'b1;
-<<<<<<< HEAD
-          beat <= 13'b0000100000000;
-=======
           beat <= 13'b0001000000000;
->>>>>>> 9be4cf6cca46aad491f15aecbc50aa6595796f8d
 
         end
 
@@ -162,11 +124,7 @@ module alarm(reset, clock, start, stop, light, beat);
              next_state <= st;
              end
           light <= 1'b0;
-<<<<<<< HEAD
-          beat <= 13'b0001000000000;
-=======
           beat <= 13'b0010000000000;
->>>>>>> 9be4cf6cca46aad491f15aecbc50aa6595796f8d
 
         end
 
@@ -181,11 +139,7 @@ module alarm(reset, clock, start, stop, light, beat);
              next_state <= st;
              end
           light <= 1'b0;
-<<<<<<< HEAD
-          beat <= 13'b0100000000000;
-=======
           beat <= 13'b1000000000000;
->>>>>>> 9be4cf6cca46aad491f15aecbc50aa6595796f8d
 
         end
 
@@ -200,11 +154,7 @@ module alarm(reset, clock, start, stop, light, beat);
              next_state <= st;
              end
           light <= 1'b1;
-<<<<<<< HEAD
-          beat <= 13'b0000000100000;
-=======
-          beat <= 13'b0000001000000;
->>>>>>> 9be4cf6cca46aad491f15aecbc50aa6595796f8d
+          beat <= 13'b0000000000001;
 
         end
 
@@ -219,11 +169,7 @@ module alarm(reset, clock, start, stop, light, beat);
              next_state <= st;
              end
           light <= 1'b0;
-<<<<<<< HEAD
-          beat <= 13'b0100000000000;
-=======
           beat <= 13'b1000000000000;
->>>>>>> 9be4cf6cca46aad491f15aecbc50aa6595796f8d
 
         end
 
@@ -238,11 +184,7 @@ module alarm(reset, clock, start, stop, light, beat);
              next_state <= S12;
              end
           light <= 1'b0;
-<<<<<<< HEAD
-          beat <= 13'b0001000000000;
-=======
           beat <= 13'b0010000000000;
->>>>>>> 9be4cf6cca46aad491f15aecbc50aa6595796f8d
 
         end
 
@@ -269,25 +211,7 @@ module alarm(reset, clock, start, stop, light, beat);
              next_state <= S0;
              end
           light <= 1'b0;
-<<<<<<< HEAD
-          beat <= 13'b0000100000000;
-=======
           beat <= 13'b0001000000000;
->>>>>>> 9be4cf6cca46aad491f15aecbc50aa6595796f8d
-
-        end
-
-        S13:
-        begin
-          if (stop == 1'b1)
-             begin
-             next_state <= st;
-             end
-          else if (stop == 1'b0)
-             begin
-             next_state <= S6;
-             end
-          light <= 1'b0;
 
         end
 

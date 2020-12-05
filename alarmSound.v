@@ -58,7 +58,7 @@ alarm
 
 PNU_CLK_DIV
      #(
-      .cnt_num(1000000))
+      .cnt_num(500000))
      s3 (
       .div_clk(w7),
       .en(w10),
