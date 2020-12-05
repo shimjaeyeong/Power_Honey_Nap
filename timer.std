@@ -4,8 +4,8 @@ ChildrenCount 35
 Caption root
 IfEntering false
 IfLeaving false
-HorzScrollPos 36
-VertScrollPos 13
+HorzScrollPos 0
+VertScrollPos 0
 Scale 1
 GridInterval 8
 LogicalLeft 0
@@ -390,14 +390,19 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 39
-LogicalTop 6
+LogicalLeft 41
+LogicalTop 1
 LogicalWidth 29
-LogicalHeight 9
+LogicalHeight 18
 LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
 Properties getSecond1 = setSecond1 - 1;
+Properties getSecond10 = setSecond10;
+Properties getMinute1 = setMinute1;
+Properties getMinute10 = setMinute10;
+Properties getHour1 = setHour1;
+Properties getHour10 = setHour10;
 Properties complete = 1;
 ColorIndex 11
 Kind FSBVOState
@@ -542,7 +547,7 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 25
+LogicalLeft 26
 LogicalTop 9
 LogicalWidth 12
 LogicalHeight 3
@@ -566,7 +571,7 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 33
+LogicalLeft 34
 LogicalTop 5
 LogicalWidth 1
 LogicalHeight 1
@@ -613,15 +618,19 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 55
-LogicalTop 16
+LogicalLeft 60
+LogicalTop 15
 LogicalWidth 31
-LogicalHeight 11
+LogicalHeight 18
 LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
 Properties getSecond1 = 9;
 Properties getSecond10 = setSecond10 - 1;
+Properties getMinute1 = setMinute1;
+Properties getMinute10 = setMinute10;
+Properties getHour1 = setHour1;
+Properties getHour10 = setHour10;
 Properties complete = 1;
 ColorIndex 11
 Kind FSBVOState
@@ -670,8 +679,8 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 40
-LogicalTop 21
+LogicalLeft 42
+LogicalTop 22
 LogicalWidth 13
 LogicalHeight 3
 LogicalWidthSetting 0
@@ -694,7 +703,7 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 39
+LogicalLeft 42
 LogicalTop 14
 LogicalWidth 1
 LogicalHeight 1
@@ -741,16 +750,19 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 55
-LogicalTop 32
+LogicalLeft 82
+LogicalTop 30
 LogicalWidth 28
-LogicalHeight 11
+LogicalHeight 18
 LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
 Properties getSecond1 = 9;
 Properties getSecond10 = 5;
 Properties getMinute1 = setMinute1 - 1;
+Properties getMinute10 = setMinute10;
+Properties getHour1 = setHour1;
+Properties getHour10 = setHour10;
 Properties complete = 1;
 ColorIndex 11
 Kind FSBVOState
@@ -799,13 +811,13 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 40
-LogicalTop 36
+LogicalLeft 52
+LogicalTop 37
 LogicalWidth 12
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
-LogicalOffsetLeft -6
+LogicalOffsetLeft -7
 LogicalOffsetTop 0
 grd 8
 ConditionProperties setMinute1 != 0
@@ -919,10 +931,10 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 55
-LogicalTop 46
+LogicalLeft 54
+LogicalTop 41
 LogicalWidth 30
-LogicalHeight 13
+LogicalHeight 18
 LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
@@ -930,6 +942,8 @@ Properties getSecond1 = 9;
 Properties getSecond10 = 5;
 Properties getMinute1 = 9;
 Properties getMinute10 = setMinute10 - 1;
+Properties getHour1 = setHour1;
+Properties getHour10 = setHour10;
 Properties complete = 1;
 ColorIndex 11
 Kind FSBVOState
@@ -978,10 +992,10 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 55
-LogicalTop 63
+LogicalLeft 64
+LogicalTop 61
 LogicalWidth 24
-LogicalHeight 16
+LogicalHeight 18
 LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
@@ -990,6 +1004,7 @@ Properties getSecond10 = 5;
 Properties getMinute1 = 9;
 Properties getMinute10 = 5;
 Properties getHour1 = setHour1 - 1;
+Properties getHour10 = setHour10;
 Properties complete = 1;
 ColorIndex 11
 Kind FSBVOState
@@ -1039,12 +1054,12 @@ VertScrollPos 0
 Scale 1
 GridInterval 8
 LogicalLeft 40
-LogicalTop 51
+LogicalTop 50
 LogicalWidth 13
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
-LogicalOffsetLeft -6
+LogicalOffsetLeft -5
 LogicalOffsetTop 0
 grd 8
 ConditionProperties setMinute10 != 0
@@ -1230,14 +1245,14 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 41
-LogicalTop 70
+LogicalLeft 45
+LogicalTop 69
 LogicalWidth 10
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
 LogicalOffsetLeft -5
-LogicalOffsetTop 0
+LogicalOffsetTop -1
 grd 8
 ConditionProperties setHour1 != 0
 LinkedObj0 hour1
@@ -1365,11 +1380,17 @@ Scale 1
 GridInterval 8
 LogicalLeft 26
 LogicalTop 101
-LogicalWidth 15
-LogicalHeight 9
+LogicalWidth 18
+LogicalHeight 20
 LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
+Properties getSecond1 = 0;
+Properties getSecond10 = 0;
+Properties getMinute1 = 0;
+Properties getMinute10 = 0;
+Properties getHour1 = 0;
+Properties getHour10 = 0;
 Properties complete = 1;
 Properties isZero = 1;
 ColorIndex 11
@@ -1443,7 +1464,7 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 39
+LogicalLeft 51
 LogicalTop 22
 LogicalWidth 1
 LogicalHeight 1
@@ -1467,7 +1488,7 @@ VertScrollPos 0
 Scale 1
 GridInterval 8
 LogicalLeft 39
-LogicalTop 29
+LogicalTop 26
 LogicalWidth 1
 LogicalHeight 1
 LogicalWidthSetting 0
@@ -1489,8 +1510,8 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 39
-LogicalTop 38
+LogicalLeft 44
+LogicalTop 37
 LogicalWidth 1
 LogicalHeight 1
 LogicalWidthSetting 0

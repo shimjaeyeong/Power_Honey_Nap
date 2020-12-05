@@ -72,6 +72,11 @@ module timer(reset, clock, start, setHour10, setHour1, setMinute10, setMinute1, 
         begin
              next_state <= check;
           getSecond1 <= setSecond1 - 4'b0001;
+          getSecond10 <= setSecond10;
+          getMinute1 <= setMinute1;
+          getMinute10 <= setMinute10;
+          getHour1 <= setHour1;
+          getHour10 <= setHour10;
           complete <= 1'b1;
 
         end
@@ -93,6 +98,10 @@ module timer(reset, clock, start, setHour10, setHour1, setMinute10, setMinute1, 
              next_state <= check;
           getSecond1 <= 4'b1001;
           getSecond10 <= setSecond10 - 4'b0001;
+          getMinute1 <= setMinute1;
+          getMinute10 <= setMinute10;
+          getHour1 <= setHour1;
+          getHour10 <= setHour10;
           complete <= 1'b1;
 
         end
@@ -103,6 +112,9 @@ module timer(reset, clock, start, setHour10, setHour1, setMinute10, setMinute1, 
           getSecond1 <= 4'b1001;
           getSecond10 <= 4'b0101;
           getMinute1 <= setMinute1 - 4'b0001;
+          getMinute10 <= setMinute10;
+          getHour1 <= setHour1;
+          getHour10 <= setHour10;
           complete <= 1'b1;
 
         end
@@ -126,6 +138,8 @@ module timer(reset, clock, start, setHour10, setHour1, setMinute10, setMinute1, 
           getSecond10 <= 4'b0101;
           getMinute1 <= 4'b1001;
           getMinute10 <= setMinute10 - 4'b0001;
+          getHour1 <= setHour1;
+          getHour10 <= setHour10;
           complete <= 1'b1;
 
         end
@@ -138,6 +152,7 @@ module timer(reset, clock, start, setHour10, setHour1, setMinute10, setMinute1, 
           getMinute1 <= 4'b1001;
           getMinute10 <= 4'b0101;
           getHour1 <= setHour1 - 4'b0001;
+          getHour10 <= setHour10;
           complete <= 1'b1;
 
         end
@@ -182,6 +197,12 @@ module timer(reset, clock, start, setHour10, setHour1, setMinute10, setMinute1, 
         S3:
         begin
              next_state <= check;
+          getSecond1 <= 4'b0000;
+          getSecond10 <= 4'b0000;
+          getMinute1 <= 4'b0000;
+          getMinute10 <= 4'b0000;
+          getHour1 <= 4'b0000;
+          getHour10 <= 4'b0000;
           complete <= 1'b1;
           isZero <= 1'b1;
 
