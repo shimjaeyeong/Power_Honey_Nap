@@ -5,7 +5,7 @@ Caption root
 IfEntering false
 IfLeaving false
 HorzScrollPos 0
-VertScrollPos 0
+VertScrollPos 360
 Scale 1
 GridInterval 8
 LogicalLeft 0
@@ -525,14 +525,14 @@ Scale 1
 GridInterval 8
 LogicalLeft 20
 LogicalTop 15
-LogicalWidth 13
+LogicalWidth 23
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
 LogicalOffsetLeft -6
 LogicalOffsetTop -1
 grd 8
-ConditionProperties setSecond1 == 0
+ConditionProperties start == 1 && setSecond1 == 0
 LinkedObj0 check
 LinkedObj1 second
 EnteringCaption IN_T1
@@ -549,14 +549,14 @@ Scale 1
 GridInterval 8
 LogicalLeft 26
 LogicalTop 9
-LogicalWidth 12
+LogicalWidth 23
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
 LogicalOffsetLeft -6
 LogicalOffsetTop -1
 grd 8
-ConditionProperties setSecond1 != 0
+ConditionProperties start == 1 && setSecond1 != 0
 LinkedObj0 check
 LinkedObj1 cpl1
 EnteringCaption IN_T2

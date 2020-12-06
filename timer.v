@@ -42,11 +42,11 @@ module timer(reset, clock, start, setHour10, setHour1, setMinute10, setMinute1, 
      case (current_state)
         check:
         begin
-          if (setSecond1 == 4'b0000)
+          if (start == 1'b1 && setSecond1 == 4'b0000)
              begin
              next_state <= second;
              end
-          else if (setSecond1 != 4'b0000)
+          else if (start == 1'b1 && setSecond1 != 4'b0000)
              begin
              next_state <= cpl1;
              end
