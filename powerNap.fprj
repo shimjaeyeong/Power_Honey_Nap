@@ -3,7 +3,7 @@ projecttype=1
 [folder0]
 filen=0
 [folder1]
-filen=19
+filen=16
 file0=select_keypad.v
 file1=lullaby.v
 file2=enable_time.v
@@ -16,10 +16,10 @@ file8=piezo.v
 file9=LTP.v
 file10=alarmSound.v
 file11=nap_machine.v
-file12=keypadL2P.v
-file13=main_state.v
-file14=LTP_tb.v
-file15=trigger.v
+file12=main_state.v
+file13=LTP_tb.v
+file14=crazy_light.v
+file15=rotateSegment7.v
 file16=trigger_tb.v
 file17=crazy_light.v
 file18=rotateSegment7.v
