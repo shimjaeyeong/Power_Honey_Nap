@@ -54,6 +54,15 @@ module timer(reset, clock, start, setHour10, setHour1, setMinute10, setMinute1, 
              begin
              next_state <= check;
              end
+          getSecond1 <= 4'b0000;
+          getSecond10 <= 4'b0000;
+          getMinute1 <= 4'b0000;
+          getMinute10 <= 4'b0000;
+          getHour1 <= 4'b0000;
+          getHour10 <= 4'b0000;
+          complete <= 1'b0;
+          isZero <= 1'b0;
+
         end
 
         second:
@@ -78,6 +87,7 @@ module timer(reset, clock, start, setHour10, setHour1, setMinute10, setMinute1, 
           getHour1 <= setHour1;
           getHour10 <= setHour10;
           complete <= 1'b1;
+          isZero <= 1'b0;
 
         end
 
@@ -103,6 +113,7 @@ module timer(reset, clock, start, setHour10, setHour1, setMinute10, setMinute1, 
           getHour1 <= setHour1;
           getHour10 <= setHour10;
           complete <= 1'b1;
+          isZero <= 1'b0;
 
         end
 
@@ -116,6 +127,7 @@ module timer(reset, clock, start, setHour10, setHour1, setMinute10, setMinute1, 
           getHour1 <= setHour1;
           getHour10 <= setHour10;
           complete <= 1'b1;
+          isZero <= 1'b0;
 
         end
 
@@ -141,6 +153,7 @@ module timer(reset, clock, start, setHour10, setHour1, setMinute10, setMinute1, 
           getHour1 <= setHour1;
           getHour10 <= setHour10;
           complete <= 1'b1;
+          isZero <= 1'b0;
 
         end
 
@@ -154,6 +167,7 @@ module timer(reset, clock, start, setHour10, setHour1, setMinute10, setMinute1, 
           getHour1 <= setHour1 - 4'b0001;
           getHour10 <= setHour10;
           complete <= 1'b1;
+          isZero <= 1'b0;
 
         end
 
@@ -191,6 +205,7 @@ module timer(reset, clock, start, setHour10, setHour1, setMinute10, setMinute1, 
           getHour1 <= 4'b1001;
           getHour10 <= setHour10 - 4'b0001;
           complete <= 1'b1;
+          isZero <= 1'b0;
 
         end
 
