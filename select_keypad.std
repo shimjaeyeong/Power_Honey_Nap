@@ -5,7 +5,7 @@ Caption root
 IfEntering false
 IfLeaving false
 HorzScrollPos 0
-VertScrollPos 0
+VertScrollPos 51
 Scale 1
 GridInterval 8
 LogicalLeft 0
@@ -587,7 +587,7 @@ VertScrollPos 0
 Scale 1
 GridInterval 8
 LogicalLeft 73
-LogicalTop 32
+LogicalTop 34
 LogicalWidth 1
 LogicalHeight 1
 LogicalWidthSetting 0
@@ -632,14 +632,17 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 22
-LogicalTop 48
-LogicalWidth 20
-LogicalHeight 5
+LogicalLeft 18
+LogicalTop 42
+LogicalWidth 22
+LogicalHeight 11
 LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
 Properties completeSetting <= 1;
+Properties one_sec <= 0;
+Properties ten_sec <= 0;
+Properties one_min <= 0;
 ColorIndex 11
 Kind FSBVOState
 
@@ -687,8 +690,8 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 41
-LogicalTop 45
+LogicalLeft 39
+LogicalTop 41
 LogicalWidth 17
 LogicalHeight 3
 LogicalWidthSetting 0
@@ -711,8 +714,8 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 29
-LogicalTop 43
+LogicalLeft 27
+LogicalTop 39
 LogicalWidth 1
 LogicalHeight 1
 LogicalWidthSetting 0

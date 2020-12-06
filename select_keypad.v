@@ -95,6 +95,9 @@ module select_keypad(reset, clock, en, sharp, keypad, one_sec, ten_sec, one_min,
         begin
              next_state <= input_wait;
           completeSetting <= 1'b1;
+          one_sec <= 4'b0000;
+          ten_sec <= 4'b0000;
+          one_min <= 4'b0000;
 
         end
 
