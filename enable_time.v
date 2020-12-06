@@ -29,13 +29,17 @@ module enable_time(reset, clock, en, sharp, hour_en, min_en, sec_en, completeSet
      case (current_state)
         hour:
         begin
-          if (sharp == 1'b0)
+          if (en == 1'b1 && sharp == 1'b0)
              begin
              next_state <= hour;
              end
-          else if (sharp == 1'b1)
+          else if (en == 1'b1 && sharp == 1'b1)
              begin
              next_state <= min;
+             end
+          else if (en == 1'b0)
+             begin
+             next_state <= input_wait;
              end
           completeSetting <= 1'b0;
           hour_en <= 1'b1;
@@ -46,13 +50,17 @@ module enable_time(reset, clock, en, sharp, hour_en, min_en, sec_en, completeSet
 
         min:
         begin
-          if (sharp == 1'b1)
+          if (en == 1'b1 && sharp == 1'b1)
              begin
              next_state <= sec;
              end
-          else if (sharp == 1'b0)
+          else if (en == 1'b1 && sharp == 1'b0)
              begin
              next_state <= min;
+             end
+          else if (en == 1'b0)
+             begin
+             next_state <= input_wait;
              end
           completeSetting <= 1'b0;
           hour_en <= 1'b0;
@@ -63,13 +71,17 @@ module enable_time(reset, clock, en, sharp, hour_en, min_en, sec_en, completeSet
 
         sec:
         begin
-          if (sharp == 1'b0)
+          if (en == 1'b1 && sharp == 1'b0)
              begin
              next_state <= sec;
              end
-          else if (sharp == 1'b1)
+          else if (en == 1'b1 && sharp == 1'b1)
              begin
              next_state <= S0;
+             end
+          else if (en == 1'b0)
+             begin
+             next_state <= input_wait;
              end
           completeSetting <= 1'b0;
           hour_en <= 1'b0;

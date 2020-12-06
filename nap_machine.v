@@ -1,4 +1,4 @@
-module nap_machine(clock,reset,keypad,sharp,dip_switch,com,seg,modeSetAuto,modeSetManual,modeSleep,modeAlarm,modeCancel,modeInit,piezo,seg_dot,light,led_R,led_G,led_B);
+module nap_machine(clock,reset,keypad,sharp,dip_switch,com,seg,modeSetAuto,modeSetManual,modeSleep,modeAlarm,modeCancel,modeInit,piezo,seg_dot,light,led_R,led_G,led_B,led8);
 
 input clock;
 input reset;
@@ -19,6 +19,7 @@ output light;
 output [3:0] led_R;
 output [3:0] led_G;
 output [3:0] led_B;
+output led8;
 
 wire [6:0] b18;
 wire [6:0] b19;
@@ -53,7 +54,6 @@ wire  w72;
 wire  w66;
 wire  w67;
 wire  w68;
-wire  w73;
 wire [3:0] b77;
 wire [3:0] b78;
 wire [3:0] b79;
@@ -77,6 +77,7 @@ wire  w88;
 wire  w89;
 wire  w84;
 wire  w87;
+wire  w90;
 wire [3:0] b69_3to0;
 wire [3:0] b69_15to12;
 wire [3:0] b69_11to8;
@@ -115,6 +116,7 @@ assign light = w76;
 assign led_R = b77;
 assign led_G = b78;
 assign led_B = b79;
+assign led8 = w90;
 
 assign b69[23:20] = b69_23to20[3:0];
 assign b69[19:16] = b69_19to16[3:0];
@@ -150,11 +152,11 @@ time_register
       .setMinute10(b73_15to12_b60),
       .setHour1(b73_19to16_b58),
       .setHour10(b73_23to20_b56),
-      .write(w73),
       .complete(w40),
       .reset(w83),
       .start(w78),
-      .clock(w87));
+      .clock(w87),
+      .write(w90));
 
 printSegment
      s2 (
@@ -419,8 +421,8 @@ time_mux2
 
 time_check
      s20 (
-      .out(w73),
-      .in(b73));
+      .in(b73),
+      .out(w90));
 
 manual_setting
      s24 (

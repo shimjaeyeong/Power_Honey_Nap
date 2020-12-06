@@ -2,7 +2,7 @@ ModuleName printSegment
 LanguageType Veirlog
 GridInterval 8
 MillimetersIn100RealScaledUnit 25
-ZoomOutScale 30
+ZoomOutScale 37
 NumberOfHorzPapaers 8
 NumberOfVertPapaers 4
 Parameters
@@ -313,7 +313,8 @@ BranchStrList
 End
 Branch Left: 312 ,Top: 184
 BranchStrList
-[6:4]
+[5:4]
+0
 End
 Branch Left: 312 ,Top: 224
 BranchStrList
@@ -326,8 +327,7 @@ BranchStrList
 End
 Branch Left: 312 ,Top: 200
 BranchStrList
-[9:7]
-0
+[9:6]
 End
 Branch Left: 312 ,Top: 240
 BranchStrList
