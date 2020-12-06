@@ -20,26 +20,31 @@ input [3:0] sec_ten_in;
 input [3:0] sec_one_in;
 
 wire [9:0] b3;
-wire  w4;
 wire  w6;
 wire [23:0] b49;
-wire  w14;
 wire [23:0] b24;
-wire  w24;
-wire [3:0] b25;
-wire [3:0] b27;
-wire [3:0] b29;
 wire [23:0] b33;
 wire [23:0] b42;
-wire  w36;
 wire  w38;
 wire  w39;
-wire  w40;
 wire  w41;
 wire [23:0] b50;
 wire [3:0] b52;
 wire [3:0] b54;
 wire [3:0] b53;
+wire  w50;
+wire  w51;
+wire  w52;
+wire [3:0] b55;
+wire [3:0] b62;
+wire [3:0] b63;
+wire  w53;
+wire  w54;
+wire  w55;
+wire  w56;
+wire  w57;
+wire  w58;
+wire  w59;
 wire [3:0] b33_23to20_b35;
 wire [3:0] b33_19to16_b37;
 wire [3:0] b33_15to12_b38;
@@ -60,11 +65,11 @@ wire [3:0] b50_3to0;
 wire [3:0] b33_3to0_b51;
 
 assign b3 = keypad;
-assign w36 = clk;
+assign w50 = clk;
 assign w6 = en;
-assign w24 = rst;
-assign w4 = sharp;
-assign completeSetting = w14;
+assign w52 = rst;
+assign w59 = sharp;
+assign completeSetting = w51;
 assign hour_ten_out[3:0] = b49[23:20];
 assign hour_one_out[3:0] = b49[19:16];
 assign min_ten_out[3:0] = b49[15:12];
@@ -107,60 +112,21 @@ select_keypad
       .set_complete(4))
      s0 (
       .keypad(b3),
-      .sharp(w4),
       .en(w6),
-      .completeSetting(w14),
-      .reset(w24),
-      .one_sec(b25),
-      .ten_sec(b27),
-      .one_min(b29),
-      .clock(w36));
-
-time_adder
-     #(
-      .S0(0),
-      .S1(1),
-      .S10(7),
-      .S11(8),
-      .S12(9),
-      .S13(10),
-      .S14(11),
-      .S15(12),
-      .S2(2),
-      .S3(4),
-      .S4(5),
-      .S6(3),
-      .S9(6))
-     s6 (
-      .reset(w24),
-      .pSecond1(b25),
-      .pSecond10(b27),
-      .pMinute1(b29),
-      .oHour10(b33_23to20_b35),
-      .oHour1(b33_19to16_b37),
-      .oMinute10(b33_15to12_b38),
-      .oMinute1(b33_11to8_b39),
-      .oSecond10(b33_7to4_b40),
-      .Second1(b42_3to0),
-      .clock(w36),
-      .complete(w39),
-      .recursive(w40),
-      .Second10(b42_7to4),
-      .Minute1(b42_11to8),
-      .Minute10(b42_15to12),
-      .Hour1(b42_19to16),
-      .Hour10(b42_23to20),
-      .oSecond1(b33_3to0_b51),
-      .pHour10(b52),
-      .pHour1(b54),
-      .pMinute10(b53));
+      .clock(w50),
+      .completeSetting(w51),
+      .reset(w52),
+      .one_min(b55),
+      .ten_sec(b62),
+      .one_sec(b63),
+      .sharp(w59));
 
 time_mux2
      s7 (
       .time1(b24),
       .selected(b33),
-      .en(w40),
-      .time2(b42));
+      .time2(b42),
+      .en(w56));
 
 PNU_AND2
      s5 (
@@ -171,7 +137,7 @@ PNU_AND2
 PNU_NOT
      s8 (
       .o1(w38),
-      .i1(w40));
+      .i1(w56));
 
 time_mux2
      s9 (
@@ -215,6 +181,75 @@ allZero
 allZero
      s17 (
       .zero_out(b52));
+
+time_adder
+     #(
+      .S0(0),
+      .S1(1),
+      .S10(7),
+      .S11(8),
+      .S12(9),
+      .S13(10),
+      .S14(11),
+      .S15(12),
+      .S2(2),
+      .S3(4),
+      .S4(5),
+      .S5(13),
+      .S6(3),
+      .S9(6))
+     s18 (
+      .oHour10(b33_23to20_b35),
+      .oHour1(b33_19to16_b37),
+      .oMinute10(b33_15to12_b38),
+      .oMinute1(b33_11to8_b39),
+      .oSecond10(b33_7to4_b40),
+      .Second1(b42_3to0),
+      .complete(w39),
+      .Second10(b42_7to4),
+      .Minute1(b42_11to8),
+      .Minute10(b42_15to12),
+      .Hour1(b42_19to16),
+      .Hour10(b42_23to20),
+      .oSecond1(b33_3to0_b51),
+      .pHour10(b52),
+      .pHour1(b54),
+      .pMinute10(b53),
+      .clock(w50),
+      .reset(w52),
+      .pMinute1(b55),
+      .pSecond10(b62),
+      .pSecond1(b63),
+      .recursive(w56),
+      .en(w58));
+
+multiOR4
+     s19 (
+      .in(b55),
+      .out(w53));
+
+multiOR4
+     s20 (
+      .in(b62),
+      .out(w54));
+
+multiOR4
+     s21 (
+      .in(b63),
+      .out(w55));
+
+PNU_OR3
+     s22 (
+      .i1(w53),
+      .i2(w54),
+      .i3(w55),
+      .o1(w57));
+
+PNU_OR2
+     s23 (
+      .i1(w56),
+      .i2(w57),
+      .o1(w58));
 
 endmodule
 

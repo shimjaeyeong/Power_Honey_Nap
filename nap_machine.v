@@ -69,15 +69,18 @@ wire  w77;
 wire  w74;
 wire  w79;
 wire  w86;
-wire  w78;
 wire  w75;
 wire  w82;
-wire  w80;
 wire  w88;
 wire  w89;
-wire  w84;
 wire  w87;
 wire  w90;
+<<<<<<< HEAD
+=======
+wire  w84;
+wire  w80;
+wire  w78;
+>>>>>>> ea7bb07b30d26768ee818b5bf08506d29e8803f4
 wire [3:0] b69_3to0;
 wire [3:0] b69_15to12;
 wire [3:0] b69_11to8;
@@ -154,9 +157,14 @@ time_register
       .setHour10(b73_23to20_b56),
       .complete(w40),
       .reset(w83),
+<<<<<<< HEAD
       .start(w78),
       .clock(w87),
       .write(w90));
+=======
+      .clock(w87),
+      .start(w78));
+>>>>>>> ea7bb07b30d26768ee818b5bf08506d29e8803f4
 
 printSegment
      s2 (
@@ -317,22 +325,22 @@ lullaby
       .beat(b40),
       .clock(w81),
       .stop(w77),
-      .start(w78),
-      .reset(w84));
+      .reset(w84),
+      .start(w78));
 
 piezo
      s15 (
       .playSound(b40),
       .piezo(w43),
-      .rst(w84),
-      .clk(w87));
+      .clk(w87),
+      .rst(w84));
 
 piezo
      s16 (
       .piezo(w44),
       .playSound(b80),
-      .rst(w84),
-      .clk(w87));
+      .clk(w87),
+      .rst(w84));
 
 alarm
      #(
@@ -377,13 +385,13 @@ main_state
       .completeSleep(w40),
       .init(w85),
       .enAlarm(w74),
-      .enSleep(w78),
       .enCancel(w75),
       .enManualSetting(w82),
-      .enAutoSetting(w80),
       .sharp(w88),
+      .clock(w87),
       .reset(w84),
-      .clock(w87));
+      .enAutoSetting(w80),
+      .enSleep(w78));
 
 shortcutSetting
      s19 (
@@ -401,10 +409,10 @@ shortcutSetting
       .sec_ten_out(b68_7to4),
       .sec_one_out(b68_3to0),
       .keypad(b74),
-      .en(w80),
       .sharp(w88),
+      .clk(w87),
       .rst(w84),
-      .clk(w87));
+      .en(w80));
 
 PNU_OR2
      s21 (
@@ -439,8 +447,8 @@ manual_setting
       .keypad(b74),
       .en(w82),
       .sharp(w88),
-      .rst(w84),
-      .clk(w87));
+      .clk(w87),
+      .rst(w90));
 
 PNU_CLK_DIV
      #(
@@ -448,8 +456,8 @@ PNU_CLK_DIV
      s23 (
       .en(w61),
       .div_clk(w81),
-      .rst(w84),
-      .clk(w87));
+      .clk(w87),
+      .rst(w84));
 
 PNU_ONE
      s25 (
@@ -497,8 +505,8 @@ rotateSegment7
       .h(w66),
       .m(w67),
       .s(w68),
-      .reset(w84),
-      .clock(w87));
+      .clock(w87),
+      .reset(w84));
 
 crazy_light
      #(
@@ -522,8 +530,8 @@ keypadL2P
      s33 (
       .keypad(b74),
       .input_key(b81),
-      .rst(w84),
-      .clk(w87));
+      .clk(w87),
+      .rst(w84));
 
 PNU_OR4
      s31 (
@@ -536,18 +544,18 @@ PNU_OR4
 PNU_OR4
      s32 (
       .o1(w79),
-      .i3(w78),
       .i4(w75),
       .i2(w82),
-      .i1(w80));
+      .i1(w80),
+      .i3(w78));
 
 PNU_OR4
      s34 (
       .o1(w86),
-      .i3(w78),
       .i4(w75),
       .i2(w82),
-      .i1(w80));
+      .i1(w80),
+      .i3(w78));
 
 PNU_OR2
      s11 (
@@ -559,8 +567,15 @@ LTP
      s35 (
       .Pulse(w88),
       .Level(w89),
-      .rst(w84),
-      .clk(w87));
+      .clk(w87),
+      .rst(w84));
+
+PNU_OR3
+     s36 (
+      .o1(w90),
+      .i3(w84),
+      .i1(w80),
+      .i2(w78));
 
 endmodule
 
