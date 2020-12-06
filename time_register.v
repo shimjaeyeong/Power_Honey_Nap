@@ -71,7 +71,7 @@ assign complete = w32;
 
 PNU_CLK_DIV
      #(
-      .cnt_num(1000000))
+      .cnt_num(500000))
      s0 (
       .en(w30),
       .rst(w18),

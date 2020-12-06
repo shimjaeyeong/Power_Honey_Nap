@@ -529,7 +529,7 @@ LibraryName: (NoLibraryName)
 IpName: PNU_CLK_DIV
 SymbolParameters
 Parameter Name: cnt_num ,Type: integer ,Value:
-1000000
+500000
 End
 Symbol Left: 312 Top: 104
 Name: s3
