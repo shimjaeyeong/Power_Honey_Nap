@@ -17,15 +17,6 @@ Edge X1: 32 ,Y1: 248 ,X2: 104 ,Y2: 248
 End
 Branches
 End
-Wire Name: w4
-LV: 0
-RV: 0
-Width: 1
-Edges
-Edge X1: 88 ,Y1: 280 ,X2: 104 ,Y2: 280
-End
-Branches
-End
 Wire Name: w6
 LV: 0
 RV: 0
@@ -279,19 +270,6 @@ RV: 0
 Width: 1
 Edges
 Edge X1: 656 ,Y1: 168 ,X2: 760 ,Y2: 168
-End
-Branches
-End
-Wire Name: w40
-LV: 0
-RV: 0
-Width: 1
-Edges
-Edge X1: 232 ,Y1: 48 ,X2: 232 ,Y2: 56
-Edge X1: 232 ,Y1: 48 ,X2: 664 ,Y2: 48
-Edge X1: 664 ,Y1: 48 ,X2: 664 ,Y2: 184
-Edge X1: 664 ,Y1: 184 ,X2: 680 ,Y2: 184
-Edge X1: 656 ,Y1: 184 ,X2: 664 ,Y2: 184
 End
 Branches
 End
@@ -659,8 +637,42 @@ LV: 0
 RV: 0
 Width: 1
 Edges
-Edge X1: 536 ,Y1: 312 ,X2: 624 ,Y2: 312
-Edge X1: 624 ,Y1: 312 ,X2: 624 ,Y2: 376
+Edge X1: 232 ,Y1: 48 ,X2: 232 ,Y2: 56
+Edge X1: 232 ,Y1: 48 ,X2: 664 ,Y2: 48
+Edge X1: 664 ,Y1: 48 ,X2: 664 ,Y2: 184
+Edge X1: 656 ,Y1: 184 ,X2: 664 ,Y2: 184
+Edge X1: 664 ,Y1: 184 ,X2: 672 ,Y2: 184
+Edge X1: 672 ,Y1: 184 ,X2: 680 ,Y2: 184
+Edge X1: 672 ,Y1: 184 ,X2: 672 ,Y2: 360
+End
+Branches
+End
+Wire Name: w57
+LV: 0
+RV: 0
+Width: 1
+Edges
+Edge X1: 624 ,Y1: 376 ,X2: 672 ,Y2: 376
+End
+Branches
+End
+Wire Name: w58
+LV: 0
+RV: 0
+Width: 1
+Edges
+Edge X1: 736 ,Y1: 344 ,X2: 736 ,Y2: 368
+Edge X1: 536 ,Y1: 344 ,X2: 736 ,Y2: 344
+Edge X1: 536 ,Y1: 312 ,X2: 536 ,Y2: 344
+End
+Branches
+End
+Wire Name: w59
+LV: 0
+RV: 0
+Width: 1
+Edges
+Edge X1: 88 ,Y1: 280 ,X2: 104 ,Y2: 280
 End
 Branches
 End
@@ -944,6 +956,12 @@ Symbol Left: 560 Top: 360
 Name: s22
 LibraryName: PNULib
 IpName: PNU_OR3
+SymbolParameters
+End
+Symbol Left: 672 Top: 352
+Name: s23
+LibraryName: PNULib
+IpName: PNU_OR2
 SymbolParameters
 End
 End
