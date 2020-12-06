@@ -60,19 +60,19 @@ module select_keypad(reset, clock, en, sharp, keypad, one_sec, ten_sec, one_min,
 
         input_wait:
         begin
-          if (keypad == 10'b0000000010 && en == 1'b1)
+          if (en == 1'b1 && keypad == 10'b0000000010)
              begin
              next_state <= fiveSecond;
              end
-          else if (keypad == 10'b0000000100 && en == 1'b1)
+          else if (en == 1'b1 && keypad == 10'b0000000100)
              begin
              next_state <= halfMinute;
              end
-          else if (keypad == 10'b0000001000 && en == 1'b1)
+          else if (en == 1'b1 && keypad == 10'b0000001000)
              begin
              next_state <= oneMinute;
              end
-          else if (sharp == 1'b1 && en == 1'b1)
+          else if (en == 1'b1 && sharp == 1'b1)
              begin
              next_state <= set_complete;
              end

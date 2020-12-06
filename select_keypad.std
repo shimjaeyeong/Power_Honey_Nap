@@ -492,7 +492,7 @@ VertScrollPos 0
 Scale 1
 GridInterval 8
 LogicalLeft 58
-LogicalTop 17
+LogicalTop 18
 LogicalWidth 18
 LogicalHeight 3
 LogicalWidthSetting 0
@@ -500,7 +500,7 @@ LogicalHeightSetting 0
 LogicalOffsetLeft -16
 LogicalOffsetTop -8
 grd 8
-ConditionProperties keypad == 2 && en == 1
+ConditionProperties en == 1 && keypad == 2
 LinkedObj0 input_wait
 LinkedObj1 fiveSecond
 EnteringCaption IN_T1
@@ -522,9 +522,9 @@ LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
 LogicalOffsetLeft -6
-LogicalOffsetTop -5
+LogicalOffsetTop -6
 grd 8
-ConditionProperties keypad == 4 && en == 1
+ConditionProperties en == 1 && keypad == 4
 LinkedObj0 input_wait
 LinkedObj1 halfMinute
 EnteringCaption IN_T2
@@ -548,7 +548,7 @@ LogicalHeightSetting 0
 LogicalOffsetLeft -4
 LogicalOffsetTop -1
 grd 8
-ConditionProperties keypad == 8 && en == 1
+ConditionProperties en == 1 && keypad == 8
 LinkedObj0 input_wait
 LinkedObj1 oneMinute
 EnteringCaption IN_T3
@@ -564,7 +564,7 @@ VertScrollPos 0
 Scale 1
 GridInterval 8
 LogicalLeft 72
-LogicalTop 22
+LogicalTop 23
 LogicalWidth 1
 LogicalHeight 1
 LogicalWidthSetting 0
@@ -696,7 +696,7 @@ LogicalHeightSetting 0
 LogicalOffsetLeft -1
 LogicalOffsetTop 1
 grd 8
-ConditionProperties sharp == 1 && en == 1
+ConditionProperties en == 1 && sharp == 1
 LinkedObj0 input_wait
 LinkedObj1 set_complete
 EnteringCaption IN_T7
