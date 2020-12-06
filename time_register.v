@@ -27,9 +27,6 @@ wire  w30;
 wire  w26;
 wire [3:0] b22;
 wire [3:0] b23;
-wire  w18;
-wire  w19;
-wire  w20;
 wire [3:0] b24;
 wire [3:0] b26;
 wire [3:0] b28;
@@ -50,10 +47,14 @@ wire [3:0] b40;
 wire [3:0] b41;
 wire [3:0] b42;
 wire  w33;
+wire  w34;
+wire  w35;
+wire  w36;
+wire  w37;
 
-assign w19 = clock;
+assign w37 = clock;
 assign w30 = start;
-assign w18 = reset;
+assign w36 = reset;
 assign w26 = write;
 assign b25 = setHour10;
 assign b30 = setMinute10;
@@ -74,57 +75,57 @@ PNU_CLK_DIV
       .cnt_num(500000))
      s0 (
       .en(w30),
-      .rst(w18),
-      .clk(w19),
-      .div_clk(w20));
+      .div_clk(w35),
+      .rst(w36),
+      .clk(w37));
 
 register_4bit
      s3 (
       .Dout(b23),
-      .RST(w18),
-      .CLK(w19),
       .Din(b24),
-      .Ce(w33));
+      .Ce(w33),
+      .RST(w36),
+      .CLK(w37));
 
 register_4bit
      s4 (
       .Din(b8),
       .Dout(b22),
-      .RST(w18),
-      .CLK(w19),
-      .Ce(w33));
+      .Ce(w33),
+      .RST(w36),
+      .CLK(w37));
 
 register_4bit
      s5 (
       .Din(b9),
-      .RST(w18),
-      .CLK(w19),
       .Dout(b39),
-      .Ce(w33));
+      .Ce(w33),
+      .RST(w36),
+      .CLK(w37));
 
 register_4bit
      s6 (
       .Din(b10),
-      .RST(w18),
-      .CLK(w19),
       .Dout(b40),
-      .Ce(w33));
+      .Ce(w33),
+      .RST(w36),
+      .CLK(w37));
 
 register_4bit
      s7 (
       .Din(b11),
-      .RST(w18),
-      .CLK(w19),
       .Dout(b41),
-      .Ce(w33));
+      .Ce(w33),
+      .RST(w36),
+      .CLK(w37));
 
 register_4bit
      s8 (
-      .RST(w18),
-      .CLK(w19),
       .Din(b38),
       .Dout(b42),
-      .Ce(w33));
+      .Ce(w33),
+      .RST(w36),
+      .CLK(w37));
 
 multi_mux4
      s15 (
@@ -158,9 +159,6 @@ timer
      s10 (
       .setHour1(b22),
       .setHour10(b23),
-      .reset(w18),
-      .clock(w19),
-      .start(w20),
       .getHour10(b26),
       .getHour1(b27),
       .getMinute10(b31),
@@ -172,7 +170,10 @@ timer
       .setMinute10(b39),
       .setMinute1(b40),
       .setSecond10(b41),
-      .setSecond1(b42));
+      .setSecond1(b42),
+      .start(w34),
+      .reset(w36),
+      .clock(w37));
 
 multi_mux4
      s11 (
@@ -207,6 +208,13 @@ PNU_OR2
       .i1(w26),
       .i2(w31),
       .o1(w33));
+
+LTP
+     s18 (
+      .Pulse(w34),
+      .Level(w35),
+      .rst(w36),
+      .clk(w37));
 
 endmodule
 

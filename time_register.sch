@@ -93,67 +93,6 @@ Edge X1: 472 ,Y1: 120 ,X2: 536 ,Y2: 120
 End
 Branches
 End
-Wire Name: w18
-LV: 0
-RV: 0
-Width: 1
-Edges
-Edge X1: 264 ,Y1: 600 ,X2: 288 ,Y2: 600
-Edge X1: 264 ,Y1: 512 ,X2: 264 ,Y2: 600
-Edge X1: 264 ,Y1: 424 ,X2: 264 ,Y2: 512
-Edge X1: 264 ,Y1: 512 ,X2: 288 ,Y2: 512
-Edge X1: 264 ,Y1: 336 ,X2: 264 ,Y2: 424
-Edge X1: 264 ,Y1: 424 ,X2: 288 ,Y2: 424
-Edge X1: 264 ,Y1: 248 ,X2: 264 ,Y2: 336
-Edge X1: 264 ,Y1: 336 ,X2: 288 ,Y2: 336
-Edge X1: 264 ,Y1: 160 ,X2: 264 ,Y2: 248
-Edge X1: 264 ,Y1: 248 ,X2: 288 ,Y2: 248
-Edge X1: 264 ,Y1: 160 ,X2: 288 ,Y2: 160
-Edge X1: 264 ,Y1: 104 ,X2: 264 ,Y2: 160
-Edge X1: 112 ,Y1: 104 ,X2: 264 ,Y2: 104
-Edge X1: 264 ,Y1: 104 ,X2: 536 ,Y2: 104
-Edge X1: 112 ,Y1: 64 ,X2: 112 ,Y2: 104
-Edge X1: 112 ,Y1: 64 ,X2: 120 ,Y2: 64
-Edge X1: 80 ,Y1: 64 ,X2: 112 ,Y2: 64
-End
-Branches
-End
-Wire Name: w19
-LV: 0
-RV: 0
-Width: 1
-Edges
-Edge X1: 256 ,Y1: 552 ,X2: 288 ,Y2: 552
-Edge X1: 256 ,Y1: 464 ,X2: 256 ,Y2: 552
-Edge X1: 256 ,Y1: 376 ,X2: 256 ,Y2: 464
-Edge X1: 256 ,Y1: 464 ,X2: 288 ,Y2: 464
-Edge X1: 256 ,Y1: 288 ,X2: 256 ,Y2: 376
-Edge X1: 256 ,Y1: 376 ,X2: 288 ,Y2: 376
-Edge X1: 256 ,Y1: 200 ,X2: 256 ,Y2: 288
-Edge X1: 256 ,Y1: 288 ,X2: 288 ,Y2: 288
-Edge X1: 256 ,Y1: 112 ,X2: 256 ,Y2: 200
-Edge X1: 256 ,Y1: 200 ,X2: 288 ,Y2: 200
-Edge X1: 104 ,Y1: 112 ,X2: 256 ,Y2: 112
-Edge X1: 256 ,Y1: 112 ,X2: 288 ,Y2: 112
-Edge X1: 104 ,Y1: 88 ,X2: 104 ,Y2: 112
-Edge X1: 104 ,Y1: 48 ,X2: 104 ,Y2: 88
-Edge X1: 104 ,Y1: 88 ,X2: 536 ,Y2: 88
-Edge X1: 80 ,Y1: 48 ,X2: 104 ,Y2: 48
-Edge X1: 104 ,Y1: 48 ,X2: 120 ,Y2: 48
-End
-Branches
-End
-Wire Name: w20
-LV: 0
-RV: 0
-Width: 1
-Edges
-Edge X1: 520 ,Y1: 216 ,X2: 536 ,Y2: 216
-Edge X1: 520 ,Y1: 32 ,X2: 520 ,Y2: 216
-Edge X1: 328 ,Y1: 32 ,X2: 520 ,Y2: 32
-End
-Branches
-End
 Wire Name: b24
 LV: 3
 RV: 0
@@ -400,6 +339,80 @@ Edge X1: 248 ,Y1: 128 ,X2: 288 ,Y2: 128
 End
 Branches
 End
+Wire Name: w34
+LV: 0
+RV: 0
+Width: 1
+Edges
+Edge X1: 520 ,Y1: 216 ,X2: 536 ,Y2: 216
+Edge X1: 520 ,Y1: 32 ,X2: 520 ,Y2: 216
+End
+Branches
+End
+Wire Name: w35
+LV: 0
+RV: 0
+Width: 1
+Edges
+Edge X1: 328 ,Y1: 32 ,X2: 376 ,Y2: 32
+End
+Branches
+End
+Wire Name: w36
+LV: 0
+RV: 0
+Width: 1
+Edges
+Edge X1: 264 ,Y1: 600 ,X2: 288 ,Y2: 600
+Edge X1: 264 ,Y1: 512 ,X2: 264 ,Y2: 600
+Edge X1: 264 ,Y1: 424 ,X2: 264 ,Y2: 512
+Edge X1: 264 ,Y1: 512 ,X2: 288 ,Y2: 512
+Edge X1: 264 ,Y1: 336 ,X2: 264 ,Y2: 424
+Edge X1: 264 ,Y1: 424 ,X2: 288 ,Y2: 424
+Edge X1: 264 ,Y1: 248 ,X2: 264 ,Y2: 336
+Edge X1: 264 ,Y1: 336 ,X2: 288 ,Y2: 336
+Edge X1: 264 ,Y1: 160 ,X2: 264 ,Y2: 248
+Edge X1: 264 ,Y1: 248 ,X2: 288 ,Y2: 248
+Edge X1: 264 ,Y1: 160 ,X2: 288 ,Y2: 160
+Edge X1: 264 ,Y1: 104 ,X2: 264 ,Y2: 160
+Edge X1: 112 ,Y1: 104 ,X2: 264 ,Y2: 104
+Edge X1: 264 ,Y1: 104 ,X2: 376 ,Y2: 104
+Edge X1: 112 ,Y1: 64 ,X2: 112 ,Y2: 104
+Edge X1: 112 ,Y1: 64 ,X2: 120 ,Y2: 64
+Edge X1: 80 ,Y1: 64 ,X2: 112 ,Y2: 64
+Edge X1: 376 ,Y1: 104 ,X2: 536 ,Y2: 104
+Edge X1: 376 ,Y1: 64 ,X2: 376 ,Y2: 104
+End
+Branches
+End
+Wire Name: w37
+LV: 0
+RV: 0
+Width: 1
+Edges
+Edge X1: 368 ,Y1: 48 ,X2: 376 ,Y2: 48
+Edge X1: 368 ,Y1: 48 ,X2: 368 ,Y2: 88
+Edge X1: 104 ,Y1: 88 ,X2: 368 ,Y2: 88
+Edge X1: 368 ,Y1: 88 ,X2: 536 ,Y2: 88
+Edge X1: 104 ,Y1: 88 ,X2: 104 ,Y2: 112
+Edge X1: 104 ,Y1: 48 ,X2: 104 ,Y2: 88
+Edge X1: 104 ,Y1: 112 ,X2: 256 ,Y2: 112
+Edge X1: 256 ,Y1: 112 ,X2: 256 ,Y2: 200
+Edge X1: 256 ,Y1: 112 ,X2: 288 ,Y2: 112
+Edge X1: 256 ,Y1: 200 ,X2: 256 ,Y2: 288
+Edge X1: 256 ,Y1: 200 ,X2: 288 ,Y2: 200
+Edge X1: 256 ,Y1: 288 ,X2: 256 ,Y2: 376
+Edge X1: 256 ,Y1: 288 ,X2: 288 ,Y2: 288
+Edge X1: 256 ,Y1: 376 ,X2: 256 ,Y2: 464
+Edge X1: 256 ,Y1: 376 ,X2: 288 ,Y2: 376
+Edge X1: 256 ,Y1: 464 ,X2: 256 ,Y2: 552
+Edge X1: 256 ,Y1: 464 ,X2: 288 ,Y2: 464
+Edge X1: 256 ,Y1: 552 ,X2: 288 ,Y2: 552
+Edge X1: 80 ,Y1: 48 ,X2: 104 ,Y2: 48
+Edge X1: 104 ,Y1: 48 ,X2: 120 ,Y2: 48
+End
+Branches
+End
 End
 Ports
 Port Left: 80 Top: 48 ,Orientation: 0
@@ -639,6 +652,12 @@ Symbol Left: 184 Top: 608
 Name: s16
 LibraryName: PNULib
 IpName: PNU_OR2
+SymbolParameters
+End
+Symbol Left: 400 Top: 24
+Name: s18
+LibraryName: (NoLibraryName)
+IpName: LTP
 SymbolParameters
 End
 End
