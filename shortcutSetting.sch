@@ -2,7 +2,7 @@ ModuleName shortcutSetting
 LanguageType Veirlog
 GridInterval 8
 MillimetersIn100RealScaledUnit 25
-ZoomOutScale 55
+ZoomOutScale 32
 NumberOfHorzPapaers 8
 NumberOfVertPapaers 4
 Parameters
@@ -458,138 +458,6 @@ Edge X1: 712 ,Y1: 312 ,X2: 712 ,Y2: 344
 End
 Branches
 End
-Wire Name: b64
-LV: 9
-RV: 0
-Width: 10
-Edges
-Edge X1: 32 ,Y1: 248 ,X2: 56 ,Y2: 248
-End
-Branches
-End
-Wire Name: w61
-LV: 0
-RV: 0
-Width: 1
-Edges
-Edge X1: 32 ,Y1: 232 ,X2: 56 ,Y2: 232
-End
-Branches
-End
-Wire Name: w62
-LV: 0
-RV: 0
-Width: 1
-Edges
-Edge X1: 32 ,Y1: 280 ,X2: 56 ,Y2: 280
-End
-Branches
-End
-Wire Name: w59
-LV: 0
-RV: 0
-Width: 1
-Edges
-Edge X1: 40 ,Y1: 264 ,X2: 56 ,Y2: 264
-Edge X1: 40 ,Y1: 264 ,X2: 40 ,Y2: 304
-Edge X1: 32 ,Y1: 304 ,X2: 40 ,Y2: 304
-Edge X1: 40 ,Y1: 304 ,X2: 544 ,Y2: 304
-Edge X1: 544 ,Y1: 280 ,X2: 544 ,Y2: 304
-Edge X1: 544 ,Y1: 280 ,X2: 600 ,Y2: 280
-End
-Branches
-End
-Wire Name: b66
-LV: 3
-RV: 0
-Width: 4
-Edges
-Edge X1: 312 ,Y1: 168 ,X2: 328 ,Y2: 168
-End
-Branches
-End
-Wire Name: b67
-LV: 3
-RV: 0
-Width: 4
-Edges
-Edge X1: 312 ,Y1: 184 ,X2: 328 ,Y2: 184
-End
-Branches
-End
-Wire Name: b68
-LV: 3
-RV: 0
-Width: 4
-Edges
-Edge X1: 312 ,Y1: 200 ,X2: 360 ,Y2: 200
-End
-Branches
-End
-Wire Name: b69
-LV: 3
-RV: 0
-Width: 4
-Edges
-Edge X1: 344 ,Y1: 264 ,X2: 360 ,Y2: 264
-End
-Branches
-End
-Wire Name: b70
-LV: 3
-RV: 0
-Width: 4
-Edges
-Edge X1: 344 ,Y1: 248 ,X2: 360 ,Y2: 248
-End
-Branches
-End
-Wire Name: b71
-LV: 3
-RV: 0
-Width: 4
-Edges
-Edge X1: 344 ,Y1: 232 ,X2: 360 ,Y2: 232
-End
-Branches
-End
-Wire Name: b65
-LV: 23
-RV: 0
-Width: 24
-Edges
-Edge X1: 328 ,Y1: 192 ,X2: 360 ,Y2: 192
-Edge X1: 328 ,Y1: 160 ,X2: 328 ,Y2: 192
-Edge X1: 360 ,Y1: 192 ,X2: 360 ,Y2: 240
-Edge X1: 360 ,Y1: 240 ,X2: 384 ,Y2: 240
-Edge X1: 360 ,Y1: 240 ,X2: 360 ,Y2: 272
-End
-Branches
-Branch Left: 328 ,Top: 168
-BranchStrList
-[23:20]
-End
-Branch Left: 328 ,Top: 184
-BranchStrList
-[19:16]
-End
-Branch Left: 360 ,Top: 200
-BranchStrList
-[15:12]
-End
-Branch Left: 360 ,Top: 232
-BranchStrList
-[11:8]
-End
-Branch Left: 360 ,Top: 248
-BranchStrList
-[7:4]
-End
-Branch Left: 360 ,Top: 264
-BranchStrList
-[3:0]
-End
-End
 Wire Name: w64
 LV: 0
 RV: 0
@@ -604,16 +472,6 @@ Edge X1: 832 ,Y1: 184 ,X2: 840 ,Y2: 184
 Edge X1: 840 ,Y1: 184 ,X2: 848 ,Y2: 184
 Edge X1: 848 ,Y1: 184 ,X2: 856 ,Y2: 184
 Edge X1: 848 ,Y1: 184 ,X2: 848 ,Y2: 360
-End
-Branches
-End
-Wire Name: w63
-LV: 0
-RV: 0
-Width: 1
-Edges
-Edge X1: 344 ,Y1: 216 ,X2: 352 ,Y2: 216
-Edge X1: 352 ,Y1: 216 ,X2: 352 ,Y2: 320
 End
 Branches
 End
@@ -652,52 +510,6 @@ Branch Left: 984 ,Top: 296
 BranchStrList
 [3:0]
 End
-End
-Wire Name: w60
-LV: 0
-RV: 0
-Width: 1
-Edges
-Edge X1: 608 ,Y1: 72 ,X2: 608 ,Y2: 208
-Edge X1: 600 ,Y1: 72 ,X2: 608 ,Y2: 72
-Edge X1: 56 ,Y1: 208 ,X2: 608 ,Y2: 208
-Edge X1: 32 ,Y1: 208 ,X2: 56 ,Y2: 208
-Edge X1: 56 ,Y1: 208 ,X2: 56 ,Y2: 216
-End
-Branches
-End
-Wire Name: b74
-LV: 3
-RV: 0
-Width: 4
-Edges
-Edge X1: 560 ,Y1: 232 ,X2: 576 ,Y2: 232
-Edge X1: 576 ,Y1: 232 ,X2: 600 ,Y2: 232
-Edge X1: 576 ,Y1: 232 ,X2: 576 ,Y2: 360
-End
-Branches
-End
-Wire Name: b62
-LV: 3
-RV: 0
-Width: 4
-Edges
-Edge X1: 560 ,Y1: 248 ,X2: 584 ,Y2: 248
-Edge X1: 584 ,Y1: 248 ,X2: 600 ,Y2: 248
-Edge X1: 584 ,Y1: 248 ,X2: 584 ,Y2: 376
-End
-Branches
-End
-Wire Name: b63
-LV: 3
-RV: 0
-Width: 4
-Edges
-Edge X1: 560 ,Y1: 264 ,X2: 592 ,Y2: 264
-Edge X1: 592 ,Y1: 264 ,X2: 600 ,Y2: 264
-Edge X1: 592 ,Y1: 264 ,X2: 592 ,Y2: 392
-End
-Branches
 End
 Wire Name: b75
 LV: 23
@@ -794,45 +606,231 @@ Edge X1: 560 ,Y1: 216 ,X2: 600 ,Y2: 216
 End
 Branches
 End
+Wire Name: b65
+LV: 23
+RV: 0
+Width: 24
+Edges
+Edge X1: 336 ,Y1: 192 ,X2: 368 ,Y2: 192
+Edge X1: 336 ,Y1: 160 ,X2: 336 ,Y2: 192
+Edge X1: 368 ,Y1: 192 ,X2: 368 ,Y2: 240
+Edge X1: 368 ,Y1: 240 ,X2: 368 ,Y2: 272
+Edge X1: 368 ,Y1: 240 ,X2: 384 ,Y2: 240
+End
+Branches
+Branch Left: 336 ,Top: 168
+BranchStrList
+[23:20]
+End
+Branch Left: 336 ,Top: 184
+BranchStrList
+[19:16]
+End
+Branch Left: 368 ,Top: 200
+BranchStrList
+[15:12]
+End
+Branch Left: 368 ,Top: 232
+BranchStrList
+[11:8]
+End
+Branch Left: 368 ,Top: 248
+BranchStrList
+[7:4]
+End
+Branch Left: 368 ,Top: 264
+BranchStrList
+[3:0]
+End
+End
+Wire Name: b68
+LV: 3
+RV: 0
+Width: 4
+Edges
+Edge X1: 312 ,Y1: 200 ,X2: 368 ,Y2: 200
+End
+Branches
+End
+Wire Name: b67
+LV: 3
+RV: 0
+Width: 4
+Edges
+Edge X1: 312 ,Y1: 184 ,X2: 336 ,Y2: 184
+End
+Branches
+End
+Wire Name: b66
+LV: 3
+RV: 0
+Width: 4
+Edges
+Edge X1: 312 ,Y1: 168 ,X2: 336 ,Y2: 168
+End
+Branches
+End
+Wire Name: w66
+LV: 0
+RV: 0
+Width: 1
+Edges
+Edge X1: 24 ,Y1: 232 ,X2: 48 ,Y2: 232
+End
+Branches
+End
+Wire Name: b64
+LV: 9
+RV: 0
+Width: 10
+Edges
+Edge X1: 24 ,Y1: 248 ,X2: 48 ,Y2: 248
+End
+Branches
+End
+Wire Name: w65
+LV: 0
+RV: 0
+Width: 1
+Edges
+Edge X1: 24 ,Y1: 280 ,X2: 48 ,Y2: 280
+End
+Branches
+End
+Wire Name: b79
+LV: 3
+RV: 0
+Width: 4
+Edges
+Edge X1: 560 ,Y1: 248 ,X2: 600 ,Y2: 248
+End
+Branches
+End
+Wire Name: b63
+LV: 3
+RV: 0
+Width: 4
+Edges
+Edge X1: 560 ,Y1: 264 ,X2: 600 ,Y2: 264
+End
+Branches
+End
+Wire Name: b74
+LV: 3
+RV: 0
+Width: 4
+Edges
+Edge X1: 560 ,Y1: 232 ,X2: 600 ,Y2: 232
+End
+Branches
+End
+Wire Name: b71
+LV: 3
+RV: 0
+Width: 4
+Edges
+Edge X1: 344 ,Y1: 360 ,X2: 576 ,Y2: 360
+Edge X1: 344 ,Y1: 232 ,X2: 344 ,Y2: 360
+Edge X1: 336 ,Y1: 232 ,X2: 344 ,Y2: 232
+Edge X1: 344 ,Y1: 232 ,X2: 368 ,Y2: 232
+End
+Branches
+End
+Wire Name: w69
+LV: 0
+RV: 0
+Width: 1
+Edges
+Edge X1: 336 ,Y1: 216 ,X2: 400 ,Y2: 216
+Edge X1: 400 ,Y1: 184 ,X2: 400 ,Y2: 216
+Edge X1: 400 ,Y1: 184 ,X2: 416 ,Y2: 184
+End
+Branches
+End
+Wire Name: b70
+LV: 3
+RV: 0
+Width: 4
+Edges
+Edge X1: 352 ,Y1: 376 ,X2: 584 ,Y2: 376
+Edge X1: 352 ,Y1: 248 ,X2: 352 ,Y2: 376
+Edge X1: 336 ,Y1: 248 ,X2: 352 ,Y2: 248
+Edge X1: 352 ,Y1: 248 ,X2: 368 ,Y2: 248
+End
+Branches
+End
+Wire Name: b69
+LV: 3
+RV: 0
+Width: 4
+Edges
+Edge X1: 360 ,Y1: 392 ,X2: 592 ,Y2: 392
+Edge X1: 360 ,Y1: 264 ,X2: 360 ,Y2: 392
+Edge X1: 336 ,Y1: 264 ,X2: 360 ,Y2: 264
+Edge X1: 360 ,Y1: 264 ,X2: 368 ,Y2: 264
+End
+Branches
+End
+Wire Name: w63
+LV: 0
+RV: 0
+Width: 1
+Edges
+Edge X1: 32 ,Y1: 264 ,X2: 48 ,Y2: 264
+Edge X1: 32 ,Y1: 264 ,X2: 32 ,Y2: 304
+Edge X1: 32 ,Y1: 304 ,X2: 536 ,Y2: 304
+Edge X1: 24 ,Y1: 304 ,X2: 32 ,Y2: 304
+Edge X1: 536 ,Y1: 280 ,X2: 536 ,Y2: 304
+Edge X1: 536 ,Y1: 280 ,X2: 600 ,Y2: 280
+End
+Branches
+End
+Wire Name: w67
+LV: 0
+RV: 0
+Width: 1
+Edges
+Edge X1: 592 ,Y1: 72 ,X2: 600 ,Y2: 72
+Edge X1: 592 ,Y1: 72 ,X2: 592 ,Y2: 208
+Edge X1: 40 ,Y1: 208 ,X2: 592 ,Y2: 208
+Edge X1: 40 ,Y1: 208 ,X2: 40 ,Y2: 216
+Edge X1: 24 ,Y1: 208 ,X2: 40 ,Y2: 208
+Edge X1: 40 ,Y1: 216 ,X2: 48 ,Y2: 216
+End
+Branches
+End
 End
 Ports
-Port Left: 32 Top: 248 ,Orientation: 0
+Port Left: 24 Top: 248 ,Orientation: 0
 Portname: keypad ,PortType: multibit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
 9
 ,Width:
 10
 ,RV:
 0
-Port Left: 32 Top: 208 ,Orientation: 0
+Port Left: 24 Top: 208 ,Orientation: 0
 Portname: clk ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
 0
 ,Width:
 1
 ,RV:
 0
-Port Left: 32 Top: 232 ,Orientation: 0
+Port Left: 24 Top: 232 ,Orientation: 0
 Portname: en ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
 0
 ,Width:
 1
 ,RV:
 0
-Port Left: 32 Top: 304 ,Orientation: 0
+Port Left: 24 Top: 304 ,Orientation: 0
 Portname: rst ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
 0
 ,Width:
 1
 ,RV:
 0
-Port Left: 32 Top: 280 ,Orientation: 0
+Port Left: 24 Top: 280 ,Orientation: 0
 Portname: sharp ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
-0
-,Width:
-1
-,RV:
-0
-Port Left: 352 Top: 320 ,Orientation: 3
-Portname: completeSetting ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
 0
 ,Width:
 1
@@ -920,6 +918,13 @@ Portname: sec_one_in ,PortType: multibit ,LanguageType: Veriilog ,PortDirection:
 3
 ,Width:
 4
+,RV:
+0
+Port Left: 416 Top: 184 ,Orientation: 0
+Portname: completeSetting ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
+0
+,Width:
+1
 ,RV:
 0
 End
@@ -1066,7 +1071,7 @@ LibraryName: PNULib
 IpName: PNU_OR2
 SymbolParameters
 End
-Symbol Left: 80 Top: 208
+Symbol Left: 72 Top: 208
 Name: s24
 LibraryName: (NoLibraryName)
 IpName: select_keypad

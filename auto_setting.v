@@ -60,7 +60,7 @@ module auto_setting(reset, clock, en, keypad, sharp, oHour10, oHour1, oMinute10,
           hour1 <= oHour1;
           minute10 <= oMinute10;
           minute1 <= oMinute1;
-          second10 <= oSecond10 + 4'b1111;
+          second10 <= oSecond10 + 4'b0011;
           second1 <= oSecond1;
           complete <= 1'b0;
 
@@ -154,6 +154,7 @@ module auto_setting(reset, clock, en, keypad, sharp, oHour10, oHour1, oMinute10,
 
         c1:
         begin
+             next_state <= S3;
           hour10 <= 4'b1001;
           hour1 <= 4'b1001;
           minute10 <= 4'b0101;
@@ -166,6 +167,7 @@ module auto_setting(reset, clock, en, keypad, sharp, oHour10, oHour1, oMinute10,
 
         c2:
         begin
+             next_state <= S3;
           hour10 <= oHour10 + 4'b0001;
           hour1 <= oHour1 - 4'b1010;
           minute10 <= oMinute10;
@@ -178,6 +180,7 @@ module auto_setting(reset, clock, en, keypad, sharp, oHour10, oHour1, oMinute10,
 
         c3:
         begin
+             next_state <= S3;
           hour10 <= oHour10;
           hour1 <= oHour1 + 4'b0001;
           minute10 <= oMinute10 - 4'b0110;
@@ -190,6 +193,7 @@ module auto_setting(reset, clock, en, keypad, sharp, oHour10, oHour1, oMinute10,
 
         c4:
         begin
+             next_state <= S3;
           hour10 <= oHour10;
           hour1 <= oHour1;
           minute10 <= oMinute10 + 4'b0001;
@@ -202,25 +206,27 @@ module auto_setting(reset, clock, en, keypad, sharp, oHour10, oHour1, oMinute10,
 
         c5:
         begin
+             next_state <= S3;
           hour10 <= oHour10;
           hour1 <= oHour1;
           minute10 <= oMinute10;
           minute1 <= oMinute1 + 4'b0001;
           second10 <= oSecond10 - 4'b0110;
           second1 <= oSecond1;
-          complete <= 1'b1;
+          complete <= 1'b0;
 
         end
 
         c6:
         begin
+             next_state <= S3;
           hour10 <= oHour10;
           hour1 <= oHour1;
           minute10 <= oMinute10;
           minute1 <= oMinute1;
           second10 <= oSecond10 + 4'b0001;
           second1 <= oSecond1 - 4'b1010;
-          complete <= 1'b1;
+          complete <= 1'b0;
 
         end
 

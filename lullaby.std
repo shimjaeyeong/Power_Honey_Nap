@@ -5,7 +5,7 @@ Caption root
 IfEntering false
 IfLeaving false
 HorzScrollPos 0
-VertScrollPos 1589
+VertScrollPos 0
 Scale 1
 GridInterval 8
 LogicalLeft 0
@@ -5000,7 +5000,7 @@ LogicalHeight 5
 LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
-Properties beat <=16;
+Properties beat <= 16;
 ColorIndex 11
 Kind FSBVOState
 
@@ -7231,13 +7231,13 @@ VertScrollPos 0
 Scale 1
 GridInterval 8
 LogicalLeft 25
-LogicalTop 69
+LogicalTop 66
 LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
 LogicalOffsetLeft -4
-LogicalOffsetTop -1
+LogicalOffsetTop -4
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S39
@@ -7813,13 +7813,13 @@ VertScrollPos 0
 Scale 1
 GridInterval 8
 LogicalLeft 25
-LogicalTop 66
+LogicalTop 69
 LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
 LogicalOffsetLeft -4
-LogicalOffsetTop -12
+LogicalOffsetTop -9
 grd 8
 ConditionProperties stop == 1
 LinkedObj0 S45

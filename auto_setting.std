@@ -1115,7 +1115,7 @@ Properties minute10 = oMinute10;
 Properties minute1 = oMinute1 + 1;
 Properties second10 = oSecond10 - 6;
 Properties second1 = oSecond1;
-Properties complete = 1;
+Properties complete = 0;
 ColorIndex 11
 Kind FSBVOState
 
@@ -1158,7 +1158,7 @@ Properties minute10 = oMinute10;
 Properties minute1 = oMinute1;
 Properties second10 = oSecond10 + 1;
 Properties second1 = oSecond1 - 10;
-Properties complete = 1;
+Properties complete = 0;
 ColorIndex 11
 Kind FSBVOState
 
