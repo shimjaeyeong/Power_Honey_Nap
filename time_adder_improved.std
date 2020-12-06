@@ -1,0 +1,9098 @@
+SaveFile
+LanguageType Veriilog
+ChildrenCount 207
+Caption root
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 10
+LogicalHeight 10
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+grd 8
+Kind AGObjectBase
+
+ChildrenCount 3
+Caption S0
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 172
+LogicalTop 131
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T0
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T1
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 8
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T94
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 8
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 3
+Caption S1
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 192
+LogicalTop 3
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T0
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T4
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T5
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 8
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption T0
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 180
+LogicalTop 75
+LogicalWidth 20
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -10
+LogicalOffsetTop -1
+grd 8
+ConditionProperties oSecond1 + pSecond1 > 9
+LinkedObj0 S0
+LinkedObj1 S1
+EnteringCaption IN_T0
+LeavingCaption OUT_T0
+Kind FSBVOTrans
+
+ChildrenCount 3
+Caption S2
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 99
+LogicalTop 2
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T1
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T2
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T3
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 8
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption T1
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 133
+LogicalTop 74
+LogicalWidth 21
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -10
+LogicalOffsetTop -2
+grd 8
+ConditionProperties oSecond1 + pSecond1 < 10
+LinkedObj0 S0
+LinkedObj1 S2
+EnteringCaption IN_T1
+LeavingCaption OUT_T1
+Kind FSBVOTrans
+
+ChildrenCount 3
+Caption S3
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 58
+LogicalTop 31
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T2
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T6
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T7
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 8
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 3
+Caption S4
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 113
+LogicalTop 32
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T3
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T8
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T9
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 8
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 3
+Caption S5
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 171
+LogicalTop 32
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T4
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T10
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T11
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 8
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 3
+Caption S6
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 242
+LogicalTop 34
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T5
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T12
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T13
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 8
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 3
+Caption S7
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 28
+LogicalTop 66
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T6
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T14
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T15
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 8
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 3
+Caption S8
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 62
+LogicalTop 67
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T7
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T16
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T17
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 8
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 3
+Caption S9
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 86
+LogicalTop 67
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T8
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T18
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T19
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 8
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 3
+Caption S10
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 126
+LogicalTop 68
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T9
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T20
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T21
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 8
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 3
+Caption S11
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 170
+LogicalTop 69
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T10
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T22
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T23
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 8
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 3
+Caption S12
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 206
+LogicalTop 68
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T11
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T24
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T25
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 8
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 3
+Caption S13
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 233
+LogicalTop 70
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T12
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T26
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T27
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 8
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 3
+Caption S14
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 278
+LogicalTop 68
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T13
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T28
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T29
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 8
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption T2
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 72
+LogicalTop 23
+LogicalWidth 22
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -14
+LogicalOffsetTop -3
+grd 8
+ConditionProperties oSecond10 + pSecond10 < 6
+LinkedObj0 S2
+LinkedObj1 S3
+EnteringCaption IN_T2
+LeavingCaption OUT_T2
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T3
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 108
+LogicalTop 23
+LogicalWidth 22
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -6
+LogicalOffsetTop -3
+grd 8
+ConditionProperties oSecond10 + pSecond10 > 5
+LinkedObj0 S2
+LinkedObj1 S4
+EnteringCaption IN_T3
+LeavingCaption OUT_T3
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T4
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 179
+LogicalTop 26
+LogicalWidth 22
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -10
+LogicalOffsetTop 0
+grd 8
+ConditionProperties oSecond10 + pSecond10 < 6
+LinkedObj0 S1
+LinkedObj1 S5
+EnteringCaption IN_T4
+LeavingCaption OUT_T4
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T5
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 230
+LogicalTop 23
+LogicalWidth 22
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft 5
+LogicalOffsetTop -5
+grd 8
+ConditionProperties oSecond10 + pSecond10 > 5
+LinkedObj0 S1
+LinkedObj1 S6
+EnteringCaption IN_T5
+LeavingCaption OUT_T5
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T6
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 38
+LogicalTop 57
+LogicalWidth 19
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -13
+LogicalOffsetTop -1
+grd 8
+ConditionProperties oMinute1 + pMinute1 < 10
+LinkedObj0 S3
+LinkedObj1 S7
+EnteringCaption IN_T6
+LeavingCaption OUT_T6
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T7
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 58
+LogicalTop 57
+LogicalWidth 19
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -10
+LogicalOffsetTop -1
+grd 8
+ConditionProperties oMinute1 + pMinute1 > 9
+LinkedObj0 S3
+LinkedObj1 S8
+EnteringCaption IN_T7
+LeavingCaption OUT_T7
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T8
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 98
+LogicalTop 58
+LogicalWidth 19
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -9
+LogicalOffsetTop 0
+grd 8
+ConditionProperties oMinute1 + pMinute1 < 10
+LinkedObj0 S4
+LinkedObj1 S9
+EnteringCaption IN_T8
+LeavingCaption OUT_T8
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T9
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 119
+LogicalTop 59
+LogicalWidth 19
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -8
+LogicalOffsetTop 0
+grd 8
+ConditionProperties oMinute1 + pMinute1 > 9
+LinkedObj0 S4
+LinkedObj1 S10
+EnteringCaption IN_T9
+LeavingCaption OUT_T9
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T10
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 169
+LogicalTop 58
+LogicalWidth 19
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -9
+LogicalOffsetTop -2
+grd 8
+ConditionProperties oMinute1 + pMinute1 < 10
+LinkedObj0 S5
+LinkedObj1 S11
+EnteringCaption IN_T10
+LeavingCaption OUT_T10
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T11
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 187
+LogicalTop 59
+LogicalWidth 19
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -9
+LogicalOffsetTop 0
+grd 8
+ConditionProperties oMinute1 + pMinute1 > 9
+LinkedObj0 S5
+LinkedObj1 S12
+EnteringCaption IN_T11
+LeavingCaption OUT_T11
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T12
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 237
+LogicalTop 61
+LogicalWidth 19
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -8
+LogicalOffsetTop 0
+grd 8
+ConditionProperties oMinute1 + pMinute1 < 10
+LinkedObj0 S6
+LinkedObj1 S13
+EnteringCaption IN_T12
+LeavingCaption OUT_T12
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T13
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 259
+LogicalTop 60
+LogicalWidth 19
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -9
+LogicalOffsetTop 0
+grd 8
+ConditionProperties oMinute1 + pMinute1 > 9
+LinkedObj0 S6
+LinkedObj1 S14
+EnteringCaption IN_T13
+LeavingCaption OUT_T13
+Kind FSBVOTrans
+
+ChildrenCount 3
+Caption S15
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 7
+LogicalTop 103
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T14
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T30
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T31
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 8
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 3
+Caption S16
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 26
+LogicalTop 104
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T15
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T32
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T33
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 8
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 3
+Caption S17
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 48
+LogicalTop 103
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T16
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T34
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T35
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 8
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 3
+Caption S18
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 64
+LogicalTop 104
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T17
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T36
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T37
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 8
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 3
+Caption S19
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 81
+LogicalTop 103
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T18
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T38
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T39
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 8
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 3
+Caption S20
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 97
+LogicalTop 103
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T19
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T40
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T41
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 8
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 3
+Caption S21
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 115
+LogicalTop 103
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T20
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T42
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T43
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 8
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 3
+Caption S22
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 132
+LogicalTop 103
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T21
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T44
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T45
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 8
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 3
+Caption S23
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 187
+LogicalTop 105
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T22
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T46
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T54
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 8
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 3
+Caption S24
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 213
+LogicalTop 105
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T23
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T47
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T55
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 8
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 3
+Caption S25
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 232
+LogicalTop 106
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T24
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T48
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T56
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 8
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 3
+Caption S26
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 256
+LogicalTop 106
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T25
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T49
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T57
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 8
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 3
+Caption S27
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 278
+LogicalTop 105
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T26
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T50
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T58
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 8
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 3
+Caption S28
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 298
+LogicalTop 104
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T27
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T51
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T59
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 8
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 3
+Caption S29
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 319
+LogicalTop 103
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T28
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T52
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T60
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 8
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 3
+Caption S30
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 341
+LogicalTop 101
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T29
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T53
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T61
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 8
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption T14
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 12
+LogicalTop 89
+LogicalWidth 21
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -13
+LogicalOffsetTop -5
+grd 8
+ConditionProperties oMinute10 + pMinute10 < 10
+LinkedObj0 S7
+LinkedObj1 S15
+EnteringCaption IN_T14
+LeavingCaption OUT_T14
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T15
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 25
+LogicalTop 94
+LogicalWidth 20
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -10
+LogicalOffsetTop 0
+grd 8
+ConditionProperties oMinute10 + pMinute10 > 9
+LinkedObj0 S7
+LinkedObj1 S16
+EnteringCaption IN_T15
+LeavingCaption OUT_T15
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T16
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 46
+LogicalTop 93
+LogicalWidth 21
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -17
+LogicalOffsetTop -1
+grd 8
+ConditionProperties oMinute10 + pMinute10 < 10
+LinkedObj0 S8
+LinkedObj1 S17
+EnteringCaption IN_T16
+LeavingCaption OUT_T16
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T17
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 61
+LogicalTop 89
+LogicalWidth 20
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -10
+LogicalOffsetTop -5
+grd 8
+ConditionProperties oMinute10 + pMinute10 > 9
+LinkedObj0 S8
+LinkedObj1 S18
+EnteringCaption IN_T17
+LeavingCaption OUT_T17
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T18
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 82
+LogicalTop 94
+LogicalWidth 21
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -9
+LogicalOffsetTop 0
+grd 8
+ConditionProperties oMinute10 + pMinute10 < 10
+LinkedObj0 S9
+LinkedObj1 S19
+EnteringCaption IN_T18
+LeavingCaption OUT_T18
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T19
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 90
+LogicalTop 94
+LogicalWidth 20
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -9
+LogicalOffsetTop 0
+grd 8
+ConditionProperties oMinute10 + pMinute10 > 9
+LinkedObj0 S9
+LinkedObj1 S20
+EnteringCaption IN_T19
+LeavingCaption OUT_T19
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T20
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 119
+LogicalTop 94
+LogicalWidth 21
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -9
+LogicalOffsetTop 0
+grd 8
+ConditionProperties oMinute10 + pMinute10 < 10
+LinkedObj0 S10
+LinkedObj1 S21
+EnteringCaption IN_T20
+LeavingCaption OUT_T20
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T21
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 127
+LogicalTop 93
+LogicalWidth 20
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -10
+LogicalOffsetTop -1
+grd 8
+ConditionProperties oMinute10 + pMinute10 > 9
+LinkedObj0 S10
+LinkedObj1 S22
+EnteringCaption IN_T21
+LeavingCaption OUT_T21
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T22
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 174
+LogicalTop 95
+LogicalWidth 21
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -12
+LogicalOffsetTop -1
+grd 8
+ConditionProperties oMinute10 + pMinute10 < 10
+LinkedObj0 S11
+LinkedObj1 S23
+EnteringCaption IN_T22
+LeavingCaption OUT_T22
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T23
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 189
+LogicalTop 95
+LogicalWidth 20
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -10
+LogicalOffsetTop -1
+grd 8
+ConditionProperties oMinute10 + pMinute10 > 9
+LinkedObj0 S11
+LinkedObj1 S24
+EnteringCaption IN_T23
+LeavingCaption OUT_T23
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T24
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 218
+LogicalTop 95
+LogicalWidth 21
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -9
+LogicalOffsetTop -1
+grd 8
+ConditionProperties oMinute10 + pMinute10 < 10
+LinkedObj0 S12
+LinkedObj1 S25
+EnteringCaption IN_T24
+LeavingCaption OUT_T24
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T25
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 227
+LogicalTop 95
+LogicalWidth 20
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -12
+LogicalOffsetTop -1
+grd 8
+ConditionProperties oMinute10 + pMinute10 > 9
+LinkedObj0 S12
+LinkedObj1 S26
+EnteringCaption IN_T25
+LeavingCaption OUT_T25
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T26
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 253
+LogicalTop 96
+LogicalWidth 21
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -10
+LogicalOffsetTop 0
+grd 8
+ConditionProperties oMinute10 + pMinute10 < 10
+LinkedObj0 S13
+LinkedObj1 S27
+EnteringCaption IN_T26
+LeavingCaption OUT_T26
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T27
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 264
+LogicalTop 96
+LogicalWidth 20
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -9
+LogicalOffsetTop 0
+grd 8
+ConditionProperties oMinute10 + pMinute10 > 9
+LinkedObj0 S13
+LinkedObj1 S28
+EnteringCaption IN_T27
+LeavingCaption OUT_T27
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T28
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 297
+LogicalTop 94
+LogicalWidth 21
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -9
+LogicalOffsetTop 0
+grd 8
+ConditionProperties oMinute10 + pMinute10 < 10
+LinkedObj0 S14
+LinkedObj1 S29
+EnteringCaption IN_T28
+LeavingCaption OUT_T28
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T29
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 307
+LogicalTop 93
+LogicalWidth 20
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -10
+LogicalOffsetTop -1
+grd 8
+ConditionProperties oMinute10 + pMinute10 > 9
+LinkedObj0 S14
+LinkedObj1 S30
+EnteringCaption IN_T29
+LeavingCaption OUT_T29
+Kind FSBVOTrans
+
+ChildrenCount 3
+Caption S31
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 6
+LogicalTop 131
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T30
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T62
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T95
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 8
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 3
+Caption S32
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 16
+LogicalTop 131
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T31
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T63
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T96
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 8
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 3
+Caption S33
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 27
+LogicalTop 132
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T32
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T64
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T97
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 8
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 3
+Caption S34
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 37
+LogicalTop 132
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T33
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T65
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T98
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 8
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 3
+Caption S35
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 46
+LogicalTop 132
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T34
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T66
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T99
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 8
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 3
+Caption S36
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 56
+LogicalTop 132
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T35
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T67
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T100
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 8
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 3
+Caption S37
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 65
+LogicalTop 132
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T36
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T68
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T101
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 8
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 3
+Caption S38
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 75
+LogicalTop 132
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T37
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T69
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T102
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 8
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 3
+Caption S39
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 84
+LogicalTop 132
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T38
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T70
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T103
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 8
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 3
+Caption S40
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 92
+LogicalTop 132
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T39
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T71
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T104
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 8
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 3
+Caption S41
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 101
+LogicalTop 132
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T40
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T72
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T105
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 8
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 3
+Caption S42
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 110
+LogicalTop 132
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T41
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T73
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T106
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 8
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 3
+Caption S43
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 119
+LogicalTop 132
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T42
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T74
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T107
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 8
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 3
+Caption S44
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 127
+LogicalTop 132
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T43
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T75
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T108
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 8
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 3
+Caption S45
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 135
+LogicalTop 132
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T44
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T76
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T109
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 8
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 3
+Caption S46
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 142
+LogicalTop 132
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T45
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T77
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T110
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 8
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 2
+Caption S47
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 215
+LogicalTop 133
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T46
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T78
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 2
+Caption S48
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 223
+LogicalTop 134
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T54
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T79
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 2
+Caption S49
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 231
+LogicalTop 134
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T47
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T80
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 2
+Caption S50
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 240
+LogicalTop 135
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T55
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T81
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 2
+Caption S51
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 248
+LogicalTop 135
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T48
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T82
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 2
+Caption S52
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 257
+LogicalTop 135
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T56
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T83
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 2
+Caption S53
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 267
+LogicalTop 136
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T49
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T84
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 2
+Caption S54
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 276
+LogicalTop 136
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T57
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T85
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 2
+Caption S55
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 285
+LogicalTop 136
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T50
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T86
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 2
+Caption S56
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 292
+LogicalTop 136
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T58
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T87
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 2
+Caption S57
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 300
+LogicalTop 137
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T51
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T88
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 2
+Caption S58
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 308
+LogicalTop 136
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T59
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T89
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 2
+Caption S59
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 317
+LogicalTop 135
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T52
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T90
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 2
+Caption S60
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 326
+LogicalTop 135
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T60
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T91
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 2
+Caption S61
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 337
+LogicalTop 135
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T53
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T92
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 2
+Caption S62
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 347
+LogicalTop 135
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T61
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T93
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption T30
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 7
+LogicalTop 126
+LogicalWidth 16
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -7
+LogicalOffsetTop 0
+grd 8
+ConditionProperties pHour1 + oHour1 < 10
+LinkedObj0 S15
+LinkedObj1 S31
+EnteringCaption IN_T30
+LeavingCaption OUT_T30
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T31
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 12
+LogicalTop 126
+LogicalWidth 16
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -7
+LogicalOffsetTop 0
+grd 8
+ConditionProperties pHour1 + oHour1 > 9
+LinkedObj0 S15
+LinkedObj1 S32
+EnteringCaption IN_T31
+LeavingCaption OUT_T31
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T32
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 27
+LogicalTop 127
+LogicalWidth 16
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -7
+LogicalOffsetTop 0
+grd 8
+ConditionProperties pHour1 + oHour1 < 10
+LinkedObj0 S16
+LinkedObj1 S33
+EnteringCaption IN_T32
+LeavingCaption OUT_T32
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T33
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 32
+LogicalTop 127
+LogicalWidth 16
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -7
+LogicalOffsetTop 0
+grd 8
+ConditionProperties pHour1 + oHour1 > 9
+LinkedObj0 S16
+LinkedObj1 S34
+EnteringCaption IN_T33
+LeavingCaption OUT_T33
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T34
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 47
+LogicalTop 126
+LogicalWidth 16
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -8
+LogicalOffsetTop 0
+grd 8
+ConditionProperties pHour1 + oHour1 < 10
+LinkedObj0 S17
+LinkedObj1 S35
+EnteringCaption IN_T34
+LeavingCaption OUT_T34
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T35
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 52
+LogicalTop 126
+LogicalWidth 16
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -8
+LogicalOffsetTop 0
+grd 8
+ConditionProperties pHour1 + oHour1 > 9
+LinkedObj0 S17
+LinkedObj1 S36
+EnteringCaption IN_T35
+LeavingCaption OUT_T35
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T36
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 65
+LogicalTop 127
+LogicalWidth 16
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -7
+LogicalOffsetTop 0
+grd 8
+ConditionProperties pHour1 + oHour1 < 10
+LinkedObj0 S18
+LinkedObj1 S37
+EnteringCaption IN_T36
+LeavingCaption OUT_T36
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T37
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 70
+LogicalTop 127
+LogicalWidth 16
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -7
+LogicalOffsetTop 0
+grd 8
+ConditionProperties pHour1 + oHour1 > 9
+LinkedObj0 S18
+LinkedObj1 S38
+EnteringCaption IN_T37
+LeavingCaption OUT_T37
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T38
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 83
+LogicalTop 126
+LogicalWidth 16
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -7
+LogicalOffsetTop 0
+grd 8
+ConditionProperties pHour1 + oHour1 < 10
+LinkedObj0 S19
+LinkedObj1 S39
+EnteringCaption IN_T38
+LeavingCaption OUT_T38
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T39
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 87
+LogicalTop 126
+LogicalWidth 16
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -7
+LogicalOffsetTop 0
+grd 8
+ConditionProperties pHour1 + oHour1 > 9
+LinkedObj0 S19
+LinkedObj1 S40
+EnteringCaption IN_T39
+LeavingCaption OUT_T39
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T40
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 99
+LogicalTop 126
+LogicalWidth 16
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -8
+LogicalOffsetTop 0
+grd 8
+ConditionProperties pHour1 + oHour1 < 10
+LinkedObj0 S20
+LinkedObj1 S41
+EnteringCaption IN_T40
+LeavingCaption OUT_T40
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T41
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 104
+LogicalTop 126
+LogicalWidth 16
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -7
+LogicalOffsetTop 0
+grd 8
+ConditionProperties pHour1 + oHour1 > 9
+LinkedObj0 S20
+LinkedObj1 S42
+EnteringCaption IN_T41
+LeavingCaption OUT_T41
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T42
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 117
+LogicalTop 126
+LogicalWidth 16
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -8
+LogicalOffsetTop 0
+grd 8
+ConditionProperties pHour1 + oHour1 < 10
+LinkedObj0 S21
+LinkedObj1 S43
+EnteringCaption IN_T42
+LeavingCaption OUT_T42
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T43
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 121
+LogicalTop 126
+LogicalWidth 16
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -8
+LogicalOffsetTop 0
+grd 8
+ConditionProperties pHour1 + oHour1 > 9
+LinkedObj0 S21
+LinkedObj1 S44
+EnteringCaption IN_T43
+LeavingCaption OUT_T43
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T44
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 134
+LogicalTop 126
+LogicalWidth 16
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -7
+LogicalOffsetTop 0
+grd 8
+ConditionProperties pHour1 + oHour1 < 10
+LinkedObj0 S22
+LinkedObj1 S45
+EnteringCaption IN_T44
+LeavingCaption OUT_T44
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T45
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 137
+LogicalTop 126
+LogicalWidth 16
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -8
+LogicalOffsetTop 0
+grd 8
+ConditionProperties pHour1 + oHour1 > 9
+LinkedObj0 S22
+LinkedObj1 S46
+EnteringCaption IN_T45
+LeavingCaption OUT_T45
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T46
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 201
+LogicalTop 127
+LogicalWidth 16
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -8
+LogicalOffsetTop -1
+grd 8
+ConditionProperties pHour1 + oHour1 < 10
+LinkedObj0 S23
+LinkedObj1 S47
+EnteringCaption IN_T46
+LeavingCaption OUT_T46
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T47
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 222
+LogicalTop 128
+LogicalWidth 16
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -8
+LogicalOffsetTop 0
+grd 8
+ConditionProperties pHour1 + oHour1 < 10
+LinkedObj0 S24
+LinkedObj1 S49
+EnteringCaption IN_T47
+LeavingCaption OUT_T47
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T48
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 240
+LogicalTop 129
+LogicalWidth 16
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -8
+LogicalOffsetTop -1
+grd 8
+ConditionProperties pHour1 + oHour1 < 10
+LinkedObj0 S25
+LinkedObj1 S51
+EnteringCaption IN_T48
+LeavingCaption OUT_T48
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T49
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 262
+LogicalTop 129
+LogicalWidth 16
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -7
+LogicalOffsetTop -1
+grd 8
+ConditionProperties pHour1 + oHour1 < 10
+LinkedObj0 S26
+LinkedObj1 S53
+EnteringCaption IN_T49
+LeavingCaption OUT_T49
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T50
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 282
+LogicalTop 128
+LogicalWidth 16
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -7
+LogicalOffsetTop -2
+grd 8
+ConditionProperties pHour1 + oHour1 < 10
+LinkedObj0 S27
+LinkedObj1 S55
+EnteringCaption IN_T50
+LeavingCaption OUT_T50
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T51
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 299
+LogicalTop 128
+LogicalWidth 16
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -8
+LogicalOffsetTop -2
+grd 8
+ConditionProperties pHour1 + oHour1 < 10
+LinkedObj0 S28
+LinkedObj1 S57
+EnteringCaption IN_T51
+LeavingCaption OUT_T51
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T52
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 318
+LogicalTop 128
+LogicalWidth 16
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -8
+LogicalOffsetTop 0
+grd 8
+ConditionProperties pHour1 + oHour1 < 10
+LinkedObj0 S29
+LinkedObj1 S59
+EnteringCaption IN_T52
+LeavingCaption OUT_T52
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T53
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 339
+LogicalTop 127
+LogicalWidth 16
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -8
+LogicalOffsetTop 0
+grd 8
+ConditionProperties pHour1 + oHour1 < 10
+LinkedObj0 S30
+LinkedObj1 S61
+EnteringCaption IN_T53
+LeavingCaption OUT_T53
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T54
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 205
+LogicalTop 128
+LogicalWidth 16
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -8
+LogicalOffsetTop 0
+grd 8
+ConditionProperties pHour1 + oHour1 > 9
+LinkedObj0 S23
+LinkedObj1 S48
+EnteringCaption IN_T54
+LeavingCaption OUT_T54
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T55
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 226
+LogicalTop 129
+LogicalWidth 16
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -8
+LogicalOffsetTop 0
+grd 8
+ConditionProperties pHour1 + oHour1 > 9
+LinkedObj0 S24
+LinkedObj1 S50
+EnteringCaption IN_T55
+LeavingCaption OUT_T55
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T56
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 244
+LogicalTop 129
+LogicalWidth 16
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -8
+LogicalOffsetTop -1
+grd 8
+ConditionProperties pHour1 + oHour1 > 9
+LinkedObj0 S25
+LinkedObj1 S52
+EnteringCaption IN_T56
+LeavingCaption OUT_T56
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T57
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 269
+LogicalTop 130
+LogicalWidth 16
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -5
+LogicalOffsetTop 0
+grd 8
+ConditionProperties pHour1 + oHour1 > 9
+LinkedObj0 S26
+LinkedObj1 S54
+EnteringCaption IN_T57
+LeavingCaption OUT_T57
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T58
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 285
+LogicalTop 128
+LogicalWidth 16
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -8
+LogicalOffsetTop -2
+grd 8
+ConditionProperties pHour1 + oHour1 > 9
+LinkedObj0 S27
+LinkedObj1 S56
+EnteringCaption IN_T58
+LeavingCaption OUT_T58
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T59
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 303
+LogicalTop 129
+LogicalWidth 16
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -8
+LogicalOffsetTop 0
+grd 8
+ConditionProperties pHour1 + oHour1 > 9
+LinkedObj0 S28
+LinkedObj1 S58
+EnteringCaption IN_T59
+LeavingCaption OUT_T59
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T60
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 322
+LogicalTop 128
+LogicalWidth 16
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -8
+LogicalOffsetTop 0
+grd 8
+ConditionProperties pHour1 + oHour1 > 9
+LinkedObj0 S29
+LinkedObj1 S60
+EnteringCaption IN_T60
+LeavingCaption OUT_T60
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T61
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 344
+LogicalTop 127
+LogicalWidth 16
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -8
+LogicalOffsetTop 0
+grd 8
+ConditionProperties pHour1 + oHour1 > 9
+LinkedObj0 S30
+LinkedObj1 S62
+EnteringCaption IN_T61
+LeavingCaption OUT_T61
+Kind FSBVOTrans
+
+ChildrenCount 33
+Caption S63
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 173
+LogicalTop 174
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 9;
+Properties Hour1 = 9;
+Properties Minute10 = 9;
+Properties Minute1 = 9;
+Properties Second10 = 9;
+Properties Second1 = 9;
+Properties complete = 1;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T62
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T63
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 8
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T64
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 16
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T65
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 24
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T66
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 32
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T67
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 40
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T68
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 48
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T69
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 56
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T70
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 64
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T71
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 72
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T72
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 80
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T73
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 88
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T74
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 96
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T75
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 104
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T76
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 112
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T77
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 120
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T78
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 128
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T79
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 136
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T80
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 144
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T81
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 152
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T82
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 160
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T83
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 168
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T84
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 176
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T85
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 184
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T86
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 192
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T87
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 200
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T88
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 208
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T89
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 216
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T90
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 224
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T91
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 232
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T92
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 240
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T93
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 248
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T94
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption T62
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 171
+LogicalTop 161
+LogicalWidth 17
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft 74
+LogicalOffsetTop -1
+grd 8
+ConditionProperties pHour10 + oHour10 > 9
+LinkedObj0 S31
+LinkedObj1 S63
+EnteringCaption IN_T62
+LeavingCaption OUT_T62
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T63
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 168
+LogicalTop 160
+LogicalWidth 17
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft 66
+LogicalOffsetTop -2
+grd 8
+ConditionProperties pHour10 + oHour10 > 9
+LinkedObj0 S32
+LinkedObj1 S63
+EnteringCaption IN_T63
+LeavingCaption OUT_T63
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T64
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 177
+LogicalTop 160
+LogicalWidth 17
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft 69
+LogicalOffsetTop -2
+grd 8
+ConditionProperties pHour10 + oHour10 > 9
+LinkedObj0 S33
+LinkedObj1 S63
+EnteringCaption IN_T64
+LeavingCaption OUT_T64
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T65
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 169
+LogicalTop 163
+LogicalWidth 17
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft 56
+LogicalOffsetTop 1
+grd 8
+ConditionProperties pHour10 + oHour10 > 9
+LinkedObj0 S34
+LinkedObj1 S63
+EnteringCaption IN_T65
+LeavingCaption OUT_T65
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T66
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 163
+LogicalTop 162
+LogicalWidth 17
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft 46
+LogicalOffsetTop 0
+grd 8
+ConditionProperties pHour10 + oHour10 > 9
+LinkedObj0 S35
+LinkedObj1 S63
+EnteringCaption IN_T66
+LeavingCaption OUT_T66
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T67
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 168
+LogicalTop 161
+LogicalWidth 17
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft 46
+LogicalOffsetTop -1
+grd 8
+ConditionProperties pHour10 + oHour10 > 9
+LinkedObj0 S36
+LinkedObj1 S63
+EnteringCaption IN_T67
+LeavingCaption OUT_T67
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T68
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 164
+LogicalTop 158
+LogicalWidth 17
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft 37
+LogicalOffsetTop -4
+grd 8
+ConditionProperties pHour10 + oHour10 > 9
+LinkedObj0 S37
+LinkedObj1 S63
+EnteringCaption IN_T68
+LeavingCaption OUT_T68
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T69
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 165
+LogicalTop 159
+LogicalWidth 17
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft 33
+LogicalOffsetTop -3
+grd 8
+ConditionProperties pHour10 + oHour10 > 9
+LinkedObj0 S38
+LinkedObj1 S63
+EnteringCaption IN_T69
+LeavingCaption OUT_T69
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T70
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 170
+LogicalTop 160
+LogicalWidth 17
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft 34
+LogicalOffsetTop -2
+grd 8
+ConditionProperties pHour10 + oHour10 > 9
+LinkedObj0 S39
+LinkedObj1 S63
+EnteringCaption IN_T70
+LeavingCaption OUT_T70
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T71
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 165
+LogicalTop 161
+LogicalWidth 17
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft 25
+LogicalOffsetTop -1
+grd 8
+ConditionProperties pHour10 + oHour10 > 9
+LinkedObj0 S40
+LinkedObj1 S63
+EnteringCaption IN_T71
+LeavingCaption OUT_T71
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T72
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 182
+LogicalTop 159
+LogicalWidth 17
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft 37
+LogicalOffsetTop -3
+grd 8
+ConditionProperties pHour10 + oHour10 > 9
+LinkedObj0 S41
+LinkedObj1 S63
+EnteringCaption IN_T72
+LeavingCaption OUT_T72
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T73
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 172
+LogicalTop 160
+LogicalWidth 17
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft 23
+LogicalOffsetTop -2
+grd 8
+ConditionProperties pHour10 + oHour10 > 9
+LinkedObj0 S42
+LinkedObj1 S63
+EnteringCaption IN_T73
+LeavingCaption OUT_T73
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T74
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 169
+LogicalTop 159
+LogicalWidth 17
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft 15
+LogicalOffsetTop -3
+grd 8
+ConditionProperties pHour10 + oHour10 > 9
+LinkedObj0 S43
+LinkedObj1 S63
+EnteringCaption IN_T74
+LeavingCaption OUT_T74
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T75
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 172
+LogicalTop 158
+LogicalWidth 17
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft 14
+LogicalOffsetTop -4
+grd 8
+ConditionProperties pHour10 + oHour10 > 9
+LinkedObj0 S44
+LinkedObj1 S63
+EnteringCaption IN_T75
+LeavingCaption OUT_T75
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T76
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 167
+LogicalTop 160
+LogicalWidth 17
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft 5
+LogicalOffsetTop -2
+grd 8
+ConditionProperties pHour10 + oHour10 > 9
+LinkedObj0 S45
+LinkedObj1 S63
+EnteringCaption IN_T76
+LeavingCaption OUT_T76
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T77
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 167
+LogicalTop 160
+LogicalWidth 17
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft 2
+LogicalOffsetTop -2
+grd 8
+ConditionProperties pHour10 + oHour10 > 9
+LinkedObj0 S46
+LinkedObj1 S63
+EnteringCaption IN_T77
+LeavingCaption OUT_T77
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T78
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 176
+LogicalTop 158
+LogicalWidth 17
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -26
+LogicalOffsetTop -4
+grd 8
+ConditionProperties pHour10 + oHour10 > 9
+LinkedObj0 S47
+LinkedObj1 S63
+EnteringCaption IN_T78
+LeavingCaption OUT_T78
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T79
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 183
+LogicalTop 163
+LogicalWidth 17
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -23
+LogicalOffsetTop 0
+grd 8
+ConditionProperties pHour10 + oHour10 > 9
+LinkedObj0 S48
+LinkedObj1 S63
+EnteringCaption IN_T79
+LeavingCaption OUT_T79
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T80
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 177
+LogicalTop 159
+LogicalWidth 17
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -33
+LogicalOffsetTop -4
+grd 8
+ConditionProperties pHour10 + oHour10 > 9
+LinkedObj0 S49
+LinkedObj1 S63
+EnteringCaption IN_T80
+LeavingCaption OUT_T80
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T81
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 206
+LogicalTop 163
+LogicalWidth 17
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -8
+LogicalOffsetTop -1
+grd 8
+ConditionProperties pHour10 + oHour10 > 9
+LinkedObj0 S50
+LinkedObj1 S63
+EnteringCaption IN_T81
+LeavingCaption OUT_T81
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T82
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 210
+LogicalTop 163
+LogicalWidth 17
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -8
+LogicalOffsetTop -1
+grd 8
+ConditionProperties pHour10 + oHour10 > 9
+LinkedObj0 S51
+LinkedObj1 S63
+EnteringCaption IN_T82
+LeavingCaption OUT_T82
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T83
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 180
+LogicalTop 159
+LogicalWidth 17
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -43
+LogicalOffsetTop -5
+grd 8
+ConditionProperties pHour10 + oHour10 > 9
+LinkedObj0 S52
+LinkedObj1 S63
+EnteringCaption IN_T83
+LeavingCaption OUT_T83
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T84
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 188
+LogicalTop 164
+LogicalWidth 17
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -40
+LogicalOffsetTop 0
+grd 8
+ConditionProperties pHour10 + oHour10 > 9
+LinkedObj0 S53
+LinkedObj1 S63
+EnteringCaption IN_T84
+LeavingCaption OUT_T84
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T85
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 175
+LogicalTop 160
+LogicalWidth 17
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -57
+LogicalOffsetTop -4
+grd 8
+ConditionProperties pHour10 + oHour10 > 9
+LinkedObj0 S54
+LinkedObj1 S63
+EnteringCaption IN_T85
+LeavingCaption OUT_T85
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T86
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 181
+LogicalTop 158
+LogicalWidth 17
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -56
+LogicalOffsetTop -6
+grd 8
+ConditionProperties pHour10 + oHour10 > 9
+LinkedObj0 S55
+LinkedObj1 S63
+EnteringCaption IN_T86
+LeavingCaption OUT_T86
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T87
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 184
+LogicalTop 158
+LogicalWidth 17
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -56
+LogicalOffsetTop -6
+grd 8
+ConditionProperties pHour10 + oHour10 > 9
+LinkedObj0 S56
+LinkedObj1 S63
+EnteringCaption IN_T87
+LeavingCaption OUT_T87
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T88
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 180
+LogicalTop 159
+LogicalWidth 17
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -64
+LogicalOffsetTop -5
+grd 8
+ConditionProperties pHour10 + oHour10 > 9
+LinkedObj0 S57
+LinkedObj1 S63
+EnteringCaption IN_T88
+LeavingCaption OUT_T88
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T89
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 186
+LogicalTop 160
+LogicalWidth 17
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -62
+LogicalOffsetTop -4
+grd 8
+ConditionProperties pHour10 + oHour10 > 9
+LinkedObj0 S58
+LinkedObj1 S63
+EnteringCaption IN_T89
+LeavingCaption OUT_T89
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T90
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 185
+LogicalTop 158
+LogicalWidth 17
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -68
+LogicalOffsetTop -6
+grd 8
+ConditionProperties pHour10 + oHour10 > 9
+LinkedObj0 S59
+LinkedObj1 S63
+EnteringCaption IN_T90
+LeavingCaption OUT_T90
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T91
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 179
+LogicalTop 159
+LogicalWidth 17
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -78
+LogicalOffsetTop -5
+grd 8
+ConditionProperties pHour10 + oHour10 > 9
+LinkedObj0 S60
+LinkedObj1 S63
+EnteringCaption IN_T91
+LeavingCaption OUT_T91
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T92
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 181
+LogicalTop 157
+LogicalWidth 17
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -82
+LogicalOffsetTop -7
+grd 8
+ConditionProperties pHour10 + oHour10 > 9
+LinkedObj0 S61
+LinkedObj1 S63
+EnteringCaption IN_T92
+LeavingCaption OUT_T92
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T93
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 179
+LogicalTop 159
+LogicalWidth 17
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -89
+LogicalOffsetTop -5
+grd 8
+ConditionProperties pHour10 + oHour10 > 9
+LinkedObj0 S62
+LinkedObj1 S63
+EnteringCaption IN_T93
+LeavingCaption OUT_T93
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T94
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 181
+LogicalTop 160
+LogicalWidth 1
+LogicalHeight 1
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft 1
+LogicalOffsetTop -2
+grd 8
+LinkedObj0 S63
+LinkedObj1 S0
+EnteringCaption IN_T94
+LeavingCaption OUT_T94
+Kind FSBVOTrans
+
+ChildrenCount 1
+Caption S64
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 2
+LogicalTop 176
+LogicalWidth 36
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = oHour10 + hHour10;
+Properties Hour1 = oHour1 + hHour1;
+Properties Minute10 = oMinute10 + hMinute10;
+Properties Minute1 = oMinute1 + hMinute1;
+Properties Second10 = oSecond10 + hSecond10;
+Properties Second1 = oSecond1 + hSecond1;
+Properties complete = 1;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T95
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 1
+Caption S65
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 18
+LogicalTop 196
+LogicalWidth 36
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = oHour10 + hHour10;
+Properties Hour1 = oHour1 + hHour1;
+Properties Minute10 = oMinute10 + hMinute10;
+Properties Minute1 = oMinute1 + hMinute1;
+Properties Second10 = oSecond10 + hSecond10;
+Properties Second1 = oSecond1 + hSecond1;
+Properties complete = 1;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T96
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 1
+Caption S66
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 29
+LogicalTop 177
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T97
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 1
+Caption S67
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 39
+LogicalTop 177
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T98
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 1
+Caption S68
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 48
+LogicalTop 177
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T99
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 1
+Caption S69
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 58
+LogicalTop 177
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T100
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 1
+Caption S70
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 67
+LogicalTop 177
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T101
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 1
+Caption S71
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 77
+LogicalTop 177
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T102
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 1
+Caption S72
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 86
+LogicalTop 177
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T103
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 1
+Caption S73
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 94
+LogicalTop 177
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T104
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 1
+Caption S74
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 103
+LogicalTop 177
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T105
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 1
+Caption S75
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 112
+LogicalTop 177
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T106
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 1
+Caption S76
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 121
+LogicalTop 177
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T107
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 1
+Caption S77
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 129
+LogicalTop 177
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T108
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 1
+Caption S78
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 137
+LogicalTop 177
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T109
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 1
+Caption S79
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 144
+LogicalTop 177
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T110
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption S80
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 215
+LogicalTop 174
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption S81
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 225
+LogicalTop 174
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption S82
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 236
+LogicalTop 175
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption S83
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 246
+LogicalTop 175
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption S84
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 255
+LogicalTop 175
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption S85
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 265
+LogicalTop 175
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption S86
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 274
+LogicalTop 175
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption S87
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 284
+LogicalTop 175
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption S88
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 293
+LogicalTop 175
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption S89
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 301
+LogicalTop 175
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption S90
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 310
+LogicalTop 175
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption S91
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 319
+LogicalTop 175
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption S92
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 328
+LogicalTop 175
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption S93
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 336
+LogicalTop 175
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption S94
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 344
+LogicalTop 175
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption S95
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 351
+LogicalTop 175
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption T95
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 8
+LogicalTop 162
+LogicalWidth 18
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -9
+LogicalOffsetTop 0
+grd 8
+ConditionProperties pHour10 + oHour10 < 10
+LinkedObj0 S31
+LinkedObj1 S64
+EnteringCaption IN_T95
+LeavingCaption OUT_T95
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T96
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 22
+LogicalTop 172
+LogicalWidth 18
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -8
+LogicalOffsetTop 0
+grd 8
+ConditionProperties pHour10 + oHour10 < 10
+LinkedObj0 S32
+LinkedObj1 S65
+EnteringCaption IN_T96
+LeavingCaption OUT_T96
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T97
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 28
+LogicalTop 162
+LogicalWidth 18
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -8
+LogicalOffsetTop -2
+grd 8
+ConditionProperties pHour10 + oHour10 < 10
+LinkedObj0 S33
+LinkedObj1 S66
+EnteringCaption IN_T97
+LeavingCaption OUT_T97
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T98
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 38
+LogicalTop 162
+LogicalWidth 18
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -8
+LogicalOffsetTop -2
+grd 8
+ConditionProperties pHour10 + oHour10 < 10
+LinkedObj0 S34
+LinkedObj1 S67
+EnteringCaption IN_T98
+LeavingCaption OUT_T98
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T99
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 47
+LogicalTop 162
+LogicalWidth 18
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -8
+LogicalOffsetTop -2
+grd 8
+ConditionProperties pHour10 + oHour10 < 10
+LinkedObj0 S35
+LinkedObj1 S68
+EnteringCaption IN_T99
+LeavingCaption OUT_T99
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T100
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 57
+LogicalTop 162
+LogicalWidth 18
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -8
+LogicalOffsetTop -2
+grd 8
+ConditionProperties pHour10 + oHour10 < 10
+LinkedObj0 S36
+LinkedObj1 S69
+EnteringCaption IN_T100
+LeavingCaption OUT_T100
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T101
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 66
+LogicalTop 162
+LogicalWidth 18
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -8
+LogicalOffsetTop -2
+grd 8
+ConditionProperties pHour10 + oHour10 < 10
+LinkedObj0 S37
+LinkedObj1 S70
+EnteringCaption IN_T101
+LeavingCaption OUT_T101
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T102
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 76
+LogicalTop 162
+LogicalWidth 18
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -8
+LogicalOffsetTop -2
+grd 8
+ConditionProperties pHour10 + oHour10 < 10
+LinkedObj0 S38
+LinkedObj1 S71
+EnteringCaption IN_T102
+LeavingCaption OUT_T102
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T103
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 85
+LogicalTop 162
+LogicalWidth 18
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -8
+LogicalOffsetTop -2
+grd 8
+ConditionProperties pHour10 + oHour10 < 10
+LinkedObj0 S39
+LinkedObj1 S72
+EnteringCaption IN_T103
+LeavingCaption OUT_T103
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T104
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 93
+LogicalTop 162
+LogicalWidth 18
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -8
+LogicalOffsetTop -2
+grd 8
+ConditionProperties pHour10 + oHour10 < 10
+LinkedObj0 S40
+LinkedObj1 S73
+EnteringCaption IN_T104
+LeavingCaption OUT_T104
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T105
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 102
+LogicalTop 162
+LogicalWidth 18
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -8
+LogicalOffsetTop -2
+grd 8
+ConditionProperties pHour10 + oHour10 < 10
+LinkedObj0 S41
+LinkedObj1 S74
+EnteringCaption IN_T105
+LeavingCaption OUT_T105
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T106
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 111
+LogicalTop 162
+LogicalWidth 18
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -8
+LogicalOffsetTop -2
+grd 8
+ConditionProperties pHour10 + oHour10 < 10
+LinkedObj0 S42
+LinkedObj1 S75
+EnteringCaption IN_T106
+LeavingCaption OUT_T106
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T107
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 120
+LogicalTop 162
+LogicalWidth 18
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -8
+LogicalOffsetTop -2
+grd 8
+ConditionProperties pHour10 + oHour10 < 10
+LinkedObj0 S43
+LinkedObj1 S76
+EnteringCaption IN_T107
+LeavingCaption OUT_T107
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T108
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 128
+LogicalTop 162
+LogicalWidth 18
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -8
+LogicalOffsetTop -2
+grd 8
+ConditionProperties pHour10 + oHour10 < 10
+LinkedObj0 S44
+LinkedObj1 S77
+EnteringCaption IN_T108
+LeavingCaption OUT_T108
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T109
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 135
+LogicalTop 162
+LogicalWidth 18
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -9
+LogicalOffsetTop -2
+grd 8
+ConditionProperties pHour10 + oHour10 < 10
+LinkedObj0 S45
+LinkedObj1 S78
+EnteringCaption IN_T109
+LeavingCaption OUT_T109
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T110
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 142
+LogicalTop 162
+LogicalWidth 18
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -9
+LogicalOffsetTop -2
+grd 8
+ConditionProperties pHour10 + oHour10 < 10
+LinkedObj0 S46
+LinkedObj1 S79
+EnteringCaption IN_T110
+LeavingCaption OUT_T110
+Kind FSBVOTrans
+
+ResetPortName reset
+PortType singlebit
+PortDirection in
+PortLV 0
+PortRV 0
+PortDirectionIndex 0
+PortLanguageType Veriilog
+ResetTiming Low
+ClockPortName clock
+PortType singlebit
+PortDirection in
+PortLV 0
+PortRV 0
+PortDirectionIndex 0
+PortLanguageType Veriilog
+ClockEdgeType Rising
+FileName time_adder_improved
+UserDefinedTitle 
+UserDefinedFooter 
+CurLayerObj root

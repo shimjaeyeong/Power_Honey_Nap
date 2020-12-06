@@ -1,0 +1,926 @@
+SaveFile
+LanguageType Veriilog
+ChildrenCount 18
+Caption root
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 342
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 10
+LogicalHeight 10
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+grd 8
+Kind AGObjectBase
+
+ChildrenCount 3
+Caption S0
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 24
+LogicalTop 12
+LogicalWidth 16
+LogicalHeight 20
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+Properties recursive = 0
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T0
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T1
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T6
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 8
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 1
+Caption reset0
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 12
+LogicalTop 8
+LogicalWidth 2
+LogicalHeight 2
+LogicalWidthSetting 2
+LogicalHeightSetting 2
+grd 8
+ColorIndex 11
+Kind TFSBVOReset
+
+ChildrenCount 0
+Caption OUT_T0
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption T0
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 19
+LogicalTop 12
+LogicalWidth 1
+LogicalHeight 1
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft 0
+LogicalOffsetTop -1
+grd 8
+LinkedObj0 reset0
+LinkedObj1 S0
+EnteringCaption IN_T0
+LeavingCaption OUT_T0
+Kind FSBVOTrans
+
+ChildrenCount 3
+Caption S1
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 23
+LogicalTop 43
+LogicalWidth 16
+LogicalHeight 20
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+Properties recursive  = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T1
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T2
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T3
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 8
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 2
+Caption S2
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 23
+LogicalTop 72
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T2
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T7
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 1
+Caption S6
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 66
+LogicalTop 15
+LogicalWidth 16
+LogicalHeight 20
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 9;
+Properties Hour1 = 9;
+Properties Minute10 = 9;
+Properties Minute1 = 9;
+Properties Second10 = 9;
+Properties Second1 = 9;
+Properties complete = 1;
+Properties recursive = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T6
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption T1
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 23
+LogicalTop 37
+LogicalWidth 18
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -8
+LogicalOffsetTop -1
+grd 8
+ConditionProperties oHour10 + pHour10 < 10
+LinkedObj0 S0
+LinkedObj1 S1
+EnteringCaption IN_T1
+LeavingCaption OUT_T1
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T2
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 23
+LogicalTop 67
+LogicalWidth 16
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -8
+LogicalOffsetTop -1
+grd 8
+ConditionProperties oHour1 + pHour1 < 10
+LinkedObj0 S1
+LinkedObj1 S2
+EnteringCaption IN_T2
+LeavingCaption OUT_T2
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T6
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 45
+LogicalTop 23
+LogicalWidth 17
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -8
+LogicalOffsetTop 0
+grd 8
+ConditionProperties oHour10 + pHour10 > 9
+LinkedObj0 S0
+LinkedObj1 S6
+EnteringCaption IN_T6
+LeavingCaption OUT_T6
+Kind FSBVOTrans
+
+ChildrenCount 1
+Caption S3
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 59
+LogicalTop 43
+LogicalWidth 36
+LogicalHeight 20
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = oHour10 + hHour10 + 1;
+Properties Hour1 = oHour1 + hHour1 - 10;
+Properties Minute10 = oMinute10 + hMinute10;
+Properties Minute1 = oMinute1 + hMinute1;
+Properties Second10 = oSecond10 + hSecond10;
+Properties Second1 = oSecond1 + hSecond1;
+Properties complete = 1;
+Properties recursive = 1;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T3
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 1
+Caption S4
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 60
+LogicalTop 72
+LogicalWidth 36
+LogicalHeight 20
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = oHour10 + hHour10 + 1;
+Properties Hour1 = oHour1 + hHour1 - 10;
+Properties Minute10 = oMinute10 + hMinute10;
+Properties Minute1 = oMinute1 + hMinute1;
+Properties Second10 = oSecond10 + hSecond10;
+Properties Second1 = oSecond1 + hSecond1;
+Properties complete = 1;
+Properties recursive = 1;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T7
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption T3
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 41
+LogicalTop 52
+LogicalWidth 16
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -8
+LogicalOffsetTop -1
+grd 8
+ConditionProperties oHour1 + pHour1 > 9
+LinkedObj0 S1
+LinkedObj1 S3
+EnteringCaption IN_T3
+LeavingCaption OUT_T3
+Kind FSBVOTrans
+
+ChildrenCount 2
+Caption S5
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 130
+LogicalTop 11
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T4
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption OUT_T5
+IfEntering false
+IfLeaving true
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 50
+LogicalTop 8
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 1
+Caption S7
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 113
+LogicalTop 43
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T4
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 1
+Caption S8
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 144
+LogicalTop 41
+LogicalWidth 16
+LogicalHeight 18
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+Properties Hour10 = 0;
+Properties Hour1 = 0;
+Properties Minute10 = 0;
+Properties Minute1 = 0;
+Properties Second10 = 0;
+Properties Second1 = 0;
+Properties complete = 0;
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption IN_T5
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 0
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 0
+Caption T4
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 116
+LogicalTop 33
+LogicalWidth 22
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -14
+LogicalOffsetTop -3
+grd 8
+ConditionProperties oSecond10 + pSecond10 < 6
+LinkedObj0 S5
+LinkedObj1 S7
+EnteringCaption IN_T4
+LeavingCaption OUT_T4
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T5
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 139
+LogicalTop 32
+LogicalWidth 22
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -6
+LogicalOffsetTop -3
+grd 8
+ConditionProperties oSecond10 + pSecond10 > 5
+LinkedObj0 S5
+LinkedObj1 S8
+EnteringCaption IN_T5
+LeavingCaption OUT_T5
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T7
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 40
+LogicalTop 81
+LogicalWidth 19
+LogicalHeight 3
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -10
+LogicalOffsetTop -1
+grd 8
+ConditionProperties oMinute1 + pMinute1 > 9
+LinkedObj0 S2
+LinkedObj1 S4
+EnteringCaption IN_T7
+LeavingCaption OUT_T7
+Kind FSBVOTrans
+
+
+PortName oHour10
+PortType multibit
+PortDirection in
+PortLV 3
+PortRV 0
+PortDirectionIndex 0
+PortLanguageType Veriilog
+
+PortName pHour10
+PortType multibit
+PortDirection in
+PortLV 3
+PortRV 0
+PortDirectionIndex 0
+PortLanguageType Veriilog
+
+PortName oHour1
+PortType multibit
+PortDirection in
+PortLV 3
+PortRV 0
+PortDirectionIndex 0
+PortLanguageType Veriilog
+
+PortName pHour1
+PortType multibit
+PortDirection in
+PortLV 3
+PortRV 0
+PortDirectionIndex 0
+PortLanguageType Veriilog
+
+PortName oMinute10
+PortType multibit
+PortDirection in
+PortLV 3
+PortRV 0
+PortDirectionIndex 0
+PortLanguageType Veriilog
+
+PortName pMinute10
+PortType multibit
+PortDirection in
+PortLV 3
+PortRV 0
+PortDirectionIndex 0
+PortLanguageType Veriilog
+
+PortName oMinute1
+PortType multibit
+PortDirection in
+PortLV 3
+PortRV 0
+PortDirectionIndex 0
+PortLanguageType Veriilog
+
+PortName pMinute1
+PortType multibit
+PortDirection in
+PortLV 3
+PortRV 0
+PortDirectionIndex 0
+PortLanguageType Veriilog
+
+PortName oSecond10
+PortType multibit
+PortDirection in
+PortLV 3
+PortRV 0
+PortDirectionIndex 0
+PortLanguageType Veriilog
+
+PortName pSecond10
+PortType multibit
+PortDirection in
+PortLV 3
+PortRV 0
+PortDirectionIndex 0
+PortLanguageType Veriilog
+
+PortName oSecond1
+PortType multibit
+PortDirection in
+PortLV 3
+PortRV 0
+PortDirectionIndex 0
+PortLanguageType Veriilog
+
+PortName pSecond1
+PortType multibit
+PortDirection in
+PortLV 3
+PortRV 0
+PortDirectionIndex 0
+PortLanguageType Veriilog
+
+PortName Hour10
+PortType singlebit
+PortDirection out
+PortLV 0
+PortRV 0
+PortDirectionIndex 0
+PortLanguageType Veriilog
+
+PortName Hour1
+PortType singlebit
+PortDirection out
+PortLV 0
+PortRV 0
+PortDirectionIndex 0
+PortLanguageType Veriilog
+
+PortName Minute10
+PortType singlebit
+PortDirection out
+PortLV 0
+PortRV 0
+PortDirectionIndex 0
+PortLanguageType Veriilog
+
+PortName Minute1
+PortType singlebit
+PortDirection out
+PortLV 0
+PortRV 0
+PortDirectionIndex 0
+PortLanguageType Veriilog
+
+PortName Second10
+PortType singlebit
+PortDirection out
+PortLV 0
+PortRV 0
+PortDirectionIndex 0
+PortLanguageType Veriilog
+
+PortName Second1
+PortType singlebit
+PortDirection out
+PortLV 0
+PortRV 0
+PortDirectionIndex 0
+PortLanguageType Veriilog
+
+PortName complete
+PortType singlebit
+PortDirection out
+PortLV 0
+PortRV 0
+PortDirectionIndex 0
+PortLanguageType Veriilog
+
+PortName recursive
+PortType singlebit
+PortDirection out
+PortLV 0
+PortRV 0
+PortDirectionIndex 0
+PortLanguageType Veriilog
+ResetPortName reset
+PortType singlebit
+PortDirection in
+PortLV 0
+PortRV 0
+PortDirectionIndex 0
+PortLanguageType Veriilog
+ResetTiming Low
+ClockPortName clock
+PortType singlebit
+PortDirection in
+PortLV 0
+PortRV 0
+PortDirectionIndex 0
+PortLanguageType Veriilog
+ClockEdgeType Rising
+FileName time_adder
+UserDefinedTitle 
+UserDefinedFooter 
+CurLayerObj root

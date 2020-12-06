@@ -96,21 +96,31 @@ Edge X1: 504 ,Y1: 344 ,X2: 776 ,Y2: 344
 End
 Branches
 End
-Wire Name: w17
+Wire Name: w20
 LV: 0
 RV: 0
 Width: 1
 Edges
-Edge X1: 464 ,Y1: 280 ,X2: 504 ,Y2: 280
-Edge X1: 464 ,Y1: 192 ,X2: 464 ,Y2: 280
-Edge X1: 464 ,Y1: 192 ,X2: 504 ,Y2: 192
-Edge X1: 464 ,Y1: 112 ,X2: 464 ,Y2: 192
-Edge X1: 464 ,Y1: 112 ,X2: 504 ,Y2: 112
-Edge X1: 120 ,Y1: 112 ,X2: 464 ,Y2: 112
-Edge X1: 80 ,Y1: 112 ,X2: 120 ,Y2: 112
-Edge X1: 120 ,Y1: 112 ,X2: 120 ,Y2: 280
+Edge X1: 56 ,Y1: 312 ,X2: 120 ,Y2: 312
 End
 Branches
+End
+Wire Name: b19
+LV: 9
+RV: 0
+Width: 10
+Edges
+Edge X1: 40 ,Y1: 96 ,X2: 160 ,Y2: 96
+End
+Branches
+Branch Left: 152 ,Top: 96
+BranchStrList
+[9:2]
+End
+Branch Left: 136 ,Top: 96
+BranchStrList
+[1:0]
+End
 End
 Wire Name: w18
 LV: 0
@@ -129,24 +139,28 @@ Edge X1: 96 ,Y1: 296 ,X2: 120 ,Y2: 296
 End
 Branches
 End
-Wire Name: w20
+Wire Name: w17
 LV: 0
 RV: 0
 Width: 1
 Edges
-Edge X1: 56 ,Y1: 312 ,X2: 120 ,Y2: 312
+Edge X1: 464 ,Y1: 280 ,X2: 504 ,Y2: 280
+Edge X1: 464 ,Y1: 192 ,X2: 464 ,Y2: 280
+Edge X1: 464 ,Y1: 192 ,X2: 504 ,Y2: 192
+Edge X1: 464 ,Y1: 112 ,X2: 464 ,Y2: 192
+Edge X1: 464 ,Y1: 112 ,X2: 504 ,Y2: 112
+Edge X1: 120 ,Y1: 112 ,X2: 464 ,Y2: 112
+Edge X1: 80 ,Y1: 112 ,X2: 120 ,Y2: 112
+Edge X1: 120 ,Y1: 112 ,X2: 120 ,Y2: 280
 End
 Branches
 End
-Wire Name: w21
+Wire Name: w24
 LV: 0
 RV: 0
 Width: 1
 Edges
-Edge X1: 416 ,Y1: 144 ,X2: 416 ,Y2: 280
-Edge X1: 416 ,Y1: 144 ,X2: 504 ,Y2: 144
-Edge X1: 400 ,Y1: 280 ,X2: 416 ,Y2: 280
-Edge X1: 416 ,Y1: 280 ,X2: 416 ,Y2: 344
+Edge X1: 488 ,Y1: 144 ,X2: 504 ,Y2: 144
 End
 Branches
 End
@@ -155,30 +169,120 @@ LV: 0
 RV: 0
 Width: 1
 Edges
-Edge X1: 432 ,Y1: 224 ,X2: 432 ,Y2: 296
-Edge X1: 432 ,Y1: 224 ,X2: 504 ,Y2: 224
-Edge X1: 400 ,Y1: 296 ,X2: 432 ,Y2: 296
-Edge X1: 432 ,Y1: 296 ,X2: 432 ,Y2: 344
+Edge X1: 488 ,Y1: 224 ,X2: 504 ,Y2: 224
 End
 Branches
 End
-Wire Name: w15
+Wire Name: w25
 LV: 0
 RV: 0
 Width: 1
 Edges
-Edge X1: 400 ,Y1: 312 ,X2: 448 ,Y2: 312
-Edge X1: 448 ,Y1: 312 ,X2: 504 ,Y2: 312
-Edge X1: 448 ,Y1: 312 ,X2: 448 ,Y2: 344
+Edge X1: 488 ,Y1: 312 ,X2: 504 ,Y2: 312
 End
 Branches
 End
-Wire Name: b19
-LV: 9
+Wire Name: w28
+LV: 0
 RV: 0
-Width: 10
+Width: 1
 Edges
-Edge X1: 40 ,Y1: 96 ,X2: 160 ,Y2: 96
+Edge X1: 400 ,Y1: 152 ,X2: 400 ,Y2: 280
+Edge X1: 400 ,Y1: 152 ,X2: 424 ,Y2: 152
+Edge X1: 384 ,Y1: 152 ,X2: 400 ,Y2: 152
+End
+Branches
+End
+Wire Name: w27
+LV: 0
+RV: 0
+Width: 1
+Edges
+Edge X1: 400 ,Y1: 296 ,X2: 408 ,Y2: 296
+Edge X1: 408 ,Y1: 232 ,X2: 408 ,Y2: 296
+Edge X1: 408 ,Y1: 232 ,X2: 424 ,Y2: 232
+Edge X1: 384 ,Y1: 232 ,X2: 408 ,Y2: 232
+End
+Branches
+End
+Wire Name: w26
+LV: 0
+RV: 0
+Width: 1
+Edges
+Edge X1: 400 ,Y1: 312 ,X2: 408 ,Y2: 312
+Edge X1: 408 ,Y1: 312 ,X2: 408 ,Y2: 320
+Edge X1: 408 ,Y1: 320 ,X2: 408 ,Y2: 352
+Edge X1: 408 ,Y1: 320 ,X2: 424 ,Y2: 320
+End
+Branches
+End
+Wire Name: b22
+LV: 7
+RV: 0
+Width: 8
+Edges
+Edge X1: 152 ,Y1: 96 ,X2: 152 ,Y2: 152
+End
+Branches
+End
+Wire Name: w21
+LV: 0
+RV: 0
+Width: 1
+Edges
+Edge X1: 416 ,Y1: 136 ,X2: 424 ,Y2: 136
+Edge X1: 416 ,Y1: 136 ,X2: 416 ,Y2: 192
+Edge X1: 416 ,Y1: 192 ,X2: 416 ,Y2: 216
+Edge X1: 240 ,Y1: 192 ,X2: 416 ,Y2: 192
+Edge X1: 416 ,Y1: 216 ,X2: 416 ,Y2: 304
+Edge X1: 416 ,Y1: 216 ,X2: 424 ,Y2: 216
+Edge X1: 416 ,Y1: 304 ,X2: 424 ,Y2: 304
+End
+Branches
+End
+Wire Name: w23
+LV: 0
+RV: 0
+Width: 1
+Edges
+Edge X1: 280 ,Y1: 152 ,X2: 280 ,Y2: 176
+Edge X1: 176 ,Y1: 176 ,X2: 280 ,Y2: 176
+End
+Branches
+End
+Wire Name: b23
+LV: 1
+RV: 0
+Width: 2
+Edges
+Edge X1: 136 ,Y1: 96 ,X2: 136 ,Y2: 224
+End
+Branches
+Branch Left: 136 ,Top: 208
+BranchStrList
+1
+End
+Branch Left: 136 ,Top: 192
+BranchStrList
+0
+End
+End
+Wire Name: w29
+LV: 0
+RV: 0
+Width: 1
+Edges
+Edge X1: 136 ,Y1: 208 ,X2: 176 ,Y2: 208
+End
+Branches
+End
+Wire Name: w30
+LV: 0
+RV: 0
+Width: 1
+Edges
+Edge X1: 136 ,Y1: 192 ,X2: 176 ,Y2: 192
 End
 Branches
 End
@@ -268,21 +372,21 @@ Portname: en ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,LV:
 1
 ,RV:
 0
-Port Left: 416 Top: 344 ,Orientation: 3
+Port Left: 384 Top: 152 ,Orientation: 2
 Portname: h ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
 0
 ,Width:
 1
 ,RV:
 0
-Port Left: 432 Top: 344 ,Orientation: 3
+Port Left: 384 Top: 232 ,Orientation: 2
 Portname: m ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
 0
 ,Width:
 1
 ,RV:
 0
-Port Left: 448 Top: 344 ,Orientation: 3
+Port Left: 408 Top: 352 ,Orientation: 3
 Portname: s ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
 0
 ,Width:
@@ -329,6 +433,36 @@ Symbol Left: 184 Top: 80
 Name: s7
 LibraryName: (NoLibraryName)
 IpName: Decimal_to_Binary_Converter
+SymbolParameters
+End
+Symbol Left: 176 Top: 144
+Name: s8
+LibraryName: (NoLibraryName)
+IpName: multiOR
+SymbolParameters
+End
+Symbol Left: 424 Top: 128
+Name: s10
+LibraryName: PNULib
+IpName: PNU_AND2
+SymbolParameters
+End
+Symbol Left: 424 Top: 208
+Name: s11
+LibraryName: PNULib
+IpName: PNU_AND2
+SymbolParameters
+End
+Symbol Left: 424 Top: 296
+Name: s12
+LibraryName: PNULib
+IpName: PNU_AND2
+SymbolParameters
+End
+Symbol Left: 176 Top: 176
+Name: s9
+LibraryName: PNULib
+IpName: PNU_OR3
 SymbolParameters
 End
 End
