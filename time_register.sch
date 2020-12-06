@@ -2,7 +2,7 @@ ModuleName time_register
 LanguageType Veirlog
 GridInterval 8
 MillimetersIn100RealScaledUnit 25
-ZoomOutScale 64
+ZoomOutScale 79
 NumberOfHorzPapaers 8
 NumberOfVertPapaers 4
 Parameters
@@ -542,7 +542,7 @@ LibraryName: (NoLibraryName)
 IpName: PNU_CLK_DIV
 SymbolParameters
 Parameter Name: cnt_num ,Type: integer ,Value:
-500000
+1000000
 End
 Symbol Left: 312 Top: 104
 Name: s3
