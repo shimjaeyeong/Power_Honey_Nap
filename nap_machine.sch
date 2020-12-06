@@ -532,15 +532,6 @@ Edge X1: 1000 ,Y1: 584 ,X2: 1000 ,Y2: 648
 End
 Branches
 End
-Wire Name: w73
-LV: 0
-RV: 0
-Width: 1
-Edges
-Edge X1: 384 ,Y1: 600 ,X2: 400 ,Y2: 600
-End
-Branches
-End
 Wire Name: b73
 LV: 23
 RV: 0
@@ -947,6 +938,18 @@ Edge X1: 192 ,Y1: 896 ,X2: 304 ,Y2: 896
 End
 Branches
 End
+Wire Name: w91
+LV: 0
+RV: 0
+Width: 1
+Edges
+Edge X1: 200 ,Y1: 624 ,X2: 392 ,Y2: 624
+Edge X1: 392 ,Y1: 600 ,X2: 392 ,Y2: 624
+Edge X1: 384 ,Y1: 600 ,X2: 392 ,Y2: 600
+Edge X1: 392 ,Y1: 600 ,X2: 400 ,Y2: 600
+End
+Branches
+End
 End
 Ports
 Port Left: 248 Top: 72 ,Orientation: 0
@@ -1080,6 +1083,13 @@ Portname: led_B ,PortType: multibit ,LanguageType: Veriilog ,PortDirection: 2 ,L
 3
 ,Width:
 4
+,RV:
+0
+Port Left: 200 Top: 624 ,Orientation: 2
+Portname: led8 ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
+0
+,Width:
+1
 ,RV:
 0
 End
