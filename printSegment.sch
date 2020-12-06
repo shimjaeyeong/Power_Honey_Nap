@@ -2,7 +2,7 @@ ModuleName printSegment
 LanguageType Veirlog
 GridInterval 8
 MillimetersIn100RealScaledUnit 25
-ZoomOutScale 49
+ZoomOutScale 30
 NumberOfHorzPapaers 8
 NumberOfVertPapaers 4
 Parameters
@@ -43,71 +43,6 @@ Edges
 Edge X1: 312 ,Y1: 72 ,X2: 336 ,Y2: 72
 End
 Branches
-End
-Wire Name: b22
-LV: 9
-RV: 0
-Width: 10
-Edges
-Edge X1: 312 ,Y1: 16 ,X2: 312 ,Y2: 288
-End
-Branches
-Branch Left: 312 ,Top: 24
-BranchStrList
-[9:5]
-[3:2]
-0
-End
-Branch Left: 312 ,Top: 48
-BranchStrList
-[9:7]
-[4:0]
-End
-Branch Left: 312 ,Top: 72
-BranchStrList
-[8:3]
-[1:0]
-End
-Branch Left: 312 ,Top: 88
-BranchStrList
-9
-End
-Branch Left: 312 ,Top: 104
-BranchStrList
-5
-[3:2]
-0
-End
-Branch Left: 312 ,Top: 152
-BranchStrList
-8
-6
-2
-0
-End
-Branch Left: 312 ,Top: 184
-BranchStrList
-[6:4]
-End
-Branch Left: 312 ,Top: 224
-BranchStrList
-[5:2]
-End
-Branch Left: 312 ,Top: 120
-BranchStrList
-[9:8]
-6
-End
-Branch Left: 312 ,Top: 200
-BranchStrList
-[9:8]
-0
-End
-Branch Left: 312 ,Top: 240
-BranchStrList
-[9:8]
-6
-End
 End
 Wire Name: b23
 LV: 6
@@ -236,15 +171,6 @@ Edge X1: 312 ,Y1: 184 ,X2: 336 ,Y2: 184
 End
 Branches
 End
-Wire Name: b25
-LV: 2
-RV: 0
-Width: 3
-Edges
-Edge X1: 312 ,Y1: 200 ,X2: 336 ,Y2: 200
-End
-Branches
-End
 Wire Name: b26
 LV: 2
 RV: 0
@@ -344,6 +270,80 @@ Edge X1: 464 ,Y1: 120 ,X2: 480 ,Y2: 120
 End
 Branches
 End
+Wire Name: b28
+LV: 9
+RV: 0
+Width: 10
+Edges
+Edge X1: 312 ,Y1: 16 ,X2: 312 ,Y2: 288
+End
+Branches
+Branch Left: 312 ,Top: 24
+BranchStrList
+[9:5]
+[3:2]
+0
+End
+Branch Left: 312 ,Top: 48
+BranchStrList
+[9:7]
+[4:0]
+End
+Branch Left: 312 ,Top: 72
+BranchStrList
+[8:3]
+[1:0]
+End
+Branch Left: 312 ,Top: 88
+BranchStrList
+9
+End
+Branch Left: 312 ,Top: 104
+BranchStrList
+5
+[3:2]
+0
+End
+Branch Left: 312 ,Top: 152
+BranchStrList
+8
+6
+2
+0
+End
+Branch Left: 312 ,Top: 184
+BranchStrList
+[6:4]
+End
+Branch Left: 312 ,Top: 224
+BranchStrList
+[5:2]
+End
+Branch Left: 312 ,Top: 120
+BranchStrList
+[9:8]
+6
+End
+Branch Left: 312 ,Top: 200
+BranchStrList
+[9:7]
+0
+End
+Branch Left: 312 ,Top: 240
+BranchStrList
+[9:8]
+6
+End
+End
+Wire Name: b29
+LV: 3
+RV: 0
+Width: 4
+Edges
+Edge X1: 312 ,Y1: 200 ,X2: 336 ,Y2: 200
+End
+Branches
+End
 End
 Ports
 Port Left: 24 Top: 16 ,Orientation: 0
@@ -410,12 +410,6 @@ LibraryName: (NoLibraryName)
 IpName: multiOR3
 SymbolParameters
 End
-Symbol Left: 360 Top: 192
-Name: s13
-LibraryName: (NoLibraryName)
-IpName: multiOR3
-SymbolParameters
-End
 Symbol Left: 360 Top: 216
 Name: s14
 LibraryName: (NoLibraryName)
@@ -450,6 +444,12 @@ Symbol Left: 480 Top: 216
 Name: s25
 LibraryName: PNULib
 IpName: PNU_OR2
+SymbolParameters
+End
+Symbol Left: 360 Top: 192
+Name: s26
+LibraryName: (NoLibraryName)
+IpName: multiOR4
 SymbolParameters
 End
 End

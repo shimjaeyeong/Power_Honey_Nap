@@ -17,7 +17,7 @@ module crazy_light(reset, clock, start, stop, r, g, b);
   always @(posedge clock or posedge reset)
   begin: SYNCH
     if (reset == 1'b1)
-       current_state <= S0;
+       current_state <= S6;
     else
        current_state <= next_state;
   end
@@ -139,7 +139,7 @@ module crazy_light(reset, clock, start, stop, r, g, b);
 
 
         default:
-          next_state <= S0;
+          next_state <= S6;
      endcase
   end
 

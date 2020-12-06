@@ -25,8 +25,8 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 9
-LogicalTop 6
+LogicalLeft 6
+LogicalTop 4
 LogicalWidth 2
 LogicalHeight 2
 LogicalWidthSetting 2
@@ -61,8 +61,8 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 17
-LogicalTop 15
+LogicalLeft 15
+LogicalTop 14
 LogicalWidth 13
 LogicalHeight 10
 LogicalWidthSetting 8
@@ -154,8 +154,8 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 47
-LogicalTop 5
+LogicalLeft 46
+LogicalTop 4
 LogicalWidth 13
 LogicalHeight 10
 LogicalWidthSetting 8
@@ -529,8 +529,8 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 14
-LogicalTop 12
+LogicalLeft 12
+LogicalTop 10
 LogicalWidth 1
 LogicalHeight 1
 LogicalWidthSetting 0
@@ -552,7 +552,7 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 38
+LogicalLeft 37
 LogicalTop 14
 LogicalWidth 1
 LogicalHeight 1
@@ -575,13 +575,13 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 66
+LogicalLeft 62
 LogicalTop 15
 LogicalWidth 6
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
-LogicalOffsetLeft -3
+LogicalOffsetLeft -6
 LogicalOffsetTop -1
 grd 8
 ConditionProperties m == 0
@@ -622,13 +622,13 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 67
+LogicalLeft 65
 LogicalTop 56
 LogicalWidth 5
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
-LogicalOffsetLeft -2
+LogicalOffsetLeft -4
 LogicalOffsetTop -1
 grd 8
 ConditionProperties s == 0
@@ -669,13 +669,13 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 20
+LogicalLeft 17
 LogicalTop 36
 LogicalWidth 5
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
-LogicalOffsetLeft -2
+LogicalOffsetLeft -4
 LogicalOffsetTop 0
 grd 8
 ConditionProperties h == 0
@@ -912,7 +912,7 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 51
+LogicalLeft 50
 LogicalTop 18
 LogicalWidth 6
 LogicalHeight 3
@@ -982,7 +982,7 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 46
+LogicalLeft 44
 LogicalTop 30
 LogicalWidth 1
 LogicalHeight 1

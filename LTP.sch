@@ -2,7 +2,7 @@ ModuleName LTP
 LanguageType Veirlog
 GridInterval 8
 MillimetersIn100RealScaledUnit 25
-ZoomOutScale 45
+ZoomOutScale 64
 NumberOfHorzPapaers 8
 NumberOfVertPapaers 4
 Parameters
