@@ -59,7 +59,7 @@ wire  w76;
 wire [12:0] b80;
 wire [9:0] b81;
 wire  w40;
-wire  w85;
+wire  initLine;
 wire  w83;
 wire  w77;
 wire  w79;
@@ -112,7 +112,7 @@ assign modeSetManual = w82;
 assign modeSleep = w78;
 assign modeAlarm = w92;
 assign modeCancel = w75;
-assign modeInit = w85;
+assign modeInit = initLine;
 assign piezo = w45;
 assign seg_dot = w72;
 assign light = w76;
@@ -378,7 +378,7 @@ main_state
       .switch(w19),
       .completeSetting(w39),
       .completeSleep(w40),
-      .init(w85),
+      .init(initLine),
       .enManualSetting(w82),
       .enCancel(w75),
       .enAlarm(w92),
@@ -547,7 +547,7 @@ PNU_OR3
 
 PNU_OR4
      s37 (
-      .i3(w85),
+      .i3(initLine),
       .o1(w83),
       .i1(w75),
       .i4(w92),

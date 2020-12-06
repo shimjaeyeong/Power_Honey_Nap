@@ -567,7 +567,7 @@ Edge X1: 648 ,Y1: 448 ,X2: 648 ,Y2: 456
 End
 Branches
 End
-Wire Name: w85
+Wire Name: initLine
 LV: 0
 RV: 0
 Width: 1
