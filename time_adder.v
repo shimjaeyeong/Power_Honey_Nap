@@ -1,4 +1,4 @@
-module time_adder(reset, clock, oHour10, pHour10, oHour1, pHour1, oMinute10, pMinute10, oMinute1, pMinute1, oSecond10, pSecond10, oSecond1, pSecond1, Hour10, Hour1, Minute10, Minute1, Second10, Second1, complete, recursive);
+module time_adder(reset, clock, oHour10, pHour10, oHour1, pHour1, oMinute10, pMinute10, oMinute1, pMinute1, oSecond10, pSecond10, oSecond1, pSecond1, en, Hour10, Hour1, Minute10, Minute1, Second10, Second1, complete, recursive);
   input reset;
   input clock;
   input [3:0] oHour10;
@@ -13,6 +13,7 @@ module time_adder(reset, clock, oHour10, pHour10, oHour1, pHour1, oMinute10, pMi
   input [3:0] pSecond10;
   input [3:0] oSecond1;
   input [3:0] pSecond1;
+  input en;
   output [3:0] Hour10;
   output [3:0] Hour1;
   output [3:0] Minute10;
@@ -31,18 +32,18 @@ module time_adder(reset, clock, oHour10, pHour10, oHour1, pHour1, oMinute10, pMi
   reg complete;
   reg recursive;
 
-  parameter [3:0] S0 = 0, S1 = 1, S2 = 2, S6 = 3, S3 = 4, S4 = 5, S9 = 6, S10 = 7, S11 = 8, S12 = 9, S13 = 10, S14 = 11, S15 = 12;
+  parameter [3:0] S0 = 0, S1 = 1, S2 = 2, S6 = 3, S3 = 4, S4 = 5, S9 = 6, S10 = 7, S11 = 8, S12 = 9, S13 = 10, S14 = 11, S15 = 12, S5 = 13;
   reg [3:0] current_state, next_state;
 
   always @(posedge clock or posedge reset)
   begin: SYNCH
     if (reset == 1'b1)
-       current_state <= S0;
+       current_state <= S5;
     else
        current_state <= next_state;
   end
 
-  always @(current_state or oHour10 or pHour10 or oHour1 or pHour1 or oMinute10 or pMinute10 or oMinute1 or pMinute1 or oSecond10 or pSecond10 or oSecond1 or pSecond1)
+  always @(current_state or oHour10 or pHour10 or oHour1 or pHour1 or oMinute10 or pMinute10 or oMinute1 or pMinute1 or oSecond10 or pSecond10 or oSecond1 or pSecond1 or en)
   begin: COMBIN
      case (current_state)
         S0:
@@ -109,11 +110,12 @@ module time_adder(reset, clock, oHour10, pHour10, oHour1, pHour1, oMinute10, pMi
 
         S6:
         begin
+             next_state <= S5;
           Hour10 <= 4'b1001;
           Hour1 <= 4'b1001;
-          Minute10 <= 4'b1001;
+          Minute10 <= 4'b0101;
           Minute1 <= 4'b1001;
-          Second10 <= 4'b1001;
+          Second10 <= 4'b0101;
           Second1 <= 4'b1001;
           complete <= 1'b1;
           recursive <= 1'b0;
@@ -122,6 +124,7 @@ module time_adder(reset, clock, oHour10, pHour10, oHour1, pHour1, oMinute10, pMi
 
         S3:
         begin
+             next_state <= S5;
           Hour10 <= oHour10 + pHour10 + 4'b0001;
           Hour1 <= oHour1 + pHour1 - 4'b1010;
           Minute10 <= oMinute10 + pMinute10;
@@ -135,6 +138,7 @@ module time_adder(reset, clock, oHour10, pHour10, oHour1, pHour1, oMinute10, pMi
 
         S4:
         begin
+             next_state <= S5;
           Hour10 <= oHour10 + pHour10;
           Hour1 <= oHour1 + pHour1 + 4'b0001;
           Minute10 <= oMinute10 + pMinute10 - 4'b0110;
@@ -168,6 +172,7 @@ module time_adder(reset, clock, oHour10, pHour10, oHour1, pHour1, oMinute10, pMi
 
         S10:
         begin
+             next_state <= S5;
           Hour10 <= oHour10 + pHour10;
           Hour1 <= oHour1 + pHour1;
           Minute10 <= oMinute10 + pMinute10 + 4'b0001;
@@ -201,6 +206,7 @@ module time_adder(reset, clock, oHour10, pHour10, oHour1, pHour1, oMinute10, pMi
 
         S12:
         begin
+             next_state <= S5;
           Hour10 <= oHour10 + pHour10;
           Hour1 <= oHour1 + pHour1;
           Minute10 <= oMinute10 + pMinute10;
@@ -234,6 +240,7 @@ module time_adder(reset, clock, oHour10, pHour10, oHour1, pHour1, oMinute10, pMi
 
         S14:
         begin
+             next_state <= S5;
           Hour10 <= oHour10 + pHour10;
           Hour1 <= oHour1 + pHour1;
           Minute10 <= oMinute10 + pMinute10;
@@ -247,6 +254,7 @@ module time_adder(reset, clock, oHour10, pHour10, oHour1, pHour1, oMinute10, pMi
 
         S15:
         begin
+             next_state <= S5;
           Hour10 <= oHour10 + pHour10;
           Hour1 <= oHour1 + pHour1;
           Minute10 <= oMinute10 + pMinute10;
@@ -258,9 +266,21 @@ module time_adder(reset, clock, oHour10, pHour10, oHour1, pHour1, oMinute10, pMi
 
         end
 
+        S5:
+        begin
+          if (en == 1'b1)
+             begin
+             next_state <= S0;
+             end
+          else if (en == 1'b0)
+             begin
+             next_state <= S5;
+             end
+        end
+
 
         default:
-          next_state <= S0;
+          next_state <= S5;
      endcase
   end
 

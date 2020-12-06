@@ -2,7 +2,7 @@ ModuleName shortcutSetting
 LanguageType Veirlog
 GridInterval 8
 MillimetersIn100RealScaledUnit 25
-ZoomOutScale 40
+ZoomOutScale 56
 NumberOfHorzPapaers 8
 NumberOfVertPapaers 4
 Parameters
@@ -86,17 +86,6 @@ RV: 0
 Width: 4
 Edges
 Edge X1: 1008 ,Y1: 200 ,X2: 1088 ,Y2: 200
-End
-Branches
-End
-Wire Name: w14
-LV: 0
-RV: 0
-Width: 1
-Edges
-Edge X1: 400 ,Y1: 216 ,X2: 400 ,Y2: 304
-Edge X1: 392 ,Y1: 216 ,X2: 400 ,Y2: 216
-Edge X1: 400 ,Y1: 304 ,X2: 440 ,Y2: 304
 End
 Branches
 End
@@ -188,47 +177,6 @@ BranchStrList
 [3:0]
 End
 End
-Wire Name: w24
-LV: 0
-RV: 0
-Width: 1
-Edges
-Edge X1: 392 ,Y1: 280 ,X2: 392 ,Y2: 304
-Edge X1: 392 ,Y1: 280 ,X2: 424 ,Y2: 280
-Edge X1: 56 ,Y1: 304 ,X2: 392 ,Y2: 304
-Edge X1: 56 ,Y1: 264 ,X2: 56 ,Y2: 304
-Edge X1: 32 ,Y1: 264 ,X2: 56 ,Y2: 264
-Edge X1: 56 ,Y1: 264 ,X2: 104 ,Y2: 264
-End
-Branches
-End
-Wire Name: b25
-LV: 3
-RV: 0
-Width: 4
-Edges
-Edge X1: 392 ,Y1: 264 ,X2: 424 ,Y2: 264
-End
-Branches
-End
-Wire Name: b27
-LV: 3
-RV: 0
-Width: 4
-Edges
-Edge X1: 392 ,Y1: 248 ,X2: 424 ,Y2: 248
-End
-Branches
-End
-Wire Name: b29
-LV: 3
-RV: 0
-Width: 4
-Edges
-Edge X1: 392 ,Y1: 232 ,X2: 424 ,Y2: 232
-End
-Branches
-End
 Wire Name: b33
 LV: 23
 RV: 0
@@ -313,20 +261,6 @@ RV: 0
 Width: 4
 Edges
 Edge X1: 656 ,Y1: 152 ,X2: 680 ,Y2: 152
-End
-Branches
-End
-Wire Name: w36
-LV: 0
-RV: 0
-Width: 1
-Edges
-Edge X1: 32 ,Y1: 216 ,X2: 56 ,Y2: 216
-Edge X1: 56 ,Y1: 216 ,X2: 104 ,Y2: 216
-Edge X1: 56 ,Y1: 208 ,X2: 56 ,Y2: 216
-Edge X1: 56 ,Y1: 208 ,X2: 432 ,Y2: 208
-Edge X1: 432 ,Y1: 72 ,X2: 432 ,Y2: 208
-Edge X1: 424 ,Y1: 72 ,X2: 432 ,Y2: 72
 End
 Branches
 End
@@ -622,6 +556,114 @@ Edge X1: 424 ,Y1: 216 ,X2: 424 ,Y2: 224
 End
 Branches
 End
+Wire Name: w50
+LV: 0
+RV: 0
+Width: 1
+Edges
+Edge X1: 32 ,Y1: 216 ,X2: 56 ,Y2: 216
+Edge X1: 56 ,Y1: 216 ,X2: 104 ,Y2: 216
+Edge X1: 56 ,Y1: 208 ,X2: 56 ,Y2: 216
+Edge X1: 56 ,Y1: 208 ,X2: 432 ,Y2: 208
+Edge X1: 432 ,Y1: 72 ,X2: 432 ,Y2: 208
+Edge X1: 424 ,Y1: 72 ,X2: 432 ,Y2: 72
+End
+Branches
+End
+Wire Name: w51
+LV: 0
+RV: 0
+Width: 1
+Edges
+Edge X1: 376 ,Y1: 216 ,X2: 392 ,Y2: 216
+Edge X1: 376 ,Y1: 216 ,X2: 376 ,Y2: 328
+End
+Branches
+End
+Wire Name: w52
+LV: 0
+RV: 0
+Width: 1
+Edges
+Edge X1: 56 ,Y1: 264 ,X2: 56 ,Y2: 304
+Edge X1: 32 ,Y1: 264 ,X2: 56 ,Y2: 264
+Edge X1: 56 ,Y1: 264 ,X2: 104 ,Y2: 264
+Edge X1: 56 ,Y1: 304 ,X2: 368 ,Y2: 304
+Edge X1: 368 ,Y1: 280 ,X2: 368 ,Y2: 304
+Edge X1: 368 ,Y1: 280 ,X2: 424 ,Y2: 280
+End
+Branches
+End
+Wire Name: b55
+LV: 3
+RV: 0
+Width: 4
+Edges
+Edge X1: 392 ,Y1: 232 ,X2: 400 ,Y2: 232
+Edge X1: 400 ,Y1: 232 ,X2: 424 ,Y2: 232
+Edge X1: 400 ,Y1: 232 ,X2: 400 ,Y2: 360
+End
+Branches
+End
+Wire Name: b62
+LV: 3
+RV: 0
+Width: 4
+Edges
+Edge X1: 392 ,Y1: 248 ,X2: 408 ,Y2: 248
+Edge X1: 408 ,Y1: 248 ,X2: 424 ,Y2: 248
+Edge X1: 408 ,Y1: 248 ,X2: 408 ,Y2: 376
+End
+Branches
+End
+Wire Name: b63
+LV: 3
+RV: 0
+Width: 4
+Edges
+Edge X1: 392 ,Y1: 264 ,X2: 416 ,Y2: 264
+Edge X1: 416 ,Y1: 264 ,X2: 424 ,Y2: 264
+Edge X1: 416 ,Y1: 264 ,X2: 416 ,Y2: 392
+End
+Branches
+End
+Wire Name: w53
+LV: 0
+RV: 0
+Width: 1
+Edges
+Edge X1: 528 ,Y1: 360 ,X2: 560 ,Y2: 360
+End
+Branches
+End
+Wire Name: w54
+LV: 0
+RV: 0
+Width: 1
+Edges
+Edge X1: 536 ,Y1: 376 ,X2: 560 ,Y2: 376
+End
+Branches
+End
+Wire Name: w55
+LV: 0
+RV: 0
+Width: 1
+Edges
+Edge X1: 544 ,Y1: 392 ,X2: 560 ,Y2: 392
+End
+Branches
+End
+Wire Name: w56
+LV: 0
+RV: 0
+Width: 1
+Edges
+Edge X1: 536 ,Y1: 312 ,X2: 624 ,Y2: 312
+Edge X1: 624 ,Y1: 312 ,X2: 624 ,Y2: 376
+End
+Branches
+End
 End
 Ports
 Port Left: 32 Top: 248 ,Orientation: 0
@@ -659,7 +701,7 @@ Portname: sharp ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 0 ,
 1
 ,RV:
 0
-Port Left: 440 Top: 304 ,Orientation: 0
+Port Left: 376 Top: 328 ,Orientation: 3
 Portname: completeSetting ,PortType: singlebit ,LanguageType: Veriilog ,PortDirection: 2 ,LV:
 0
 ,Width:
@@ -768,38 +810,6 @@ Parameter Name: oneMinute ,Type: integer ,Value:
 Parameter Name: set_complete ,Type: integer ,Value:
 4
 End
-Symbol Left: 448 Top: 64
-Name: s6
-LibraryName: (NoLibraryName)
-IpName: time_adder
-SymbolParameters
-Parameter Name: S0 ,Type: integer ,Value:
-0
-Parameter Name: S1 ,Type: integer ,Value:
-1
-Parameter Name: S10 ,Type: integer ,Value:
-7
-Parameter Name: S11 ,Type: integer ,Value:
-8
-Parameter Name: S12 ,Type: integer ,Value:
-9
-Parameter Name: S13 ,Type: integer ,Value:
-10
-Parameter Name: S14 ,Type: integer ,Value:
-11
-Parameter Name: S15 ,Type: integer ,Value:
-12
-Parameter Name: S2 ,Type: integer ,Value:
-2
-Parameter Name: S3 ,Type: integer ,Value:
-4
-Parameter Name: S4 ,Type: integer ,Value:
-5
-Parameter Name: S6 ,Type: integer ,Value:
-3
-Parameter Name: S9 ,Type: integer ,Value:
-6
-End
 Symbol Left: 256 Top: 48
 Name: s7
 LibraryName: (NoLibraryName)
@@ -876,6 +886,64 @@ Symbol Left: 208 Top: 160
 Name: s17
 LibraryName: (NoLibraryName)
 IpName: allZero
+SymbolParameters
+End
+Symbol Left: 448 Top: 64
+Name: s18
+LibraryName: (NoLibraryName)
+IpName: time_adder
+SymbolParameters
+Parameter Name: S0 ,Type: integer ,Value:
+0
+Parameter Name: S1 ,Type: integer ,Value:
+1
+Parameter Name: S10 ,Type: integer ,Value:
+7
+Parameter Name: S11 ,Type: integer ,Value:
+8
+Parameter Name: S12 ,Type: integer ,Value:
+9
+Parameter Name: S13 ,Type: integer ,Value:
+10
+Parameter Name: S14 ,Type: integer ,Value:
+11
+Parameter Name: S15 ,Type: integer ,Value:
+12
+Parameter Name: S2 ,Type: integer ,Value:
+2
+Parameter Name: S3 ,Type: integer ,Value:
+4
+Parameter Name: S4 ,Type: integer ,Value:
+5
+Parameter Name: S5 ,Type: integer ,Value:
+13
+Parameter Name: S6 ,Type: integer ,Value:
+3
+Parameter Name: S9 ,Type: integer ,Value:
+6
+End
+Symbol Left: 424 Top: 352
+Name: s19
+LibraryName: (NoLibraryName)
+IpName: multiOR4
+SymbolParameters
+End
+Symbol Left: 432 Top: 368
+Name: s20
+LibraryName: (NoLibraryName)
+IpName: multiOR4
+SymbolParameters
+End
+Symbol Left: 440 Top: 384
+Name: s21
+LibraryName: (NoLibraryName)
+IpName: multiOR4
+SymbolParameters
+End
+Symbol Left: 560 Top: 360
+Name: s22
+LibraryName: PNULib
+IpName: PNU_OR3
 SymbolParameters
 End
 End
