@@ -75,12 +75,10 @@ wire  w88;
 wire  w89;
 wire  w87;
 wire  w90;
-<<<<<<< HEAD
-=======
 wire  w84;
 wire  w80;
 wire  w78;
->>>>>>> ea7bb07b30d26768ee818b5bf08506d29e8803f4
+wire  w91;
 wire [3:0] b69_3to0;
 wire [3:0] b69_15to12;
 wire [3:0] b69_11to8;
@@ -119,7 +117,7 @@ assign light = w76;
 assign led_R = b77;
 assign led_G = b78;
 assign led_B = b79;
-assign led8 = w90;
+assign led8 = w91;
 
 assign b69[23:20] = b69_23to20[3:0];
 assign b69[19:16] = b69_19to16[3:0];
@@ -157,14 +155,9 @@ time_register
       .setHour10(b73_23to20_b56),
       .complete(w40),
       .reset(w83),
-<<<<<<< HEAD
+      .clock(w87),
       .start(w78),
-      .clock(w87),
-      .write(w90));
-=======
-      .clock(w87),
-      .start(w78));
->>>>>>> ea7bb07b30d26768ee818b5bf08506d29e8803f4
+      .write(w91));
 
 printSegment
      s2 (
@@ -430,7 +423,7 @@ time_mux2
 time_check
      s20 (
       .in(b73),
-      .out(w90));
+      .out(w91));
 
 manual_setting
      s24 (
