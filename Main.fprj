@@ -2,7 +2,7 @@
 projecttype=1
 [folder0]
 <<<<<<< HEAD
-filen=28
+filen=29
 =======
 filen=5
 >>>>>>> 97c73505ee81e3abf5e44e3ac77dcf1595670cb7
@@ -34,6 +34,7 @@ file24=crazy_light.v
 file25=multiOR3.v
 file26=multiOR4.v
 file27=multiOR.v
+file28=auto_setting.v
 [folder1]
 filen=0
 [folder2]
