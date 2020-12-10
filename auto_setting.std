@@ -183,8 +183,8 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 87
-LogicalTop 39
+LogicalLeft 89
+LogicalTop 38
 LogicalWidth 24
 LogicalHeight 18
 LogicalWidthSetting 8
@@ -767,7 +767,7 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 68
+LogicalLeft 70
 LogicalTop 38
 LogicalWidth 18
 LogicalHeight 3
@@ -837,7 +837,7 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 67
+LogicalLeft 69
 LogicalTop 43
 LogicalWidth 1
 LogicalHeight 1
@@ -922,13 +922,13 @@ VertScrollPos 0
 Scale 1
 GridInterval 8
 LogicalLeft 26
-LogicalTop 35
+LogicalTop 33
 LogicalWidth 17
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
 LogicalOffsetLeft -8
-LogicalOffsetTop 3
+LogicalOffsetTop 1
 grd 8
 ConditionProperties en == 1 && sharp == 1
 LinkedObj0 S3
@@ -1160,8 +1160,8 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 29
-LogicalTop 80
+LogicalLeft 28
+LogicalTop 88
 LogicalWidth 25
 LogicalHeight 18
 LogicalWidthSetting 8
@@ -1221,8 +1221,8 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 57
-LogicalTop 72
+LogicalLeft 59
+LogicalTop 75
 LogicalWidth 27
 LogicalHeight 18
 LogicalWidthSetting 8
@@ -1282,8 +1282,8 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 76
-LogicalTop 57
+LogicalLeft 85
+LogicalTop 64
 LogicalWidth 27
 LogicalHeight 18
 LogicalWidthSetting 8
@@ -1343,8 +1343,8 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 113
-LogicalTop 69
+LogicalLeft 120
+LogicalTop 60
 LogicalWidth 27
 LogicalHeight 18
 LogicalWidthSetting 8
@@ -1452,14 +1452,14 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 38
+LogicalLeft 36
 LogicalTop 60
 LogicalWidth 20
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
-LogicalOffsetLeft -8
-LogicalOffsetTop -1
+LogicalOffsetLeft -9
+LogicalOffsetTop -5
 grd 8
 ConditionProperties en == 1 && oMinute10 > 5
 LinkedObj0 S3
@@ -1476,16 +1476,16 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 50
-LogicalTop 56
-LogicalWidth 20
+LogicalLeft 48
+LogicalTop 57
+LogicalWidth 19
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
 LogicalOffsetLeft -10
 LogicalOffsetTop -1
 grd 8
-ConditionProperties en == 1 && oMinute10 > 9
+ConditionProperties en == 1 && oMinute1 > 9
 LinkedObj0 S3
 LinkedObj1 c4
 EnteringCaption IN_T14
@@ -1500,8 +1500,8 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 57
-LogicalTop 49
+LogicalLeft 62
+LogicalTop 52
 LogicalWidth 20
 LogicalHeight 3
 LogicalWidthSetting 0
@@ -1524,8 +1524,8 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 78
-LogicalTop 55
+LogicalLeft 82
+LogicalTop 50
 LogicalWidth 19
 LogicalHeight 3
 LogicalWidthSetting 0
@@ -1548,7 +1548,7 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 29
+LogicalLeft 30
 LogicalTop 45
 LogicalWidth 1
 LogicalHeight 1
@@ -1617,8 +1617,8 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 60
-LogicalTop 57
+LogicalLeft 58
+LogicalTop 58
 LogicalWidth 1
 LogicalHeight 1
 LogicalWidthSetting 0
@@ -1640,8 +1640,8 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 67
-LogicalTop 49
+LogicalLeft 72
+LogicalTop 52
 LogicalWidth 1
 LogicalHeight 1
 LogicalWidthSetting 0
@@ -1663,14 +1663,14 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 85
-LogicalTop 55
+LogicalLeft 89
+LogicalTop 56
 LogicalWidth 1
 LogicalHeight 1
 LogicalWidthSetting 0
 LogicalHeightSetting 0
-LogicalOffsetLeft 0
-LogicalOffsetTop -1
+LogicalOffsetLeft -1
+LogicalOffsetTop 5
 grd 8
 LinkedObj0 c6
 LinkedObj1 S3
