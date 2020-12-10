@@ -113,7 +113,7 @@ module auto_setting(reset, clock, en, keypad, sharp, oHour10, oHour1, oMinute10,
              begin
              next_state <= c3;
              end
-          else if (en == 1'b1 && oMinute10 > 4'b1001)
+          else if (en == 1'b1 && oMinute1 > 4'b1001)
              begin
              next_state <= c4;
              end

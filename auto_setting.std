@@ -1478,14 +1478,14 @@ Scale 1
 GridInterval 8
 LogicalLeft 50
 LogicalTop 56
-LogicalWidth 20
+LogicalWidth 19
 LogicalHeight 3
 LogicalWidthSetting 0
 LogicalHeightSetting 0
 LogicalOffsetLeft -10
 LogicalOffsetTop -1
 grd 8
-ConditionProperties en == 1 && oMinute10 > 9
+ConditionProperties en == 1 && oMinute1 > 9
 LinkedObj0 S3
 LinkedObj1 c4
 EnteringCaption IN_T14
