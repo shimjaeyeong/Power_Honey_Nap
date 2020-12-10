@@ -4,7 +4,7 @@ ChildrenCount 41
 Caption root
 IfEntering false
 IfLeaving false
-HorzScrollPos 87
+HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
@@ -1111,11 +1111,13 @@ Scale 1
 GridInterval 8
 LogicalLeft 6
 LogicalTop 24
-LogicalWidth 8
-LogicalHeight 4
+LogicalWidth 11
+LogicalHeight 8
 LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
+Properties light = 0;
+Properties beat = 0;
 ColorIndex 11
 Kind FSBVOState
 

@@ -13,7 +13,7 @@ module lullaby(reset, clock, start, stop, beat);
   always @(posedge clock or posedge reset)
   begin: SYNCH
     if (reset == 1'b1)
-       current_state <= S1;
+       current_state <= musicOff;
     else
        current_state <= next_state;
   end
@@ -31,6 +31,8 @@ module lullaby(reset, clock, start, stop, beat);
              begin
              next_state <= musicOff;
              end
+          beat <= 13'b0000000000000;
+
         end
 
         S1:
@@ -1739,7 +1741,7 @@ module lullaby(reset, clock, start, stop, beat);
 
 
         default:
-          next_state <= S1;
+          next_state <= musicOff;
      endcase
   end
 

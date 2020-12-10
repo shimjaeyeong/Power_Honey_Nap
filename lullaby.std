@@ -53,7 +53,7 @@ grd 8
 ColorIndex 11
 Kind FSBVOState
 
-ChildrenCount 125
+ChildrenCount 126
 Caption musicOff
 IfEntering false
 IfLeaving false
@@ -63,11 +63,12 @@ Scale 1
 GridInterval 8
 LogicalLeft 3
 LogicalTop 47
-LogicalWidth 8
-LogicalHeight 4
+LogicalWidth 9
+LogicalHeight 5
 LogicalWidthSetting 8
 LogicalHeightSetting 4
 grd 8
+Properties beat = 0;
 ColorIndex 11
 Kind FSBVOState
 
@@ -2321,7 +2322,25 @@ grd 8
 ColorIndex 11
 Kind FSBVOState
 
-ChildrenCount 5
+ChildrenCount 0
+Caption IN_T36
+IfEntering true
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 984
+LogicalWidth 8
+LogicalHeight 4
+LogicalWidthSetting 8
+LogicalHeightSetting 4
+grd 8
+ColorIndex 11
+Kind FSBVOState
+
+ChildrenCount 4
 Caption S1
 IfEntering false
 IfLeaving false
@@ -2349,24 +2368,6 @@ VertScrollPos 0
 Scale 1
 GridInterval 8
 LogicalLeft 50
-LogicalTop 0
-LogicalWidth 8
-LogicalHeight 4
-LogicalWidthSetting 8
-LogicalHeightSetting 4
-grd 8
-ColorIndex 11
-Kind FSBVOState
-
-ChildrenCount 0
-Caption IN_T36
-IfEntering true
-IfLeaving false
-HorzScrollPos 0
-VertScrollPos 0
-Scale 1
-GridInterval 8
-LogicalLeft 0
 LogicalTop 0
 LogicalWidth 8
 LogicalHeight 4
@@ -6285,29 +6286,6 @@ LinkedObj0 S36
 LinkedObj1 musicOff
 EnteringCaption IN_T35
 LeavingCaption OUT_T35
-Kind FSBVOTrans
-
-ChildrenCount 0
-Caption T36
-IfEntering false
-IfLeaving false
-HorzScrollPos 0
-VertScrollPos 0
-Scale 1
-GridInterval 8
-LogicalLeft 12
-LogicalTop 6
-LogicalWidth 1
-LogicalHeight 1
-LogicalWidthSetting 0
-LogicalHeightSetting 0
-LogicalOffsetLeft 0
-LogicalOffsetTop 0
-grd 8
-LinkedObj0 reset0
-LinkedObj1 S1
-EnteringCaption IN_T36
-LeavingCaption OUT_T36
 Kind FSBVOTrans
 
 ChildrenCount 0
@@ -16851,7 +16829,7 @@ VertScrollPos 0
 Scale 1
 GridInterval 8
 LogicalLeft 33
-LogicalTop 152
+LogicalTop 157
 LogicalWidth 7
 LogicalHeight 3
 LogicalWidthSetting 0
@@ -17042,7 +17020,7 @@ HorzScrollPos 0
 VertScrollPos 0
 Scale 1
 GridInterval 8
-LogicalLeft 40
+LogicalLeft 41
 LogicalTop 156
 LogicalWidth 7
 LogicalHeight 3
@@ -17128,6 +17106,29 @@ LinkedObj0 musicOff
 LinkedObj1 musicOff
 EnteringCaption IN_T245
 LeavingCaption OUT_T245
+Kind FSBVOTrans
+
+ChildrenCount 0
+Caption T36
+IfEntering false
+IfLeaving false
+HorzScrollPos 0
+VertScrollPos 0
+Scale 1
+GridInterval 8
+LogicalLeft 0
+LogicalTop 16
+LogicalWidth 1
+LogicalHeight 1
+LogicalWidthSetting 0
+LogicalHeightSetting 0
+LogicalOffsetLeft -7
+LogicalOffsetTop -10
+grd 8
+LinkedObj0 reset0
+LinkedObj1 musicOff
+EnteringCaption IN_T36
+LeavingCaption OUT_T36
 Kind FSBVOTrans
 
 
